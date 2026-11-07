@@ -11,8 +11,11 @@ steps. Not affiliated with or endorsed by Andrej Karpathy.
 
 ## Reading the collection (for agents that use it)
 
-1. Read `index.md` first. It has one line per idea: date, title, one-line summary, status.
-2. Open only the idea files that match your task. Use `themes/<theme>.md` to browse one topic.
+1. Read only the 2-3 theme pages in `themes/` that match your task (one line per idea). Read
+   `index.md` (every idea, larger) only if you need the whole collection.
+2. Open only the idea files that match your task.
+   If you can delegate, let a smaller, cheaper model or subagent do steps 1-2 and return a
+   shortlist of idea links with one line each on why they fit; the main model reads only those.
 3. Prefer ideas with `status: current`. A `superseded` idea links to the newer view in
    `superseded_by`; he changed his mind, usually because models improved.
 4. Ideas with `anthropic: true` are dated after he joined Anthropic (2026-05-19) and concern

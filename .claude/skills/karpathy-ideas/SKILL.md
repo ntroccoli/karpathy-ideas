@@ -10,13 +10,14 @@ link, summary, at most one short quote, and Apply steps.
 
 Location: the repository root containing this skill (`index.md`, `ideas/`, `themes/`). If the
 skill was copied elsewhere, read
-`https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/index.md` instead.
+`https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/llms.txt` and follow it.
 
 ## How to use it
 
-1. Read `index.md` (one line per idea). Do not read every idea file.
-2. Pick the 2-5 ideas that fit the task. Open those files; use `themes/<theme>.md` to browse one
-   topic.
+1. Delegate the search to a cheaper subagent (for example Haiku or Sonnet) when you can: it reads
+   the 2-3 matching pages in `themes/` (or `index.md` for everything) and returns a shortlist
+   of idea files with one line each on why they fit.
+2. Open only the 2-5 shortlisted idea files.
 3. Prefer `status: current`. If an idea is `superseded`, follow `superseded_by` to his newer view.
 4. Ideas marked "Anthropic period" date from after he joined Anthropic (2026-05-19) and concern
    Claude or Anthropic; mention that when you rely on them.

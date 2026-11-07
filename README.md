@@ -73,7 +73,10 @@ Read https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/llms.txt an
 - **Other coding agents:** [AGENTS.md](AGENTS.md) explains the file format and how to read the
   collection.
 
-Agents should link to the source rather than reproduce more of the original text.
+To save tokens, `llms.txt` tells agents to read only the matching theme pages and, when they
+can, to let a smaller, cheaper model or subagent find the relevant ideas, so the main model reads
+only a short list. Agents should link to the source rather than reproduce more of the original
+text.
 
 ## How it is maintained
 
