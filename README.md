@@ -51,6 +51,19 @@ Example: [Give agents success criteria, not steps](ideas/2026-01-26-success-crit
 The repository is designed to be read by LLM agents at low token cost: a small index first, then
 only the files that matter.
 
+### Apply it to your project
+
+Open a session of your coding agent (Claude Code, Codex, Cursor, …) in your project and paste:
+
+```text
+Read https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/llms.txt and follow it.
+Study this project, then propose which ideas to apply here, both to the product and to how it
+is built. For each one: the idea and its link, what the project already does, the change, the
+cost, and your recommendation. Change nothing until I choose.
+```
+
+### Other ways
+
 - **Any LLM that can fetch URLs:** give it
   `https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/llms.txt` and your question.
   Example prompt: *"Read this llms.txt, then the index. Which ideas apply to my project (describe
