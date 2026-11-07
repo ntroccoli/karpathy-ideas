@@ -56,10 +56,7 @@ only the files that matter.
 Open a session of your coding agent (Claude Code, Codex, Cursor, …) in your project and paste:
 
 ```text
-Read https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/llms.txt and follow it.
-Study this project, then propose which ideas to apply here, both to the product and to how it
-is built. For each one: the idea and its link, what the project already does, the change, the
-cost, and your recommendation. Change nothing until I choose.
+Read https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/llms.txt and follow it. Study this project, then propose which ideas to apply here, both to the product and to how it is built. For each one: the idea and its link, what the project already does, the change, the cost, and your recommendation. Change nothing until I choose.
 ```
 
 ### Other ways
