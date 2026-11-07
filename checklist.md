@@ -11,12 +11,13 @@ only the linked ideas that point to a gap.
 
 1. **What does every agent session load at start?**
    Check: list and measure the files loaded into every session (`AGENTS.md`, `CLAUDE.md`, rules,
-   skills). Keep the always-loaded part short; move topic lessons into files read on demand.
+   skills), including user-level files such as `~/.claude/CLAUDE.md` and global skills. Keep the always-loaded part short; move topic lessons into files read on demand.
    Ideas: [context engineering](ideas/2025-06-25-context-engineering.md),
    [shorter prompts](ideas/2026-11-01-shorter-prompts-fewer-bits.md).
 2. **Do sessions run long across topics?**
    Check: how long the main sessions run and how full their context gets. Start a fresh session
-   per topic from a handoff file. Idea: [fresh chat per topic](ideas/2025-02-27-fresh-chat-per-topic.md).
+   per topic from a handoff file. Before compacting, write decisions and lessons to a file; when
+   the topic changes, prefer a fresh session that reads the handoff. Idea: [fresh chat per topic](ideas/2025-02-27-fresh-chat-per-topic.md).
 3. **Which model does which work?**
    Check: who searches, reads and summarises. Give that work to a cheaper model or subagent; keep
    the strongest model for design and hard problems.
