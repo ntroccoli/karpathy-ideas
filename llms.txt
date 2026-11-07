@@ -14,6 +14,8 @@ Start with the [project checklist](https://raw.githubusercontent.com/ntroccoli/k
 2. Open only the idea files you will use (each is short: summary, Apply steps, context).
 3. If you can delegate, let a smaller, cheaper model or subagent do steps 1-2 and return a shortlist of idea links with one line each on why they fit. The main model then reads only the shortlisted files. This saves cost and keeps the main context clean.
 
+Relative links inside these files resolve against https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ (for example `../ideas/x.md` in a theme page is https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/x.md).
+
 ## Themes
 
 - [agentic-coding](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/themes/agentic-coding.md): Coding with agents: workflows, IDEs, review, vibe coding vs agentic engineering.

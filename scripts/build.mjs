@@ -68,6 +68,8 @@ out['llms.txt'] = [
   '2. Open only the idea files you will use (each is short: summary, Apply steps, context).',
   '3. If you can delegate, let a smaller, cheaper model or subagent do steps 1-2 and return a shortlist of idea links with one line each on why they fit. The main model then reads only the shortlisted files. This saves cost and keeps the main context clean.',
   '',
+  `Relative links inside these files resolve against ${RAW_BASE}/ (for example \`../ideas/x.md\` in a theme page is ${RAW_BASE}/ideas/x.md).`,
+  '',
   '## Themes',
   '',
   ...Object.entries(THEMES).map(([slug, desc]) => `- [${slug}](${RAW_BASE}/themes/${slug}.md): ${desc}`),
