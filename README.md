@@ -39,6 +39,7 @@ Example: [Give agents success criteria, not steps](ideas/2026-01-26-success-crit
 
 ## Browse
 
+- [checklist.md](checklist.md): 16 questions to ask about your project, each linked to the ideas behind it.
 - [index.md](index.md): every idea, newest first, with a one-line summary.
 - [themes/](themes/): ideas grouped by topic, for example
   [agentic-coding](themes/agentic-coding.md), [verification](themes/verification.md) and
@@ -57,7 +58,7 @@ Open a session of your coding agent (Claude Code, Codex, Cursor, …) in your pr
 **Step 1: get proposals.** Paste:
 
 ```text
-Read https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/llms.txt and follow it. Study this project, then propose which ideas to apply here, both to the product and to how it is built. Number each proposal, and for each give: the idea and its link, what the project already does, the change, the cost, and a recommendation of exactly one word: do, later or skip. Change nothing until I choose.
+Read https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/llms.txt and follow it. Study this project, then propose which ideas to apply here: to the product, to how it is built, and to how agents work in it (instruction files, skills, session length, token use). Number each proposal, and for each give: the idea and its link, what the project already does, the change, the cost, and a recommendation of exactly one word: do, later or skip. Change nothing until I choose.
 ```
 
 **Step 2: apply them.** Read the proposals. To accept the agent's recommendations, paste:

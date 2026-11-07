@@ -11,6 +11,9 @@ steps. Not affiliated with or endorsed by Andrej Karpathy.
 
 ## Reading the collection (for agents that use it)
 
+Applying the ideas to a project? Start with `checklist.md`: answer each question for the
+project, then open only the linked ideas that point to a gap.
+
 1. Read only the 2-3 theme pages in `themes/` that match your task (one line per idea). Read
    `index.md` (every idea, larger) only if you need the whole collection.
 2. Open only the idea files that match your task.

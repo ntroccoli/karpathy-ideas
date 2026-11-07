@@ -14,6 +14,9 @@ skill was copied elsewhere, read
 
 ## How to use it
 
+For a whole project, start with `checklist.md`: answer each question (measure where it says
+"Check"), then open only the linked ideas that point to a gap. For one task:
+
 1. Delegate the search to a cheaper subagent (for example Haiku or Sonnet) when you can: it reads
    the 2-3 matching pages in `themes/` (or `index.md` for everything) and returns a shortlist
    of idea files with one line each on why they fit.
