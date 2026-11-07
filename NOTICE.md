@@ -15,7 +15,7 @@ with, sponsored by, or endorsed by Andrej Karpathy or any organisation he works 
 
 ## Our text
 
-Summaries, Apply steps, theme pages and field notes are written for this repository and are
+Summaries, Apply steps and theme pages are written for this repository and are
 licensed under [CC BY 4.0](LICENSE-CONTENT.md). Scripts and skills are licensed under
 [MIT](LICENSE).
 

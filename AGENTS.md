@@ -72,8 +72,6 @@ Field rules:
   Anthropic or its products.
 - Quote: at most one per file, at most 15 words, in the "In his words" section, exact text,
   attributed and dated. The section is optional.
-- "Field notes" section (optional, at the end): what happened when we applied the idea, with a
-  date and a link to `field-notes/`.
 
 ## Themes
 
@@ -116,7 +114,7 @@ subject at most 72 characters. Blank line, then a body that explains what and wh
 
 Types: `content` (ideas, themes, index), `docs` (README and other docs), `feat` (new skill or
 script), `fix` (wrong date, link, attribution, script bug), `refactor`, `ci`, `chore`, `revert`.
-Scopes (optional): `idea`, `theme`, `index`, `log`, `field-notes`, `skill`, `llms`, `ci`, `repo`.
+Scopes (optional): `idea`, `theme`, `index`, `log`, `skill`, `llms`, `ci`, `repo`.
 
 ```text
 content(idea): add autoresearch overnight loop

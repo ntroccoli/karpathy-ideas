@@ -3,7 +3,7 @@
 Copyright (c) 2026 Nelson Troccoli Jr
 
 The text written for this repository — idea summaries, Apply steps, Context sections, theme
-pages, `index.md`, `llms.txt`, `llms-full.txt`, `log.md` and `field-notes/` — is licensed under the
+pages, `index.md`, `llms.txt`, `llms-full.txt` and `log.md` — is licensed under the
 Creative Commons Attribution 4.0 International License (CC BY 4.0).
 
 You may share and adapt it for any purpose, including commercially, if you give appropriate

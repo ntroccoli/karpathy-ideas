@@ -15,7 +15,6 @@ links to the original source. Quotes are short, attributed, and remain the autho
 - [Browse](#browse)
 - [Use this with an LLM](#use-this-with-an-llm)
 - [How it is maintained](#how-it-is-maintained)
-- [Field notes](#field-notes)
 - [Contributing](#contributing)
 - [Legal](#legal)
 - [License](#license)
@@ -100,11 +99,6 @@ Scripts in [scripts/](scripts/) build the index, theme pages and `llms.txt` file
 every idea file. CI runs the validator, a Markdown linter, a link checker and a commit message
 check.
 
-## Field notes
-
-[field-notes/](field-notes/) records what happened when we applied an idea in real work: what
-we tried, what worked, what did not. Ideas link to their field notes.
-
 ## Contributing
 
 Corrections are welcome: a wrong date, a broken link, a summary that misreads the source. Please
@@ -120,7 +114,7 @@ open an issue or a private report, and it will be handled promptly. See [NOTICE.
 
 ## License
 
-- Text written for this repository (summaries, Apply steps, field notes): [CC BY 4.0](LICENSE-CONTENT.md).
+- Text written for this repository (summaries, Apply steps, theme pages): [CC BY 4.0](LICENSE-CONTENT.md).
 - Scripts and skills: [MIT](LICENSE).
 - Quoted excerpts are not covered by either license. See [NOTICE.md](NOTICE.md).
 
