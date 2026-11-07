@@ -1,0 +1,21 @@
+name: Suggest a missing idea
+description: A public idea by Andrej Karpathy that the collection does not cover yet.
+labels: [suggestion]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: Source link
+      description: Link to the post, essay, repository or talk (with timestamp if a video).
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: The idea in one or two sentences
+    validations:
+      required: true
+  - type: textarea
+    id: apply
+    attributes:
+      label: How someone could apply it (optional)

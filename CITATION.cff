@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use or reference this collection, please cite it as below."
+title: "Karpathy Ideas: unofficial, curated notes on Andrej Karpathy's public ideas about LLMs and AI agents"
+type: dataset
+authors:
+  - family-names: Troccoli Jr
+    given-names: Nelson
+repository-code: "https://github.com/ntroccoli/karpathy-ideas"
+license: CC-BY-4.0
+keywords:
+  - llm
+  - ai-agents
+  - andrej-karpathy
+  - claude-code
+  - llms-txt
+  - knowledge-base
