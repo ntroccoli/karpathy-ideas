@@ -92,6 +92,14 @@ Field rules:
 | `research-and-training` | training, RL, tokenizers, small models, research practice |
 | `ai-progress` | views on the field, timelines, society, jobs |
 
+## Keep Karpathy's ideas and our procedure apart
+
+- Idea files and the questions and "Check" steps in `checklist.md` contain only what traces to
+  Karpathy's sources (an idea's summary or its Apply steps). Every Check links its idea.
+- Our own practices (how to run the checklist, record files, report formats) go only in clearly
+  labelled procedure sections, such as "How to run this checklist" and the README steps. Never
+  present them as his ideas.
+
 ## Writing style
 
 - Plain English, close to ASD-STE100: short sentences, one idea per sentence, active voice,

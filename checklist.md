@@ -1,11 +1,8 @@
 # Project checklist
 
 Questions to ask about any project before applying the ideas in this collection. Each question
-links to the ideas behind it. The questions and the "Check" steps are our own reading of those
-ideas, not Karpathy's words.
-
-How to use it: answer each question for your project, measure where it says "Check", then open
-only the linked ideas that point to a gap.
+and its "Check" step comes from the linked ideas (their summary or Apply steps); the wording is
+ours, not Karpathy's. How to run the checklist is at the end.
 
 ## A. Agent setup and token use
 
@@ -18,10 +15,8 @@ only the linked ideas that point to a gap.
 2. **Do sessions run long across topics?**
    Check: apply this to the session you are running in, too. Ask the user to run `/context`
    (Claude Code) or read the context percentage in the status line, and note how many unrelated
-   topics this session has covered. Start a fresh session per topic from a handoff file. Before
-   ending or compacting a session, ask it to list what is not yet written down (user decisions,
-   open items, lessons, work in flight) and add each to the right file; then write the handoff.
-   When the topic changes, prefer a fresh session that reads the handoff. Idea: [fresh chat per topic](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-02-27-fresh-chat-per-topic.md).
+   topics this session has covered. When the topic changes, start a fresh session that reads a
+   handoff file, instead of carrying the old history. Idea: [fresh chat per topic](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-02-27-fresh-chat-per-topic.md).
 3. **Which model does which work?**
    Check: who searches, reads and summarises. Give that work to a cheaper model or subagent; keep
    the strongest model for design and hard problems.
@@ -45,8 +40,7 @@ only the linked ideas that point to a gap.
    Ideas: [success criteria, not steps](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-01-26-success-criteria-not-steps.md),
    [automate what you can verify](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-11-17-software-2-automates-what-you-can-verify.md).
 2. **Are rules enforced by tools or only written in prose?**
-   Check: rules that agents keep breaking become a script, hook, linter or test that must pass,
-   and those scripts are versioned in the repository, not left in an ignored or local folder.
+   Check: rules that agents keep breaking become a script, hook, linter or test that must pass.
    Idea: [agents ignore style rules](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-21-agents-ignore-code-style-rules.md).
 3. **Is performance work driven by one number?**
    Check: a fixed benchmark, one metric, a results log, and revert when there is no gain.
@@ -79,9 +73,14 @@ only the linked ideas that point to a gap.
    Check: results come as short plain text, diagrams or HTML pages that a person can verify fast.
    Idea: [make outputs easy to understand](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-10-02-make-model-outputs-easy-to-understand.md).
 
-## Report format
+## How to run this checklist
 
-Report each proposal as: a number, the idea and its link, what the project does today, the
-change, its cost (S, M or L), and a recommendation of one word: do, later or skip. For changes to user-level files (for
-example `~/.claude/CLAUDE.md` or global skills), give the exact text for the user to apply instead
-of editing them. Change nothing until the user chooses.
+This part is our procedure for using the collection, not an idea from Karpathy.
+
+1. Answer each question for the project. Measure where it says "Check".
+2. Open only the linked ideas that point to a gap.
+3. Report each proposal as: a number, the idea and its link, what the project does today, the
+   change, its cost (S, M or L), and a recommendation of one word: do, later or skip.
+4. For changes to user-level files (for example `~/.claude/CLAUDE.md` or global skills), give the
+   exact text for the user to apply instead of editing them.
+5. Change nothing until the user chooses.
