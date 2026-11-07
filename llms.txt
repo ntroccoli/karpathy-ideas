@@ -1,0 +1,29 @@
+# Karpathy Ideas
+
+> Unofficial, curated notes on Andrej Karpathy's public ideas about working with LLMs and AI agents. Each idea: date, source link, summary in our own words, one short quote at most, and practical Apply steps.
+
+Not affiliated with or endorsed by Andrej Karpathy. Prefer ideas with `status: current`; superseded ideas link to his newer view. Quotes belong to their author: link to the source instead of reproducing more text.
+
+## Start here
+
+- [Index](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/index.md): one line per idea, newest first
+- [Agent instructions](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/AGENTS.md): file format, themes, how to read and maintain
+
+## Themes
+
+- [agentic-coding](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/themes/agentic-coding.md): Coding with agents: workflows, IDEs, review, vibe coding vs agentic engineering.
+- [verification](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/themes/verification.md): Success criteria, tests, verifiability, eval loops, autoresearch.
+- [context-and-prompting](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/themes/context-and-prompting.md): Context engineering, prompting, stating scope, giving intent.
+- [output-and-reading](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/themes/output-and-reading.md): Output formats, simplified English, HTML, diagrams, reading with LLMs.
+- [knowledge-management](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/themes/knowledge-management.md): Personal wikis, notes, compiling knowledge with LLMs.
+- [agent-native-software](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/themes/agent-native-software.md): Software 3.0, LLM OS, CLIs and docs for agents, products.
+- [llm-psychology](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/themes/llm-psychology.md): Jagged intelligence, ghosts vs animals, sycophancy, how to model LLMs.
+- [security-and-dependencies](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/themes/security-and-dependencies.md): Supply chain, sandboxing, dependency hygiene.
+- [learning-and-education](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/themes/learning-and-education.md): Learning with LLMs, teaching, skill atrophy.
+- [research-and-training](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/themes/research-and-training.md): Training, RL, tokenizers, small models, research practice.
+- [ai-progress](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/themes/ai-progress.md): Views on the field, timelines, society, jobs.
+
+## Optional
+
+- [All ideas in one file](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/llms-full.txt): for tools that cannot browse
+- [Sweep log](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/log.md): what was collected and when
