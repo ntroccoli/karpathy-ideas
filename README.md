@@ -53,11 +53,22 @@ only the files that matter.
 
 ### Apply it to your project
 
-Open a session of your coding agent (Claude Code, Codex, Cursor, …) in your project and paste:
+Open a session of your coding agent (Claude Code, Codex, Cursor, …) in your project.
+
+**Step 1: get proposals.** Paste:
 
 ```text
-Read https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/llms.txt and follow it. Study this project, then propose which ideas to apply here, both to the product and to how it is built. For each one: the idea and its link, what the project already does, the change, the cost, and your recommendation. Change nothing until I choose.
+Read https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/llms.txt and follow it. Study this project, then propose which ideas to apply here, both to the product and to how it is built. Number each proposal, and for each give: the idea and its link, what the project already does, the change, the cost, and a recommendation of exactly one word: do, later or skip. Change nothing until I choose.
 ```
+
+**Step 2: apply them.** Read the proposals. To accept the agent's recommendations, paste:
+
+```text
+Apply the proposals you marked "do", one at a time: for each, first state "Done when" with the checks that prove it, then make the change, run the checks, and show me the result before starting the next.
+```
+
+To choose yourself, name the numbers instead, for example "Apply 1, 3 and 5, one at a time, …".
+Tip: a fresh session costs fewer tokens than a long-running one.
 
 ### Other ways
 
