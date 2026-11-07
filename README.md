@@ -64,10 +64,18 @@ Read https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/llms.txt an
 **Step 2: apply them.** Read the proposals. To accept the agent's recommendations, paste:
 
 ```text
-Apply the proposals you marked "do", one at a time: for each, first state "Done when" with the checks that prove it, then make the change, run the checks, and show me the result before starting the next.
+Apply the proposals you marked "do", one at a time: for each, first state "Done when" with the checks that prove it, then make the change, run the checks, and show me the result before starting the next. Record each proposal and its outcome (applied, later, skipped) with the date in the project's docs, for example docs/karpathy-ideas.md.
 ```
 
 To choose yourself, name the numbers instead, for example "Apply 1, 3 and 5, one at a time, …".
+
+**Step 3: revisit later.** When the collection has grown or some time has passed, paste:
+
+```text
+Read https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/llms.txt and follow it, including log.md for what changed since the date in docs/karpathy-ideas.md. Using the checklist, propose only new ideas and earlier "later" items now worth doing, in the checklist's report format, then update docs/karpathy-ideas.md. Change nothing else until I choose.
+```
+
+The record file keeps each project's history, so a revisit reads only what is new.
 Tip: a fresh session costs fewer tokens than a long-running one.
 
 ### Other ways
