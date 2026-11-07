@@ -19,8 +19,9 @@ only the linked ideas that point to a gap.
    Check: apply this to the session you are running in, too. Ask the user to run `/context`
    (Claude Code) or read the context percentage in the status line, and note how many unrelated
    topics this session has covered. Start a fresh session per topic from a handoff file. Before
-   compacting, write decisions and lessons to a file; when the topic changes, prefer a fresh
-   session that reads the handoff. Idea: [fresh chat per topic](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-02-27-fresh-chat-per-topic.md).
+   ending or compacting a session, ask it to list what is not yet written down (user decisions,
+   open items, lessons, work in flight) and add each to the right file; then write the handoff.
+   When the topic changes, prefer a fresh session that reads the handoff. Idea: [fresh chat per topic](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-02-27-fresh-chat-per-topic.md).
 3. **Which model does which work?**
    Check: who searches, reads and summarises. Give that work to a cheaper model or subagent; keep
    the strongest model for design and hard problems.
@@ -44,7 +45,8 @@ only the linked ideas that point to a gap.
    Ideas: [success criteria, not steps](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-01-26-success-criteria-not-steps.md),
    [automate what you can verify](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-11-17-software-2-automates-what-you-can-verify.md).
 2. **Are rules enforced by tools or only written in prose?**
-   Check: rules that agents keep breaking become a script, hook, linter or test that must pass.
+   Check: rules that agents keep breaking become a script, hook, linter or test that must pass,
+   and those scripts are versioned in the repository, not left in an ignored or local folder.
    Idea: [agents ignore style rules](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-21-agents-ignore-code-style-rules.md).
 3. **Is performance work driven by one number?**
    Check: a fixed benchmark, one metric, a results log, and revert when there is no gain.
@@ -80,5 +82,6 @@ only the linked ideas that point to a gap.
 ## Report format
 
 Report each proposal as: a number, the idea and its link, what the project does today, the
-change, its cost (S, M or L), and a recommendation of one word: do, later or skip. Change nothing
-until the user chooses.
+change, its cost (S, M or L), and a recommendation of one word: do, later or skip. For changes to user-level files (for
+example `~/.claude/CLAUDE.md` or global skills), give the exact text for the user to apply instead
+of editing them. Change nothing until the user chooses.
