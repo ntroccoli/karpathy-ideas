@@ -1,6 +1,7 @@
 # Link checker config (https://lychee.cli.rs)
 max_concurrency = 4
-accept = ["200..=299", "429"]
+# 429 and 503 mean rate-limited (Hacker News answers bots with 503), not a broken link.
+accept = ["200..=299", "429", "503"]
 # x.com and twitter.com block automated clients; their links are checked by humans.
 exclude = ['^https://(x|twitter)\.com/', '^https://raw\.githubusercontent\.com/ntroccoli/karpathy-ideas/']
 exclude_path = ["node_modules", "CODE_OF_CONDUCT.md"]
