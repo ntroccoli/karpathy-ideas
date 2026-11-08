@@ -14,7 +14,7 @@ kind: practice
 
 # Learn the new programmable layer of agent tools
 
-In late December 2025 Karpathy said he had never felt so behind as a programmer. A new layer now sits on top of the old stack: agents, subagents, prompts, contexts, memory, modes, permissions, tools, plugins, skills, hooks, MCP, LSP, slash commands, workflows and IDE integrations. To use it well you need a mental model of tools that are stochastic and fallible. If you do not claim the productivity boost, it feels like a skill issue. His advice is to take the work seriously and not fall behind.
+In late December 2025 Karpathy said he had never felt so behind as a programmer. A new layer now sits on top of the old stack. It has agents and subagents, prompts and context, memory and permissions, tools, plugins, skills and hooks, MCP and LSP servers, slash commands, workflows and IDE integrations. To use it well you need a mental model of tools that are stochastic and fallible. If you do not claim the productivity boost, it feels like a skill issue. His advice is to take the work seriously and not fall behind.
 
 ## In his words
 

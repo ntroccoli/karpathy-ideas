@@ -14,7 +14,7 @@ kind: practice
 
 # Ask the LLM to simulate experts, not to give its opinion
 
-Karpathy says you should not ask a model for its own opinion on a topic. There is no "you" to ask. If you force one, the model simulates a personality implied by its finetuning data. A better prompt is: what would be a good group of people to explore X, and what would they say? This gives you several views from the model's wide knowledge, and avoids one made-up personality.
+Karpathy says you should not ask a model for its own opinion on a topic. There is no "you" to ask. If you force one, the model simulates a personality implied by its finetuning data. A better prompt asks which people would be worth consulting on X, and what each of them would say. This gives you several views from the model's wide knowledge, and avoids one made-up personality.
 
 ## In his words
 
