@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640">
+  <!-- Social preview for github.com/ntroccoli/karpathy-ideas (Settings > General > Social preview).
+       Font: Cascadia Code (SIL OFL 1.1). Render to PNG at 1280x640. No idea count: it goes stale. -->
+  <rect width="1280" height="640" fill="#0d1117"/>
+  <rect x="64" y="104" width="6" height="404" rx="3" fill="#3fb950"/>
+  <g font-family="Cascadia Code" fill="#e6edf3">
+    <text x="104" y="150" font-size="28" fill="#7d8590">$ cat llms.txt</text>
+    <text x="104" y="268" font-size="96">karpathy-ideas</text>
+    <text x="104" y="346" font-size="34" fill="#c9d1d9">Curated notes on Andrej Karpathy's public</text>
+    <text x="104" y="394" font-size="34" fill="#c9d1d9">ideas about LLMs and AI agents.</text>
+    <text x="104" y="490" font-size="26" fill="#3fb950">for people and LLM agents · summaries · source links</text>
+    <text x="104" y="580" font-size="22" fill="#7d8590">Unofficial. Not affiliated with or endorsed by Andrej Karpathy.</text>
+  </g>
+</svg>
