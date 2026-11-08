@@ -38,7 +38,7 @@ const full = [
   "# Karpathy Ideas: all ideas in one file",
   '',
   "Unofficial, curated notes on Andrej Karpathy's public ideas. Not affiliated with or endorsed by him.",
-  'Summaries and Apply steps are our own words under CC BY 4.0 (Apply steps translate his idea into practice); quotes belong to their author. Source: https://github.com/ntroccoli/karpathy-ideas',
+  'Summaries and Apply steps are our own words under CC BY 4.0 (Apply steps translate his idea into practice; a step marked "Our reading" or "our addition" goes further than the idea itself); quotes belong to their author. Source: https://github.com/ntroccoli/karpathy-ideas',
   '',
   ANTHROPIC_NOTE,
   '',
@@ -92,7 +92,7 @@ for (const [slug, desc] of Object.entries(THEMES)) {
 out['llms.txt'] = [
   '# Karpathy Ideas',
   '',
-  "> Unofficial, curated notes on Andrej Karpathy's public ideas about working with LLMs and AI agents. Each idea: date, source link, summary in our own words, one short quote at most, and practical Apply steps (views, his opinions and explanations, may have none). Apply steps are our translation of his idea into practice, not his words.",
+  "> Unofficial, curated notes on Andrej Karpathy's public ideas about working with LLMs and AI agents. Each idea: date, source link, summary in our own words, one short quote at most, and practical Apply steps (views, his opinions and explanations, may have none). Apply steps are our translation of his idea into practice, not his words; a step marked \"Our reading\" or \"our addition\" goes further than the idea itself.",
   '',
   'Not affiliated with or endorsed by Andrej Karpathy. Prefer ideas with `status: current`; superseded ideas link to his newer view. Quotes belong to their author: link to the source instead of reproducing more text.',
   '',

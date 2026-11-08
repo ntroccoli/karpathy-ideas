@@ -103,8 +103,9 @@ Field rules:
 - Idea files and the questions and "Check" steps in `checklist.md` contain only what traces to
   Karpathy's sources (an idea's summary or its Apply steps). Every Check links its idea.
 - Apply steps are our translation of his idea into practice (README, llms.txt and llms-full.txt
-  say so). Each step must follow from that idea; a practice of ours that does not follow from
-  it goes in a procedure section, not in an idea file.
+  say so). A step marked "Our reading" or "our addition" goes further than the idea itself.
+  Each step must follow from that idea; a practice of ours that does not follow from it goes in
+  a procedure section, not in an idea file.
 - Our own practices (how to run the checklist, record files, report formats) go only in clearly
   labelled procedure sections, such as "How to run this checklist" and the README steps. Never
   present them as his ideas.
