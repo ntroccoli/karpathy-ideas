@@ -104,6 +104,9 @@ Field rules:
   Karpathy's sources (an idea's summary or its Apply steps). Every Check links its idea.
 - Apply steps are our translation of his idea into practice (README, llms.txt and llms-full.txt
   say so). A step marked "Our reading" or "our addition" goes further than the idea itself.
+  When every Apply step does, drop the per-step labels and put one line right under
+  `## Apply`: "Our reading: all steps below go further than the idea itself." Files with mixed
+  steps keep the per-step labels.
   Each step must follow from that idea; a practice of ours that does not follow from it goes in
   a procedure section, not in an idea file.
 - Our own practices (how to run the checklist, record files, report formats) go only in clearly

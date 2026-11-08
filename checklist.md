@@ -66,7 +66,8 @@ ours, not Karpathy's. How to run the checklist is at the end.
    instead of unrestricted shell access
    ([agent security](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-06-16-agent-security-is-the-wild-west.md)). Treat text from
    outside your control as untrusted, and strip or flag invisible code points such as variation
-   selectors before it reaches a model
+   selectors before it reaches a model; variation selectors are U+FE00-U+FE0F and
+   U+E0100-U+E01EF (our addition: his post names no range; the Unicode standard defines them)
    ([invisible Unicode](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-02-12-invisible-unicode-can-hide-prompts.md)). Read the delete
    commands agents run: odd names in single quotes, never `rm -rf` on a bare `~`
    ([quote rm paths](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-08-31-quote-paths-and-check-agent-rm-commands.md)).
@@ -99,10 +100,19 @@ This part is our procedure for using the collection, not an idea from Karpathy.
    the change, its cost (S, M or L), and a recommendation of one word: do, later or skip.
 5. Give each applied change a check that will prove it. For a check on context size, measure
    what the reads add after the first call, not the total: the fixed start (system prompt, tools,
-   user-level files) can be large on its own.
+   user-level files) can be large on its own. A check that cannot be run yet is "not shown",
+   with the numbers you have.
 6. Before you change a user-level file (for example `~/.claude/CLAUDE.md` or global skills), show
    the user the exact text and wait for their yes.
 7. Change nothing until the user chooses.
+8. Record each proposal and its outcome with the date in the project's docs, for example
+   `docs/karpathy-ideas.md`, and name the newest `log.md` entry the review covered.
+
+On a revisit (README step 3), read only the `log.md` entries newer than the one the record names.
+First re-check the recorded items waiting for first use and the applied items that may have
+stopped holding. Then run steps 1 to 7: report a gap in any question, but open and propose only
+ideas new since the last review and earlier "later" items. Each `log.md` entry's "Checklist
+impact" part maps its new ideas to the questions.
 
 Our own practices that go with A2 and A4 (not from the ideas): measure a session's context with
 `/context` (Claude Code) or the status line; carry state to a new session through a handoff file

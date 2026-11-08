@@ -33,12 +33,15 @@ Unicode property, not a UTF-8 one; he agreed.
 
 ## Apply
 
-- Our reading: paste suspicious text into a tokenizer viewer. A short visible string with a huge token count
+Our reading: all steps below go further than the idea itself.
+
+- Paste suspicious text into a tokenizer viewer. A short visible string with a huge token count
   signals hidden characters.
-- Our reading: treat text from outside your control (web pages, issues, documents) as untrusted before it
+- Treat text from outside your control (web pages, issues, documents) as untrusted before it
   goes into an agent's context.
-- Our reading: strip or flag variation selectors and other invisible code points in untrusted
-  input before it reaches a model.
+- Strip or flag variation selectors and other invisible code points in untrusted input before it
+  reaches a model. Variation selectors are U+FE00-U+FE0F and U+E0100-U+E01EF (our addition: his
+  post names no range; the Unicode standard defines them).
 
 ## Context
 

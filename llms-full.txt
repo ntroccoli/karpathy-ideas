@@ -1,7 +1,7 @@
 # Karpathy Ideas: all ideas in one file
 
 Unofficial, curated notes on Andrej Karpathy's public ideas. Not affiliated with or endorsed by him.
-Summaries and Apply steps are our own words under CC BY 4.0 (Apply steps translate his idea into practice; a step marked "Our reading" or "our addition" goes further than the idea itself); quotes belong to their author. Source: https://github.com/ntroccoli/karpathy-ideas
+Summaries and Apply steps are our own words under CC BY 4.0 (Apply steps translate his idea into practice; a step marked "Our reading" or "our addition" goes further than the idea itself, and one "Our reading" line at the top of Apply marks all its steps); quotes belong to their author. Source: https://github.com/ntroccoli/karpathy-ideas
 
 *(Anthropic period)*: dated 2026-05-19 or later, after he [joined Anthropic](https://x.com/karpathy/status/2056753169888334312), and about Claude or Anthropic. Weigh these with that in mind.
 
@@ -4276,8 +4276,10 @@ He called it a major mistake of his undergraduate years that he leaned too far o
 
 ## Apply
 
-- Our reading: when you plan study time, add hardware topics: memory hierarchy, cache, GPU parallelism, and the cost of moving data.
-- Our reading: before you optimise code, measure where data moves, not only how many operations run.
+Our reading: all steps below go further than the idea itself.
+
+- When you plan study time, add hardware topics: memory hierarchy, cache, GPU parallelism, and the cost of moving data.
+- Before you optimise code, measure where data moves, not only how many operations run.
 
 ## Context
 
@@ -5048,12 +5050,15 @@ Unicode property, not a UTF-8 one; he agreed.
 
 ## Apply
 
-- Our reading: paste suspicious text into a tokenizer viewer. A short visible string with a huge token count
+Our reading: all steps below go further than the idea itself.
+
+- Paste suspicious text into a tokenizer viewer. A short visible string with a huge token count
   signals hidden characters.
-- Our reading: treat text from outside your control (web pages, issues, documents) as untrusted before it
+- Treat text from outside your control (web pages, issues, documents) as untrusted before it
   goes into an agent's context.
-- Our reading: strip or flag variation selectors and other invisible code points in untrusted
-  input before it reaches a model.
+- Strip or flag variation selectors and other invisible code points in untrusted input before it
+  reaches a model. Variation selectors are U+FE00-U+FE0F and U+E0100-U+E01EF (our addition: his
+  post names no range; the Unicode standard defines them).
 
 ## Context
 

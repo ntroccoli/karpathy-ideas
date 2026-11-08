@@ -36,7 +36,7 @@ Each idea file has:
 - **Apply** steps you can use today (every practice has them; a view only when they are concrete).
   They are our translation of his idea into practice, not his words: the summary and the quote
   say what he said. A step marked "Our reading" or "our addition" goes further than the
-  idea itself,
+  idea itself; when all steps do, one "Our reading" line at the top of Apply says so,
 - a **status**: `current`, or `superseded` with a link to his newer view.
 
 Example: [Give agents success criteria, not steps](ideas/2026-01-26-success-criteria-not-steps.md).
@@ -72,7 +72,7 @@ Read https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/llms.txt an
 **Step 2: apply them.** Read the proposals. To accept the agent's recommendations, paste:
 
 ```text
-Apply the proposals you marked "do". Before you change anything, list each one with "Done when": the checks that will prove it. Then apply them in order and run each one's checks. Before you change a file outside this project (user-level instructions, skills or settings), show me the exact text and wait for my yes. At the end, report each proposal with each check: pass or fail, and the result. Record each proposal and its outcome (applied, later, skipped) with the date in the project's docs, for example docs/karpathy-ideas.md, and mark each applied item "proven" or "waiting for first use", with the event that will prove it.
+Apply the proposals you marked "do". Before you change anything, list each one with "Done when": the checks that will prove it. Then apply them in order and run each one's checks. Before you change a file outside this project (user-level instructions, skills or settings), show me the exact text and wait for my yes. At the end, report each proposal with each check: pass or fail, and the result. Record each proposal and its outcome (applied, later, skipped) with the date in the project's docs, for example docs/karpathy-ideas.md, and mark each applied item "proven" or "waiting for first use", with the event that will prove it. In the record, also name the newest log.md entry (date and title) this review covered.
 ```
 
 To choose yourself, name the numbers instead, for example "Apply 1, 3 and 5. Before you change anything, …".
@@ -80,7 +80,7 @@ To choose yourself, name the numbers instead, for example "Apply 1, 3 and 5. Bef
 **Step 3: revisit later.** When the collection has grown or some time has passed, paste:
 
 ```text
-Read https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/llms.txt and follow it, including log.md for what changed since the date in docs/karpathy-ideas.md. Using the checklist, first check the items marked "waiting for first use", then propose only new ideas and earlier "later" items now worth doing, in the checklist's report format, then update docs/karpathy-ideas.md. Change nothing else until I choose.
+Read https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/llms.txt and follow it. Read docs/karpathy-ideas.md, then the log.md entries newer than the last entry it names (if it names none, newer than its date); each entry's "Checklist impact" part says which questions its new ideas touch. Using the checklist, first re-check the items marked "waiting for first use" and the applied items that may have stopped holding, and mark each "proven", "still waiting", "stopped holding" or "not shown" (a proof that cannot be run yet), always with the numbers. Then measure every checklist question and report every gap, but open and propose only ideas new since the last review and earlier "later" items; give other gaps one line each. Use the checklist's report format. Then update docs/karpathy-ideas.md in its existing layout and name in it the newest log.md entry you read. Change nothing else until I choose.
 ```
 
 The record file keeps each project's history, so a revisit reads only what is new.

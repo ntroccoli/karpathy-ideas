@@ -23,8 +23,10 @@ He called it a major mistake of his undergraduate years that he leaned too far o
 
 ## Apply
 
-- Our reading: when you plan study time, add hardware topics: memory hierarchy, cache, GPU parallelism, and the cost of moving data.
-- Our reading: before you optimise code, measure where data moves, not only how many operations run.
+Our reading: all steps below go further than the idea itself.
+
+- When you plan study time, add hardware topics: memory hierarchy, cache, GPU parallelism, and the cost of moving data.
+- Before you optimise code, measure where data moves, not only how many operations run.
 
 ## Context
 
