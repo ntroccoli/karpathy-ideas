@@ -38,6 +38,6 @@ were probably written by his coding agent, not by him.
   books with LLMs. Model list in the README: GPT 5.1, Gemini 3 Pro, Claude Sonnet 4.5, Grok 4.
 - Related: [Read books together with an LLM](2024-12-11-read-books-with-an-llm.md).
 - He already asked several vendors the same question in early 2025 and called them his "LLM council" ([video](2025-02-27-fast-model-first-thinking-model-for-hard.md)).
-- First raised on 2025-02-03: he wished for a council where all models answer, then debate, and the top-ranked model writes the final answer. The repo came in November.
+- First raised on [2025-02-03](https://x.com/karpathy/status/1886220274821128668): he wished for a council where all models answer, then debate, and the top-ranked model writes the final answer. The repo came in November.
 - On 2025-09-05 he described a quick eval: pool the answers of several models and ask each model to rank all of them. In his small tests the models showed little bias toward their own text. He explains this by the gap between producing good work and recognising it.
 - In a reply he said every model ranks every answer, with names hidden, so the result is not simple flattery. On 2025-12-24 he guessed that one model with several different prompts might work as well, if the prompts are chosen with care.

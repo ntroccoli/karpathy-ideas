@@ -31,5 +31,5 @@ sees that a model now seems to understand what he means when he says he will com
 - A reply on 2026-07-21 to a post about models claiming that a task needs months of human work.
 - Our reading: this fits his view that models are shaped by their training data, not by lived
   experience. See [LLMs are ghosts, not animals](2025-10-01-llms-are-ghosts-not-animals.md).
-- First raised on 2025-01-02: a model has no sense of self, so what it says about itself depends on whether its makers added self-knowledge data in finetuning. Without that data its answer is a nearest-neighbour guess.
+- First raised on [2025-01-02](https://x.com/karpathy/status/1874656428733899128): a model has no sense of self, so what it says about itself depends on whether its makers added self-knowledge data in finetuning. Without that data its answer is a nearest-neighbour guess.
 - His nanochat recipe for adding that data: [Give a model an identity with synthetic conversations](2025-10-21-give-a-small-model-an-identity-with-synthetic-data.md).

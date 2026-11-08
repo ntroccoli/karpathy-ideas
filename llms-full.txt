@@ -206,7 +206,7 @@ their call sites, and collaborators would zoom around and cast diffs.
 ## Context
 
 - Two replies from September 2026. Related: [Work rises into oversight](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-10-02-oversight-and-discardable-software.md).
-- First raised on 2025-06-04: lay the repo out on a 2D canvas, hover over a variable to see its links across files, and switch lenses such as test coverage or git age.
+- First raised on [2025-06-04](https://x.com/karpathy/status/1930326685918081077): lay the repo out on a 2D canvas, hover over a variable to see its links across files, and switch lenses such as test coverage or git age.
 
 ---
 
@@ -308,7 +308,7 @@ sees that a model now seems to understand what he means when he says he will com
 - A reply on 2026-07-21 to a post about models claiming that a task needs months of human work.
 - Our reading: this fits his view that models are shaped by their training data, not by lived
   experience. See [LLMs are ghosts, not animals](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-10-01-llms-are-ghosts-not-animals.md).
-- First raised on 2025-01-02: a model has no sense of self, so what it says about itself depends on whether its makers added self-knowledge data in finetuning. Without that data its answer is a nearest-neighbour guess.
+- First raised on [2025-01-02](https://x.com/karpathy/status/1874656428733899128): a model has no sense of self, so what it says about itself depends on whether its makers added self-knowledge data in finetuning. Without that data its answer is a nearest-neighbour guess.
 - His nanochat recipe for adding that data: [Give a model an identity with synthetic conversations](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-10-21-give-a-small-model-an-identity-with-synthetic-data.md).
 
 ---
@@ -855,7 +855,7 @@ click-here instructions. He would rather get something to paste into his agent.
 - In a related reply he asked X to make read access cheap for agents, noting that about 30
   minutes of hacking had cost him $200.
 - Related: [The LLM OS](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2023-09-28-llm-as-operating-system-kernel.md).
-- First raised on 2025-05-02: he called devops the biggest pain in building an app. Services must work together and let an agent act on them. See also [Building a web app is like assembling IKEA furniture](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-03-27-web-app-stack-is-ikea-furniture.md).
+- First raised on [2025-05-02](https://x.com/karpathy/status/1918132302158413866): he called devops the biggest pain in building an app. Services must work together and let an agent act on them. See also [Building a web app is like assembling IKEA furniture](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-03-27-web-app-stack-is-ikea-furniture.md).
 
 ---
 
@@ -917,7 +917,7 @@ name-dropping to win favour, and calls it a possible "uncanny valley" of emotion
 
 - These are guesses, labelled as such by him. Related:
   [memory as RL tools](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-05-memory-as-rl-tools.md).
-- First raised on 2025-04-10: he asked whether a model he uses for work needs to remember a beginner bash question.
+- First raised on [2025-04-10](https://x.com/karpathy/status/1910411355300954539): he asked whether a model he uses for work needs to remember a beginner bash question.
 
 ---
 
@@ -1101,7 +1101,7 @@ in self-driving. He still thinks the physical market may be larger.
 - From the No Priors episode of 2026-03-20. A forecast, not a measurement. He says he does not do
   forecasting for a living.
 - He also shared a jobs-data view, coloured by how much each job manipulates digital information.
-- First raised on 2025-01-23, when he compared computer-using agents to humanoid robots and said that changing bits is about 1000 times cheaper than moving atoms. See [This is the decade of agents](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-10-17-decade-of-agents-not-year.md).
+- First raised on [2025-01-23](https://x.com/karpathy/status/1882544526033924438), when he compared computer-using agents to humanoid robots and said that changing bits is about 1000 times cheaper than moving atoms. See [This is the decade of agents](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-10-17-decade-of-agents-not-year.md).
 
 ---
 
@@ -1919,7 +1919,7 @@ Karpathy asks open questions about who gains from coding agents. The "10X engine
 ## Context
 
 - Listed as questions in the 2026-01-26 notes. The 2026-02-25 reply links his post on [agentic engineering](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-02-04-agentic-engineering-vs-vibe-coding.md).
-- First raised on 2025-12-27: in a reply he said experienced developers have a real advantage, but only if they adapt fast, and that rejecting the new layer would be a mistake.
+- First raised on [2025-12-27](https://x.com/karpathy/status/2004974725320347884): in a reply he said experienced developers have a real advantage, but only if they adapt fast, and that rejecting the new layer would be a mistake.
 
 ---
 
@@ -2589,7 +2589,7 @@ were probably written by his coding agent, not by him.
   books with LLMs. Model list in the README: GPT 5.1, Gemini 3 Pro, Claude Sonnet 4.5, Grok 4.
 - Related: [Read books together with an LLM](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2024-12-11-read-books-with-an-llm.md).
 - He already asked several vendors the same question in early 2025 and called them his "LLM council" ([video](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-02-27-fast-model-first-thinking-model-for-hard.md)).
-- First raised on 2025-02-03: he wished for a council where all models answer, then debate, and the top-ranked model writes the final answer. The repo came in November.
+- First raised on [2025-02-03](https://x.com/karpathy/status/1886220274821128668): he wished for a council where all models answer, then debate, and the top-ranked model writes the final answer. The repo came in November.
 - On 2025-09-05 he described a quick eval: pool the answers of several models and ask each model to rank all of them. In his small tests the models showed little bias toward their own text. He explains this by the gap between producing good work and recognising it.
 - In a reply he said every model ranks every answer, with names hidden, so the result is not simple flattery. On 2025-12-24 he guessed that one model with several different prompts might work as well, if the prompts are chosen with care.
 
@@ -2684,7 +2684,7 @@ now points to Epoch's Capabilities Index and its published benchmark reviews.
 - Related: [Jagged intelligence follows verifiability](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-20-jagged-intelligence-follows-verifiability.md),
   [RLHF is just barely RL](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2024-08-07-rlhf-is-just-barely-rl.md) and
   [A text-only eval](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-10-02-land-or-water-eval.md).
-- First raised on 2025-03-02: he spoke of an evaluation crisis. MMLU was saturated, SWE-Bench Verified too narrow, Chatbot Arena overfit by the labs, and vibe checks open to confirmation bias. An ensemble of private evals looked promising to him. See [Leaderboards get gamed](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-03-02-leaderboards-get-gamed-watch-real-usage.md).
+- First raised on [2025-03-02](https://x.com/karpathy/status/1896266683301659068): he spoke of an evaluation crisis. MMLU was saturated, SWE-Bench Verified too narrow, Chatbot Arena overfit by the labs, and vibe checks open to confirmation bias. An ensemble of private evals looked promising to him. See [Leaderboards get gamed](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-03-02-leaderboards-get-gamed-watch-real-usage.md).
 - An example from November 2025: an early Gemini 3 build would not accept the real date and called his evidence fake, until he turned on its search tool. Check the tool settings before you judge a model.
 
 ---
@@ -2996,7 +2996,7 @@ reacting to over-prediction in the industry, and that he is optimistic about the
   [Coding agents are weak on novel code](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-10-17-coding-agents-weak-on-novel-code.md).
 - Our reading: his later 2026 statements are more positive about agents after December 2025;
   see [Vibe coding raises the floor, agentic engineering raises the ceiling](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-02-04-agentic-engineering-vs-vibe-coding.md).
-- First raised on 2025-01-23, after OpenAI launched Operator, an agent that drives a browser. He compared such agents to humanoid robots: both do general work through a setting built for humans, and both leave people to supervise the automation. He expected the digital case to move first, because changing bits costs far less than moving atoms, and he pictured one person watching ten agents and stepping in to unblock them.
+- First raised on [2025-01-23](https://x.com/karpathy/status/1882544526033924438), after OpenAI launched Operator, an agent that drives a browser. He compared such agents to humanoid robots: both do general work through a setting built for humans, and both leave people to supervise the automation. He expected the digital case to move first, because changing bits costs far less than moving atoms, and he pictured one person watching ten agents and stepping in to unblock them.
 - In his own recap of the interview he said his timelines are five to ten times more pessimistic than the talk at a San Francisco party, but still optimistic compared with those who deny AI progress.
 
 ---
@@ -3101,7 +3101,7 @@ lets the student try first, so the answer is valued. His goal is many "eurekas p
 
 - Dwarkesh Patel interview, 2025-10-17, where he describes his Eureka Labs course plan.
 - Related: [Build it yourself](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-10-17-build-it-yourself-no-copy-paste.md).
-- First raised on 2025-06-25: in a reply he described education as the technical problem of building ramps to knowledge.
+- First raised on [2025-06-25](https://x.com/karpathy/status/1937733819207151727): in a reply he described education as the technical problem of building ramps to knowledge.
 
 ---
 
@@ -3527,7 +3527,7 @@ Karpathy describes three eras by their data. Pretraining used internet text. Sup
 
 - Posted 2025-08-27.
 - Related: [what you can verify](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-11-17-software-2-automates-what-you-can-verify.md).
-- First raised on 2025-01-29: he called a varied set of RL environments that draw out cognitive strategies the highest-leverage thing open-source builders could make, a job that suits a large community. He also spoke of taking LLMs through school.
+- First raised on [2025-01-29](https://x.com/karpathy/status/1884676486713737258): he called a varied set of RL environments that draw out cognitive strategies the highest-leverage thing open-source builders could make, a job that suits a large community. He also spoke of taking LLMs through school.
 - In August 2025 he said the missing piece is a shared skeleton: one schema so that many people can add environments in parallel. Long term he is bullish on environments and bearish on RL itself.
 
 ---
@@ -3660,7 +3660,7 @@ Prompted by the DeepSeek-OCR paper, Karpathy asks whether text tokens are a poor
 
 - Post of 2025-10-20 and replies on 2025-10-21. He said he held back from building an image-only nanochat.
 - Related: [Text chat is the terminal era](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-03-31-text-chat-is-the-terminal-era.md).
-- First raised on 2025-07-11: in a reply he wondered whether a VAE over image patches is the ultimate tokenizer, since Unicode plus UTF-8 takes too long to describe.
+- First raised on [2025-07-11](https://x.com/karpathy/status/1943743424311832676): in a reply he wondered whether a VAE over image patches is the ultimate tokenizer, since Unicode plus UTF-8 takes too long to describe.
 
 ---
 
@@ -4381,7 +4381,7 @@ In replies of October 2025, Karpathy states the definition he has kept. AGI is a
 
 - A thread of replies on 2025-10-21 and 2025-11-03. The quote defines AGI, as opposed to a score.
 - Related: [AI will blend into the same 2% growth curve](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-10-17-agi-blends-into-gdp-growth.md) and [This is the decade of agents, not the year of agents](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-10-17-decade-of-agents-not-year.md).
-- First raised on 2025-04-19: he said he sticks with the original OpenAI definition of AGI, at a time when his feed was full of LLMs solving prompt puzzles and of excited talk about AGI.
+- First raised on [2025-04-19](https://x.com/karpathy/status/1913741942221144430): he said he sticks with the original OpenAI definition of AGI, at a time when his feed was full of LLMs solving prompt puzzles and of excited talk about AGI.
 
 ---
 
@@ -4666,7 +4666,7 @@ After a paper on the LMArena leaderboard, he said his own experience matched its
 
 - April 2025. Related: [go talk to the model: private evals](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-11-18-go-talk-to-the-model-private-evals.md) and [all LLMs sound the same](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2024-10-06-all-llms-sound-the-same.md).
 - In a reply of 2025-04-08 he called the pull toward arena style a "taste issue", like superhero films taking over Hollywood.
-- First raised on 2025-03-02: he said Chatbot Arena got so much attention, partly through him, that labs overfit to it by mining its prompts, sending many private test runs and training on its rankings. His answer then was an ensemble of private evals.
+- First raised on [2025-03-02](https://x.com/karpathy/status/1896266683301659068): he said Chatbot Arena got so much attention, partly through him, that labs overfit to it by mining its prompts, sending many private test runs and training on its rankings. His answer then was an ensemble of private evals.
 
 ---
 
@@ -4914,7 +4914,7 @@ Karpathy points to a short post that shows how simple discrete text diffusion ca
 
 - Post of 2025-10-20. A later reply describes a small character-level text diffusion model as text "boiling" down to a simmer.
 - Related: [Pixels may be better LLM inputs than text tokens](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-07-11-pixels-may-be-better-llm-inputs-than-text.md).
-- First raised on 2025-02-27: he called Mercury the first large diffusion LLM. Most LLMs are autoregressive and alike, so a diffusion model may have new strengths and weaknesses. He found it a puzzle that images and video use diffusion while text does not.
+- First raised on [2025-02-27](https://x.com/karpathy/status/1894923254864978091): he called Mercury the first large diffusion LLM. Most LLMs are autoregressive and alike, so a diffusion model may have new strengths and weaknesses. He found it a puzzle that images and video use diffusion while text does not.
 
 ---
 
@@ -4992,7 +4992,7 @@ Someone asked why models cannot play Pokémon well. He answered that they cannot
 
 - April 2025. He asked the author of a tic-tac-toe benchmark to re-run it.
 - Related: [jagged intelligence follows verifiability](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-20-jagged-intelligence-follows-verifiability.md).
-- First raised on 2025-02-16: he called tic-tac-toe the most interesting failure among games.
+- First raised on [2025-02-16](https://x.com/karpathy/status/1891204392277151749): he called tic-tac-toe the most interesting failure among games.
 - In his Grok 3 test of 2025-02-18, the model solved the boards he gave it but failed when asked to invent tricky boards, and so did o1-pro.
 
 ---
@@ -5020,7 +5020,7 @@ reasoning effort.
 - Reply of 2025-08-09, in a thread about agents that are too eager. Works only for repos that fit
   the context window.
 - Related: [Models are too agentic: state the stakes and scope](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-08-09-models-too-agentic-state-stakes-and-scope.md).
-- First raised on 2025-02-14: he asked more apps to offer an "Export for prompt" button, after a trick that turns a GitHub repo URL into a gitingest URL to get the whole repo as one text.
+- First raised on [2025-02-14](https://x.com/karpathy/status/1890208670732124372): he asked more apps to offer an "Export for prompt" button, after a trick that turns a GitHub repo URL into a gitingest URL to get the whole repo as one text.
 - His later tool for the same job: [Flatten a repository into one page for humans and LLMs](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-08-20-render-repo-for-humans-and-llms.md).
 
 ---

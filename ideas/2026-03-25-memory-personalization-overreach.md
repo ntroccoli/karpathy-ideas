@@ -39,4 +39,4 @@ name-dropping to win favour, and calls it a possible "uncanny valley" of emotion
 
 - These are guesses, labelled as such by him. Related:
   [memory as RL tools](2026-03-05-memory-as-rl-tools.md).
-- First raised on 2025-04-10: he asked whether a model he uses for work needs to remember a beginner bash question.
+- First raised on [2025-04-10](https://x.com/karpathy/status/1910411355300954539): he asked whether a model he uses for work needs to remember a beginner bash question.

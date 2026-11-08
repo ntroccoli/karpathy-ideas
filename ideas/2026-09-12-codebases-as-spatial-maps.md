@@ -29,4 +29,4 @@ their call sites, and collaborators would zoom around and cast diffs.
 ## Context
 
 - Two replies from September 2026. Related: [Work rises into oversight](2026-10-02-oversight-and-discardable-software.md).
-- First raised on 2025-06-04: lay the repo out on a 2D canvas, hover over a variable to see its links across files, and switch lenses such as test coverage or git age.
+- First raised on [2025-06-04](https://x.com/karpathy/status/1930326685918081077): lay the repo out on a 2D canvas, hover over a variable to see its links across files, and switch lenses such as test coverage or git age.

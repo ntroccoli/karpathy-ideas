@@ -33,5 +33,5 @@ reasoning effort.
 - Reply of 2025-08-09, in a thread about agents that are too eager. Works only for repos that fit
   the context window.
 - Related: [Models are too agentic: state the stakes and scope](2025-08-09-models-too-agentic-state-stakes-and-scope.md).
-- First raised on 2025-02-14: he asked more apps to offer an "Export for prompt" button, after a trick that turns a GitHub repo URL into a gitingest URL to get the whole repo as one text.
+- First raised on [2025-02-14](https://x.com/karpathy/status/1890208670732124372): he asked more apps to offer an "Export for prompt" button, after a trick that turns a GitHub repo URL into a gitingest URL to get the whole repo as one text.
 - His later tool for the same job: [Flatten a repository into one page for humans and LLMs](2025-08-20-render-repo-for-humans-and-llms.md).

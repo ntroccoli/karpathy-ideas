@@ -33,4 +33,4 @@ lets the student try first, so the answer is valued. His goal is many "eurekas p
 
 - Dwarkesh Patel interview, 2025-10-17, where he describes his Eureka Labs course plan.
 - Related: [Build it yourself](2025-10-17-build-it-yourself-no-copy-paste.md).
-- First raised on 2025-06-25: in a reply he described education as the technical problem of building ramps to knowledge.
+- First raised on [2025-06-25](https://x.com/karpathy/status/1937733819207151727): in a reply he described education as the technical problem of building ramps to knowledge.

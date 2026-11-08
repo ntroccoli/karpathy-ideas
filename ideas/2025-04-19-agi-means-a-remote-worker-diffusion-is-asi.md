@@ -25,4 +25,4 @@ In replies of October 2025, Karpathy states the definition he has kept. AGI is a
 
 - A thread of replies on 2025-10-21 and 2025-11-03. The quote defines AGI, as opposed to a score.
 - Related: [AI will blend into the same 2% growth curve](2025-10-17-agi-blends-into-gdp-growth.md) and [This is the decade of agents, not the year of agents](2025-10-17-decade-of-agents-not-year.md).
-- First raised on 2025-04-19: he said he sticks with the original OpenAI definition of AGI, at a time when his feed was full of LLMs solving prompt puzzles and of excited talk about AGI.
+- First raised on [2025-04-19](https://x.com/karpathy/status/1913741942221144430): he said he sticks with the original OpenAI definition of AGI, at a time when his feed was full of LLMs solving prompt puzzles and of excited talk about AGI.

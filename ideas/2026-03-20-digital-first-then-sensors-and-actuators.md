@@ -33,4 +33,4 @@ in self-driving. He still thinks the physical market may be larger.
 - From the No Priors episode of 2026-03-20. A forecast, not a measurement. He says he does not do
   forecasting for a living.
 - He also shared a jobs-data view, coloured by how much each job manipulates digital information.
-- First raised on 2025-01-23, when he compared computer-using agents to humanoid robots and said that changing bits is about 1000 times cheaper than moving atoms. See [This is the decade of agents](2025-10-17-decade-of-agents-not-year.md).
+- First raised on [2025-01-23](https://x.com/karpathy/status/1882544526033924438), when he compared computer-using agents to humanoid robots and said that changing bits is about 1000 times cheaper than moving atoms. See [This is the decade of agents](2025-10-17-decade-of-agents-not-year.md).

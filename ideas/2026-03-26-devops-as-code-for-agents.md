@@ -41,4 +41,4 @@ click-here instructions. He would rather get something to paste into his agent.
 - In a related reply he asked X to make read access cheap for agents, noting that about 30
   minutes of hacking had cost him $200.
 - Related: [The LLM OS](2023-09-28-llm-as-operating-system-kernel.md).
-- First raised on 2025-05-02: he called devops the biggest pain in building an app. Services must work together and let an agent act on them. See also [Building a web app is like assembling IKEA furniture](2025-03-27-web-app-stack-is-ikea-furniture.md).
+- First raised on [2025-05-02](https://x.com/karpathy/status/1918132302158413866): he called devops the biggest pain in building an app. Services must work together and let an agent act on them. See also [Building a web app is like assembling IKEA furniture](2025-03-27-web-app-stack-is-ikea-furniture.md).

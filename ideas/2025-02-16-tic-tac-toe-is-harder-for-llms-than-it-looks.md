@@ -29,5 +29,5 @@ Someone asked why models cannot play Pokémon well. He answered that they cannot
 
 - April 2025. He asked the author of a tic-tac-toe benchmark to re-run it.
 - Related: [jagged intelligence follows verifiability](2026-03-20-jagged-intelligence-follows-verifiability.md).
-- First raised on 2025-02-16: he called tic-tac-toe the most interesting failure among games.
+- First raised on [2025-02-16](https://x.com/karpathy/status/1891204392277151749): he called tic-tac-toe the most interesting failure among games.
 - In his Grok 3 test of 2025-02-18, the model solved the boards he gave it but failed when asked to invent tricky boards, and so did o1-pro.

@@ -26,4 +26,4 @@ After a paper on the LMArena leaderboard, he said his own experience matched its
 
 - April 2025. Related: [go talk to the model: private evals](2025-11-18-go-talk-to-the-model-private-evals.md) and [all LLMs sound the same](2024-10-06-all-llms-sound-the-same.md).
 - In a reply of 2025-04-08 he called the pull toward arena style a "taste issue", like superhero films taking over Hollywood.
-- First raised on 2025-03-02: he said Chatbot Arena got so much attention, partly through him, that labs overfit to it by mining its prompts, sending many private test runs and training on its rankings. His answer then was an ensemble of private evals.
+- First raised on [2025-03-02](https://x.com/karpathy/status/1896266683301659068): he said Chatbot Arena got so much attention, partly through him, that labs overfit to it by mining its prompts, sending many private test runs and training on its rankings. His answer then was an ensemble of private evals.

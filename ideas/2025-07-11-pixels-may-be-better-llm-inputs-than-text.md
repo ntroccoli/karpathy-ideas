@@ -25,4 +25,4 @@ Prompted by the DeepSeek-OCR paper, Karpathy asks whether text tokens are a poor
 
 - Post of 2025-10-20 and replies on 2025-10-21. He said he held back from building an image-only nanochat.
 - Related: [Text chat is the terminal era](2025-03-31-text-chat-is-the-terminal-era.md).
-- First raised on 2025-07-11: in a reply he wondered whether a VAE over image patches is the ultimate tokenizer, since Unicode plus UTF-8 takes too long to describe.
+- First raised on [2025-07-11](https://x.com/karpathy/status/1943743424311832676): in a reply he wondered whether a VAE over image patches is the ultimate tokenizer, since Unicode plus UTF-8 takes too long to describe.

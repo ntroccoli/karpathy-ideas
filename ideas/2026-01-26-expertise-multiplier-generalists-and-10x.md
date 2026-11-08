@@ -30,4 +30,4 @@ Karpathy asks open questions about who gains from coding agents. The "10X engine
 ## Context
 
 - Listed as questions in the 2026-01-26 notes. The 2026-02-25 reply links his post on [agentic engineering](2026-02-04-agentic-engineering-vs-vibe-coding.md).
-- First raised on 2025-12-27: in a reply he said experienced developers have a real advantage, but only if they adapt fast, and that rejecting the new layer would be a mistake.
+- First raised on [2025-12-27](https://x.com/karpathy/status/2004974725320347884): in a reply he said experienced developers have a real advantage, but only if they adapt fast, and that rejecting the new layer would be a mistake.
