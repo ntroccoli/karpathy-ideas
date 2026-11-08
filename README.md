@@ -46,6 +46,10 @@ Example: [Give agents success criteria, not steps](ideas/2026-01-26-success-crit
   [context-and-prompting](themes/context-and-prompting.md).
 - [log.md](log.md): what each update collected, and when.
 
+Ideas marked *(Anthropic period)* are dated 2026-05-19 or later, after he
+[joined Anthropic](https://x.com/karpathy/status/2056753169888334312), and are about Claude or
+Anthropic. Weigh them with that in mind.
+
 ## Use this with an LLM
 
 The repository is designed to be read by LLM agents at low token cost: a small index first, then

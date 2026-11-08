@@ -19,6 +19,34 @@ const line = (i, prefix) => {
 
 const out = {};
 
+// Explains the "(Anthropic period)" flag wherever it appears.
+const ANTHROPIC_NOTE = '*(Anthropic period)*: dated 2026-05-19 or later, after he [joined Anthropic](https://x.com/karpathy/status/2056753169888334312), and about Claude or Anthropic. Weigh these with that in mind.';
+
+// Idea files link to each other by bare file name; in one combined file these must be full URLs.
+const absoluteLinks = (text) => text.replace(/\]\((?!https?:)([^)\s]+\.md)\)/g, (_, rel) =>
+  `](${RAW_BASE}/${rel.startsWith('../') ? rel.slice(3) : 'ideas/' + rel})`);
+
+// llms-full.txt (built first: llms.txt states its size)
+const full = [
+  "# Karpathy Ideas: all ideas in one file",
+  '',
+  "Unofficial, curated notes on Andrej Karpathy's public ideas. Not affiliated with or endorsed by him.",
+  'Summaries are our own words under CC BY 4.0; quotes belong to their author. Source: https://github.com/ntroccoli/karpathy-ideas',
+  '',
+  ANTHROPIC_NOTE,
+  '',
+  ...ideas.map(i => [
+    '---',
+    '',
+    `Date: ${i.meta.date} · Source: ${i.meta.url} · Themes: ${(i.meta.themes || []).join(', ')} · Status: ${i.meta.status}${i.meta.superseded_by ? ' (by ' + i.meta.superseded_by + ')' : ''}${i.meta.anthropic === true ? ' · Anthropic period' : ''}`,
+    '',
+    absoluteLinks(i.body.trim()),
+    '',
+  ].join('\n')),
+].join('\n');
+const fullKB = Math.round(Buffer.byteLength(full, 'utf8') / 1024);
+const fullKTokens = Math.round(Buffer.byteLength(full, 'utf8') / 4000);
+
 // index.md
 const latest = ideas[0]?.meta.date ?? 'none';
 out['index.md'] = [
@@ -28,6 +56,8 @@ out['index.md'] = [
   '',
   `${ideas.length} ideas, newest first. Latest source date: ${latest}.`,
   'Each line: date · title — one-line summary. Browse by topic in [themes/](themes/).',
+  '',
+  ANTHROPIC_NOTE,
   '',
   ...ideas.map(i => line(i, 'ideas/')),
   '',
@@ -45,6 +75,7 @@ for (const [slug, desc] of Object.entries(THEMES)) {
     '',
     `${list.length} ideas, newest first.`,
     '',
+    ...(list.some(i => i.meta.anthropic === true) ? [ANTHROPIC_NOTE, ''] : []),
     ...(list.length ? list.map(i => line(i, '../ideas/')) : ['No ideas yet.']),
     '',
   ].join('\n');
@@ -57,6 +88,8 @@ out['llms.txt'] = [
   "> Unofficial, curated notes on Andrej Karpathy's public ideas about working with LLMs and AI agents. Each idea: date, source link, summary in our own words, one short quote at most, and practical Apply steps.",
   '',
   'Not affiliated with or endorsed by Andrej Karpathy. Prefer ideas with `status: current`; superseded ideas link to his newer view. Quotes belong to their author: link to the source instead of reproducing more text.',
+  '',
+  ANTHROPIC_NOTE,
   '',
   '## Applying the ideas to a project',
   '',
@@ -83,27 +116,12 @@ out['llms.txt'] = [
   '',
   '## Optional',
   '',
-  `- [All ideas in one file](${RAW_BASE}/llms-full.txt): for tools that cannot browse`,
+  `- [All ideas in one file](${RAW_BASE}/llms-full.txt): for tools that cannot browse. About ${fullKB} KB (~${fullKTokens}k tokens), so prefer the themes when you can follow links`,
   `- [Sweep log](${RAW_BASE}/log.md): what was collected and when`,
   '',
 ].join('\n');
 
-// llms-full.txt
-out['llms-full.txt'] = [
-  "# Karpathy Ideas: all ideas in one file",
-  '',
-  "Unofficial, curated notes on Andrej Karpathy's public ideas. Not affiliated with or endorsed by him.",
-  'Summaries are our own words under CC BY 4.0; quotes belong to their author. Source: https://github.com/ntroccoli/karpathy-ideas',
-  '',
-  ...ideas.map(i => [
-    '---',
-    '',
-    `Date: ${i.meta.date} · Source: ${i.meta.url} · Themes: ${(i.meta.themes || []).join(', ')} · Status: ${i.meta.status}${i.meta.superseded_by ? ' (by ' + i.meta.superseded_by + ')' : ''}${i.meta.anthropic === true ? ' · Anthropic period' : ''}`,
-    '',
-    i.body.trim(),
-    '',
-  ].join('\n')),
-].join('\n');
+out['llms-full.txt'] = full;
 
 // Write or check.
 let stale = [];

@@ -3,6 +3,8 @@
 Unofficial, curated notes on Andrej Karpathy's public ideas. Not affiliated with or endorsed by him.
 Summaries are our own words under CC BY 4.0; quotes belong to their author. Source: https://github.com/ntroccoli/karpathy-ideas
 
+*(Anthropic period)*: dated 2026-05-19 or later, after he [joined Anthropic](https://x.com/karpathy/status/2056753169888334312), and about Claude or Anthropic. Weigh these with that in mind.
+
 ---
 
 Date: 2026-11-04 · Source: https://x.com/karpathy/status/2118048337018712423 · Themes: ai-progress · Status: current
@@ -27,7 +29,7 @@ would also have to bet against hand-programmed robots.
 ## Context
 
 - His list names HAL as a notable exception among older stories.
-- Related: [Software 2.0 automates what you can verify](2025-11-17-software-2-automates-what-you-can-verify.md).
+- Related: [Software 2.0 automates what you can verify](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-11-17-software-2-automates-what-you-can-verify.md).
 
 ---
 
@@ -56,8 +58,8 @@ about one million Opus tokens. He also published the data so others can rebuild.
 
 - He used Claude Code on Opus 5.5 at medium effort as his default. He said he would not trust
   weaker models with this much freedom.
-- Related: [Cheaper software raises the demand for software](2026-03-20-cheaper-software-more-demand.md) and
-  [fewer bits](2026-11-01-shorter-prompts-fewer-bits.md).
+- Related: [Cheaper software raises the demand for software](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-20-cheaper-software-more-demand.md) and
+  [fewer bits](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-11-01-shorter-prompts-fewer-bits.md).
 - He first posted it on his blog on 2026-10-31 ([HackerTube](https://karpathy.bearblog.dev/hacker-tube/)).
   The site has recommendations without accounts, keyboard shortcuts and a data export.
 
@@ -83,8 +85,8 @@ embarrassing.
 ## Context
 
 - A Hacker News reply of 2026-11-01 in the thread on HackerTube, an app he built by talking to Claude. The reply itself names no model.
-- Compare [Success criteria, not steps](2026-01-26-success-criteria-not-steps.md), and the case
-  where more context helps: [rambling into voice mode](2026-07-21-ramble-session-with-voice.md).
+- Compare [Success criteria, not steps](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-01-26-success-criteria-not-steps.md), and the case
+  where more context helps: [rambling into voice mode](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-07-21-ramble-session-with-voice.md).
 
 ---
 
@@ -109,7 +111,7 @@ only image is how the answers are placed in 2D.
 
 - The chart covered twelve Claude models. Our reading: it is also an easy way to compare models
   from one vendor over time. It is one probe, so do not read it as a general ranking.
-- Related: [A huge creative test for models](2026-08-02-big-budget-creative-test-for-models.md).
+- Related: [A huge creative test for models](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-08-02-big-budget-creative-test-for-models.md).
 
 ---
 
@@ -137,8 +139,8 @@ of 3Blue1Brown, with narration from a speech API. He says this is starting to wo
 
 - The post drew a large audience. Some experienced users answered that they had used these
   tricks for a year. He replied that most people now paying attention started in the last year.
-- Builds on [Text chat is the terminal era](2025-03-31-text-chat-is-the-terminal-era.md). The
-  second half of the same post is [Oversight, and software made to be thrown away](2026-10-02-oversight-and-discardable-software.md).
+- Builds on [Text chat is the terminal era](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-03-31-text-chat-is-the-terminal-era.md). The
+  second half of the same post is [Oversight, and software made to be thrown away](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-10-02-oversight-and-discardable-software.md).
 
 ---
 
@@ -162,8 +164,8 @@ advice is to push on this and see what happens.
 
 ## Context
 
-- Same post as [Make model output easier to understand](2026-10-02-make-model-outputs-easy-to-understand.md).
-- Related: [Cheaper software raises the demand for software](2026-03-20-cheaper-software-more-demand.md).
+- Same post as [Make model output easier to understand](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-10-02-make-model-outputs-easy-to-understand.md).
+- Related: [Cheaper software raises the demand for software](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-20-cheaper-software-more-demand.md).
 
 ---
 
@@ -187,7 +189,7 @@ intelligence. The practical view: the best model for a job is not always the sma
 
 - Reply to a post about rescuing an old ML idea with LLMs.
 - Our reading: the same logic supports using cheap models for bulk work, as in
-  [the HackerTube project](2026-11-01-hackertube-weekend-app.md).
+  [the HackerTube project](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-11-01-hackertube-weekend-app.md).
 
 ---
 
@@ -209,7 +211,7 @@ their call sites, and collaborators would zoom around and cast diffs.
 
 ## Context
 
-- Two replies from September 2026. Related: [Work rises into oversight](2026-10-02-oversight-and-discardable-software.md).
+- Two replies from September 2026. Related: [Work rises into oversight](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-10-02-oversight-and-discardable-software.md).
 
 ---
 
@@ -234,7 +236,7 @@ PyTorch becomes a rather poor intermediate representation.
 
 - A reply thread from August 2026. Our reading: it is a bet on spec-first work, not a claim that
   frameworks disappear now.
-- Related: [Success criteria, not steps](2026-01-26-success-criteria-not-steps.md).
+- Related: [Success criteria, not steps](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-01-26-success-criteria-not-steps.md).
 
 ---
 
@@ -260,7 +262,7 @@ idea of turning a historical photo into a playable world.
 
 ## Context
 
-- Related weakness: [Models cannot check their own work in video and games](2026-08-02-models-cannot-audit-video-and-games.md).
+- Related weakness: [Models cannot check their own work in video and games](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-08-02-models-cannot-audit-video-and-games.md).
 - He published the playable source at karpathy.ai/lotr-movie.
 
 ---
@@ -284,8 +286,8 @@ capability: native multimodal perception of moving scenes and gameplay. Our read
 
 ## Context
 
-- Same post as [a huge creative test for models](2026-08-02-big-budget-creative-test-for-models.md).
-- Compare [Success criteria, not steps](2026-01-26-success-criteria-not-steps.md): it works best
+- Same post as [a huge creative test for models](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-08-02-big-budget-creative-test-for-models.md).
+- Compare [Success criteria, not steps](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-01-26-success-criteria-not-steps.md): it works best
   when the agent can check the goal itself.
 
 ---
@@ -309,7 +311,7 @@ sees that a model now seems to understand what he means when he says he will com
 
 - A reply on 2026-07-21 to a post about models claiming that a task needs months of human work.
 - Our reading: this fits his view that models are shaped by their training data, not by lived
-  experience. See [LLMs are ghosts, not animals](2025-10-01-llms-are-ghosts-not-animals.md).
+  experience. See [LLMs are ghosts, not animals](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-10-01-llms-are-ghosts-not-animals.md).
 
 ---
 
@@ -333,7 +335,7 @@ picture of the task, so you correct less from then on.
 
 ## Context
 
-- The opposite case is [Fewer bits, administered just right](2026-11-01-shorter-prompts-fewer-bits.md).
+- The opposite case is [Fewer bits, administered just right](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-11-01-shorter-prompts-fewer-bits.md).
   Both aim at the same thing: the model must understand what you mean.
 
 ---
@@ -383,8 +385,8 @@ data for supervised fine-tuning of most smaller students.
 
 ## Context
 
-- A reply from 2026-05-01. See also [rambling into voice mode](2026-07-21-ramble-session-with-voice.md)
-  and [coding agents make subtle conceptual mistakes](2026-01-26-coding-agents-make-subtle-conceptual-mistakes.md).
+- A reply from 2026-05-01. See also [rambling into voice mode](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-07-21-ramble-session-with-voice.md)
+  and [coding agents make subtle conceptual mistakes](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-01-26-coding-agents-make-subtle-conceptual-mistakes.md).
 
 ---
 
@@ -408,8 +410,8 @@ startup wedge.
 
 ## Context
 
-- Builds on [Jagged intelligence follows verifiability and training focus](2026-03-20-jagged-intelligence-follows-verifiability.md) and
-  [Software 2.0 automates what you can verify](2025-11-17-software-2-automates-what-you-can-verify.md).
+- Builds on [Jagged intelligence follows verifiability and training focus](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-20-jagged-intelligence-follows-verifiability.md) and
+  [Software 2.0 automates what you can verify](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-11-17-software-2-automates-what-you-can-verify.md).
 - Our reading: this is a founder hypothesis from a talk, not a tested result.
 - Source: his blog post of 2026-04-30, an LLM-made summary of his Sequoia Ascent 2026 talk that
   he checked and published, with the video linked.
@@ -437,7 +439,7 @@ slop. He expects the "10x engineer" gap to widen for people who master these wor
 ## Context
 
 - It follows from
-  [Vibe coding raises the floor; agentic engineering raises the ceiling](2026-02-04-agentic-engineering-vs-vibe-coding.md).
+  [Vibe coding raises the floor; agentic engineering raises the ceiling](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-02-04-agentic-engineering-vs-vibe-coding.md).
 - Source: his blog post of 2026-04-30, an LLM-made summary of his Sequoia Ascent 2026 talk that
   he checked and published, with the video linked.
 
@@ -466,7 +468,7 @@ being apps. The old stack wrapped code around a conversion that the model can do
 
 - In the 2025 MenuGen post he already asked whether the app could be just a prompt, like a
   custom GPT or an artifact. The 2026 summary gives the answer. See
-  [Vibe coding a real app is easy locally and hard to ship](2025-04-27-vibe-coding-real-app-lessons.md).
+  [Vibe coding a real app is easy locally and hard to ship](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-04-27-vibe-coding-real-app-lessons.md).
 - The text is an LLM-made summary of his Sequoia talk that he published on his blog.
 
 ---
@@ -519,7 +521,7 @@ dystopian. He thinks neuroscience-based approaches are armchair philosophy next 
 ## Context
 
 - Replies from 2026-04-10, with no source tested. Our reading: a forecast with an open
-  fidelity question. Related: [explicit memory as files](2026-04-04-explicit-personal-memory-as-files.md).
+  fidelity question. Related: [explicit memory as files](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-04-04-explicit-personal-memory-as-files.md).
 
 ---
 
@@ -556,8 +558,8 @@ projects. Impact also grows with the size of the problem you give it.
 - April 2026 reply to a post saying that awe at AI matches how much you use it to code; in a
   follow-up he said the OpenClaw moment mattered because non-technical people met agentic models.
   The October 2026 posts re-shared the April idea; the funnel numbers are his napkin maths.
-- Related: [Jagged intelligence follows verifiability](2026-03-20-jagged-intelligence-follows-verifiability.md)
-  and [Software 2.0 automates what you can verify](2025-11-17-software-2-automates-what-you-can-verify.md).
+- Related: [Jagged intelligence follows verifiability](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-20-jagged-intelligence-follows-verifiability.md)
+  and [Software 2.0 automates what you can verify](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-11-17-software-2-automates-what-you-can-verify.md).
 
 ---
 
@@ -589,7 +591,7 @@ that the same tools can be used the other way.
 ## Context
 
 - Stated as something he had been thinking about, posted on a quote of a UK government org chart
-  tool. Related: [AI-capability gap](2026-04-09-ai-capability-gap-two-groups.md).
+  tool. Related: [AI-capability gap](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-04-09-ai-capability-gap-two-groups.md).
 
 ---
 
@@ -619,8 +621,8 @@ skill is a core skill of this century.
 
 ## Context
 
-- Follows his [knowledge bases](2026-04-02-llm-knowledge-bases.md) post. It answers the flaws in
-  [LLM memory](2026-03-25-memory-personalization-overreach.md).
+- Follows his [knowledge bases](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-04-02-llm-knowledge-bases.md) post. It answers the flaws in
+  [LLM memory](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-25-memory-personalization-overreach.md).
 
 ---
 
@@ -646,7 +648,7 @@ agent that can build the specifics, so a fixed implementation is less useful tha
 ## Context
 
 - Gist of 2026-04-04. The same stance, in code form, appears in
-  [Treat small apps as disposable](2025-11-18-disposable-vibe-coded-apps.md).
+  [Treat small apps as disposable](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-11-18-disposable-vibe-coded-apps.md).
 - Our reading: this repository's own idea files follow the same shape.
 - His announcing post (2026-04-04) says the same in short form. In a related reply he cites Peter Steinberger, who wants pull requests to be "prompt requests": if an agent can build the idea, a pasted, over-built code dump adds little. Contributors can send the prompt or spec with the diff.
 
@@ -682,9 +684,9 @@ append-only timeline.
 
 - From the gist of 2026-04-04. He suggests a local search tool (qmd) when the wiki outgrows the
   index file.
-- The idea and its reasons: [Let an LLM compile and maintain your knowledge base](2026-04-02-llm-knowledge-bases.md).
+- The idea and its reasons: [Let an LLM compile and maintain your knowledge base](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-04-02-llm-knowledge-bases.md).
 - The same split (read-only inputs, one writable target, rules in a markdown file) appears in
-  [program.md](2026-03-06-program-md-is-the-research-org.md).
+  [program.md](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-06-program-md-is-the-research-org.md).
 
 ---
 
@@ -714,7 +716,7 @@ thinks it must be a skill run by a strong LLM, not a fixed program.
 
 ## Context
 
-- Replies in the thread on his [knowledge bases](2026-04-02-llm-knowledge-bases.md). He called
+- Replies in the thread on his [knowledge bases](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-04-02-llm-knowledge-bases.md). He called
   reliable PDF-to-markdown a basic piece of infrastructure that is still missing and asked for examples.
 
 ---
@@ -751,15 +753,15 @@ picks sources and asks questions; the LLM does the bookkeeping that makes people
 ## Context
 
 - X post of 2026-04-02, then a gist on 2026-04-04 written as an
-  [idea file](2026-04-04-idea-file-instead-of-code.md) for a reader's own agent.
+  [idea file](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-04-04-idea-file-instead-of-code.md) for a reader's own agent.
 - The gist links the idea to Vannevar Bush's Memex of 1945; Bush could not solve who does the
   upkeep. He later said the wiki acts like a directed context compaction, and named a next step:
   finetune a model on the wiki so the knowledge sits in its weights.
-- How to structure it: [An LLM wiki has three layers and three operations](2026-04-04-llm-wiki-layers-and-operations.md).
-  Ownership: [Personal AI memory should be explicit files](2026-04-04-explicit-personal-memory-as-files.md).
-  Inputs: [Convert books and PDFs with an agent](2026-04-02-convert-documents-with-an-agent.md).
+- How to structure it: [An LLM wiki has three layers and three operations](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-04-04-llm-wiki-layers-and-operations.md).
+  Ownership: [Personal AI memory should be explicit files](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-04-04-explicit-personal-memory-as-files.md).
+  Inputs: [Convert books and PDFs with an agent](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-04-02-convert-documents-with-an-agent.md).
 - At Sequoia 2026 he called this his clearest example of information work that no classical
-  program could do: see [understanding is the bottleneck](2026-03-31-understanding-is-the-bottleneck.md).
+  program could do: see [understanding is the bottleneck](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-31-understanding-is-the-bottleneck.md).
 
 ---
 
@@ -795,9 +797,9 @@ the same point: LLM tools let you skip writing, but not reading and thinking.
 
 - X reply of 2026-03-31; Sequoia Ascent 2026 fireside chat, published on his blog on 2026-04-30.
   The blog text is an LLM-made summary that he checked and posted.
-- Related: [LLM knowledge bases](2026-04-02-llm-knowledge-bases.md),
-  [Explain things to agents](2026-03-20-explain-to-agents-not-people.md) and
-  [Work rises into oversight](2026-10-02-oversight-and-discardable-software.md).
+- Related: [LLM knowledge bases](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-04-02-llm-knowledge-bases.md),
+  [Explain things to agents](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-20-explain-to-agents-not-people.md) and
+  [Work rises into oversight](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-10-02-oversight-and-discardable-software.md).
 
 ---
 
@@ -826,7 +828,7 @@ own opinion, if you ask from several directions and stay alert to sycophancy.
 ## Context
 
 - A joke-shaped list post that carries a real method. Related:
-  [success criteria](2026-01-26-success-criteria-not-steps.md) for checks you can run; here the
+  [success criteria](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-01-26-success-criteria-not-steps.md) for checks you can run; here the
   check is a second opinion.
 
 ---
@@ -861,7 +863,7 @@ click-here instructions. He would rather get something to paste into his agent.
 - Reply to Patrick Collison, who quoted Karpathy's 2025 MenuGen post.
 - In a related reply he asked X to make read access cheap for agents, noting that about 30
   minutes of hacking had cost him $200.
-- Related: [The LLM OS](2023-09-28-llm-as-operating-system-kernel.md).
+- Related: [The LLM OS](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2023-09-28-llm-as-operating-system-kernel.md).
 
 ---
 
@@ -889,8 +891,8 @@ opinion about product incentives, not a measured result.
 ## Context
 
 - Reply in a thread on LLM personalisation. Related:
-  [memory that over-uses old facts](2026-03-25-memory-personalization-overreach.md) and
-  [AI personality](2026-03-21-ai-personality-like-rocky.md).
+  [memory that over-uses old facts](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-25-memory-personalization-overreach.md) and
+  [AI personality](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-21-ai-personality-like-rocky.md).
 
 ---
 
@@ -917,12 +919,12 @@ name-dropping to win favour, and calls it a possible "uncanny valley" of emotion
   retrieval returns by similarity.
 - Add a rule to the prompt: use a remembered fact only when it clearly helps the current request.
 - Let users see, edit and delete what the system remembers. See
-  [explicit memory as files](2026-04-04-explicit-personal-memory-as-files.md).
+  [explicit memory as files](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-04-04-explicit-personal-memory-as-files.md).
 
 ## Context
 
 - These are guesses, labelled as such by him. Related:
-  [memory as RL tools](2026-03-05-memory-as-rl-tools.md).
+  [memory as RL tools](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-05-memory-as-rl-tools.md).
 
 ---
 
@@ -958,7 +960,7 @@ including those his LLMs run for him.
 
 - The litellm timeline: his later reply cites a Snyk write-up, with the bad version live about
   three hours and a rough exposure of 20,000 to 80,000 installs (his estimate).
-- Related: [DevOps as code for agents](2026-03-26-devops-as-code-for-agents.md).
+- Related: [DevOps as code for agents](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-26-devops-as-code-for-agents.md).
 
 ---
 
@@ -988,7 +990,7 @@ not yet taken.
 ## Context
 
 - A reply after his No Priors podcast. It is a counterweight to the strong results he reported
-  with [autoresearch](2026-03-07-autoresearch-loop.md): verifiable goals work, taste does not.
+  with [autoresearch](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-07-autoresearch-loop.md): verifiable goals work, taste does not.
 
 ---
 
@@ -1015,7 +1017,7 @@ organisation that puts someone in charge of the topic.
 
 - Reply to follow-up questions after his No Priors podcast. Our reading: this is a design
   preference, not a measured result.
-- Related: [engagement-driven follow-up questions](2026-03-25-follow-up-questions-engagementmaxxing.md).
+- Related: [engagement-driven follow-up questions](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-25-follow-up-questions-engagementmaxxing.md).
 
 ---
 
@@ -1041,8 +1043,8 @@ coding within a few years.
 ## Context
 
 - From the No Priors episode of 2026-03-20. He describes his setup as rough and still new.
-- Related: [Write docs and tools for the user's agent](2025-03-12-write-docs-for-llms.md)
-  and [Code is now free, custom and disposable](2025-12-19-code-is-free-and-ephemeral.md).
+- Related: [Write docs and tools for the user's agent](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-03-12-write-docs-for-llms.md)
+  and [Code is now free, custom and disposable](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-12-19-code-is-free-and-ephemeral.md).
 
 ---
 
@@ -1075,8 +1077,8 @@ code, and that production code still needs review.
 - The June 2026 post (2026-06-09) was written on the day Claude Fable 5 launched, three weeks
   after he joined Anthropic, so he is not a neutral observer there. He compared the jump to
   Claude 4.5 in November 2025.
-- Related: [Code is now free, custom and disposable](2025-12-19-code-is-free-and-ephemeral.md) and
-  [Jobs change before they vanish](2025-09-25-ai-and-jobs-radiologists-and-engineers.md).
+- Related: [Code is now free, custom and disposable](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-12-19-code-is-free-and-ephemeral.md) and
+  [Jobs change before they vanish](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-09-25-ai-and-jobs-radiologists-and-engineers.md).
 
 ---
 
@@ -1133,7 +1135,7 @@ that distillation is his contribution. The rest of the teaching is the agent's j
 
 - From the No Priors episode of 2026-03-20. He admits he can still explain some things better than
   agents, but expects that to change fast.
-- Related: [Build docs and tools for agents](2025-03-12-write-docs-for-llms.md).
+- Related: [Build docs and tools for agents](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-03-12-write-docs-for-llms.md).
 
 ---
 
@@ -1166,10 +1168,10 @@ rails". If not, it may fail in basic ways.
   published on his blog on 2026-04-30 as an LLM-made summary that he checked. The cause is his
   hypothesis, not a measured result. He also expects some "speciation": smaller models tuned for
   one domain.
-- Builds on [Software 2.0 automates what you can verify](2025-11-17-software-2-automates-what-you-can-verify.md)
-  and [LLMs are ghosts, not animals](2025-10-01-llms-are-ghosts-not-animals.md). Founder angle:
-  [Find valuable domains that are verifiable and undertrained](2026-04-30-find-valuable-verifiable-environments.md).
-  How it splits public opinion: [People judge AI differently](2026-04-09-ai-capability-gap-two-groups.md).
+- Builds on [Software 2.0 automates what you can verify](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-11-17-software-2-automates-what-you-can-verify.md)
+  and [LLMs are ghosts, not animals](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-10-01-llms-are-ghosts-not-animals.md). Founder angle:
+  [Find valuable domains that are verifiable and undertrained](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-04-30-find-valuable-verifiable-environments.md).
+  How it splits public opinion: [People judge AI differently](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-04-09-ai-capability-gap-two-groups.md).
 
 ---
 
@@ -1197,8 +1199,8 @@ not yet connected. He calls this a skill issue, and sees it as good news, since 
 
 - From the No Priors episode of 2026-03-20 (third-party transcript used). He describes this as a
   state of "AI psychosis": the possibilities are unexplored, so he feels he must keep pushing.
-- Next step in his view: agents that run without you. See [the autoresearch loop](2026-03-07-autoresearch-loop.md)
-  and [Give agents success criteria, not steps](2026-01-26-success-criteria-not-steps.md).
+- Next step in his view: agents that run without you. See [the autoresearch loop](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-07-autoresearch-loop.md)
+  and [Give agents success criteria, not steps](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-01-26-success-criteria-not-steps.md).
 
 ---
 
@@ -1223,8 +1225,8 @@ people buying compute to join a shared research track on a cause they care about
 ## Context
 
 - From the No Priors episode of 2026-03-20. He says he has no design he is happy with yet.
-- Related: [A community of agents](2026-03-08-agent-research-community.md) and
-  [the autoresearch loop](2026-03-07-autoresearch-loop.md).
+- Related: [A community of agents](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-08-agent-research-community.md) and
+  [the autoresearch loop](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-07-autoresearch-loop.md).
 
 ---
 
@@ -1287,7 +1289,7 @@ cannot do with a classical company.
 - Written during his autoresearch runs, with several agents in tmux. He noted that headless
   Codex did not work with autoresearch at that time, and that he wants an ssh mode because his
   work spans about 20 machines.
-- See [autoresearch](2026-03-07-autoresearch-loop.md).
+- See [autoresearch](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-07-autoresearch-loop.md).
 
 ---
 
@@ -1311,7 +1313,7 @@ sees the stall until hours later.
 ## Context
 
 - Posted after an outage on 2026-03-11. It is a short note, not a full design.
-- Related: [autoresearch](2026-03-07-autoresearch-loop.md).
+- Related: [autoresearch](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-07-autoresearch-loop.md).
 
 ---
 
@@ -1338,7 +1340,7 @@ this way.
 
 ## Context
 
-- Result of the first full "round 1" of [autoresearch](2026-03-07-autoresearch-loop.md).
+- Result of the first full "round 1" of [autoresearch](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-07-autoresearch-loop.md).
 - He contrasts it with old neural architecture search: this is a real LLM that writes arbitrary
   code, learns from earlier runs and can browse the internet.
 
@@ -1372,7 +1374,7 @@ that agents read such posts first and add a short "paper" afterwards.
 
 - He said he was unsure what the final form looks like. He built a first draft called agenthub
   and later took it private as too rough; he has rewritten it twice.
-- Builds on [the autoresearch loop](2026-03-07-autoresearch-loop.md).
+- Builds on [the autoresearch loop](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-07-autoresearch-loop.md).
 - Hacker News follow-ups (March 2026): agents can post reports with the GitHub CLI and Discussions, and read them. He also tried a trusted pool of workers that verifies results from a larger untrusted pool, like SETI@Home, with commits as blocks and a lower val_bpb as proof of work.
 
 ---
@@ -1398,7 +1400,7 @@ gate and a backout skip connection, and helped cut time to GPT-2 from 1.8 to 1.6
 
 ## Context
 
-- Replies on Hacker News, March 2026. Core idea: [the autoresearch loop](2026-03-07-autoresearch-loop.md).
+- Replies on Hacker News, March 2026. Core idea: [the autoresearch loop](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-07-autoresearch-loop.md).
 - He had considered the name "autotune" and prefers "autoresearch".
 
 ---
@@ -1425,7 +1427,7 @@ prompt file can prevent it.
 ## Context
 
 - Hacker News replies, March 2026, on the first autoresearch release.
-- Related: [Autoresearch is not hyperparameter tuning](2026-03-08-autoresearch-is-not-hyperparameter-tuning.md).
+- Related: [Autoresearch is not hyperparameter tuning](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-08-autoresearch-is-not-hyperparameter-tuning.md).
 
 ---
 
@@ -1449,7 +1451,9 @@ written by AI, and that he tunes this "meta-setup" as much as the training code.
 ## Apply
 
 - Pick a task with one objective number that is cheap to compute (loss, latency, test pass
-  rate). Write the rule for accepting a change: better number, and no slower, no bigger.
+  rate). Write the rule for accepting a change, as his `program.md` does: keep it when the number
+  improves; treat memory use as a soft limit; weigh each gain against the code it adds (equal
+  results with simpler code is a win).
 - Fix the budget per experiment (here, five minutes) so runs compare fairly.
 - Keep the agent on a branch. Commit each kept change, so the history is the lab notebook.
 - Compare agent setups, not only models: change the prompt file, rerun, and compare the curves.
@@ -1460,11 +1464,11 @@ written by AI, and that he tunes this "meta-setup" as much as the training code.
 - Follow-up to the 2026-03-05 post where agents tuned nanochat. Karpathy named the fastest research-org code, built by agents, to improve nanochat as the new benchmark.
 - His own limit from February 2026: agents implement ideas well but invent creative ones
   poorly. He still rejects calling autoresearch mere hyperparameter tuning: see
-  [Autoresearch is not hyperparameter tuning](2026-03-08-autoresearch-is-not-hyperparameter-tuning.md).
-- Results: [agent-found gains transferred](2026-03-09-autoresearch-gains-transfer.md). Next step:
-  [a community of agents](2026-03-08-agent-research-community.md). Same principle as
-  [success criteria, not steps](2026-01-26-success-criteria-not-steps.md).
-- On the No Priors podcast (2026-03-20) he said an overnight run on his hand-tuned project found settings he had missed, such as weight decay on value embeddings and Adam betas. See also [a research organisation as markdown files](2026-02-27-programming-an-agent-research-org.md).
+  [Autoresearch is not hyperparameter tuning](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-08-autoresearch-is-not-hyperparameter-tuning.md).
+- Results: [agent-found gains transferred](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-09-autoresearch-gains-transfer.md). Next step:
+  [a community of agents](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-08-agent-research-community.md). Same principle as
+  [success criteria, not steps](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-01-26-success-criteria-not-steps.md).
+- On the No Priors podcast (2026-03-20) he said an overnight run on his hand-tuned project found settings he had missed, such as weight decay on value embeddings and Adam betas. See also [a research organisation as markdown files](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-02-27-programming-an-agent-research-org.md).
 
 ---
 
@@ -1500,8 +1504,8 @@ code at equal results is a win. The loop is: commit, run, read the number, keep 
 
 - Repository created 2026-03-06. The README says to run the agent with permissions disabled, so
   isolate the machine or folder first.
-- Overview of the loop and results: [Autoresearch](2026-03-07-autoresearch-loop.md). Same
-  principle as [success criteria, not steps](2026-01-26-success-criteria-not-steps.md).
+- Overview of the loop and results: [Autoresearch](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-07-autoresearch-loop.md). Same
+  principle as [success criteria, not steps](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-01-26-success-criteria-not-steps.md).
 
 ---
 
@@ -1533,8 +1537,8 @@ outside today's production stack.
 ## Context
 
 - A reply to a continual-learning post by Awni Hannun. See also
-  [memory that distracts](2026-03-25-memory-personalization-overreach.md) and
-  [LLM knowledge bases](2026-04-02-llm-knowledge-bases.md).
+  [memory that distracts](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-25-memory-personalization-overreach.md) and
+  [LLM knowledge bases](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-04-02-llm-knowledge-bases.md).
 
 ---
 
@@ -1552,7 +1556,7 @@ Karpathy still keeps an IDE open next to his agents. One reason is output format
 
 ## Context
 
-- Reply of 2026-02-27. See [Coding agents make subtle conceptual mistakes, so watch them](2026-01-26-coding-agents-make-subtle-conceptual-mistakes.md) for the other reasons he keeps the IDE.
+- Reply of 2026-02-27. See [Coding agents make subtle conceptual mistakes, so watch them](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-01-26-coding-agents-make-subtle-conceptual-mistakes.md) for the other reasons he keeps the IDE.
 
 ---
 
@@ -1590,13 +1594,13 @@ ask a model to write a better file. He calls this the meta layer.
 
 - Reply to Thomas Wolf about automating the NanoGPT speedrun. On 2026-02-06 he wrote that agents
   had failed twice at open-ended nanochat work and do not flag side effects; see
-  [Coding agents make subtle conceptual mistakes](2026-01-26-coding-agents-make-subtle-conceptual-mistakes.md).
+  [Coding agents make subtle conceptual mistakes](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-01-26-coding-agents-make-subtle-conceptual-mistakes.md).
 - The markdown-files extension is from the No Priors episode of 2026-03-20. He says it works only
   where results can be measured.
-- What came next: [Autoresearch](2026-03-07-autoresearch-loop.md), its brief
-  [program.md](2026-03-06-program-md-is-the-research-org.md),
-  [a chief scientist for open-ended research](2026-03-08-cagy-models-and-chief-scientist.md) and
-  [a research community of agents](2026-03-08-agent-research-community.md).
+- What came next: [Autoresearch](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-07-autoresearch-loop.md), its brief
+  [program.md](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-06-program-md-is-the-research-org.md),
+  [a chief scientist for open-ended research](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-08-cagy-models-and-chief-scientist.md) and
+  [a research community of agents](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-08-agent-research-community.md).
 
 ---
 
@@ -1620,7 +1624,7 @@ Karpathy comments on a chart from Cursor that shows agent requests overtaking ta
 ## Context
 
 - Quote-post on Cursor's article on the third era of AI software development.
-- Related: [Delegate long tasks to agents and make work legible to them](2026-02-25-delegate-long-tasks-decompose-well.md).
+- Related: [Delegate long tasks to agents and make work legible to them](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-02-25-delegate-long-tasks-decompose-well.md).
 
 ---
 
@@ -1644,7 +1648,7 @@ Karpathy says coding agents basically did not work before December 2025 and basi
 
 ## Context
 
-- Follows [Programming moved to English in December 2025](2026-01-26-programming-in-english-december-shift.md) and builds on [Give agents success criteria, not steps](2026-01-26-success-criteria-not-steps.md).
+- Follows [Programming moved to English in December 2025](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-01-26-programming-in-english-december-shift.md) and builds on [Give agents success criteria, not steps](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-01-26-success-criteria-not-steps.md).
 - In a reply he cited a Tesla saying that treats every manual action as a fault, meaning remove yourself as the bottleneck.
 - 2026-02-25 post, Claude and Codex era (Opus 4.6 and similar).
 
@@ -1670,7 +1674,7 @@ Karpathy bought a Mac mini to try "claws": persistent personal agents that handl
 
 ## Context
 
-- Follows his earlier [warning on agent networks](2026-01-31-agent-networks-moltbook-uncharted.md). Design idea in the same thread: [Configure software with skills, and build forkable repos](2026-02-20-config-via-skills-forkable-repo.md).
+- Follows his earlier [warning on agent networks](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-01-31-agent-networks-moltbook-uncharted.md). Design idea in the same thread: [Configure software with skills, and build forkable repos](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-02-20-config-via-skills-forkable-repo.md).
 - He said he does not see claws as direct competitors to each other: open design questions include where compute and state live.
 
 ---
@@ -1695,7 +1699,7 @@ While reading about NanoClaw, Karpathy found a new way to handle configuration. 
 
 ## Context
 
-- Related: [Point an agent at a library and rip out only the part you need](2026-02-11-rip-out-functionality-with-agents.md) and [Claws are a new layer on top of LLM agents](2026-02-20-claws-new-layer-of-the-stack.md).
+- Related: [Point an agent at a library and rip out only the part you need](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-02-11-rip-out-functionality-with-agents.md) and [Claws are a new layer on top of LLM agents](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-02-20-claws-new-layer-of-the-stack.md).
 
 ---
 
@@ -1720,7 +1724,7 @@ Karpathy says LLMs change the constraints of software, so it is a good time for 
 
 - Quote-post on a Thomas Wolf essay, which cites Anthropic's report on building a C compiler with agent teams.
 - In a reply he said writing binaries directly is appealing for critical regions, but doubtful in general.
-- Related: [Give agents success criteria, not steps](2026-01-26-success-criteria-not-steps.md).
+- Related: [Give agents success criteria, not steps](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-01-26-success-criteria-not-steps.md).
 
 ---
 
@@ -1768,7 +1772,7 @@ Karpathy asked Claude to study how torchao implements fp8 training and write a s
 ## Context
 
 - He also noted that many repos are now half useful library code and half "docs++": the code explains better than official docs.
-- Earlier bacterial code post: 2025-07-05. Related: [Code is now free, custom and disposable](2025-12-19-code-is-free-and-ephemeral.md).
+- Earlier bacterial code post: 2025-07-05. Related: [Code is now free, custom and disposable](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-12-19-code-is-free-and-ephemeral.md).
 
 ---
 
@@ -1791,14 +1795,14 @@ On the first anniversary of "vibe coding", Karpathy says it fit throwaway projec
 
 ## Context
 
-- The 2026 retrospective on [Vibe coding](2025-02-02-vibe-coding-for-throwaway-projects.md). It
+- The 2026 retrospective on [Vibe coding](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-02-02-vibe-coding-for-throwaway-projects.md). It
   does not replace that idea: he still calls vibe coding fine for throwaway work and prototypes,
   and adds a professional mode beside it.
-- Related: [Coding agents make subtle conceptual mistakes, so watch them](2026-01-26-coding-agents-make-subtle-conceptual-mistakes.md) and [Expertise may matter more with agents, not less](2026-01-26-expertise-multiplier-generalists-and-10x.md).
+- Related: [Coding agents make subtle conceptual mistakes, so watch them](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-01-26-coding-agents-make-subtle-conceptual-mistakes.md) and [Expertise may matter more with agents, not less](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-01-26-expertise-multiplier-generalists-and-10x.md).
 - Sequoia 2026 summary (blog): vibe coding raises the floor, agentic engineering raises the
   ceiling. His example of why a human must review: in MenuGen the agent matched Stripe payments
   to users by email, which can differ from the login email. He insisted on persistent user IDs.
-  See [Vibe coding a real app](2025-04-27-vibe-coding-real-app-lessons.md).
+  See [Vibe coding a real app](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-04-27-vibe-coding-real-app-lessons.md).
 
 ---
 
@@ -1822,7 +1826,7 @@ Karpathy was accused of overhyping Moltbook, a site where AI agents post to each
 ## Context
 
 - He links an earlier post of 2026-01-06: most disputes come from the gap between people who judge by where things stand now and people who judge by the rate of change.
-- See also [Claws are a new layer on top of agents](2026-02-20-claws-new-layer-of-the-stack.md) for his later security worries.
+- See also [Claws are a new layer on top of agents](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-02-20-claws-new-layer-of-the-stack.md) for his later security worries.
 
 ---
 
@@ -1845,7 +1849,7 @@ Karpathy reproduced GPT-2 level quality (CORE score) in nanochat on one 8xH100 n
 
 ## Context
 
-- Related: [Train a family of models controlled by one compute dial](2026-01-07-model-family-with-one-compute-dial.md).
+- Related: [Train a family of models controlled by one compute dial](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-01-07-model-family-with-one-compute-dial.md).
 - Spot instance prices put the same run near 20 dollars, he wrote on 2026-02-03.
 
 ---
@@ -1888,14 +1892,14 @@ Karpathy says the mistakes of coding agents have changed. They are no longer syn
 
 ## Context
 
-- Part of the 2026-01-26 notes written after about a month of coding mostly with Claude Code. See [Give agents success criteria, not steps](2026-01-26-success-criteria-not-steps.md) for the leverage part of the same post.
+- Part of the 2026-01-26 notes written after about a month of coding mostly with Claude Code. See [Give agents success criteria, not steps](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-01-26-success-criteria-not-steps.md) for the leverage part of the same post.
 - In a reply on 2026-02-06 he listed more failures: it broke CLAUDE.md style rules, and it did not flag risky speed tricks in open-ended nanochat work.
 - On 2026-02-27 he said he still edits in the IDE because seeing the code helps him prompt better.
 - Not reversed by his later agent experiments. The "agent swarm" caution is about code you care
-  about. His later agent research work ([Autoresearch](2026-03-07-autoresearch-loop.md),
-  [You now program an organisation of agents](2026-02-27-programming-an-agent-research-org.md))
+  about. His later agent research work ([Autoresearch](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-07-autoresearch-loop.md),
+  [You now program an organisation of agents](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-02-27-programming-an-agent-research-org.md))
   runs only where a metric checks each result, and he still wanted interactive sessions he could
-  watch ([The IDE is not dead](2026-03-11-bigger-ide-agent-command-center.md)).
+  watch ([The IDE is not dead](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-11-bigger-ide-agent-command-center.md)).
 
 ---
 
@@ -1918,7 +1922,7 @@ Karpathy asks open questions about who gains from coding agents. The "10X engine
 
 ## Context
 
-- Listed as questions in the 2026-01-26 notes. The 2026-02-25 reply links his post on [agentic engineering](2026-02-04-agentic-engineering-vs-vibe-coding.md).
+- Listed as questions in the 2026-01-26 notes. The 2026-02-25 reply links his post on [agentic engineering](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-02-04-agentic-engineering-vs-vibe-coding.md).
 
 ---
 
@@ -1941,8 +1945,8 @@ Karpathy says it is hard to measure the speedup from LLM help. He feels faster a
 
 ## Context
 
-- Part of the 2026-01-26 notes; see [Programming moved to English in December 2025](2026-01-26-programming-in-english-december-shift.md).
-- Later example of "expansion": [Code is now free, custom and disposable](2025-12-19-code-is-free-and-ephemeral.md).
+- Part of the 2026-01-26 notes; see [Programming moved to English in December 2025](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-01-26-programming-in-english-december-shift.md).
+- Later example of "expansion": [Code is now free, custom and disposable](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-12-19-code-is-free-and-ephemeral.md).
 
 ---
 
@@ -1976,16 +1980,16 @@ single digits. Writing code by prompt feels odd, a little like cheating.
 
 ## Context
 
-- Same post as [Give agents success criteria, not steps](2026-01-26-success-criteria-not-steps.md)
-  and [Coding agents make subtle conceptual mistakes](2026-01-26-coding-agents-make-subtle-conceptual-mistakes.md).
+- Same post as [Give agents success criteria, not steps](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-01-26-success-criteria-not-steps.md)
+  and [Coding agents make subtle conceptual mistakes](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-01-26-coding-agents-make-subtle-conceptual-mistakes.md).
   On 2026-02-25 he repeated that agents mostly failed before December; see
-  [Delegate long tasks](2026-02-25-delegate-long-tasks-decompose-well.md).
+  [Delegate long tasks](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-02-25-delegate-long-tasks-decompose-well.md).
 - The Sequoia text (blog, 2026-04-30) is an LLM-made summary of the talk that he checked and
   posted.
 - This replaces his earlier tool mix. It supersedes
-  [Coding agents are weak on novel code](2025-10-17-coding-agents-weak-on-novel-code.md)
+  [Coding agents are weak on novel code](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-10-17-coding-agents-weak-on-novel-code.md)
   (October 2025: he found autocomplete the best fit for him) and
-  [Stitch several coding tools together](2025-08-24-stitch-coding-tools-by-task.md)
+  [Stitch several coding tools together](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-08-24-stitch-coding-tools-by-task.md)
   (August 2025: tab completion gave about 75% of his AI help).
 
 ---
@@ -2005,7 +2009,7 @@ Karpathy predicts that 2026 brings a flood of low-quality AI output across GitHu
 
 - Check any claim about AI productivity against a measured result before you repeat it.
 - Treat repositories, papers and posts with no sign of human review as unverified.
-- Reduce slop in your own feed: see [Go back to RSS](2025-04-26-rss-reader-with-llm-feed.md).
+- Reduce slop in your own feed: see [Go back to RSS](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-04-26-rss-reader-with-llm-feed.md).
 
 ## Context
 
@@ -2069,7 +2073,7 @@ Karpathy notices that his ability to write code by hand is slowly fading because
 
 ## Context
 
-- From the 2026-01-26 notes. Related: [Coding agents make subtle conceptual mistakes, so watch them](2026-01-26-coding-agents-make-subtle-conceptual-mistakes.md).
+- From the 2026-01-26 notes. Related: [Coding agents make subtle conceptual mistakes, so watch them](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-01-26-coding-agents-make-subtle-conceptual-mistakes.md).
 - In a reply that day he said the shift "feels like cheating" because code that was a point of pride is now free and instant.
 
 ---
@@ -2103,7 +2107,7 @@ in plain markdown.
 
 - The date is a lower bound: the example arXiv ID 2601.07372 dates from January 2026, and the
   commit date was not in our source. The skill lives in `.claude/skills/` of the nanochat repo.
-- Related: [Write the agent's operating rules as a program.md skill](2026-03-06-program-md-is-the-research-org.md).
+- Related: [Write the agent's operating rules as a program.md skill](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-06-program-md-is-the-research-org.md).
 
 ---
 
@@ -2127,7 +2131,7 @@ Karpathy argues that you should not tune for one model. You tune a family of mod
 
 ## Context
 
-- Source post links nanochat discussion 420. See [GPT-2 level training now costs under 100 dollars](2026-01-31-gpt2-training-cost-falling.md).
+- Source post links nanochat discussion 420. See [GPT-2 level training now costs under 100 dollars](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-01-31-gpt2-training-cost-falling.md).
 
 ---
 
@@ -2152,7 +2156,7 @@ the tests, and the model owns the translation.
 
 ## Context
 
-- Repository created 2026-01-03. Compare [success criteria, not steps](2026-01-26-success-criteria-not-steps.md),
+- Repository created 2026-01-03. Compare [success criteria, not steps](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-01-26-success-criteria-not-steps.md),
   which gives the same pattern of a naive version first and optimising later for speed work.
 
 ---
@@ -2172,7 +2176,7 @@ Karpathy reports that Claude implemented ideas, tested them on toy examples, lau
 ## Context
 
 - Posted 2025-12-28 about his nanochat experiments.
-- Related: [success criteria, not steps](2026-01-26-success-criteria-not-steps.md).
+- Related: [success criteria, not steps](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-01-26-success-criteria-not-steps.md).
 
 ---
 
@@ -2191,7 +2195,7 @@ In a reply about wiring everything into a coding agent through skills, Karpathy 
 ## Context
 
 - A reply from 2025-12-28. The source is a short reply, so the idea is small.
-- Related: [learn the new programmable layer](2025-12-26-learn-the-new-programmable-layer.md).
+- Related: [learn the new programmable layer](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-12-26-learn-the-new-programmable-layer.md).
 
 ---
 
@@ -2214,8 +2218,8 @@ In late December 2025 Karpathy said he had never felt so behind as a programmer.
 
 ## Context
 
-- Posted 2025-12-26, after the jump in agent quality that he describes in [success criteria, not steps](2026-01-26-success-criteria-not-steps.md).
-- Related: [connect your tools so you add no latency](2025-12-28-aggressively-jit-your-work.md).
+- Posted 2025-12-26, after the jump in agent quality that he describes in [success criteria, not steps](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-01-26-success-criteria-not-steps.md).
+- Related: [connect your tools so you add no latency](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-12-28-aggressively-jit-your-work.md).
 
 ---
 
@@ -2240,7 +2244,7 @@ interaction. He sees a new interaction style: an AI that lives on your computer,
 ## Context
 
 - Written in December 2025, before he joined Anthropic. It is his view as an outside user.
-- Related: [Success criteria, not steps](2026-01-26-success-criteria-not-steps.md).
+- Related: [Success criteria, not steps](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-01-26-success-criteria-not-steps.md).
 
 ---
 
@@ -2271,7 +2275,7 @@ one purpose and deleted after one run.
 - Keep personal context (goals, data, preferences) in files an agent can read, so the next tool
   takes minutes.
 - Check details agents often get wrong, such as units and dates. Keep careful review for code that
-  stays: see [agentic engineering](2026-02-04-agentic-engineering-vs-vibe-coding.md).
+  stays: see [agentic engineering](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-02-04-agentic-engineering-vs-vibe-coding.md).
 
 ## Context
 
@@ -2281,11 +2285,11 @@ one purpose and deleted after one run.
   about apps, she should not. He called the objection a "scarcity mindset" and expects a mixed,
   gradual change.
 - The same posts say products must become sensors and actuators with agent-friendly interfaces:
-  see [Apps should be APIs](2026-03-20-apps-become-apis-agents-are-glue.md).
-- Earlier chat-based form: [Ask the model to write a small app just for you](2025-02-27-one-off-apps-on-demand.md).
-  Sharing such tools: [Treat small apps as disposable](2025-11-18-disposable-vibe-coded-apps.md).
-  Throwaway software for review: [Work rises into oversight](2026-10-02-oversight-and-discardable-software.md).
-- Demand side: [Cheaper software raises the demand for software](2026-03-20-cheaper-software-more-demand.md).
+  see [Apps should be APIs](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-20-apps-become-apis-agents-are-glue.md).
+- Earlier chat-based form: [Ask the model to write a small app just for you](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-02-27-one-off-apps-on-demand.md).
+  Sharing such tools: [Treat small apps as disposable](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-11-18-disposable-vibe-coded-apps.md).
+  Throwaway software for review: [Work rises into oversight](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-10-02-oversight-and-discardable-software.md).
+- Demand side: [Cheaper software raises the demand for software](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-20-cheaper-software-more-demand.md).
 
 ---
 
@@ -2313,7 +2317,7 @@ longer reasoning at test time. OpenAI o1 first showed it. The o3 release was the
 ## Context
 
 - First of six "paradigm changes" in his 2025 review. It links to
-  [Software 2.0 automates what you can verify](2025-11-17-software-2-automates-what-you-can-verify.md).
+  [Software 2.0 automates what you can verify](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-11-17-software-2-automates-what-you-can-verify.md).
 
 ---
 
@@ -2343,7 +2347,7 @@ short: be good.
 ## Context
 
 - He quotes his own earlier tweets with the line above. The post uses it to explain why the
-  hindsight project matters: [Grade old discussions with an LLM](2025-12-10-llm-hindsight-grading-hn.md).
+  hindsight project matters: [Grade old discussions with an LLM](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-12-10-llm-hindsight-grading-hn.md).
 - Our reading: the claim is a forecast, not a measured result.
 
 ---
@@ -2367,7 +2371,7 @@ possible.
 ## Context
 
 - A reply on the Hacker News thread of his December 2025 hindsight-grading project.
-- Related: [Software 2.0 automates what you can verify](2025-11-17-software-2-automates-what-you-can-verify.md).
+- Related: [Software 2.0 automates what you can verify](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-11-17-software-2-automates-what-you-can-verify.md).
 
 ---
 
@@ -2399,7 +2403,7 @@ five stages (fetch, prompt, analyze, parse, render) that run alone or together.
 
 - Repository created 2025-12-10, 99% vibe coded with Opus 4.5 in a few hours. A related blog
   post is linked from the README.
-- Related: [Treat small apps as disposable](2025-11-18-disposable-vibe-coded-apps.md).
+- Related: [Treat small apps as disposable](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-11-18-disposable-vibe-coded-apps.md).
 
 ---
 
@@ -2418,12 +2422,12 @@ Karpathy says you should not ask a model for its own opinion on a topic. There i
 
 - For a design review, ask: which roles should review this (security, performance, UX)? Then ask each role for its critique.
 - Name the experts or the roles in the prompt instead of asking for 'your opinion'.
-- Compare the views and decide yourself. See [llm-council](2025-11-22-llm-council-anonymous-peer-review.md).
+- Compare the views and decide yourself. See [llm-council](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-11-22-llm-council-anonymous-peer-review.md).
 
 ## Context
 
 - Posted 2025-12-07.
-- Related: [the space of intelligences](2025-11-29-llms-shaped-by-commercial-evolution.md).
+- Related: [the space of intelligences](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-11-29-llms-shaped-by-commercial-evolution.md).
 
 ---
 
@@ -2450,7 +2454,7 @@ direction. Good mental models of this new entity help us predict it.
 
 ## Context
 
-- Posted 2025-11-29, as a follow-up to [LLMs are ghosts, not animals](2025-10-01-llms-are-ghosts-not-animals.md).
+- Posted 2025-11-29, as a follow-up to [LLMs are ghosts, not animals](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-10-01-llms-are-ghosts-not-animals.md).
 - He calls LLMs humanity's "first contact" with non-animal intelligence, but muddled, because
   they still digest human artifacts.
 
@@ -2476,7 +2480,7 @@ Karpathy argues that you cannot detect AI use in homework. Schools should move m
 ## Context
 
 - Posted 2025-11-24.
-- Related: [learning takes effort](2024-02-10-learning-is-not-supposed-to-be-fun.md).
+- Related: [learning takes effort](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2024-02-10-learning-is-not-supposed-to-be-fun.md).
 
 ---
 
@@ -2488,24 +2492,26 @@ LLM Council is a local web app. You ask one question and it goes to several mode
 OpenRouter. Stage 1 collects the first opinions, shown in tabs. In stage 2, each model gets the
 other answers with the model names replaced by "Response A", "Response B" and so on, so it
 cannot favour a brand. It ranks them for accuracy and insight. In stage 3, a chairman model
-turns everything into one answer. The design notes add practical rules: demand a strict
-"FINAL RANKING" format so it can be parsed, keep going if one model fails, and show raw outputs
-so the user can check the parsing.
+turns everything into one answer. The repo's design notes (its CLAUDE.md) add practical rules:
+a strict "FINAL RANKING" format so it can be parsed, keep going if one model fails, and show raw
+outputs so the user can check the parsing. He says the project was 99% vibe coded, so these notes
+were probably written by his coding agent, not by him.
 
 ## Apply
 
 - For a hard question, send it to two or three different models and ask each to critique the
   others' answers with names hidden.
-- Ask reviewers for a numbered ranking in a fixed format, and write a fallback parser.
-- Treat one failed model call as a missing vote, not a failed request.
+- From the repo's CLAUDE.md (probably agent-written): ask reviewers for a numbered ranking in a
+  fixed format with a fallback parser, and treat one failed model call as a missing vote, not a
+  failed request.
 - Keep raw answers visible next to the summary, so you can audit the chairman.
 
 ## Context
 
 - Created 2025-11-22 as a casual weekend project, 99% vibe coded, to compare models while reading
   books with LLMs. Model list in the README: GPT 5.1, Gemini 3 Pro, Claude Sonnet 4.5, Grok 4.
-- Related: [Read books together with an LLM](2024-12-11-read-books-with-an-llm.md).
-- He already asked several vendors the same question in early 2025 and called them his "LLM council" ([video](2025-02-27-fast-model-first-thinking-model-for-hard.md)).
+- Related: [Read books together with an LLM](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2024-12-11-read-books-with-an-llm.md).
+- He already asked several vendors the same question in early 2025 and called them his "LLM council" ([video](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-02-27-fast-model-first-thinking-model-for-hard.md)).
 
 ---
 
@@ -2538,8 +2544,8 @@ model wrote, which tells the reader how much to trust it.
 - reader3 was created 2025-11-18, llm-council 2025-11-22, hn-time-capsule 2025-12-10. The quote
   is from the reader3 and llm-council READMEs. Opus 4.5 era.
 - His view of "libraries are over" is stated for small apps. He still ships careful code in
-  nanochat; see [Keep the codebase minimal and forkable](2025-10-13-nanochat-one-dial-minimal-fork.md).
-- Related: [Read books together with an LLM](2024-12-11-read-books-with-an-llm.md).
+  nanochat; see [Keep the codebase minimal and forkable](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-10-13-nanochat-one-dial-minimal-fork.md).
+- Related: [Read books together with an LLM](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2024-12-11-read-books-with-an-llm.md).
 
 ---
 
@@ -2576,9 +2582,9 @@ now points to Epoch's Capabilities Index and its published benchmark reviews.
   Grok 3); his 2025 review of 2025-12-19; a Hacker News reply of 2026-11-01.
 - He also suggested using a different LLM every day to stay current, which he calls riding the LLM
   cycle.
-- Related: [Jagged intelligence follows verifiability](2026-03-20-jagged-intelligence-follows-verifiability.md),
-  [RLHF is just barely RL](2024-08-07-rlhf-is-just-barely-rl.md) and
-  [A text-only eval](2026-10-02-land-or-water-eval.md).
+- Related: [Jagged intelligence follows verifiability](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-20-jagged-intelligence-follows-verifiability.md),
+  [RLHF is just barely RL](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2024-08-07-rlhf-is-just-barely-rl.md) and
+  [A text-only eval](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-10-02-land-or-water-eval.md).
 
 ---
 
@@ -2602,7 +2608,7 @@ Karpathy describes a reading habit that he counts among his top uses of LLMs. Pa
 ## Context
 
 - Posted 2025-11-17. Our reading: the order differs from his 2025 book habit, where he asked for the summary before reading; here he reads first.
-- Related: [docs for LLMs](2025-03-12-write-docs-for-llms.md) and [read books together with an LLM](2024-12-11-read-books-with-an-llm.md).
+- Related: [docs for LLMs](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-03-12-write-docs-for-llms.md) and [read books together with an LLM](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2024-12-11-read-books-with-an-llm.md).
 
 ---
 
@@ -2635,8 +2641,8 @@ is the "jagged" frontier.
 ## Context
 
 - Builds on his Software 2.0 essay (2017). The Sequoia 2026 talk repeats the formula and adds a
-  second axis: [Jagged intelligence follows verifiability and training focus](2026-03-20-jagged-intelligence-follows-verifiability.md).
-- Practical cousin: [Give agents success criteria, not steps](2026-01-26-success-criteria-not-steps.md).
+  second axis: [Jagged intelligence follows verifiability and training focus](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-20-jagged-intelligence-follows-verifiability.md).
+- Practical cousin: [Give agents success criteria, not steps](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-01-26-success-criteria-not-steps.md).
 
 ---
 
@@ -2661,8 +2667,8 @@ Karpathy says that needs a discrete event he cannot find in the statistics.
 ## Context
 
 - Dwarkesh Patel interview, 2025-10-17. He says he is open to being convinced.
-- Related: [Decade of agents](2025-10-17-decade-of-agents-not-year.md) and
-  [Gradual loss of control and understanding](2025-10-17-gradual-loss-of-control-and-understanding.md).
+- Related: [Decade of agents](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-10-17-decade-of-agents-not-year.md) and
+  [Gradual loss of control and understanding](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-10-17-gradual-loss-of-control-and-understanding.md).
 
 ---
 
@@ -2691,7 +2697,7 @@ build-up video would help.
 ## Context
 
 - Dwarkesh Patel interview, 2025-10-17; he credits the line to Feynman.
-- Related: [Build ramps to knowledge](2025-10-17-ramps-to-knowledge.md).
+- Related: [Build ramps to knowledge](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-10-17-ramps-to-knowledge.md).
 
 ---
 
@@ -2716,7 +2722,7 @@ create the content. He says that as a consultant, much of his value was telling 
 ## Context
 
 - Dwarkesh Patel interview, 2025-10-17, on Eureka Labs and the LLM101N course.
-- Related: [Teach by building ramps](2025-10-17-ramps-to-knowledge.md).
+- Related: [Teach by building ramps](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-10-17-ramps-to-knowledge.md).
 
 ---
 
@@ -2750,9 +2756,9 @@ so his timelines are longer.
 - Dwarkesh Patel interview, 2025-10-17, model era of GPT-5 Pro and early Claude Code.
 - Superseded. In January 2026 he wrote that he went from about 80% manual and autocomplete
   coding in November 2025 to about 80% agent coding in December, after models crossed a
-  coherence threshold. See [Programming moved to English in December 2025](2026-01-26-programming-in-english-december-shift.md).
+  coherence threshold. See [Programming moved to English in December 2025](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-01-26-programming-in-english-december-shift.md).
   His warnings about bloat and wrong assumptions still hold:
-  [Coding agents make subtle conceptual mistakes](2026-01-26-coding-agents-make-subtle-conceptual-mistakes.md).
+  [Coding agents make subtle conceptual mistakes](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-01-26-coding-agents-make-subtle-conceptual-mistakes.md).
 
 ---
 
@@ -2776,7 +2782,7 @@ surrounding tools, not only the model.
 
 ## Context
 
-- Dwarkesh Patel interview, 2025-10-17. Related: [Build partial-autonomy products](2025-06-17-partial-autonomy-and-autonomy-slider.md).
+- Dwarkesh Patel interview, 2025-10-17. Related: [Build partial-autonomy products](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-06-17-partial-autonomy-and-autonomy-slider.md).
 
 ---
 
@@ -2805,10 +2811,10 @@ reacting to over-prediction in the industry, and that he is optimistic about the
 ## Context
 
 - Dwarkesh Patel interview, 2025-10-17.
-- Related: [A demo is the first nine](2025-06-17-demo-to-product-gap-march-of-nines.md) and
-  [Coding agents are weak on novel code](2025-10-17-coding-agents-weak-on-novel-code.md).
+- Related: [A demo is the first nine](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-06-17-demo-to-product-gap-march-of-nines.md) and
+  [Coding agents are weak on novel code](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-10-17-coding-agents-weak-on-novel-code.md).
 - Our reading: his later 2026 statements are more positive about agents after December 2025;
-  see [Vibe coding raises the floor, agentic engineering raises the ceiling](2026-02-04-agentic-engineering-vs-vibe-coding.md).
+  see [Vibe coding raises the floor, agentic engineering raises the ceiling](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-02-04-agentic-engineering-vs-vibe-coding.md).
 
 ---
 
@@ -2833,8 +2839,8 @@ acts for a person, society may not get the outcomes it wants. This is why he wor
 ## Context
 
 - Dwarkesh Patel interview, 2025-10-17. He admits he is far into territory he cannot picture.
-- Related: [Outsource thinking, not understanding](2026-03-31-understanding-is-the-bottleneck.md)
-  and [AI will blend into the same 2% growth curve](2025-10-17-agi-blends-into-gdp-growth.md).
+- Related: [Outsource thinking, not understanding](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-31-understanding-is-the-bottleneck.md)
+  and [AI will blend into the same 2% growth curve](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-10-17-agi-blends-into-gdp-growth.md).
 
 ---
 
@@ -2859,7 +2865,7 @@ explanation hard for beginners.
 ## Context
 
 - Dwarkesh Patel interview, 2025-10-17. He also asks for beginners' "dumb" questions;
-  see [Share your dumb LLM questions with experts](2025-10-17-share-dumb-llm-questions-with-experts.md).
+  see [Share your dumb LLM questions with experts](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-10-17-share-dumb-llm-questions-with-experts.md).
 
 ---
 
@@ -2885,7 +2891,7 @@ but cannot yet build culture. He sees organisations of agents as part of the sam
 
 - Dwarkesh Patel interview, 2025-10-17. Our reading: the notes-file practice in coding agents
   (project instruction files, memory files) is a simple form of the scratchpad he describes.
-- Related: [Reinforcement learning sucks supervision through a straw](2025-10-17-rl-supervision-through-a-straw.md).
+- Related: [Reinforcement learning sucks supervision through a straw](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-10-17-rl-supervision-through-a-straw.md).
 
 ---
 
@@ -2911,7 +2917,7 @@ lets the student try first, so the answer is valued. His goal is many "eurekas p
 ## Context
 
 - Dwarkesh Patel interview, 2025-10-17, where he describes his Eureka Labs course plan.
-- Related: [Build it yourself](2025-10-17-build-it-yourself-no-copy-paste.md).
+- Related: [Build it yourself](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-10-17-build-it-yourself-no-copy-paste.md).
 
 ---
 
@@ -2943,8 +2949,8 @@ needs three to five more big algorithm ideas.
 ## Context
 
 - Dwarkesh Patel interview, 2025-10-17.
-- Related: [An LLM judge gets gamed](2024-08-07-rlhf-is-just-barely-rl.md) and
-  [Synthetic data collapses](2025-10-17-synthetic-data-and-model-collapse.md).
+- Related: [An LLM judge gets gamed](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2024-08-07-rlhf-is-just-barely-rl.md) and
+  [Synthetic data collapses](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-10-17-synthetic-data-and-model-collapse.md).
 
 ---
 
@@ -2970,7 +2976,7 @@ not the abstract.
 ## Context
 
 - Dwarkesh Patel interview, 2025-10-17. Related:
-  [Learn on demand, then explain](2025-10-17-learn-on-demand-then-explain.md).
+  [Learn on demand, then explain](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-10-17-learn-on-demand-then-explain.md).
 
 ---
 
@@ -3001,7 +3007,7 @@ prompts for you to think with, which LLM pre-training does not do.
 ## Context
 
 - Dwarkesh Patel interview, 2025-10-17. The reading-as-prompts point links to his later
-  interest in LLM-written knowledge bases (see [Outsource thinking, not understanding](2026-03-31-understanding-is-the-bottleneck.md)).
+  interest in LLM-written knowledge bases (see [Outsource thinking, not understanding](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-31-understanding-is-the-bottleneck.md)).
 
 ---
 
@@ -3025,8 +3031,8 @@ inside a conversation, where they spot and fix their own mistakes in context.
 
 ## Context
 
-- Dwarkesh Patel interview, 2025-10-17. Related: [Cognitive core](2025-06-27-the-llm-cognitive-core.md).
-- Earlier talk, same idea in other words: [LLMs are people spirits](2025-06-17-llms-are-people-spirits-with-deficits.md).
+- Dwarkesh Patel interview, 2025-10-17. Related: [Cognitive core](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-06-27-the-llm-cognitive-core.md).
+- Earlier talk, same idea in other words: [LLMs are people spirits](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-06-17-llms-are-people-spirits-with-deficits.md).
 
 ---
 
@@ -3055,7 +3061,7 @@ aim of low cognitive complexity.
 
 - The date is the repository's creation date; the policy text is in the current README, and
   its commit date was not in our source. Related: his README notes on how much of a project a
-  model wrote, in [Treat small apps as disposable](2025-11-18-disposable-vibe-coded-apps.md).
+  model wrote, in [Treat small apps as disposable](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-11-18-disposable-vibe-coded-apps.md).
 
 ---
 
@@ -3088,7 +3094,7 @@ from start to finish. Such code is also easy for an agent to read and change.
 
 - Repository created 2025-10-13; README text is from the 2026 version (the leaderboard and the
   January 2026 miniseries). Later, agents tuned this code: see
-  [Autoresearch](2026-03-07-autoresearch-loop.md).
+  [Autoresearch](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-07-autoresearch-loop.md).
 
 ---
 
@@ -3107,7 +3113,7 @@ Karpathy jokes that models are terrified of exceptions, as if RL had taught them
 ## Context
 
 - Posted 2025-10-08. The follow-up reply is dated 2025-10-22.
-- Related: [stitching tools by task](2025-08-24-stitch-coding-tools-by-task.md). In March 2026 he reported that agents often ignore style rules in instruction files, so enforce this with a linter or hook, not only prose.
+- Related: [stitching tools by task](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-08-24-stitch-coding-tools-by-task.md). In March 2026 he reported that agents often ignore style rules in instruction files, so enforce this with a linter or hook, not only prose.
 
 ---
 
@@ -3143,8 +3149,8 @@ and culture.
 ## Context
 
 - Blog post on 2025-10-01, repeated in his Dwarkesh interview and his 2025 review.
-- Follow-up: [LLMs are shaped by commercial evolution](2025-11-29-llms-shaped-by-commercial-evolution.md).
-- Related: [Models are sharp where rewards are checkable](2026-03-20-jagged-intelligence-follows-verifiability.md).
+- Follow-up: [LLMs are shaped by commercial evolution](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-11-29-llms-shaped-by-commercial-evolution.md).
+- Related: [Models are sharp where rewards are checkable](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-20-jagged-intelligence-follows-verifiability.md).
 - He holds these views with double-digit percent uncertainty.
 
 ---
@@ -3176,9 +3182,9 @@ supervising automation.
 - X post of 2025-09-25; Dwarkesh Patel interview of 2025-10-17. In the interview he said he would
   watch for companies that build the layer to manage imperfect AIs, and wait a year or two to see
   whether firms rehire people.
-- Related: [the autonomy ladder](2024-03-12-swe-autonomy-ladder-supervising-automation.md),
-  [partial-autonomy apps](2025-06-17-partial-autonomy-and-autonomy-slider.md) and
-  [Cheaper software raises the demand for software](2026-03-20-cheaper-software-more-demand.md).
+- Related: [the autonomy ladder](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2024-03-12-swe-autonomy-ladder-supervising-automation.md),
+  [partial-autonomy apps](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-06-17-partial-autonomy-and-autonomy-slider.md) and
+  [Cheaper software raises the demand for software](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-20-cheaper-software-more-demand.md).
 
 ---
 
@@ -3202,7 +3208,7 @@ Karpathy reports a pattern that happened three times. His coding agent struggled
 ## Context
 
 - Posted 2025-09-05.
-- Related: [stitching tools by task](2025-08-24-stitch-coding-tools-by-task.md) and [llm-council](2025-11-22-llm-council-anonymous-peer-review.md).
+- Related: [stitching tools by task](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-08-24-stitch-coding-tools-by-task.md) and [llm-council](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-11-22-llm-council-anonymous-peer-review.md).
 
 ---
 
@@ -3221,7 +3227,7 @@ Karpathy describes three eras by their data. Pretraining used internet text. Sup
 ## Context
 
 - Posted 2025-08-27.
-- Related: [what you can verify](2025-11-17-software-2-automates-what-you-can-verify.md).
+- Related: [what you can verify](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-11-17-software-2-automates-what-you-can-verify.md).
 
 ---
 
@@ -3241,15 +3247,15 @@ Karpathy describes a layered setup. Tab completion gives about 75 percent of his
 - When a task is hard to describe, write a stub or a comment in the right place and let the model complete it.
 - Keep a cleanup pass after agent work to remove bloat and duplicated code.
 - Ask for a throwaway visualizer or debug script when a bug is hard to see. Delete it later.
-- Send the hardest bug to a stronger model. See [give it your hardest problems](2025-09-05-give-it-your-hardest-problems.md).
+- Send the hardest bug to a stronger model. See [give it your hardest problems](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-09-05-give-it-your-hardest-problems.md).
 
 ## Context
 
 - Posted 2025-08-24. The post notes that there was no good way to keep the agent's instruction file up to date.
 - Superseded as a tool mix. By December 2025 about 80% of his coding went to agents, not tab
-  completion: see [Programming moved to English in December 2025](2026-01-26-programming-in-english-december-shift.md).
+  completion: see [Programming moved to English in December 2025](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-01-26-programming-in-english-december-shift.md).
   The cleanup pass, throwaway debug tools and second opinions from a stronger model still apply.
-- Related: [code is free](2025-12-19-code-is-free-and-ephemeral.md) and [models fear exceptions](2025-10-08-models-over-defensive-about-exceptions.md).
+- Related: [code is free](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-12-19-code-is-free-and-ephemeral.md) and [models fear exceptions](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-10-08-models-over-defensive-about-exceptions.md).
 
 ---
 
@@ -3279,7 +3285,7 @@ models.
 ## Context
 
 - Created 2025-08-20. He says he vibe coded it months earlier and uses it often, without plans
-  to maintain it. See [Treat small apps as disposable](2025-11-18-disposable-vibe-coded-apps.md).
+  to maintain it. See [Treat small apps as disposable](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-11-18-disposable-vibe-coded-apps.md).
 
 ---
 
@@ -3303,7 +3309,7 @@ Karpathy notes that models tuned hard on benchmarks are agentic by default. They
 ## Context
 
 - Posted 2025-08-09.
-- Related: [context engineering](2025-06-25-context-engineering.md).
+- Related: [context engineering](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-06-25-context-engineering.md).
 
 ---
 
@@ -3339,8 +3345,8 @@ because internet data is poor.
 - X post of 2025-06-27; Dwarkesh Patel interview of 2025-10-17. Both are predictions, not results.
   He tied the billion-parameter guess to a horizon of about 20 years.
 - His 2025 review frames it as the "microcontroller" of LLM computing.
-- Related: [Weights are hazy memory, context is working memory](2025-10-17-weights-hazy-memory-context-working-memory.md)
-  and [Fast, no-thinking LLMs fill a niche](2026-09-21-low-latency-single-token-llm-niche.md).
+- Related: [Weights are hazy memory, context is working memory](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-10-17-weights-hazy-memory-context-working-memory.md)
+  and [Fast, no-thinking LLMs fill a niche](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-09-21-low-latency-single-token-llm-niche.md).
 
 ---
 
@@ -3365,7 +3371,7 @@ consumption. He calls this the respectful and kind thing to do.
 
 - A Hacker News reply in June 2025, on a post about speeding up audio before transcription. He
   also noted that his own TLDR for his talk only listed topics.
-- Related: [Make model output easier to understand](2026-10-02-make-model-outputs-easy-to-understand.md).
+- Related: [Make model output easier to understand](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-10-02-make-model-outputs-easy-to-understand.md).
 
 ---
 
@@ -3394,17 +3400,17 @@ one message.
 - Review what loads at the start of each agent session (instruction files, skills, open files).
   Remove what the task does not need.
 - Write a spec for each task: goal, limits, how to check it. See
-  [success criteria, not steps](2026-01-26-success-criteria-not-steps.md).
+  [success criteria, not steps](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-01-26-success-criteria-not-steps.md).
 - Use subagents for searches and large reads, so the main context stays small.
 - Improve the tools and workflows (test runner, logs, scripts) before you rewrite prompts.
 
 ## Context
 
-- Posted 2025-06-25, a week after his talk on [Software 3.0](2025-06-17-software-3-0-english-as-programs.md).
+- Posted 2025-06-25, a week after his talk on [Software 3.0](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-06-17-software-3-0-english-as-programs.md).
   The 2026-03-21 reply came after his No Priors podcast, where he still used the word "prompt".
-- Related: [state stakes and scope](2025-08-09-models-too-agentic-state-stakes-and-scope.md),
-  [Start a new chat when the topic changes](2025-02-27-fresh-chat-per-topic.md) and
-  [Fewer bits, administered just right](2026-11-01-shorter-prompts-fewer-bits.md).
+- Related: [state stakes and scope](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-08-09-models-too-agentic-state-stakes-and-scope.md),
+  [Start a new chat when the topic changes](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-02-27-fresh-chat-per-topic.md) and
+  [Fewer bits, administered just right](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-11-01-shorter-prompts-fewer-bits.md).
 
 ---
 
@@ -3436,7 +3442,7 @@ demos unimpressive and thinks "year of agents" claims are too fast.
 
 - Said at YC AI Startup School on 2025-06-17 and again, in more detail, in the Dwarkesh Patel
   interview on 2025-10-17, where he gave the "march of nines" phrase.
-- Related: [Agents will take a decade](2025-10-17-decade-of-agents-not-year.md).
+- Related: [Agents will take a decade](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-10-17-decade-of-agents-not-year.md).
 
 ---
 
@@ -3462,7 +3468,7 @@ technology reached consumers first, not governments.
 
 ## Context
 
-- YC AI Startup School talk, 2025-06-17. Related: [Software 3.0](2025-06-17-software-3-0-english-as-programs.md).
+- YC AI Startup School talk, 2025-06-17. Related: [Software 3.0](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-06-17-software-3-0-english-as-programs.md).
 - Models and costs have changed since; the structure of the analogy is what he offers.
 
 ---
@@ -3491,8 +3497,8 @@ and may leak data. The skill is to use the strengths and design around the weakn
 ## Context
 
 - YC AI Startup School talk, 2025-06-17. He returns to this frame in the Dwarkesh interview
-  ([ghosts, not animals](2025-10-01-llms-are-ghosts-not-animals.md)) and at Sequoia in 2026
-  ([jagged skills](2026-03-20-jagged-intelligence-follows-verifiability.md)).
+  ([ghosts, not animals](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-10-01-llms-are-ghosts-not-animals.md)) and at Sequoia in 2026
+  ([jagged skills](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-20-jagged-intelligence-follows-verifiability.md)).
 
 ---
 
@@ -3523,10 +3529,10 @@ field with private data, sensors, actuators and feedback loops.
 
 - YC AI Startup School talk of 2025-06-17; repeated in his 2025 review (2025-12-19). In the
   Dwarkesh interview (2025-10-17) he applies the slider to call centres and programming: see
-  [Jobs change before they vanish](2025-09-25-ai-and-jobs-radiologists-and-engineers.md).
-- Related: [Keep the AI on a tight leash](2025-04-24-ai-assisted-coding-rhythm.md),
-  [Context engineering](2025-06-25-context-engineering.md) and
-  [the autonomy ladder](2024-03-12-swe-autonomy-ladder-supervising-automation.md).
+  [Jobs change before they vanish](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-09-25-ai-and-jobs-radiologists-and-engineers.md).
+- Related: [Keep the AI on a tight leash](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-04-24-ai-assisted-coding-rhythm.md),
+  [Context engineering](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-06-25-context-engineering.md) and
+  [the autonomy ladder](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2024-03-12-swe-autonomy-ladder-supervising-automation.md).
 
 ---
 
@@ -3558,11 +3564,11 @@ advice to new engineers: be fluent in all three, because each has strengths.
 ## Context
 
 - Talk at YC AI Startup School, 2025-06-17. He says he first described Software 2.0 a few years earlier.
-- Later talks reuse the frame: see [Some apps should disappear into the model](2026-04-30-some-apps-should-disappear.md).
-- The same talk compares LLMs to operating systems: [LLMs are like 1960s operating systems](2025-06-17-llms-are-1960s-operating-systems.md).
+- Later talks reuse the frame: see [Some apps should disappear into the model](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-04-30-some-apps-should-disappear.md).
+- The same talk compares LLMs to operating systems: [LLMs are like 1960s operating systems](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-06-17-llms-are-1960s-operating-systems.md).
 - The Sequoia text (blog, 2026-04-30) is an LLM-made summary of the talk that he checked and
-  posted. Related: [Context engineering](2025-06-25-context-engineering.md) and
-  [The LLM OS](2023-09-28-llm-as-operating-system-kernel.md).
+  posted. Related: [Context engineering](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-06-25-context-engineering.md) and
+  [The LLM OS](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2023-09-28-llm-as-operating-system-kernel.md).
 
 ---
 
@@ -3581,7 +3587,7 @@ Karpathy argues that products with rich visual UIs, no scripting and opaque bina
 ## Context
 
 - Posted 2025-06-04.
-- Related: [docs for LLMs](2025-03-12-write-docs-for-llms.md) and [Software 3.0](2025-06-17-software-3-0-english-as-programs.md).
+- Related: [docs for LLMs](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-03-12-write-docs-for-llms.md) and [Software 3.0](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-06-17-software-3-0-english-as-programs.md).
 
 ---
 
@@ -3616,8 +3622,8 @@ that database into the weights to avoid bloat.
 
 - Posts of 2025-05-10 and 2025-07-13. A research proposal, not a tested recipe; the Apply steps
   are our own use of it.
-- Related: [RL sucks supervision through a straw](2025-10-17-rl-supervision-through-a-straw.md) and
-  [Make memory and compaction tools that RL trains](2026-03-05-memory-as-rl-tools.md).
+- Related: [RL sucks supervision through a straw](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-10-17-rl-supervision-through-a-straw.md) and
+  [Make memory and compaction tools that RL trains](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-05-memory-as-rl-tools.md).
 
 ---
 
@@ -3648,8 +3654,8 @@ yet.
 
 - Written in April 2025 with Cursor and Claude 3.7. Models and docs have improved since.
 - The Stripe example returns in 2026 as his case for human judgment in agentic work:
-  [Vibe coding versus agentic engineering](2026-02-04-agentic-engineering-vs-vibe-coding.md).
-- Related: [Write docs and tools for the user's agent](2025-03-12-write-docs-for-llms.md).
+  [Vibe coding versus agentic engineering](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-02-04-agentic-engineering-vs-vibe-coding.md).
+- Related: [Write docs and tools for the user's agent](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-03-12-write-docs-for-llms.md).
 
 ---
 
@@ -3681,9 +3687,9 @@ Hacker News.
 ## Context
 
 - Hacker News reply of 2025-04-26; X posts of 2026-02-01, weeks after his
-  [slopacolypse](2026-01-26-slopacolypse-2026.md) prediction. In replies he said social feeds make
+  [slopacolypse](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-01-26-slopacolypse-2026.md) prediction. In replies he said social feeds make
   him feel "dumber" and that Substack is slipping toward short video and dark patterns.
-- Related: [HackerTube](2026-11-01-hackertube-weekend-app.md) shows the same urge to rebuild your
+- Related: [HackerTube](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-11-01-hackertube-weekend-app.md) shows the same urge to rebuild your
   own feed.
 
 ---
@@ -3720,14 +3726,14 @@ artifact in the middle, such as a course syllabus, so the AI stays inside it.
 - Posted 2025-04-24 and repeated in the YC AI Startup School talk of 2025-06-17, before agents
   could run long tasks alone.
 - Still current in our reading. After December 2025 he lets agents take much larger "macro
-  actions" ([Programming moved to English](2026-01-26-programming-in-english-december-shift.md)),
+  actions" ([Programming moved to English](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-01-26-programming-in-english-december-shift.md)),
   and the check moved toward tests and success criteria
-  ([Give agents success criteria](2026-01-26-success-criteria-not-steps.md)). But in January 2026
+  ([Give agents success criteria](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-01-26-success-criteria-not-steps.md)). But in January 2026
   he still said to watch agents "like a hawk" on code you care about
-  ([subtle conceptual mistakes](2026-01-26-coding-agents-make-subtle-conceptual-mistakes.md)).
-- The strict counterpart to [vibe coding](2025-02-02-vibe-coding-for-throwaway-projects.md).
-  Related: [partial-autonomy apps](2025-06-17-partial-autonomy-and-autonomy-slider.md) and
-  [the junior intern test](2024-12-14-would-you-hire-it-as-a-junior-intern.md).
+  ([subtle conceptual mistakes](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-01-26-coding-agents-make-subtle-conceptual-mistakes.md)).
+- The strict counterpart to [vibe coding](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-02-02-vibe-coding-for-throwaway-projects.md).
+  Related: [partial-autonomy apps](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-06-17-partial-autonomy-and-autonomy-slider.md) and
+  [the junior intern test](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2024-12-14-would-you-hire-it-as-a-junior-intern.md).
 
 ---
 
@@ -3760,7 +3766,7 @@ better models, and the rich could then get far more intelligence than others.
 ## Context
 
 - Written in April 2025. His 2025 year-in-review links back to it when it discusses vibe coding:
-  [Vibe coding makes code free and ephemeral](2025-12-19-code-is-free-and-ephemeral.md).
+  [Vibe coding makes code free and ephemeral](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-12-19-code-is-free-and-ephemeral.md).
 - He names two forces on the "dynamic range" of capability: scaling and test-time compute widen
   it, and distillation narrows it.
 
@@ -3799,9 +3805,9 @@ default), and later interactive video made by a diffusion model.
   horseless carriage) and 2025-11-23 (the GUI as an intelligent canvas); the sixth item of his 2025
   review; and a post of 2026-05-11 that quoted an article on HTML output in Claude Code. In 2026 he
   also wanted better input: pointing at things on screen, as with a person beside you.
-- Next step: [Make model output easier to understand](2026-10-02-make-model-outputs-easy-to-understand.md).
-- Related: [LLMs are like 1960s operating systems](2025-06-17-llms-are-1960s-operating-systems.md)
-  and [Code is now free, custom and disposable](2025-12-19-code-is-free-and-ephemeral.md).
+- Next step: [Make model output easier to understand](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-10-02-make-model-outputs-easy-to-understand.md).
+- Related: [LLMs are like 1960s operating systems](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-06-17-llms-are-1960s-operating-systems.md)
+  and [Code is now free, custom and disposable](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-12-19-code-is-free-and-ephemeral.md).
 
 ---
 
@@ -3876,11 +3882,11 @@ CLI let Claude build a terminal dashboard in about three minutes.
   YC talk of 2025-06-17, and the "Build. For. Agents." post of 2026-02-24. At Sequoia 2026 he
   listed the same surfaces: markdown docs, CLIs, APIs, MCP servers, schemas and copy-paste agent
   instructions.
-- Related facets: [Make the whole DevOps lifecycle agent-native](2026-03-26-devops-as-code-for-agents.md),
-  [Apps should be APIs](2026-03-20-apps-become-apis-agents-are-glue.md),
-  [Explain things to agents](2026-03-20-explain-to-agents-not-people.md) and
-  [Opaque, binary-format tools](2025-06-04-opaque-binary-uis-are-ngmi.md).
-- [Software 3.0](2025-06-17-software-3-0-english-as-programs.md) names agents as a third consumer
+- Related facets: [Make the whole DevOps lifecycle agent-native](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-26-devops-as-code-for-agents.md),
+  [Apps should be APIs](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-20-apps-become-apis-agents-are-glue.md),
+  [Explain things to agents](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-20-explain-to-agents-not-people.md) and
+  [Opaque, binary-format tools](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-06-04-opaque-binary-uis-are-ngmi.md).
+- [Software 3.0](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-06-17-software-3-0-english-as-programs.md) names agents as a third consumer
   of software.
 
 ---
@@ -3906,7 +3912,7 @@ the one artifacts use he finds useful in daily work.
 ## Context
 
 - From *How I use LLMs* (2025-02).
-- Related: [Read books and papers together with an LLM](2024-12-11-read-books-with-an-llm.md).
+- Related: [Read books and papers together with an LLM](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2024-12-11-read-books-with-an-llm.md).
 
 ---
 
@@ -3926,7 +3932,7 @@ changed, or is rare on the web. He often uses a search-first app for this.
 - Tick the "search" option when you ask about news, prices, product features or release dates.
 - Ask for hard arithmetic to be done "with code". Check that a tool call really happened.
 - For common, low-risk facts the model remembers well, no tool is needed. Verify the high-stakes ones.
-- When an answer cites sources, open them. See [Treat LLM output as a first draft](2025-02-27-llm-output-is-a-first-draft.md).
+- When an answer cites sources, open them. See [Treat LLM output as a first draft](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-02-27-llm-output-is-a-first-draft.md).
 
 ## Context
 
@@ -3960,7 +3966,7 @@ them his "LLM council".
 
 - From *How I use LLMs* (2025-02). The model names in the video (GPT-4o, o1 pro, Claude 3.5 Sonnet,
   Grok 3, DeepSeek R1) are dated. The habit does not depend on them.
-- Related: [Check which tools the model has](2025-02-27-check-which-tools-the-model-has.md).
+- Related: [Check which tools the model has](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-02-27-check-which-tools-the-model-has.md).
 
 ---
 
@@ -3986,7 +3992,7 @@ such as the level of formality in Korean replies.
 ## Context
 
 - From *How I use LLMs* (2025-02), in the section on memory, custom instructions and custom GPTs.
-- Related: [Start a new chat when the topic changes](2025-02-27-fresh-chat-per-topic.md).
+- Related: [Start a new chat when the topic changes](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-02-27-fresh-chat-per-topic.md).
 
 ---
 
@@ -4013,16 +4019,16 @@ agentic context management with memory, where the system decides what to keep.
 - Press "new chat" when you change subject, not only when a chat gets slow.
 - Before you continue a long chat, ask whether its early messages still help. If not, copy only the
   useful facts into a new chat.
-- In coding agents, keep one session per task, and hand off through a file (decisions, state, next
-  step), not through a long history.
-- Do not trust automatic compaction with key decisions. Write them down yourself.
+- Our reading, for coding agents (he spoke about chat apps): keep one session per task, and hand
+  off through a file (decisions, state, next step), not through a long history. Do not trust
+  automatic compaction with key decisions; write them down yourself.
 
 ## Context
 
 - From *How I use LLMs* (2025-02-27), a guide for general users shown with ChatGPT, and an X post
   of 2025-03-20.
-- Related: [Context engineering](2025-06-25-context-engineering.md) and
-  [Try a fast model first](2025-02-27-fast-model-first-thinking-model-for-hard.md).
+- Related: [Context engineering](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-06-25-context-engineering.md) and
+  [Try a fast model first](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-02-27-fast-model-first-thinking-model-for-hard.md).
 
 ---
 
@@ -4053,7 +4059,7 @@ also checks the label on the box.
 ## Context
 
 - From *How I use LLMs* (2025-02), with examples from ChatGPT deep research and its data analysis tool.
-- Related: [Give agents success criteria, not steps](2026-01-26-success-criteria-not-steps.md).
+- Related: [Give agents success criteria, not steps](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-01-26-success-criteria-not-steps.md).
 
 ---
 
@@ -4077,7 +4083,7 @@ the app for one person. He adds that he is not a daily user of this and uses it 
 
 - From *How I use LLMs* (2025-02). An early view of a theme he develops later in 2026: software
   written on demand, with agents as the user. See
-  [Apps become APIs and agents are the glue](2026-03-20-apps-become-apis-agents-are-glue.md).
+  [Apps become APIs and agents are the glue](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-20-apps-become-apis-agents-are-glue.md).
 
 ---
 
@@ -4095,17 +4101,17 @@ In February 2025 Karpathy named a style of work: vibe coding. You give in to the
 ## Apply
 
 - Use vibe mode for disposable prototypes, demos and one-off scripts only.
-- For code you keep, read the diffs and run tests. See [a rhythm for code you care about](2025-04-24-ai-assisted-coding-rhythm.md).
+- For code you keep, read the diffs and run tests. See [a rhythm for code you care about](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-04-24-ai-assisted-coding-rhythm.md).
 - Paste raw error output into the agent instead of describing it. This is the cheapest loop for a throwaway project.
 - Decide before you start whether the project is throwaway. Write that in the first prompt.
 
 ## Context
 
 - Posted 2025-02-02, when the main tool was an AI editor with a composer pane and a voice tool.
-- His own method for kept code is in [a rhythm for code you care about](2025-04-24-ai-assisted-coding-rhythm.md).
-- By December 2025 he described code as cheap and ephemeral: [Code is now free, custom and disposable](2025-12-19-code-is-free-and-ephemeral.md).
+- His own method for kept code is in [a rhythm for code you care about](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-04-24-ai-assisted-coding-rhythm.md).
+- By December 2025 he described code as cheap and ephemeral: [Code is now free, custom and disposable](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-12-19-code-is-free-and-ephemeral.md).
 - Still current. A year later he named the professional, reviewed form
-  [agentic engineering](2026-02-04-agentic-engineering-vs-vibe-coding.md), but kept vibe coding
+  [agentic engineering](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-02-04-agentic-engineering-vs-vibe-coding.md), but kept vibe coding
   as the right mode for throwaway work: at Sequoia 2026 he said it "raises the floor".
 
 ---
@@ -4130,7 +4136,7 @@ Karpathy notes that a textbook has three kinds of content. Exposition matches pr
 ## Context
 
 - Posted 2025-01-30; extended on 2024-11-15 (earlier) and 2025-08-28.
-- Related: [RL environments are the new data](2025-08-27-rl-environments-are-the-new-data.md).
+- Related: [RL environments are the new data](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-08-27-rl-environments-are-the-new-data.md).
 
 ---
 
@@ -4143,7 +4149,7 @@ Karpathy says that RL on thinking models produces cognitive strategies: trying a
 ## Apply
 
 - On hard problems, give the model room to think and set the goal and the check, not the method.
-- Avoid long step-by-step recipes for reasoning models. See [success criteria, not steps](2026-01-26-success-criteria-not-steps.md).
+- Avoid long step-by-step recipes for reasoning models. See [success criteria, not steps](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-01-26-success-criteria-not-steps.md).
 - Test a hard task at higher effort before you rewrite the prompt.
 
 ## Context
@@ -4189,7 +4195,7 @@ Karpathy says the capability to watch is not PhD-level problems. It is the junio
 
 ## Context
 
-- Posted 2024-12-14. His 2025 view of the model as an over-eager intern is in [tight leash](2025-04-24-ai-assisted-coding-rhythm.md).
+- Posted 2024-12-14. His 2025 view of the model as an over-eager intern is in [tight leash](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-04-24-ai-assisted-coding-rhythm.md).
 
 ---
 
@@ -4227,10 +4233,10 @@ for easy copying. He prefers EPUB to PDF because code can parse it into clean te
   genome-model paper); reader3 repository of 2025-11-18, about 90% vibe coded; a reply of
   2026-01-11 that pointed to reader3.
 - In early 2025 he found the workflow clunky: no tool let him highlight a passage and ask about it.
-- Related: [Read with an LLM in three passes](2025-11-17-read-everything-with-llms-three-passes.md),
-  [Convert books and PDFs with an agent](2026-04-02-convert-documents-with-an-agent.md),
-  [Ask for a diagram of what you read](2025-02-27-ask-for-a-diagram-of-what-you-read.md) and
-  [Treat small apps as disposable](2025-11-18-disposable-vibe-coded-apps.md).
+- Related: [Read with an LLM in three passes](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-11-17-read-everything-with-llms-three-passes.md),
+  [Convert books and PDFs with an agent](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-04-02-convert-documents-with-an-agent.md),
+  [Ask for a diagram of what you read](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-02-27-ask-for-a-diagram-of-what-you-read.md) and
+  [Treat small apps as disposable](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-11-18-disposable-vibe-coded-apps.md).
 
 ---
 
@@ -4248,13 +4254,13 @@ Karpathy says that when you ask an AI, you are closer to asking an average data 
 ## Apply
 
 - For judgment calls, treat the answer as a competent consensus. Ask for dissent and for sources.
-- Ask for the opinion of a named type of expert, with the model simulating them. See [there is no 'you'](2025-12-07-llms-simulate-there-is-no-you.md).
+- Ask for the opinion of a named type of expert, with the model simulating them. See [there is no 'you'](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-12-07-llms-simulate-there-is-no-you.md).
 - Use checks and tests where you can, since that is where models exceed the labeler.
 
 ## Context
 
 - Posted 2024-11-29.
-- Related: [commercial evolution](2025-11-29-llms-shaped-by-commercial-evolution.md).
+- Related: [commercial evolution](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-11-29-llms-shaped-by-commercial-evolution.md).
 
 ---
 
@@ -4272,7 +4278,7 @@ Karpathy applies Moravec's paradox to LLM evals. Models solve hard, closed probl
 
 ## Context
 
-- Posted 2024-11-10. Related: [the junior intern test](2024-12-14-would-you-hire-it-as-a-junior-intern.md), which sets a week-sized task as the bar.
+- Posted 2024-11-10. Related: [the junior intern test](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2024-12-14-would-you-hire-it-as-a-junior-intern.md), which sets a week-sized task as the bar.
 
 ---
 
@@ -4319,9 +4325,9 @@ judge works for perhaps 10 or 20 optimisation steps, not hundreds.
 ## Context
 
 - X post of 2024-08-07; Dwarkesh Patel interview of 2025-10-17.
-- Related: [RL sucks supervision through a straw](2025-10-17-rl-supervision-through-a-straw.md),
-  [LLM judges grade too freely](2025-12-10-llm-grader-identity-bias.md) and
-  [Software 2.0 automates what you can verify](2025-11-17-software-2-automates-what-you-can-verify.md).
+- Related: [RL sucks supervision through a straw](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-10-17-rl-supervision-through-a-straw.md),
+  [LLM judges grade too freely](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-12-10-llm-grader-identity-bias.md) and
+  [Software 2.0 automates what you can verify](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-11-17-software-2-automates-what-you-can-verify.md).
 
 ---
 
@@ -4344,7 +4350,7 @@ In March 2024 Karpathy compared software engineering to self-driving. The steps:
 
 ## Context
 
-- Posted 2024-03-12. Still matters: agent tools of 2025 follow this ladder. See [the junior intern test](2024-12-14-would-you-hire-it-as-a-junior-intern.md) and [AI and jobs](2025-09-25-ai-and-jobs-radiologists-and-engineers.md).
+- Posted 2024-03-12. Still matters: agent tools of 2025 follow this ladder. See [the junior intern test](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2024-12-14-would-you-hire-it-as-a-junior-intern.md) and [AI and jobs](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-09-25-ai-and-jobs-radiologists-and-engineers.md).
 
 ---
 
@@ -4391,7 +4397,7 @@ Karpathy says much "educational" short video is entertainment. Learning should f
 ## Context
 
 - Posted 2024-02-10. In November 2025 he added a short reply that fake learning is 'edutainment'.
-- Related: [AI and schools](2025-11-24-learn-with-ai-but-test-without-it.md).
+- Related: [AI and schools](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-11-24-learn-with-ai-but-test-without-it.md).
 
 ---
 
@@ -4409,7 +4415,7 @@ Karpathy says the ideal data for training an LLM is the whole sequence of intern
 
 ## Context
 
-- Posted 2024-01-20. Related practice: [system prompt learning](2025-05-10-system-prompt-learning.md).
+- Posted 2024-01-20. Related practice: [system prompt learning](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-05-10-system-prompt-learning.md).
 
 ---
 
@@ -4451,7 +4457,7 @@ In December 2023 Karpathy called LLMs dream machines that are directed by prompt
 ## Context
 
 - Posted 2023-12-08. Kept because the advice still applies.
-- Related: [what you can verify](2025-11-17-software-2-automates-what-you-can-verify.md).
+- Related: [what you can verify](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-11-17-software-2-automates-what-you-can-verify.md).
 
 ---
 
@@ -4487,6 +4493,6 @@ statistical and vague, not exact. The agent is the kernel that runs on that CPU.
   specs (GPT-4 Turbo, 128K tokens) show how much has changed; the structure has held.
 - In 2023 he called the LLM itself the "kernel process"; by 2026 the kernel role sits with the
   agent. Our reading: a refinement as agent harnesses matured, not a reversal.
-- The 2025 version of the analogy adds cloud time-sharing: [LLMs are like 1960s operating systems](2025-06-17-llms-are-1960s-operating-systems.md).
-- Related: [Software 3.0](2025-06-17-software-3-0-english-as-programs.md) and
-  [DevOps as code for agents](2026-03-26-devops-as-code-for-agents.md).
+- The 2025 version of the analogy adds cloud time-sharing: [LLMs are like 1960s operating systems](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-06-17-llms-are-1960s-operating-systems.md).
+- Related: [Software 3.0](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-06-17-software-3-0-english-as-programs.md) and
+  [DevOps as code for agents](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-26-devops-as-code-for-agents.md).

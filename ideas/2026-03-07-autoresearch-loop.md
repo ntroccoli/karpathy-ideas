@@ -29,7 +29,9 @@ written by AI, and that he tunes this "meta-setup" as much as the training code.
 ## Apply
 
 - Pick a task with one objective number that is cheap to compute (loss, latency, test pass
-  rate). Write the rule for accepting a change: better number, and no slower, no bigger.
+  rate). Write the rule for accepting a change, as his `program.md` does: keep it when the number
+  improves; treat memory use as a soft limit; weigh each gain against the code it adds (equal
+  results with simpler code is a win).
 - Fix the budget per experiment (here, five minutes) so runs compare fairly.
 - Keep the agent on a branch. Commit each kept change, so the history is the lab notebook.
 - Compare agent setups, not only models: change the prompt file, rerun, and compare the curves.

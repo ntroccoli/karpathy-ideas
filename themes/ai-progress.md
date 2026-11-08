@@ -6,6 +6,8 @@ Views on the field, timelines, society, jobs.
 
 35 ideas, newest first.
 
+*(Anthropic period)*: dated 2026-05-19 or later, after he [joined Anthropic](https://x.com/karpathy/status/2056753169888334312), and about Claude or Anthropic. Weigh these with that in mind.
+
 - 2026-11-04 · [How you could have predicted LLMs from the 1970s](../ideas/2026-11-04-predicting-llms-from-the-1970s.md) — Getting AI right in 1970 needs a chain of six leaps from digital work to scaling laws, and a bet against hand-programmed robots.
 - 2026-10-02 · [Human work rises into oversight, helped by throwaway software](../ideas/2026-10-02-oversight-and-discardable-software.md) — As agents do more of the legwork, human work moves up to oversight and understanding, and large custom throwaway artifacts help with that.
 - 2026-09-21 · [Fast, no-thinking LLMs fill an under-served niche](../ideas/2026-09-21-low-latency-single-token-llm-niche.md) — A zero-shot classifier with frontier-level knowledge is a point on the LLM trade-off curve that the race for raw intelligence left empty.

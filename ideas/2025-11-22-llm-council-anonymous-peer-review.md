@@ -17,16 +17,18 @@ LLM Council is a local web app. You ask one question and it goes to several mode
 OpenRouter. Stage 1 collects the first opinions, shown in tabs. In stage 2, each model gets the
 other answers with the model names replaced by "Response A", "Response B" and so on, so it
 cannot favour a brand. It ranks them for accuracy and insight. In stage 3, a chairman model
-turns everything into one answer. The design notes add practical rules: demand a strict
-"FINAL RANKING" format so it can be parsed, keep going if one model fails, and show raw outputs
-so the user can check the parsing.
+turns everything into one answer. The repo's design notes (its CLAUDE.md) add practical rules:
+a strict "FINAL RANKING" format so it can be parsed, keep going if one model fails, and show raw
+outputs so the user can check the parsing. He says the project was 99% vibe coded, so these notes
+were probably written by his coding agent, not by him.
 
 ## Apply
 
 - For a hard question, send it to two or three different models and ask each to critique the
   others' answers with names hidden.
-- Ask reviewers for a numbered ranking in a fixed format, and write a fallback parser.
-- Treat one failed model call as a missing vote, not a failed request.
+- From the repo's CLAUDE.md (probably agent-written): ask reviewers for a numbered ranking in a
+  fixed format with a fallback parser, and treat one failed model call as a missing vote, not a
+  failed request.
 - Keep raw answers visible next to the summary, so you can audit the chairman.
 
 ## Context

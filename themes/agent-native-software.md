@@ -6,6 +6,8 @@ Software 3.0, LLM OS, CLIs and docs for agents, products.
 
 34 ideas, newest first.
 
+*(Anthropic period)*: dated 2026-05-19 or later, after he [joined Anthropic](https://x.com/karpathy/status/2056753169888334312), and about Claude or Anthropic. Weigh these with that in mind.
+
 - 2026-11-01 · [Build a bespoke app in a weekend by only talking to Claude](../ideas/2026-11-01-hackertube-weekend-app.md) — Hand a data task to cheap models in bulk and let a strong model build and deploy the app, so only keys, domain and server stay manual. *(Anthropic period)*
 - 2026-10-02 · [Human work rises into oversight, helped by throwaway software](../ideas/2026-10-02-oversight-and-discardable-software.md) — As agents do more of the legwork, human work moves up to oversight and understanding, and large custom throwaway artifacts help with that.
 - 2026-09-21 · [Fast, no-thinking LLMs fill an under-served niche](../ideas/2026-09-21-low-latency-single-token-llm-niche.md) — A zero-shot classifier with frontier-level knowledge is a point on the LLM trade-off curve that the race for raw intelligence left empty.

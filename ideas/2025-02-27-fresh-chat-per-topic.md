@@ -32,9 +32,9 @@ agentic context management with memory, where the system decides what to keep.
 - Press "new chat" when you change subject, not only when a chat gets slow.
 - Before you continue a long chat, ask whether its early messages still help. If not, copy only the
   useful facts into a new chat.
-- In coding agents, keep one session per task, and hand off through a file (decisions, state, next
-  step), not through a long history.
-- Do not trust automatic compaction with key decisions. Write them down yourself.
+- Our reading, for coding agents (he spoke about chat apps): keep one session per task, and hand
+  off through a file (decisions, state, next step), not through a long history. Do not trust
+  automatic compaction with key decisions; write them down yourself.
 
 ## Context
 

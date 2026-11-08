@@ -5,6 +5,8 @@
 157 ideas, newest first. Latest source date: 2026-11-04.
 Each line: date · title — one-line summary. Browse by topic in [themes/](themes/).
 
+*(Anthropic period)*: dated 2026-05-19 or later, after he [joined Anthropic](https://x.com/karpathy/status/2056753169888334312), and about Claude or Anthropic. Weigh these with that in mind.
+
 - 2026-11-04 · [How you could have predicted LLMs from the 1970s](ideas/2026-11-04-predicting-llms-from-the-1970s.md) — Getting AI right in 1970 needs a chain of six leaps from digital work to scaling laws, and a bet against hand-programmed robots.
 - 2026-11-01 · [Build a bespoke app in a weekend by only talking to Claude](ideas/2026-11-01-hackertube-weekend-app.md) — Hand a data task to cheap models in bulk and let a strong model build and deploy the app, so only keys, domain and server stay manual. *(Anthropic period)*
 - 2026-11-01 · [With strong models, write shorter prompts](ideas/2026-11-01-shorter-prompts-fewer-bits.md) — Strong models get the point from fewer words, and too many requirements can hold the model below what it would do on its own.

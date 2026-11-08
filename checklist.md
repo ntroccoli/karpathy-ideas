@@ -13,18 +13,16 @@ ours, not Karpathy's. How to run the checklist is at the end.
    Ideas: [context engineering](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-06-25-context-engineering.md),
    [shorter prompts](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-11-01-shorter-prompts-fewer-bits.md).
 2. **Do sessions run long across topics?**
-   Check: apply this to the session you are running in, too. Ask the user to run `/context`
-   (Claude Code) or read the context percentage in the status line, and note how many unrelated
-   topics this session has covered. When the topic changes, start a fresh session that reads a
-   handoff file, instead of carrying the old history. Idea: [fresh chat per topic](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-02-27-fresh-chat-per-topic.md).
+   Check: note how long sessions run and how many unrelated topics one session covers, including
+   the session you are running in. When the topic changes, start a new session instead of
+   carrying the old history. Idea: [fresh chat per topic](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-02-27-fresh-chat-per-topic.md).
 3. **Which model does which work?**
    Check: who searches, reads and summarises. Give that work to a cheaper model or subagent; keep
    the strongest model for design and hard problems.
    Idea: [fast model first](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-02-27-fast-model-first-thinking-model-for-hard.md).
 4. **Do requests state scope and depth?**
    Check: briefs and prompts say "quick look, one file" or "deep, verify", so agents do not
-   search everything. Start lines and handoffs say what a new session does first: report where
-   things stand, propose, and wait for the user before starting work. Idea: [models too agentic](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-08-09-models-too-agentic-state-stakes-and-scope.md).
+   search everything. Idea: [models too agentic](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-08-09-models-too-agentic-state-stakes-and-scope.md).
 5. **Where do lessons go?**
    Check: lessons are written down after work, grouped by topic, and pruned, not appended forever
    to a file every session loads. Idea: [system prompt learning](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-05-10-system-prompt-learning.md).
@@ -92,3 +90,8 @@ This part is our procedure for using the collection, not an idea from Karpathy.
 6. Before you change a user-level file (for example `~/.claude/CLAUDE.md` or global skills), show
    the user the exact text and wait for their yes.
 7. Change nothing until the user chooses.
+
+Our own practices that go with A2 and A4 (not from the ideas): measure a session's context with
+`/context` (Claude Code) or the status line; carry state to a new session through a handoff file
+(decisions, state, next step) instead of the old history; and make a start line or handoff tell
+the new session to report where things stand, propose, and wait for the user before it starts.

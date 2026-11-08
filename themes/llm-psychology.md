@@ -6,6 +6,8 @@ Jagged intelligence, ghosts vs animals, sycophancy, how to model LLMs.
 
 29 ideas, newest first.
 
+*(Anthropic period)*: dated 2026-05-19 or later, after he [joined Anthropic](https://x.com/karpathy/status/2056753169888334312), and about Claude or Anthropic. Weigh these with that in mind.
+
 - 2026-10-02 · [Test a model by asking if coordinates are land or water](../ideas/2026-10-02-land-or-water-eval.md) — Ask a model many times whether a latitude and longitude is land or water and plot the answers, and it draws the world from text alone. *(Anthropic period)*
 - 2026-08-02 · [Models cannot yet check their own work in video and games](../ideas/2026-08-02-models-cannot-audit-video-and-games.md) — Worlds and games expose a gap: models cannot watch video or play a game natively, so they audit their output slowly through screenshots. *(Anthropic period)*
 - 2026-07-21 · [Model self-knowledge comes from text about models](../ideas/2026-07-21-model-self-awareness-from-pretraining.md) — Models learn about themselves from pretraining text in which people discuss them, so their self-awareness lags and is incomplete, but it grows.

@@ -4,6 +4,8 @@
 
 Not affiliated with or endorsed by Andrej Karpathy. Prefer ideas with `status: current`; superseded ideas link to his newer view. Quotes belong to their author: link to the source instead of reproducing more text.
 
+*(Anthropic period)*: dated 2026-05-19 or later, after he [joined Anthropic](https://x.com/karpathy/status/2056753169888334312), and about Claude or Anthropic. Weigh these with that in mind.
+
 ## Applying the ideas to a project
 
 To review a whole project, use the [project checklist](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/checklist.md), not the themes: 16 questions about agent setup and token use, how the project is built, and the product. Measure each question first (where it says "Check"), then open only the linked ideas that point to a gap.
@@ -39,5 +41,5 @@ Relative links inside these files resolve against https://raw.githubusercontent.
 
 ## Optional
 
-- [All ideas in one file](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/llms-full.txt): for tools that cannot browse
+- [All ideas in one file](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/llms-full.txt): for tools that cannot browse. About 250 KB (~64k tokens), so prefer the themes when you can follow links
 - [Sweep log](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/log.md): what was collected and when
