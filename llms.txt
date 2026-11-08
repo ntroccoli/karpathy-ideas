@@ -41,5 +41,5 @@ Relative links inside these files resolve against https://raw.githubusercontent.
 
 ## Optional
 
-- [All ideas in one file](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/llms-full.txt): for tools that cannot browse. About 252 KB (~65k tokens), so prefer the themes when you can follow links
+- [All ideas in one file](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/llms-full.txt): for tools that cannot browse. About 338 KB (~87k tokens), so prefer the themes when you can follow links
 - [Sweep log](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/log.md): what was collected and when

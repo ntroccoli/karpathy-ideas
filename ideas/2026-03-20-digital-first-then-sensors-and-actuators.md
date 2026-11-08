@@ -3,7 +3,7 @@ title: Digital work changes first, then the sensors and actuators, then atoms
 date: 2026-03-20
 source: talk
 url: https://podcasts.apple.com/us/podcast/no-priors-artificial-intelligence-technology-startups/id1668002688?i=1000756334966
-also: []
+also: [https://x.com/karpathy/status/1882544526033924438]
 themes: [ai-progress]
 summary: Bits move far faster than atoms; the next opportunity is the interface where agents buy data from the world and act on it.
 status: current
@@ -33,3 +33,4 @@ in self-driving. He still thinks the physical market may be larger.
 - From the No Priors episode of 2026-03-20. A forecast, not a measurement. He says he does not do
   forecasting for a living.
 - He also shared a jobs-data view, coloured by how much each job manipulates digital information.
+- First raised on 2025-01-23, when he compared computer-using agents to humanoid robots and said that changing bits is about 1000 times cheaper than moving atoms. See [This is the decade of agents](2025-10-17-decade-of-agents-not-year.md).

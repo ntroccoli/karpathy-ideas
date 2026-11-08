@@ -3,7 +3,7 @@ title: Start a new chat when the topic changes
 date: 2025-02-27
 source: talk
 url: https://www.youtube.com/watch?v=EWvNQjAaOHw
-also: [https://x.com/karpathy/status/1902737525900525657]
+also: [https://x.com/karpathy/status/1902737525900525657, https://x.com/karpathy/status/1902743929554121131]
 themes: [context-and-prompting]
 summary: Old context distracts the model and costs more per token, so reset when the topic changes; the lasting fix is context managed by the agent.
 status: current
@@ -36,6 +36,7 @@ agentic context management with memory, where the system decides what to keep.
 - Our reading, for coding agents (he spoke about chat apps): keep one session per task, and hand
   off through a file (decisions, state, next step), not through a long history. Do not trust
   automatic compaction with key decisions; write them down yourself.
+- Group long-running work into projects, keep one default chat for quick questions, and when a chat gets too long, write a summary and continue in a new chat (a reader's setup he called interesting, 2025-03-20).
 
 ## Context
 

@@ -3,7 +3,7 @@ title: LLMs are people spirits with superpowers and deficits
 date: 2025-06-17
 source: talk
 url: https://www.youtube.com/watch?v=LCEmiRjPEtQ
-also: []
+also: [https://x.com/karpathy/status/1935518272667217925, https://x.com/karpathy/status/1935519334123848101]
 themes: [llm-psychology]
 summary: An LLM simulates people, so it recalls like a savant, is jagged, forgets everything between sessions and can be tricked; work around all four.
 status: current

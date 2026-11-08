@@ -3,7 +3,7 @@ title: Models write over-defensive error handling
 date: 2025-10-08
 source: x
 url: https://x.com/karpathy/status/1976077806443569355
-also: [https://x.com/karpathy/status/1981009115523789169]
+also: [https://x.com/karpathy/status/1981009115523789169, https://x.com/karpathy/status/1976082963382272334]
 themes: [agentic-coding]
 summary: After RL, models wrap code in try/except and fallbacks, so tell the agent to let errors surface.
 status: current

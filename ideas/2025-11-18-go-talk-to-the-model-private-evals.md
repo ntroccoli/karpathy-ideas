@@ -3,7 +3,7 @@ title: Public benchmarks are gameable, so keep your own evals
 date: 2025-11-18
 source: x
 url: https://x.com/karpathy/status/1990854771058913347
-also: [https://x.com/karpathy/status/1891720635363254772, https://karpathy.bearblog.dev/year-in-review-2025/, https://news.ycombinator.com/item?id=50322352]
+also: [https://x.com/karpathy/status/1891720635363254772, https://karpathy.bearblog.dev/year-in-review-2025/, https://news.ycombinator.com/item?id=50322352, https://x.com/karpathy/status/1896266683301659068, https://x.com/karpathy/status/1891555738394279976, https://x.com/karpathy/status/1990855382756164013, https://x.com/karpathy/status/2002118205729562949]
 themes: [verification, llm-psychology]
 summary: Benchmarks are verifiable, so labs train toward them and scores mislead; talk to each model and test it on a private set of your own tasks.
 status: current
@@ -36,6 +36,7 @@ now points to Epoch's Capabilities Index and its published benchmark reviews.
   its centre.
 - Keep the private set out of prompts, training data and public repos.
 - When you read a public score, check how the benchmark was built and reviewed.
+- Keep a standing set of trick prompts that are easy for people and hard for LLMs, plus one open task such as an unsolved problem, and rerun it on each new model (his Grok 3 test, 2025-02).
 
 ## Context
 
@@ -46,3 +47,5 @@ now points to Epoch's Capabilities Index and its published benchmark reviews.
 - Related: [Jagged intelligence follows verifiability](2026-03-20-jagged-intelligence-follows-verifiability.md),
   [RLHF is just barely RL](2024-08-07-rlhf-is-just-barely-rl.md) and
   [A text-only eval](2026-10-02-land-or-water-eval.md).
+- First raised on 2025-03-02: he spoke of an evaluation crisis. MMLU was saturated, SWE-Bench Verified too narrow, Chatbot Arena overfit by the labs, and vibe checks open to confirmation bias. An ensemble of private evals looked promising to him. See [Leaderboards get gamed](2025-03-02-leaderboards-get-gamed-watch-real-usage.md).
+- An example from November 2025: an early Gemini 3 build would not accept the real date and called his evidence fake, until he turned on its search tool. Check the tool settings before you judge a model.

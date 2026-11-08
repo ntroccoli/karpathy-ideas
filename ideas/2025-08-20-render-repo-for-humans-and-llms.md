@@ -37,3 +37,4 @@ models.
 
 - Created 2025-08-20. He says he vibe coded it months earlier and uses it often, without plans
   to maintain it. See [Treat small apps as disposable](2025-11-18-disposable-vibe-coded-apps.md).
+- The habit behind it: [Pack your project into one prompt](2025-02-14-package-repo-into-one-prompt.md).

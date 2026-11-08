@@ -3,7 +3,7 @@ title: Read books together with an LLM, one chapter at a time
 date: 2024-12-11
 source: x
 url: https://x.com/karpathy/status/1866896395363553418
-also: [https://www.youtube.com/watch?v=EWvNQjAaOHw, https://github.com/karpathy/reader3, https://x.com/karpathy/status/2010409356874203466]
+also: [https://www.youtube.com/watch?v=EWvNQjAaOHw, https://github.com/karpathy/reader3, https://x.com/karpathy/status/2010409356874203466, https://x.com/karpathy/status/1886200943471157418, https://x.com/karpathy/status/1969699013671678382]
 themes: [learning-and-education, output-and-reading]
 summary: Paste one chapter at a time into an LLM, ask for a summary, then read it yourself and ask questions; EPUB parses cleanly, so prefer it to PDF.
 status: current
@@ -48,3 +48,5 @@ for easy copying. He prefers EPUB to PDF because code can parse it into clean te
   [Convert books and PDFs with an agent](2026-04-02-convert-documents-with-an-agent.md),
   [Ask for a diagram of what you read](2025-02-27-ask-for-a-diagram-of-what-you-read.md) and
   [Treat small apps as disposable](2025-11-18-disposable-vibe-coded-apps.md).
+- In February 2025 he vibe coded a reader for The Wealth of Nations: click a paragraph, ask a question, and the app sends the chapter, the paragraph and the question to an LLM.
+- In September 2025 he said a book works better as a set of prompts that start your own questions, explanations and examples, like synthetic data generation for a model, than as text to absorb, like pretraining data.

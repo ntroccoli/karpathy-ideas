@@ -3,7 +3,7 @@ title: Build partial-autonomy apps with an autonomy slider
 date: 2025-06-17
 source: talk
 url: https://www.youtube.com/watch?v=LCEmiRjPEtQ
-also: [https://www.dwarkesh.com/p/andrej-karpathy, https://karpathy.bearblog.dev/year-in-review-2025/]
+also: [https://www.dwarkesh.com/p/andrej-karpathy, https://karpathy.bearblog.dev/year-in-review-2025/, https://x.com/karpathy/status/2002118205729562949, https://x.com/karpathy/status/1903553292376170892, https://x.com/karpathy/status/1930326685918081077]
 themes: [agent-native-software, agentic-coding]
 summary: Good LLM apps manage context, chain model calls, give a GUI for fast checking and let the user set how much the AI does.
 status: current
@@ -41,3 +41,5 @@ field with private data, sensors, actuators and feedback loops.
 - Related: [Keep the AI on a tight leash](2025-04-24-ai-assisted-coding-rhythm.md),
   [Context engineering](2025-06-25-context-engineering.md) and
   [the autonomy ladder](2024-03-12-swe-autonomy-ladder-supervising-automation.md).
+- A March 2025 example: a quiz generator for his videos gave a wrong answer. He said AI is reliable as a tool in a person's hands and gives slop when left to act alone.
+- In June 2025 he said people get distracted by demos of full autonomy instead of building strong products with partial autonomy.

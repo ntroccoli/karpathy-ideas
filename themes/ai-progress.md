@@ -4,13 +4,13 @@
 
 Views on the field, timelines, society, jobs.
 
-35 ideas, newest first.
+51 ideas, newest first.
 
 *(Anthropic period)*: dated 2026-05-19 or later, after he [joined Anthropic](https://x.com/karpathy/status/2056753169888334312), and about Claude or Anthropic. Weigh these with that in mind.
 
 ## Practices
 
-Ways of working you can apply. 16, newest first.
+Ways of working you can apply. 18, newest first.
 
 - 2026-10-02 · [Human work rises into oversight, helped by throwaway software](../ideas/2026-10-02-oversight-and-discardable-software.md) — As agents do more of the legwork, human work moves up to oversight and understanding, and large custom throwaway artifacts help with that.
 - 2026-09-21 · [Fast, no-thinking LLMs fill an under-served niche](../ideas/2026-09-21-low-latency-single-token-llm-niche.md) — A zero-shot classifier with frontier-level knowledge is a point on the LLM trade-off curve that the race for raw intelligence left empty.
@@ -27,11 +27,13 @@ Ways of working you can apply. 16, newest first.
 - 2025-12-10 · [Use an LLM to grade past predictions with hindsight](../ideas/2025-12-10-llm-hindsight-grading-hn.md) — A pipeline pulls the Hacker News front page from ten years ago, has an LLM judge each discussion in hindsight, and grades each commenter.
 - 2025-11-17 · [Software 2.0 automates what you can verify](../ideas/2025-11-17-software-2-automates-what-you-can-verify.md) — Classic software automates what you can specify and trained models automate what you can verify, so verifiability predicts where AI improves fastest.
 - 2025-10-17 · [Build for the capability that exists; a real tutor is a high bar](../ideas/2025-10-17-calibrate-to-what-ai-can-do-tutor.md) — A good tutor finds your level and serves what fits; chat models do not yet, so build with AI in the loop and say when not to use AI.
+- 2025-07-10 · [Write new knowledge for AI readers, not as a PDF](../ideas/2025-07-10-write-research-for-llms-not-pdf.md) — As AI can infer what is already online, people's main contribution is original results; publish them as repos, CSVs and markdown that LLMs can read.
 - 2025-06-17 · [A demo is the first nine; each next nine costs the same work](../ideas/2025-06-17-demo-to-product-gap-march-of-nines.md) — A system that works 90% of the time is a demo; reaching 99.999% takes years, so be sceptical of demos and agent timelines.
+- 2025-03-02 · [Leaderboards get gamed; watch real usage](../ideas/2025-03-02-leaderboards-get-gamed-watch-real-usage.md) — A top rank on a public arena can mean the lab tuned for the arena. Trust your own use and real-usage signals such as OpenRouter rankings.
 
 ## Views
 
-How he sees the field: context, not steps. 19, newest first.
+How he sees the field: context, not steps. 33, newest first.
 
 - 2026-11-04 · [How you could have predicted LLMs from the 1970s](../ideas/2026-11-04-predicting-llms-from-the-1970s.md) — Getting AI right in 1970 needs a chain of six leaps from digital work to scaling laws, and a bet against hand-programmed robots. *(view)*
 - 2026-04-10 · [Big labs' roadmaps are predictable, which leaves room for startups](../ideas/2026-04-10-lab-roadmaps-leave-room-for-startups.md) — AI labs focus on a clear set of products; promising ideas they drop are a gap that a careful startup can fill. *(view)*
@@ -44,11 +46,25 @@ How he sees the field: context, not steps. 19, newest first.
 - 2026-01-26 · [LLM help is less a speedup than an expansion](../ideas/2026-01-26-llm-speedup-is-mostly-expansion.md) — Measuring speedup misses the main effect: you do more, and you reach work you could not do before. *(view)*
 - 2026-01-26 · [Expect a slopacolypse of AI content in 2026](../ideas/2026-01-26-slopacolypse-2026.md) — Low-quality AI output will flood GitHub, Substack, arXiv and social media, with productivity theater beside real gains. *(view)*
 - 2025-12-10 · [Future LLMs will read everything we do today](../ideas/2025-12-10-future-llms-are-watching.md) — Once intelligence is cheap, anyone can scrutinise old public records in detail, so behaviour that relies on obscurity will not hold up. *(view)*
+- 2025-11-22 · [Slop is data that does not help a world model; it is regretted attention](../ideas/2025-11-22-slop-is-regretted-attention.md) — He looks for a measurable definition of slop: filler that looks like information but does not help compress a world model, which readers regret attending to. *(view)*
+- 2025-11-12 · [One big neural net can replace a hand-written stack, if data and compute scale](../ideas/2025-11-12-one-neural-net-replaces-the-handwritten-stack.md) — In self-driving, sensor streams go into one network and controls come out; this scales with fleet data, not hand-built rules. *(view)*
+- 2025-11-10 · [A cheap AI shortcut can stop you before the deeper work](../ideas/2025-11-10-cheap-shortcuts-stop-deeper-work.md) — CGI and AI both trade time and cost for a little more slop; the risk is that a decent first result lets you stop, so use them for what you could not do before. *(view)*
 - 2025-10-17 · [AI will blend into the same 2% growth curve](../ideas/2025-10-17-agi-blends-into-gdp-growth.md) — Like computers and phones, AI will diffuse slowly and not show as a jump; the intelligence explosion has been happening for decades. *(view)*
 - 2025-10-17 · [Coding came first because it is text with diff tools](../ideas/2025-10-17-coding-first-text-and-diffs.md) — Code is plain text with editors and diffs already built, so agents fit it; slides and other visual work lack a way to show changes. *(view)*
 - 2025-10-17 · [This is the decade of agents, not the year of agents](../ideas/2025-10-17-decade-of-agents-not-year.md) — Agents are useful today but lack memory, multimodality and reliability; he expects about ten years of work before they match a good intern. *(view)*
 - 2025-10-17 · [The likely risk is a gradual loss of control and understanding](../ideas/2025-10-17-gradual-loss-of-control-and-understanding.md) — He expects fewer people to understand systems built by AI, and many competing autonomous agents, rather than one machine taking over. *(view)*
 - 2025-09-25 · [Jobs change before they vanish, and supervision grows](../ideas/2025-09-25-ai-and-jobs-radiologists-and-engineers.md) — Jobs are bundles of tasks; closed, repetitive digital work automates first, and people move toward supervising teams of imperfect AIs. *(view)*
+- 2025-06-30 · [Recursive self-improvement has already begun](../ideas/2025-06-30-recursive-self-improvement-is-already-underway.md) — Self-improvement is not a sudden event; tools like IDEs, git and LLM completion have sped up building the next version for years, and nanoGPT is a fair test. *(view)*
 - 2025-06-27 · [A small cognitive core that reasons and looks facts up](../ideas/2025-06-27-the-llm-cognitive-core.md) — A model of about a billion to a few billion parameters could keep the reasoning skills, drop most memorised facts, look things up, and run on every device. *(view)*
+- 2025-06-26 · [The bitter lesson as "turn the crank"](../ideas/2025-06-26-the-bitter-lesson-turn-the-crank.md) — Prefer methods that improve when you give them more compute without edits; break the rule on purpose only when you can afford to miss the next crank. *(view)*
+- 2025-06-05 · [Either the automation adapts, or the world does](../ideas/2025-06-05-automation-meets-the-task-or-the-task-meets-it.md) — Automation adapts to the tasks or the tasks adapt to it, usually both; he expects software to adapt about 80% and hardware to adapt little. *(view)*
+- 2025-06-02 · [Generated video can be optimised directly](../ideas/2025-06-02-video-generation-is-directly-optimizable.md) — Video from a neural net can be optimised against any goal, such as engagement, which may make feeds far more addictive than ranking human-made clips. *(view)*
+- 2025-05-25 · [Prompting was the unlock he missed in 2015](../ideas/2025-05-25-prompting-was-the-unlock-he-missed.md) — In 2015 he missed that one set of weights could do many tasks if you just ask; a blind spot like this can move timelines more than new evidence. *(view)*
+- 2025-04-19 · [AGI means a feature-complete remote worker; society-wide deployment is ASI](../ideas/2025-04-19-agi-means-a-remote-worker-diffusion-is-asi.md) — He keeps the original definition of AGI, a system that can do most digital jobs, and separates it from the slow spread of that system through society. *(view)*
 - 2025-04-07 · [LLMs reverse the usual path of technology diffusion](../ideas/2025-04-07-llms-reverse-technology-diffusion.md) — Most technologies reach governments and firms first; LLMs help ordinary people most, because they give broad, shallow expertise at almost no cost. *(view)*
+- 2025-04-04 · [Move AI predictions to betting markets](../ideas/2025-04-04-move-ai-predictions-to-betting-markets.md) — Turn AI forecasts into betting-market questions, but each one needs a concrete, resolvable predicate; evals and GDP make weak ones. *(view)*
+- 2025-02-27 · [Bigger pretraining improves everything a little, and is hard to point to](../ideas/2025-02-27-bigger-pretraining-helps-everything-a-little.md) — A model with 10X more pretraining compute gets better in diffuse ways: knowledge, nuance, humor; test it on non-reasoning tasks, and do not trust a small poll. *(view)*
+- 2025-02-24 · [Agency matters more than intelligence, and is scarcer](../ideas/2025-02-24-agency-matters-more-than-intelligence.md) — He once had this backwards; the drive to take initiative is more powerful and rarer than raw intelligence, so hire and educate for it. *(view)*
+- 2025-02-18 · [Three breakthroughs so far; autonomous agents need a few more](../ideas/2025-02-18-three-breakthroughs-more-leaps-needed.md) — Task evals are easy to serve and beat; long-running autonomous work, which people mean by AGI, needs research leaps beyond scaling. *(view)*
+- 2025-01-17 · [People may train their minds the way they go to the gym](../ideas/2025-01-17-minds-like-muscles-and-the-gym.md) — Machines made muscles unnecessary yet people still lift for pleasure and health; he expects people to keep training their minds for the same reasons. *(view)*
 - 2024-11-10 · [Hard closed problems are easy; long autonomous jobs are hard](../ideas/2024-11-10-llms-solve-hard-prompts-but-fail-long-jobs.md) — LLMs solve hard problems served neatly in a prompt but struggle with long, coherent, autonomous work, and we need evals for that. *(view)*

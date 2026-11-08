@@ -3,7 +3,7 @@ title: RL environments are the new training data
 date: 2025-08-27
 source: x
 url: https://x.com/karpathy/status/1960803117689397543
-also: []
+also: [https://x.com/karpathy/status/1884676486713737258, https://x.com/karpathy/status/1884762542784086514, https://x.com/karpathy/status/1959657977914478777, https://x.com/karpathy/status/1960804762871587015]
 themes: [research-and-training, verification]
 summary: Pretraining used web text, finetuning used conversations, and RL uses environments where models act and see outcomes.
 status: current
@@ -26,3 +26,5 @@ Karpathy describes three eras by their data. Pretraining used internet text. Sup
 
 - Posted 2025-08-27.
 - Related: [what you can verify](2025-11-17-software-2-automates-what-you-can-verify.md).
+- First raised on 2025-01-29: he called a varied set of RL environments that draw out cognitive strategies the highest-leverage thing open-source builders could make, a job that suits a large community. He also spoke of taking LLMs through school.
+- In August 2025 he said the missing piece is a shared skeleton: one schema so that many people can add environments in parallel. Long term he is bullish on environments and bearish on RL itself.

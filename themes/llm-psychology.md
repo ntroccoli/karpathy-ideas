@@ -4,13 +4,13 @@
 
 Jagged intelligence, ghosts vs animals, sycophancy, how to model LLMs.
 
-29 ideas, newest first.
+36 ideas, newest first.
 
 *(Anthropic period)*: dated 2026-05-19 or later, after he [joined Anthropic](https://x.com/karpathy/status/2056753169888334312), and about Claude or Anthropic. Weigh these with that in mind.
 
 ## Practices
 
-Ways of working you can apply. 23, newest first.
+Ways of working you can apply. 25, newest first.
 
 - 2026-10-02 · [Test a model by asking if coordinates are land or water](../ideas/2026-10-02-land-or-water-eval.md) — Ask a model many times whether a latitude and longitude is land or water and plot the answers, and it draws the world from text alone. *(Anthropic period)*
 - 2026-08-02 · [Models cannot yet check their own work in video and games](../ideas/2026-08-02-models-cannot-audit-video-and-games.md) — Worlds and games expose a gap: models cannot watch video or play a game natively, so they audit their output slowly through screenshots. *(Anthropic period)*
@@ -27,6 +27,7 @@ Ways of working you can apply. 23, newest first.
 - 2025-12-07 · [Ask the LLM to simulate experts, not to give its opinion](../ideas/2025-12-07-llms-simulate-there-is-no-you.md) — There is no 'you' inside the model, so ask it to simulate a panel of suitable people instead of asking for its own opinion.
 - 2025-11-29 · [LLMs are shaped by commercial evolution, not biological evolution](../ideas/2025-11-29-llms-shaped-by-commercial-evolution.md) — Animal minds come from survival pressure, while LLMs come from imitating text, task rewards and user votes, which explains sycophancy and spiky skills.
 - 2025-11-18 · [Public benchmarks are gameable, so keep your own evals](../ideas/2025-11-18-go-talk-to-the-model-private-evals.md) — Benchmarks are verifiable, so labs train toward them and scores mislead; talk to each model and test it on a private set of your own tasks.
+- 2025-10-21 · [Give a model an identity with synthetic conversations, and make them diverse](../ideas/2025-10-21-give-a-small-model-an-identity-with-synthetic-data.md) — A model does not know what it is by default; have a bigger model write varied conversations about it and mix them into midtraining and finetuning.
 - 2025-10-17 · [Model outputs are silently collapsed, so synthetic data needs entropy](../ideas/2025-10-17-synthetic-data-and-model-collapse.md) — Each sample from a model looks fine but the set is narrow; training on your own output makes models worse, so seek outside variety.
 - 2025-10-17 · [Weights are a hazy memory; the context window is working memory](../ideas/2025-10-17-weights-hazy-memory-context-working-memory.md) — A model recalls training data vaguely but reads its context directly, so paste the source text instead of asking it to remember.
 - 2025-08-09 · [Models are too agentic by default, so state stakes and scope](../ideas/2025-08-09-models-too-agentic-state-stakes-and-scope.md) — Tuned models over-think simple questions and search the whole repo, so tell them the scope and the depth you want.
@@ -34,15 +35,21 @@ Ways of working you can apply. 23, newest first.
 - 2025-02-27 · [Check which tools the model has before you trust its answer](../ideas/2025-02-27-check-which-tools-the-model-has.md) — Search and a code interpreter fix recent facts and hard arithmetic; models without them guess, so ask for the tool.
 - 2025-02-27 · [Try a fast model first, switch to a thinking model for hard problems](../ideas/2025-02-27-fast-model-first-thinking-model-for-hard.md) — Know which model and tier you use; start fast, move to a reasoning model for hard code and math, and compare several vendors.
 - 2025-02-27 · [Treat LLM output as a first draft and check the sources](../ideas/2025-02-27-llm-output-is-a-first-draft.md) — Even with search or deep research, answers can be wrong; use citations, primary sources and a read of the generated code.
+- 2025-02-12 · [Invisible Unicode characters can smuggle data and prompts into an LLM](../ideas/2025-02-12-invisible-unicode-can-hide-prompts.md) — Variation selectors can hide arbitrary bytes behind one visible emoji; they cost many tokens and can carry a hidden prompt injection.
 - 2023-12-08 · [Hallucination is the LLM's main feature, so the system must check it](../ideas/2023-12-08-hallucination-is-the-llms-feature.md) — An LLM is a dream machine steered by prompts, so the system around it must check its output with search, tools and verification.
 
 ## Views
 
-How he sees the field: context, not steps. 6, newest first.
+How he sees the field: context, not steps. 11, newest first.
 
 - 2026-07-21 · [Model self-knowledge comes from text about models](../ideas/2026-07-21-model-self-awareness-from-pretraining.md) — Models learn about themselves from pretraining text in which people discuss them, so their self-awareness lags and is incomplete, but it grows. *(view)*
 - 2026-05-01 · [Self-distilled corrections still leak slop](../ideas/2026-05-01-self-distillation-slop-leaks.md) — Turning a voice note into an artifact and fixing it for 10 to 15 rounds works, but hard-to-see slop stays, and shipping is tempting. *(view)*
 - 2026-04-09 · [People judge AI differently because they use different AI](../ideas/2026-04-09-ai-capability-gap-two-groups.md) — Free-tier users and professionals on frontier models see different AI, and both are partly right; gains peak in verifiable, valuable domains. *(view)*
+- 2025-11-22 · [Slop is data that does not help a world model; it is regretted attention](../ideas/2025-11-22-slop-is-regretted-attention.md) — He looks for a measurable definition of slop: filler that looks like information but does not help compress a world model, which readers regret attending to. *(view)*
+- 2025-11-10 · [A cheap AI shortcut can stop you before the deeper work](../ideas/2025-11-10-cheap-shortcuts-stop-deeper-work.md) — CGI and AI both trade time and cost for a little more slop; the risk is that a decent first result lets you stop, so use them for what you could not do before. *(view)*
 - 2025-10-01 · [LLMs are ghosts, not animals](../ideas/2025-10-01-llms-are-ghosts-not-animals.md) — Frontier LLMs are statistical distillations of human text, a different kind of mind from animals; pretraining is a stand-in for evolution, not a copy of it. *(view)*
+- 2025-06-11 · [When the prior overwhelms the likelihood](../ideas/2025-06-11-when-the-prior-overwhelms-the-likelihood.md) — A model can read what it expects instead of what is in the input, as when it answered a classic illusion question about an image that had no illusion. *(view)*
+- 2025-02-16 · [Tic-tac-toe is harder for LLMs than it looks](../ideas/2025-02-16-tic-tac-toe-is-harder-for-llms-than-it-looks.md) — Models fail at tic-tac-toe because it needs line checks and look-ahead that humans do with their eyes and a sheet of paper. *(view)*
+- 2025-01-02 · [A good assistant skips the lecture and the flattery](../ideas/2025-01-02-llm-personality-no-lectures-no-flattery.md) — He wants best-effort problem solving without lectures, grandstanding, excess apology or fake praise; a chill, friend-like tone beats an HR-like one. *(view)*
 - 2024-11-29 · [Asking an AI is like asking the average data labeler](../ideas/2024-11-29-asking-an-ai-is-asking-the-average-data-labeler.md) — A model's answer reflects a skilled, average data labeler distilled into weights, and RL changes this only where answers can be verified. *(view)*
 - 2023-09-28 · [The LLM OS, with the model as CPU and the agent as kernel](../ideas/2023-09-28-llm-as-operating-system-kernel.md) — Treat the LLM as the processor of a new operating system and the agent as its kernel, with context as RAM, files as disk and tools as peripherals. *(view)*

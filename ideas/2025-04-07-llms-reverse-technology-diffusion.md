@@ -3,7 +3,7 @@ title: LLMs reverse the usual path of technology diffusion
 date: 2025-04-07
 source: blog
 url: https://karpathy.bearblog.dev/power-to-the-people/
-also: [https://x.com/karpathy/status/1909308143156240538]
+also: [https://x.com/karpathy/status/1909308143156240538, https://x.com/karpathy/status/1935519334123848101]
 themes: [ai-progress]
 summary: Most technologies reach governments and firms first; LLMs help ordinary people most, because they give broad, shallow expertise at almost no cost.
 status: current

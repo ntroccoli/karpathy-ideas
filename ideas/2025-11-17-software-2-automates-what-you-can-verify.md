@@ -3,7 +3,7 @@ title: Software 2.0 automates what you can verify
 date: 2025-11-17
 source: blog
 url: https://karpathy.bearblog.dev/verifiability/
-also: []
+also: [https://x.com/karpathy/status/1990116666194456651]
 themes: [verification, ai-progress]
 summary: Classic software automates what you can specify and trained models automate what you can verify, so verifiability predicts where AI improves fastest.
 status: current
@@ -35,6 +35,7 @@ is the "jagged" frontier.
 - Turn a fuzzy task into a checkable one: a rubric, a reference answer or a comparison with a
   known good output.
 - Expect weak results where no automatic check exists, and put human review there.
+- Check whether the task has an environment that you can reset, repeat cheaply and score automatically. If not, expect weak or uneven results.
 
 ## Context
 

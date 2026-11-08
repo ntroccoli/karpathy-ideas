@@ -3,7 +3,7 @@ title: Reinforcement learning sucks supervision through a straw
 date: 2025-10-17
 source: talk
 url: https://www.dwarkesh.com/p/andrej-karpathy
-also: []
+also: [https://x.com/karpathy/status/1979932716423680137, https://x.com/karpathy/status/1980762027674206367, https://x.com/karpathy/status/1980765638470914102]
 themes: [research-and-training]
 summary: Outcome-only RL rewards every step of a lucky run equally; it works better than imitation but is noisy and needs new ideas such as reflection.
 status: current
@@ -40,3 +40,4 @@ needs three to five more big algorithm ideas.
 - Dwarkesh Patel interview, 2025-10-17.
 - Related: [An LLM judge gets gamed](2024-08-07-rlhf-is-just-barely-rl.md) and
   [Synthetic data collapses](2025-10-17-synthetic-data-and-model-collapse.md).
+- On 2025-10-19 he said he does not want to replace RL. The base model, instruction finetuning and RL are layers that all stay, and he wants more layers on top. In replies he found it odd that RL teaches a model to make errors only so that it can recover from them.

@@ -3,7 +3,7 @@ title: Future LLMs will read everything we do today
 date: 2025-12-10
 source: blog
 url: https://karpathy.bearblog.dev/auto-grade-hn/
-also: []
+also: [https://x.com/karpathy/status/1998803709468487877]
 themes: [ai-progress]
 summary: Once intelligence is cheap, anyone can scrutinise old public records in detail, so behaviour that relies on obscurity will not hold up.
 status: current

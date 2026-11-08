@@ -3,7 +3,7 @@ title: Show big codebases as spatial maps, not file lists
 date: 2026-09-12
 source: x
 url: https://x.com/karpathy/status/2098781917076504752
-also: [https://x.com/karpathy/status/2098777547265950015]
+also: [https://x.com/karpathy/status/2098777547265950015, https://x.com/karpathy/status/1930326685918081077]
 themes: [output-and-reading, agentic-coding]
 summary: Large software is an invisible structure; code explorers could cluster modules in space and show public interfaces, private parts and live diffs.
 status: current
@@ -29,3 +29,4 @@ their call sites, and collaborators would zoom around and cast diffs.
 ## Context
 
 - Two replies from September 2026. Related: [Work rises into oversight](2026-10-02-oversight-and-discardable-software.md).
+- First raised on 2025-06-04: lay the repo out on a 2D canvas, hover over a variable to see its links across files, and switch lenses such as test coverage or git age.

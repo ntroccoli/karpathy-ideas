@@ -3,7 +3,7 @@ title: Coding agents are weak on novel code
 date: 2025-10-17
 source: talk
 url: https://www.dwarkesh.com/p/andrej-karpathy
-also: []
+also: [https://x.com/karpathy/status/1977758204139331904, https://x.com/karpathy/status/1979644538185752935]
 themes: [agentic-coding]
 summary: In October 2025 he found agents good for boilerplate and tested ports but poor on unusual code, and preferred autocomplete for precise work.
 status: superseded
@@ -43,3 +43,4 @@ so his timelines are longer.
   coherence threshold. See [Programming moved to English in December 2025](2026-01-26-programming-in-english-december-shift.md).
   His warnings about bloat and wrong assumptions still hold:
   [Coding agents make subtle conceptual mistakes](2026-01-26-coding-agents-make-subtle-conceptual-mistakes.md).
+- On 2025-10-13 he wrote that nanochat was almost all written by hand, and that the coding agents he tried were a net loss on it, maybe because the repo is far from their training data.

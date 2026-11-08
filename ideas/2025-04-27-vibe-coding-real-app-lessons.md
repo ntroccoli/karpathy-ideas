@@ -3,7 +3,7 @@ title: Vibe coding a real app is easy locally and hard to ship
 date: 2025-04-27
 source: blog
 url: https://karpathy.bearblog.dev/vibe-coding-menugen/
-also: [https://x.com/karpathy/status/1917961248031080455]
+also: [https://x.com/karpathy/status/1917961248031080455, https://x.com/karpathy/status/1918132302158413866, https://x.com/karpathy/status/1918130701121318996]
 themes: [agentic-coding]
 summary: A local prototype appears in minutes; real deployment hits stale model knowledge, rate limits, secrets and subtle design bugs that you must still catch.
 status: current
@@ -39,3 +39,4 @@ yet.
 - The Stripe example returns in 2026 as his case for human judgment in agentic work:
   [Vibe coding versus agentic engineering](2026-02-04-agentic-engineering-vs-vibe-coding.md).
 - Related: [Write docs and tools for the user's agent](2025-03-12-write-docs-for-llms.md).
+- A month earlier he described the same pain for a web app stack: [Building a web app is like assembling IKEA furniture](2025-03-27-web-app-stack-is-ikea-furniture.md).

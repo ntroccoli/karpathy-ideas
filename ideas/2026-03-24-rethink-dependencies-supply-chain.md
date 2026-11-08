@@ -3,7 +3,7 @@ title: Rethink dependencies after supply chain attacks
 date: 2026-03-24
 source: x
 url: https://x.com/karpathy/status/2036487306585268612
-also: [https://x.com/karpathy/status/2036577318194520206, https://x.com/karpathy/status/2038849654423798197, https://x.com/karpathy/status/2038850469163106535]
+also: [https://x.com/karpathy/status/2036577318194520206, https://x.com/karpathy/status/2038849654423798197, https://x.com/karpathy/status/2038850469163106535, https://x.com/karpathy/status/1926800109167149321, https://x.com/karpathy/status/1919697240886501536]
 themes: [security-and-dependencies]
 summary: After the litellm and axios attacks, he prefers fewer dependencies, uses LLMs to write simple functions himself, and wants safer package manager defaults.
 status: current
@@ -43,3 +43,4 @@ including those his LLMs run for him.
 - The litellm timeline: his later reply cites a Snyk write-up, with the bad version live about
   three hours and a rough exposure of 20,000 to 80,000 installs (his estimate).
 - Related: [DevOps as code for agents](2026-03-26-devops-as-code-for-agents.md).
+- In May 2025 he joked that when installing packages is very easy, as in Rust or Python, apps fill with dependencies, so some friction works as regularisation. See also [Write small, modular, copy-paste code like bacteria do](2025-07-05-write-code-like-bacteria.md).

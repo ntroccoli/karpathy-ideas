@@ -4,13 +4,13 @@
 
 Software 3.0, LLM OS, CLIs and docs for agents, products.
 
-34 ideas, newest first.
+39 ideas, newest first.
 
 *(Anthropic period)*: dated 2026-05-19 or later, after he [joined Anthropic](https://x.com/karpathy/status/2056753169888334312), and about Claude or Anthropic. Weigh these with that in mind.
 
 ## Practices
 
-Ways of working you can apply. 28, newest first.
+Ways of working you can apply. 30, newest first.
 
 - 2026-11-01 · [Build a bespoke app in a weekend by only talking to Claude](../ideas/2026-11-01-hackertube-weekend-app.md) — Hand a data task to cheap models in bulk and let a strong model build and deploy the app, so only keys, domain and server stay manual. *(Anthropic period)*
 - 2026-10-02 · [Human work rises into oversight, helped by throwaway software](../ideas/2026-10-02-oversight-and-discardable-software.md) — As agents do more of the legwork, human work moves up to oversight and understanding, and large custom throwaway artifacts help with that.
@@ -28,10 +28,12 @@ Ways of working you can apply. 28, newest first.
 - 2026-02-20 · [Configure software with skills, and build the most forkable repo](../ideas/2026-02-20-config-via-skills-forkable-repo.md) — Instead of config files and if-else branches, ship skills that tell an agent how to modify a small core repo for each setup.
 - 2026-02-11 · [Point an agent at a library and rip out only the part you need](../ideas/2026-02-11-rip-out-functionality-with-agents.md) — With DeepWiki MCP and the GitHub CLI, an agent can extract one feature from a big library, so you can drop the dependency.
 - 2025-12-28 · [Connect your tools so the agent needs no manual steps](../ideas/2025-12-28-aggressively-jit-your-work.md) — Connect your databases, monitoring and deploy tools to the agent so tasks need almost no manual steps from you.
+- 2025-12-28 · [Let an agent find your local devices and build a better control app](../ideas/2025-12-28-let-an-agent-reverse-engineer-your-home-devices.md) — Claude Code found a home-automation system on the network, read its manual, paired with it and listed every device, so he could replace a slow vendor app.
 - 2025-12-19 · [Run coding agents on the developer's own computer](../ideas/2025-12-19-agents-run-on-your-computer.md) — Local agents such as Claude Code beat cloud containers for now, because the booted machine with its data, config and low latency is what matters.
 - 2025-12-19 · [Code is now free, custom and disposable](../ideas/2025-12-19-code-is-free-and-ephemeral.md) — Models build programs from English, so software becomes custom and often single-use, and hunting for an app in a store becomes outdated.
 - 2025-11-18 · [Treat small apps as disposable; ask your LLM to change them](../ideas/2025-11-18-disposable-vibe-coded-apps.md) — He publishes vibe-coded apps unsupported, as inspiration, and tells readers to have their own LLM adapt them instead of waiting for maintainers.
 - 2025-10-13 · [Keep the codebase minimal and forkable, with one dial](../ideas/2025-10-13-nanochat-one-dial-minimal-fork.md) — nanochat avoids configuration frameworks; one integer (depth) sets all other hyperparameters, and changes must work at every depth.
+- 2025-10-01 · [Finetune a small model to narrow the scope of one pipeline step](../ideas/2025-10-01-finetune-small-model-for-narrow-scope.md) — Finetuning is less about style and more about narrowing scope; a small tuned model can beat a long few-shot prompt on one step of an LLM pipeline.
 - 2025-08-20 · [Flatten a repository into one page for humans and LLMs](../ideas/2025-08-20-render-repo-for-humans-and-llms.md) — rendergit turns a git repo into one static HTML page with a human view and an LLM view of the same code as plain text to paste into a model.
 - 2025-06-17 · [Build partial-autonomy apps with an autonomy slider](../ideas/2025-06-17-partial-autonomy-and-autonomy-slider.md) — Good LLM apps manage context, chain model calls, give a GUI for fast checking and let the user set how much the AI does.
 - 2025-06-17 · [Software 3.0 means programming computers in English](../ideas/2025-06-17-software-3-0-english-as-programs.md) — Code is Software 1.0, trained weights are 2.0, and an LLM's context window is 3.0; learn all three and pick the right one per task.
@@ -43,11 +45,14 @@ Ways of working you can apply. 28, newest first.
 
 ## Views
 
-How he sees the field: context, not steps. 6, newest first.
+How he sees the field: context, not steps. 9, newest first.
 
 - 2026-06-23 · [The third LLM interface is a persistent teammate](../ideas/2026-06-23-claude-tag-third-llm-ux.md) — First the LLM was a website, then an app; the third form is a persistent, asynchronous teammate with org-wide tools and context. *(view, Anthropic period)*
 - 2026-04-10 · [Big labs' roadmaps are predictable, which leaves room for startups](../ideas/2026-04-10-lab-roadmaps-leave-room-for-startups.md) — AI labs focus on a clear set of products; promising ideas they drop are a gap that a careful startup can fill. *(view)*
+- 2025-11-12 · [One big neural net can replace a hand-written stack, if data and compute scale](../ideas/2025-11-12-one-neural-net-replaces-the-handwritten-stack.md) — In self-driving, sensor streams go into one network and controls come out; this scales with fleet data, not hand-built rules. *(view)*
 - 2025-10-17 · [Coding came first because it is text with diff tools](../ideas/2025-10-17-coding-first-text-and-diffs.md) — Code is plain text with editors and diffs already built, so agents fit it; slides and other visual work lack a way to show changes. *(view)*
 - 2025-10-17 · [LLMs still lack culture and self-play](../ideas/2025-10-17-llms-lack-culture-and-self-play.md) — Two multi-agent ideas are unclaimed: models writing notes for other models, and models posing problems for each other to solve. *(view)*
 - 2025-06-17 · [LLMs are like 1960s operating systems](../ideas/2025-06-17-llms-are-1960s-operating-systems.md) — The LLM is a new computer whose context is memory; it runs time-shared in the cloud, with text as its only interface for now. *(view)*
+- 2025-06-05 · [Either the automation adapts, or the world does](../ideas/2025-06-05-automation-meets-the-task-or-the-task-meets-it.md) — Automation adapts to the tasks or the tasks adapt to it, usually both; he expects software to adapt about 80% and hardware to adapt little. *(view)*
+- 2025-03-27 · [Building a web app is like assembling IKEA furniture; make it just work for AIs](../ideas/2025-03-27-web-app-stack-is-ikea-furniture.md) — A web app needs a dozen separate services; the hard part is configuration, not code, and whoever makes it work out of the box for people and AIs wins. *(view)*
 - 2023-09-28 · [The LLM OS, with the model as CPU and the agent as kernel](../ideas/2023-09-28-llm-as-operating-system-kernel.md) — Treat the LLM as the processor of a new operating system and the agent as its kernel, with context as RAM, files as disk and tools as peripherals. *(view)*

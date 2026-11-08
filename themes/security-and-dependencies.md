@@ -4,14 +4,19 @@
 
 Supply chain, sandboxing, dependency hygiene.
 
-5 ideas, newest first.
+10 ideas, newest first.
 
 ## Practices
 
-Ways of working you can apply. 5, newest first.
+Ways of working you can apply. 10, newest first.
 
 - 2026-03-24 · [Rethink dependencies after supply chain attacks](../ideas/2026-03-24-rethink-dependencies-supply-chain.md) — After the litellm and axios attacks, he prefers fewer dependencies, uses LLMs to write simple functions himself, and wants safer package manager defaults.
 - 2026-02-20 · [Claws are a new layer on top of LLM agents](../ideas/2026-02-20-claws-new-layer-of-the-stack.md) — Claws add orchestration, scheduling and persistence above agents; prefer small auditable ones in containers over a large vibe-coded one.
 - 2026-02-11 · [Point an agent at a library and rip out only the part you need](../ideas/2026-02-11-rip-out-functionality-with-agents.md) — With DeepWiki MCP and the GitHub CLI, an agent can extract one feature from a big library, so you can drop the dependency.
 - 2026-01-31 · [Networks of agents are a mess today and a security risk at scale](../ideas/2026-01-31-agent-networks-moltbook-uncharted.md) — Moltbook is full of spam, scams and injection attacks, yet 150,000 capable agents sharing a scratchpad is new and its effects are hard to predict.
+- 2025-10-14 · [Measure a project's weight with its lockfile, and rewrite heavy parts small](../ideas/2025-10-14-count-dependencies-with-the-lockfile.md) — Count lockfile lines as a quick proxy for total dependencies, and when a small task drags in heavy infrastructure, write a short clean version yourself.
+- 2025-08-31 · [A quoted tilde is not expanded, so check an agent's delete commands](../ideas/2025-08-31-quote-paths-and-check-agent-rm-commands.md) — In shell quotes, "~" stays a literal folder name; an env var set that way can create a "~" directory, and a careless rm -rf of it can wipe your home.
+- 2025-07-05 · [Write small, modular, copy-paste code like bacteria do](../ideas/2025-07-05-write-code-like-bacteria.md) — Code that is small, modular and self-contained spreads easily; write functions someone can copy without new imports, and keep a big monorepo only where needed.
+- 2025-06-16 · [Agent security is the wild west](../ideas/2025-06-16-agent-security-is-the-wild-west.md) — Prompt injection is like early computer viruses; risk peaks with local agents and with chat connectors, and agents need narrow actions, not free bash.
+- 2025-02-12 · [Invisible Unicode characters can smuggle data and prompts into an LLM](../ideas/2025-02-12-invisible-unicode-can-hide-prompts.md) — Variation selectors can hide arbitrary bytes behind one visible emoji; they cost many tokens and can carry a hidden prompt injection.
 - 2024-01-12 · [Third-party models can hide sleeper agents](../ideas/2024-01-12-sleeper-agent-llms-and-poisoned-models.md) — Poisoned training text or open weights can hide trigger phrases that safety finetuning may not remove, so treat models as part of your supply chain.

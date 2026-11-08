@@ -3,7 +3,7 @@ title: Jagged intelligence follows verifiability and training focus
 date: 2026-03-20
 source: talk
 url: https://podcasts.apple.com/us/podcast/no-priors-artificial-intelligence-technology-startups/id1668002688?i=1000756334966
-also: [https://karpathy.bearblog.dev/sequoia-ascent-2026/]
+also: [https://karpathy.bearblog.dev/sequoia-ascent-2026/, https://x.com/karpathy/status/1882518317585650064, https://x.com/karpathy/status/1883951502093635822]
 themes: [llm-psychology, verification]
 summary: Models are sharp where rewards are checkable and where labs put training effort, and dull elsewhere; check that your task is on the model's rails.
 status: current
@@ -43,3 +43,4 @@ rails". If not, it may fail in basic ways.
   and [LLMs are ghosts, not animals](2025-10-01-llms-are-ghosts-not-animals.md). Founder angle:
   [Find valuable domains that are verifiable and undertrained](2026-04-30-find-valuable-verifiable-environments.md).
   How it splits public opinion: [People judge AI differently](2026-04-09-ai-capability-gap-two-groups.md).
+- In January 2025 he said this view makes it natural to treat today's LLMs as tools, a kind of text calculator. Asked whether RL generalises beyond math and code, he said probably yes, but that the answer is not obvious.

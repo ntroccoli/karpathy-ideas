@@ -4,11 +4,11 @@
 
 Context engineering, prompting, stating scope, giving intent.
 
-20 ideas, newest first.
+23 ideas, newest first.
 
 ## Practices
 
-Ways of working you can apply. 20, newest first.
+Ways of working you can apply. 23, newest first.
 
 - 2026-11-01 · [With strong models, write shorter prompts](../ideas/2026-11-01-shorter-prompts-fewer-bits.md) — Strong models get the point from fewer words, and too many requirements can hold the model below what it would do on its own.
 - 2026-07-21 · [Give the LLM more context by rambling into voice mode](../ideas/2026-07-21-ramble-session-with-voice.md) — When you are too lazy to type enough context, ramble by voice for ten minutes; the model restates your tangle more cleanly than you said it.
@@ -19,7 +19,9 @@ Ways of working you can apply. 20, newest first.
 - 2026-03-05 · [Make memory and compaction tools that RL trains](../ideas/2026-03-05-memory-as-rl-tools.md) — Long-term memory may need less than new weights at first: treat memory and compaction as tools and train them with RL.
 - 2026-01-12 · [Have the agent read a paper's TeX source and relate it to your repo](../ideas/2026-01-12-skill-read-papers-from-tex-source.md) — A Claude skill fetches an arXiv paper as TeX source, not PDF, then writes a summary in the repo that links the paper to the project's own code.
 - 2025-12-07 · [Ask the LLM to simulate experts, not to give its opinion](../ideas/2025-12-07-llms-simulate-there-is-no-you.md) — There is no 'you' inside the model, so ask it to simulate a panel of suitable people instead of asking for its own opinion.
+- 2025-11-25 · [Ask an LLM whether a library function exists, and give it docs for new tools](../ideas/2025-11-25-ask-an-llm-if-a-function-exists.md) — Describe a hand-written transformation in words and ask if a built-in exists; for recent or niche libraries, package the docs as markdown into the context.
 - 2025-10-17 · [Weights are a hazy memory; the context window is working memory](../ideas/2025-10-17-weights-hazy-memory-context-working-memory.md) — A model recalls training data vaguely but reads its context directly, so paste the source text instead of asking it to remember.
+- 2025-10-01 · [For deep reading, put the whole text in the context window](../ideas/2025-10-01-put-the-whole-text-in-context-not-rag.md) — Tools that retrieve chunks may drop what matters; paste the full sources into one chat so the model sees all of it, then fork the chat to ask more.
 - 2025-08-09 · [Models are too agentic by default, so state stakes and scope](../ideas/2025-08-09-models-too-agentic-state-stakes-and-scope.md) — Tuned models over-think simple questions and search the whole repo, so tell them the scope and the depth you want.
 - 2025-06-25 · [Put the answer first and spend effort when you write](../ideas/2025-06-25-answer-first-compute-at-creation-time.md) — Write the specific ask or result first and the context after it, and spend more effort when you write so that readers spend less.
 - 2025-06-25 · [Context engineering, not prompt engineering](../ideas/2025-06-25-context-engineering.md) — The skill is filling the context window with the right information for the next step, plus specs, tools and workflows, not polishing one prompt.
@@ -29,4 +31,5 @@ Ways of working you can apply. 20, newest first.
 - 2025-02-27 · [Try a fast model first, switch to a thinking model for hard problems](../ideas/2025-02-27-fast-model-first-thinking-model-for-hard.md) — Know which model and tier you use; start fast, move to a reasoning model for hard code and math, and compare several vendors.
 - 2025-02-27 · [Give examples in prompts, and save the prompts you reuse](../ideas/2025-02-27-few-shot-prompts-and-saved-instructions.md) — A description plus a few concrete examples raises accuracy; save repeated prompts as custom GPTs or custom instructions.
 - 2025-02-27 · [Start a new chat when the topic changes](../ideas/2025-02-27-fresh-chat-per-topic.md) — Old context distracts the model and costs more per token, so reset when the topic changes; the lasting fix is context managed by the agent.
+- 2025-02-14 · [Pack your project into one prompt for a quick, scoped question](../ideas/2025-02-14-package-repo-into-one-prompt.md) — When coding agents over-explore, bundle a small repo into one prompt, start a new chat, ask one question at the end and pick the model yourself.
 - 2025-01-28 · [RL gives thinking models strategies you cannot write by hand](../ideas/2025-01-28-cognitive-strategies-cannot-be-hand-programmed.md) — RL on reasoning models yields cognitive strategies, such as backtracking and analogies, so specify the goal, not the method.

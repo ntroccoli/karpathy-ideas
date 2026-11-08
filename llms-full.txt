@@ -206,6 +206,7 @@ their call sites, and collaborators would zoom around and cast diffs.
 ## Context
 
 - Two replies from September 2026. Related: [Work rises into oversight](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-10-02-oversight-and-discardable-software.md).
+- First raised on 2025-06-04: lay the repo out on a 2D canvas, hover over a variable to see its links across files, and switch lenses such as test coverage or git age.
 
 ---
 
@@ -300,12 +301,15 @@ sees that a model now seems to understand what he means when he says he will com
 - Do not trust a model's estimate of how long a task takes. Measure it.
 - Tell the model about its own situation: that you will compact, that it has a token budget, that
   it runs in a loop. Recent models use this information.
+- Do not read a model's answer to "what are you?" as evidence of how it was built.
 
 ## Context
 
 - A reply on 2026-07-21 to a post about models claiming that a task needs months of human work.
 - Our reading: this fits his view that models are shaped by their training data, not by lived
   experience. See [LLMs are ghosts, not animals](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-10-01-llms-are-ghosts-not-animals.md).
+- First raised on 2025-01-02: a model has no sense of self, so what it says about itself depends on whether its makers added self-knowledge data in finetuning. Without that data its answer is a nearest-neighbour guess.
+- His nanochat recipe for adding that data: [Give a model an identity with synthetic conversations](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-10-21-give-a-small-model-an-identity-with-synthetic-data.md).
 
 ---
 
@@ -851,6 +855,7 @@ click-here instructions. He would rather get something to paste into his agent.
 - In a related reply he asked X to make read access cheap for agents, noting that about 30
   minutes of hacking had cost him $200.
 - Related: [The LLM OS](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2023-09-28-llm-as-operating-system-kernel.md).
+- First raised on 2025-05-02: he called devops the biggest pain in building an app. Services must work together and let an agent act on them. See also [Building a web app is like assembling IKEA furniture](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-03-27-web-app-stack-is-ikea-furniture.md).
 
 ---
 
@@ -912,6 +917,7 @@ name-dropping to win favour, and calls it a possible "uncanny valley" of emotion
 
 - These are guesses, labelled as such by him. Related:
   [memory as RL tools](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-05-memory-as-rl-tools.md).
+- First raised on 2025-04-10: he asked whether a model he uses for work needs to remember a beginner bash question.
 
 ---
 
@@ -948,6 +954,7 @@ including those his LLMs run for him.
 - The litellm timeline: his later reply cites a Snyk write-up, with the bad version live about
   three hours and a rough exposure of 20,000 to 80,000 installs (his estimate).
 - Related: [DevOps as code for agents](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-26-devops-as-code-for-agents.md).
+- In May 2025 he joked that when installing packages is very easy, as in Rust or Python, apps fill with dependencies, so some friction works as regularisation. See also [Write small, modular, copy-paste code like bacteria do](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-07-05-write-code-like-bacteria.md).
 
 ---
 
@@ -978,6 +985,7 @@ not yet taken.
 
 - A reply after his No Priors podcast. It is a counterweight to the strong results he reported
   with [autoresearch](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-07-autoresearch-loop.md): verifiable goals work, taste does not.
+- In January 2025 he noted that when you ask an LLM again and again to improve its code, it adds bloat, misses simple algorithmic wins and adds heavy optimisations too early.
 
 ---
 
@@ -1005,6 +1013,7 @@ organisation that puts someone in charge of the topic.
 - Reply to follow-up questions after his No Priors podcast. Our reading: this is a design
   preference, not a measured result.
 - Related: [engagement-driven follow-up questions](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-25-follow-up-questions-engagementmaxxing.md).
+- An earlier view on tone: [A good assistant skips the lecture and the flattery](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-01-02-llm-personality-no-lectures-no-flattery.md).
 
 ---
 
@@ -1092,6 +1101,7 @@ in self-driving. He still thinks the physical market may be larger.
 - From the No Priors episode of 2026-03-20. A forecast, not a measurement. He says he does not do
   forecasting for a living.
 - He also shared a jobs-data view, coloured by how much each job manipulates digital information.
+- First raised on 2025-01-23, when he compared computer-using agents to humanoid robots and said that changing bits is about 1000 times cheaper than moving atoms. See [This is the decade of agents](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-10-17-decade-of-agents-not-year.md).
 
 ---
 
@@ -1159,6 +1169,7 @@ rails". If not, it may fail in basic ways.
   and [LLMs are ghosts, not animals](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-10-01-llms-are-ghosts-not-animals.md). Founder angle:
   [Find valuable domains that are verifiable and undertrained](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-04-30-find-valuable-verifiable-environments.md).
   How it splits public opinion: [People judge AI differently](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-04-09-ai-capability-gap-two-groups.md).
+- In January 2025 he said this view makes it natural to treat today's LLMs as tools, a kind of text calculator. Asked whether RL generalises beyond math and code, he said probably yes, but that the answer is not obvious.
 
 ---
 
@@ -1188,6 +1199,7 @@ not yet connected. He calls this a skill issue, and sees it as good news, since 
   state of "AI psychosis": the possibilities are unexplored, so he feels he must keep pushing.
 - Next step in his view: agents that run without you. See [the autoresearch loop](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-07-autoresearch-loop.md)
   and [Give agents success criteria, not steps](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-01-26-success-criteria-not-steps.md).
+- In January 2025 he already called the prompt, copy, paste and read pattern the punchcard era of AI use. Real use, he said, means thousands of tokens per second generated for you.
 
 ---
 
@@ -1760,6 +1772,7 @@ Karpathy asked Claude to study how torchao implements fp8 training and write a s
 
 - He also noted that many repos are now half useful library code and half "docs++": the code explains better than official docs.
 - Earlier bacterial code post: 2025-07-05. Related: [Code is now free, custom and disposable](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-12-19-code-is-free-and-ephemeral.md).
+- His 2025 view on writing code that others can copy: [Write small, modular, copy-paste code like bacteria do](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-07-05-write-code-like-bacteria.md).
 
 ---
 
@@ -1790,6 +1803,7 @@ On the first anniversary of "vibe coding", Karpathy says it fit throwaway projec
   ceiling. His example of why a human must review: in MenuGen the agent matched Stripe payments
   to users by email, which can differ from the login email. He insisted on persistent user IDs.
   See [Vibe coding a real app](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-04-27-vibe-coding-real-app-lessons.md).
+- Already in March 2025 he said the terms would take time to settle, and that he used "vibe coding" only for moments of full trust in the model. In October 2025 he called engineering and vibing the two ends of one spectrum.
 
 ---
 
@@ -1905,6 +1919,7 @@ Karpathy asks open questions about who gains from coding agents. The "10X engine
 ## Context
 
 - Listed as questions in the 2026-01-26 notes. The 2026-02-25 reply links his post on [agentic engineering](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-02-04-agentic-engineering-vs-vibe-coding.md).
+- First raised on 2025-12-27: in a reply he said experienced developers have a real advantage, but only if they adapt fast, and that rejecting the new layer would be a mistake.
 
 ---
 
@@ -2176,6 +2191,26 @@ In a reply about wiring everything into a coding agent through skills, Karpathy 
 
 ---
 
+Date: 2025-12-28 · Kind: practice · Source: https://x.com/karpathy/status/2005067301511630926 · Themes: agent-native-software, agentic-coding · Status: current
+
+# Let an agent find your local devices and build a better control app
+
+Inspired by a post where an agent controlled an oven, Karpathy tried Claude Code on his Lutron home system. The agent found the controllers on the local network, scanned ports, read metadata and firmware, and found the vendor's PDF online. It wrote a script to start pairing and told him which button to hold for 3 seconds. Then it got the certificates, listed all lights, shades, heating and sensors, and switched the kitchen lights to test. He is now vibe coding his own command centre and dropping the slow vendor app. Setup needs: the agent must be on the same Wi-Fi, and pairing needed a physical button press on the panel. He notes that many other devices may have no such step.
+
+## Apply
+
+- Pick one device whose vendor app is poor, and ask an agent to find it on your local network and read the vendor docs.
+- Do the physical approval steps yourself (button, code). Our reading: keep the secrets it fetches out of git.
+- Ask for a first test that is harmless, such as toggling a light, before you build anything on top.
+- Our reading: treat local devices that need no pairing step as a security risk to check.
+
+## Context
+
+- Post of 2025-12-28 and replies the same day.
+- Related: [Connect your tools so the agent needs no manual steps](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-12-28-aggressively-jit-your-work.md) and [Some apps should disappear](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-04-30-some-apps-should-disappear.md).
+
+---
+
 Date: 2025-12-26 · Kind: practice · Source: https://x.com/karpathy/status/2004607146781278521 · Themes: agentic-coding · Status: current
 
 # Learn the new programmable layer of agent tools
@@ -2192,6 +2227,7 @@ In late December 2025 Karpathy said he had never felt so behind as a programmer.
 - Pick one feature you do not use (hooks, subagents, skills, LSP) each week and wire it into a real task.
 - Keep short notes on what each feature does well and where it fails.
 - Treat agent output as fallible: plan for review and checks.
+- Re-test what agents can do about once a month. A view from a month ago can already be out of date.
 
 ## Context
 
@@ -2384,6 +2420,30 @@ five stages (fetch, prompt, analyze, parse, render) that run alone or together.
 
 ---
 
+Date: 2025-12-09 · Kind: practice · Source: https://x.com/karpathy/status/1998236299862659485 · Themes: research-and-training, verification · Status: current
+
+# Do not split train and test with positive and negative seeds
+
+Karpathy found a bug in nanochat. He had used the sign of the seed as a clever way to get different random streams for train and test. In Python, `random.seed(3)` and `random.seed(-3)` give the same generator, because the code takes the absolute value of an integer seed. The docs say only that the same seed gives the same sequence. They do not promise that different seeds give different sequences. He also argues that dropping the sign bit was a mistake, since the algorithm has many state bits that could use it. The bug was small and showed up only in one evaluation, but it made train equal to test.
+
+## In his words
+
+> "no guarantee is made that different seeds produce different sequences"
+> — Andrej Karpathy, 2025-12-09
+
+## Apply
+
+- Make train and test splits from a fixed list of ids or a hash, not from a seed trick.
+- Add a test that proves your two random streams differ, and that the sets do not overlap.
+- Do not rely on behaviour the docs do not state; read the contract.
+
+## Context
+
+- Post of 2025-12-09. A contributor on GitHub found the bug.
+- Related: [Give agents success criteria, not steps](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-01-26-success-criteria-not-steps.md).
+
+---
+
 Date: 2025-12-07 · Kind: practice · Source: https://x.com/karpathy/status/1997731268969304070 · Themes: llm-psychology, context-and-prompting · Status: current
 
 # Ask the LLM to simulate experts, not to give its opinion
@@ -2405,6 +2465,7 @@ Karpathy says you should not ask a model for its own opinion on a topic. There i
 
 - Posted 2025-12-07.
 - Related: [the space of intelligences](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-11-29-llms-shaped-by-commercial-evolution.md).
+- He later said he does not mean old-style prompts such as "you are an expert programmer". He thinks distinct simulated views may give council-like gains, from ensembling and from the gap between generating and judging.
 
 ---
 
@@ -2437,6 +2498,25 @@ direction. Good mental models of this new entity help us predict it.
 
 ---
 
+Date: 2025-11-25 · Kind: practice · Source: https://x.com/karpathy/status/1993369287969718540 · Themes: agentic-coding, context-and-prompting · Status: current
+
+# Ask an LLM whether a library function exists, and give it docs for new tools
+
+A well-known programmer found that PyTorch had a built-in for a tensor rearrangement he had written by hand. Karpathy has had medium success asking LLMs whether such a thing exists. It works for well-known functions: two top models knew the function when he described the tensor change in words. For esoteric or new libraries (`uv` is his example) he has done better by packing the docs into one markdown file and adding it to the context. A built-in "Ask AI" over the docs, which uses retrieval, was not very bright. The limit: you must suspect the function exists, and then ask. He doubts that a model would offer it without being asked.
+
+## Apply
+
+- After you write a helper by hand, describe what it does in plain words and ask whether the standard library or a major package has it.
+- For a new or niche library, export its docs to markdown and paste them with your question.
+- Keep the docs file in your repo, so the agent can reuse it.
+
+## Context
+
+- Reply of 2025-11-25 to a thread with John Carmack.
+- Related: [Write docs for LLMs](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-03-12-write-docs-for-llms.md) and [Check which tools the model has](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-02-27-check-which-tools-the-model-has.md).
+
+---
+
 Date: 2025-11-24 · Kind: practice · Source: https://x.com/karpathy/status/1993010584175141038 · Themes: learning-and-education · Status: current
 
 # Use AI to learn, but test without it
@@ -2458,6 +2538,26 @@ Karpathy argues that you cannot detect AI use in homework. Schools should move m
 
 - Posted 2025-11-24.
 - Related: [learning takes effort](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2024-02-10-learning-is-not-supposed-to-be-fun.md).
+
+---
+
+Date: 2025-11-23 · Kind: practice · Source: https://x.com/karpathy/status/1992711182537707990 · Themes: output-and-reading · Status: current
+
+# Plan in text first, then ask an image model to illustrate, and re-roll
+
+Karpathy tried Nano Banana Pro, an image model that also reasons. For a workout plan he first asked for a weekly plan in a separate text chat, giving his goals and preferences. Then he asked the model to illustrate the whole week, and each day, as posters to print. He also had it solve exam questions inside the exam page image, with doodles and diagrams, and fix a math problem "in my handwriting". It makes mistakes: one poster showed an odd push-up. You re-roll until it is right, and if it loops you start a new conversation. A second model can check the content. He sees this as a sign of a future where the model's interface is an intelligent canvas.
+
+## Apply
+
+- Settle the content in a text conversation. Only then ask for images.
+- Ask for the whole set (a week), then for each item, so the style stays consistent.
+- Check facts and spelling in the picture yourself, or paste it to another model; re-roll on mistakes.
+- When the model gets stuck in a loop, start a new conversation with the finished text.
+
+## Context
+
+- Posts of 2025-11-23. The same day he wrote that this is the GUI for text chat: see [Text chat is the terminal era](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-03-31-text-chat-is-the-terminal-era.md).
+- Related: [Use AI to learn, but test without it](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-11-24-learn-with-ai-but-test-without-it.md), which he posted the next day on exam answers.
 
 ---
 
@@ -2489,6 +2589,27 @@ were probably written by his coding agent, not by him.
   books with LLMs. Model list in the README: GPT 5.1, Gemini 3 Pro, Claude Sonnet 4.5, Grok 4.
 - Related: [Read books together with an LLM](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2024-12-11-read-books-with-an-llm.md).
 - He already asked several vendors the same question in early 2025 and called them his "LLM council" ([video](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-02-27-fast-model-first-thinking-model-for-hard.md)).
+- First raised on 2025-02-03: he wished for a council where all models answer, then debate, and the top-ranked model writes the final answer. The repo came in November.
+- On 2025-09-05 he described a quick eval: pool the answers of several models and ask each model to rank all of them. In his small tests the models showed little bias toward their own text. He explains this by the gap between producing good work and recognising it.
+- In a reply he said every model ranks every answer, with names hidden, so the result is not simple flattery. On 2025-12-24 he guessed that one model with several different prompts might work as well, if the prompts are chosen with care.
+
+---
+
+Date: 2025-11-22 · Kind: view · Source: https://x.com/karpathy/status/1992093128170655971 · Themes: llm-psychology, ai-progress · Status: current
+
+# Slop is data that does not help a world model; it is regretted attention
+
+Karpathy asked for a measurable definition of "slop". He feels he can judge a slop index, but he cannot yet define it. Replies offered "long low-perplexity text" (he noted that random tokens would then be the least slop) and a paper with three groups: information utility, quality and style. He felt these miss the core. His idea: slop is data without insight. It is filler that type-checks as information but is not. It is style without substance. When you attend to it or train on it, it does not help a model compress the world. A short form from a reply: slop is attention you later regret.
+
+## In his words
+
+> "Slop is "regretted" attention."
+> — Andrej Karpathy, 2025-11-22
+
+## Context
+
+- Post and replies of 2025-11-22. He suggested using small series of LLMs and thinking-token budgets as ways to measure it.
+- Related: [The slopacolypse of 2026](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-01-26-slopacolypse-2026.md) and [Self-distillation: slop leaks](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-05-01-self-distillation-slop-leaks.md).
 
 ---
 
@@ -2552,6 +2673,7 @@ now points to Epoch's Capabilities Index and its published benchmark reviews.
   its centre.
 - Keep the private set out of prompts, training data and public repos.
 - When you read a public score, check how the benchmark was built and reviewed.
+- Keep a standing set of trick prompts that are easy for people and hard for LLMs, plus one open task such as an unsolved problem, and rerun it on each new model (his Grok 3 test, 2025-02).
 
 ## Context
 
@@ -2562,6 +2684,8 @@ now points to Epoch's Capabilities Index and its published benchmark reviews.
 - Related: [Jagged intelligence follows verifiability](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-20-jagged-intelligence-follows-verifiability.md),
   [RLHF is just barely RL](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2024-08-07-rlhf-is-just-barely-rl.md) and
   [A text-only eval](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-10-02-land-or-water-eval.md).
+- First raised on 2025-03-02: he spoke of an evaluation crisis. MMLU was saturated, SWE-Bench Verified too narrow, Chatbot Arena overfit by the labs, and vibe checks open to confirmation bias. An ensemble of private evals looked promising to him. See [Leaderboards get gamed](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-03-02-leaderboards-get-gamed-watch-real-usage.md).
+- An example from November 2025: an early Gemini 3 build would not accept the real date and called his evidence fake, until he turned on its search tool. Check the tool settings before you judge a model.
 
 ---
 
@@ -2586,6 +2710,7 @@ Karpathy describes a reading habit that he counts among his top uses of LLMs. Pa
 
 - Posted 2025-11-17. Our reading: the order differs from his 2025 book habit, where he asked for the summary before reading; here he reads first.
 - Related: [docs for LLMs](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-03-12-write-docs-for-llms.md) and [read books together with an LLM](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2024-12-11-read-books-with-an-llm.md).
+- He says about half the gain comes from having a reading group on demand: you must work with the text, not only watch it. He pastes text into whichever model he uses that day and needs no special tool.
 
 ---
 
@@ -2614,12 +2739,96 @@ is the "jagged" frontier.
 - Turn a fuzzy task into a checkable one: a rubric, a reference answer or a comparison with a
   known good output.
 - Expect weak results where no automatic check exists, and put human review there.
+- Check whether the task has an environment that you can reset, repeat cheaply and score automatically. If not, expect weak or uneven results.
 
 ## Context
 
 - Builds on his Software 2.0 essay (2017). The Sequoia 2026 talk repeats the formula and adds a
   second axis: [Jagged intelligence follows verifiability and training focus](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-20-jagged-intelligence-follows-verifiability.md).
 - Practical cousin: [Give agents success criteria, not steps](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-01-26-success-criteria-not-steps.md).
+
+---
+
+Date: 2025-11-12 · Kind: view · Source: https://x.com/karpathy/status/1988705360723763242 · Themes: ai-progress, agent-native-software · Status: current
+
+# One big neural net can replace a hand-written stack, if data and compute scale
+
+After a test drive of a new Tesla, Karpathy describes what he sees as the full Software 1.0 to Software 2.0 rewrite. Long streams of sensor data (video, maps, motion, audio, about 30 seconds) go into one large network, and steering and acceleration come out. This scales with data from millions of cars and with chip compute. It does not depend on an engineer's clever special-case module, which has unclear memory and runtime behaviour at test time. He adds that the same general parts (world reconstruction, simulators that dream dynamics, RL) make a car one kind of robot. He still sees a long march of 9s: single drives no longer show faults, so problems must be mined from the fleet.
+
+## Context
+
+- Post of 2025-11-12 on his own experience of Tesla FSD v13, with a talk by a Tesla AI lead. Replies of 2025-11-12 define "self-driving" as a future where nearly all cars are autonomous.
+- Related: [A demo is the first nine; each next nine costs the same work](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-06-17-demo-to-product-gap-march-of-nines.md) and [Software 2.0 automates what you can verify](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-11-17-software-2-automates-what-you-can-verify.md).
+
+---
+
+Date: 2025-11-10 · Kind: view · Source: https://x.com/karpathy/status/1987926732255719862 · Themes: ai-progress, llm-psychology · Status: current
+
+# A cheap AI shortcut can stop you before the deeper work
+
+Karpathy groups CGI and today's AI as tools that trade time and cost for a small rise in slop. A maker feels the pull to accept the gain. A crude effect gets you 90% of the way and you stop. A video model may give something that looks fine for even less. A quick writing suggestion from a chatbot is decent, so you stop there. In his words below, the shortcut ends deeper work. The best filmmakers fear this and use the tools with discipline. He gives one test: use the tool where it lets you do what you could not do before, not where it is only cheaper and few people would notice. He also says AI could let many more people make small films and stories of their own, which he finds wholesome.
+
+## In his words
+
+> "It's a quick release valve that stops deeper work."
+> — Andrej Karpathy, 2025-11-10
+
+## Apply
+
+- Before you accept a first AI result, ask: would I have stopped here without the tool? If not, keep going.
+- Use AI first where it gives you a new capability, then where it only saves time.
+- Set a bar before you start (a quality check or a review step), so "good enough" is not decided by how cheap the result was.
+
+## Context
+
+- Replies in a thread on films and AI, 2025-11-10. He adds that the big films he praises still used plenty of CGI.
+- Related: [The slopacolypse of 2026](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-01-26-slopacolypse-2026.md).
+
+---
+
+Date: 2025-10-24 · Kind: practice · Source: https://x.com/karpathy/status/1981746327995465816 · Themes: research-and-training · Status: current
+
+# Teach a small model a skill with a synthetic task that spreads the reasoning
+
+Karpathy taught nanochat to count the letter "r" in "strawberry" and wrote a guide. He built a synthetic task that creates user questions and ideal assistant answers. He then finetunes on them, or trains further with reinforcement learning to make the skill robust. Three points matter. Keep the user prompts diverse. For a small model, handle tokenisation and whitespace with care, and spread the work over many tokens: put the word in quotes, spell it out, then count with an explicit counter. And let the model solve the task two ways: by hand and with a Python tool. All solutions are clean, which is a weakness; adding mistakes with recoveries, or RL, would help. A bigger model might pick up the skill without this effort.
+
+## Apply
+
+- Write a generator for the skill: many phrasings of the request and one ideal worked answer for each.
+- Make the answer long enough that each step is easy: restate the input, break it into pieces, keep a running counter.
+- Include a tool-call path (such as a code interpreter) next to the mental path, and check that they agree.
+- After finetuning, test in the same format the data used; a long multi-turn chat may fail if you did not train for it.
+
+## Context
+
+- Post of 2025-10-24. The reply of the same day says the skill works best in a fresh chat.
+- Related: [Give a model an identity with synthetic conversations](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-10-21-give-a-small-model-an-identity-with-synthetic-data.md).
+
+---
+
+Date: 2025-10-21 · Kind: practice · Source: https://x.com/karpathy/status/1980665134415802554 · Themes: research-and-training, llm-psychology · Status: current
+
+# Give a model an identity with synthetic conversations, and make them diverse
+
+By default a language model has no personality and no knowledge of its own abilities. Karpathy says it is not an animal-like entity, so it does not know what it is, who made it or what it can do. All of that must be added on purpose. His recipe for nanochat: describe in words what the conversations should look like, ask a bigger model to write about 1,000 multi-turn chats, then mix them into midtraining and finetuning. The hard part is diversity. Even at high temperature, a model writes near-identical samples. His script adds variety with lists of opening messages and topics that it samples explicitly, and with few-shot examples in the prompt. He also used it to make the model call him "King".
+
+## In his words
+
+> "LLMs have no clue of their identity or of their capabilities by default"
+> — Andrej Karpathy, 2025-10-21
+
+## Apply
+
+- Write down the facts the model must know about itself: name, maker, size, limits, languages.
+- Generate conversations with a stronger model, from a prompt that contains those facts.
+- Force variety: sample topics and first messages from explicit lists instead of relying on temperature.
+- Mix the data into a late training stage and test with questions that were not in the data.
+
+## Context
+
+- Posts of 2025-10-21 on the nanochat project, with a written guide in the repo.
+- Related: [Model outputs are silently collapsed, so synthetic data needs entropy](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-10-17-synthetic-data-and-model-collapse.md) and [LLMs are ghosts, not animals](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-10-01-llms-are-ghosts-not-animals.md).
+- His view that models have no built-in sense of self: [Model self-knowledge comes from text about models](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-07-21-model-self-awareness-from-pretraining.md).
 
 ---
 
@@ -2730,6 +2939,7 @@ so his timelines are longer.
   coherence threshold. See [Programming moved to English in December 2025](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-01-26-programming-in-english-december-shift.md).
   His warnings about bloat and wrong assumptions still hold:
   [Coding agents make subtle conceptual mistakes](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-01-26-coding-agents-make-subtle-conceptual-mistakes.md).
+- On 2025-10-13 he wrote that nanochat was almost all written by hand, and that the coding agents he tried were a net loss on it, maybe because the repo is far from their training data.
 
 ---
 
@@ -2786,6 +2996,8 @@ reacting to over-prediction in the industry, and that he is optimistic about the
   [Coding agents are weak on novel code](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-10-17-coding-agents-weak-on-novel-code.md).
 - Our reading: his later 2026 statements are more positive about agents after December 2025;
   see [Vibe coding raises the floor, agentic engineering raises the ceiling](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-02-04-agentic-engineering-vs-vibe-coding.md).
+- First raised on 2025-01-23, after OpenAI launched Operator, an agent that drives a browser. He compared such agents to humanoid robots: both do general work through a setting built for humans, and both leave people to supervise the automation. He expected the digital case to move first, because changing bits costs far less than moving atoms, and he pictured one person watching ten agents and stepping in to unblock them.
+- In his own recap of the interview he said his timelines are five to ten times more pessimistic than the talk at a San Francisco party, but still optimistic compared with those who deny AI progress.
 
 ---
 
@@ -2889,6 +3101,7 @@ lets the student try first, so the answer is valued. His goal is many "eurekas p
 
 - Dwarkesh Patel interview, 2025-10-17, where he describes his Eureka Labs course plan.
 - Related: [Build it yourself](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-10-17-build-it-yourself-no-copy-paste.md).
+- First raised on 2025-06-25: in a reply he described education as the technical problem of building ramps to knowledge.
 
 ---
 
@@ -2922,6 +3135,7 @@ needs three to five more big algorithm ideas.
 - Dwarkesh Patel interview, 2025-10-17.
 - Related: [An LLM judge gets gamed](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2024-08-07-rlhf-is-just-barely-rl.md) and
   [Synthetic data collapses](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-10-17-synthetic-data-and-model-collapse.md).
+- On 2025-10-19 he said he does not want to replace RL. The base model, instruction finetuning and RL are layers that all stay, and he wants more layers on top. In replies he found it odd that RL teaches a model to make errors only so that it can recover from them.
 
 ---
 
@@ -3007,6 +3221,25 @@ inside a conversation, where they spot and fix their own mistakes in context.
 
 ---
 
+Date: 2025-10-14 · Kind: practice · Source: https://x.com/karpathy/status/1978113809551065381 · Themes: security-and-dependencies, agentic-coding · Status: current
+
+# Measure a project's weight with its lockfile, and rewrite heavy parts small
+
+Critics said that counting only a project's own lines hides its dependencies. Karpathy answered that he counts and reports the lines in the lockfile (`uv.lock`). It includes every package, also the nested ones, so it is a simple 80:20 proxy for total weight. He would also like to measure "cognitive complexity". He dislikes shrinking line counts by packing code into unreadable lines. His example: to score a base model with a standard benchmark, he found that a job of about 300 lines needed a large pile of outside infrastructure. He wrote 263 clean lines instead and calls this "bacterial" code.
+
+## Apply
+
+- Put the lockfile line count and the source line count side by side in your README or report card.
+- Before you add a dependency for a small task, check what it pulls in. If the task is small, write it yourself or ask an agent to.
+- Judge size by how easy the code is to read, not by the smallest possible line count.
+
+## Context
+
+- Replies during the nanochat release, 2025-10-14 and 2025-10-18.
+- Related: [Keep the codebase minimal and forkable, with one dial](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-10-13-nanochat-one-dial-minimal-fork.md) and [Rip out functionality with agents](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-02-11-rip-out-functionality-with-agents.md), which develops "bacterial code".
+
+---
+
 Date: 2025-10-13 · Kind: practice · Source: https://github.com/karpathy/nanochat · Themes: agentic-coding, verification · Status: current
 
 # Ask contributors to disclose LLM-written code they do not understand
@@ -3033,6 +3266,19 @@ aim of low cognitive complexity.
 - The date is the repository's creation date; the policy text is in the current README, and
   its commit date was not in our source. Related: his README notes on how much of a project a
   model wrote, in [Treat small apps as disposable](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-11-18-disposable-vibe-coded-apps.md).
+
+---
+
+Date: 2025-10-13 · Kind: view · Source: https://x.com/karpathy/status/1977760627730051214 · Themes: research-and-training, knowledge-management · Status: current
+
+# Making a model know your own data is still research; use retrieval for now
+
+A reader asked whether nanochat could be trained on personal notes. Karpathy said no. Micro models are like very young children: they lack the raw intelligence of larger ones. Training one on your writing gives amusing parroting in your style, but it is slop. A better recipe, which he calls research and not obvious: take your raw data, add heavy synthetic rewrites, finetune a strong open model on it, and mix in pretraining data so the model keeps its general skill. The best plan that is not research is to give your writing to a retrieval tool. Your data reaches the context window in chunks but does not change the weights, so the model does not truly know you.
+
+## Context
+
+- Reply under the nanochat release, 2025-10-13.
+- Related: [Model outputs are silently collapsed, so synthetic data needs entropy](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-10-17-synthetic-data-and-model-collapse.md) and [Explicit personal memory as files](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-04-04-explicit-personal-memory-as-files.md).
 
 ---
 
@@ -3066,6 +3312,7 @@ from start to finish. Such code is also easy for an agent to read and change.
 - Repository created 2025-10-13; README text is from the 2026 version (the leaderboard and the
   January 2026 miniseries). Later, agents tuned this code: see
   [Autoresearch](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-07-autoresearch-loop.md).
+- Its roughly 8,000 lines train a tokenizer, pretrain, midtrain, finetune, run optional RL and serve a chat UI. The report card shows the source size next to the lockfile size: see [Measure a project's weight with its lockfile](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-10-14-count-dependencies-with-the-lockfile.md).
 
 ---
 
@@ -3085,6 +3332,26 @@ Karpathy jokes that models are terrified of exceptions, as if RL had taught them
 
 - Posted 2025-10-08. The follow-up reply is dated 2025-10-22.
 - Related: [stitching tools by task](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-08-24-stitch-coding-tools-by-task.md). In March 2026 he reported that agents often ignore style rules in instruction files, so enforce this with a linter or hook, not only prose.
+
+---
+
+Date: 2025-10-01 · Kind: practice · Source: https://x.com/karpathy/status/1973468610917179630 · Themes: research-and-training, agent-native-software · Status: current
+
+# Finetune a small model to narrow the scope of one pipeline step
+
+Karpathy welcomed Tinker, an API that runs the heavy parts of post-training (infrastructure and distributed training) and leaves data, loss and algorithm to the user. He says the field still has to learn when finetuning beats prompting a giant model. Early signs say finetuning does not mainly change style. It narrows scope, most of all when you have many training examples. A spam filter is the extreme case. Production LLM apps are more and more pipelines of models in graphs. Some steps work as prompts. Many may work better, and faster, as a finetune of a small model. In a reply he added that using a closed model API feels uneasy when you have no recourse.
+
+## Apply
+
+- List the steps of your LLM pipeline. Mark each step that has one narrow job and many labelled examples.
+- For each marked step, compare a long few-shot prompt on a big model with a finetuned small model. Measure quality, latency and cost.
+- Keep the prompt on steps that need broad knowledge or change often.
+- Keep your training data and a copy of an open-weights base model, so you are not tied to one vendor.
+
+## Context
+
+- Posted 2025-10-01 as a reaction to the Tinker launch by Thinking Machines.
+- Related: [Software 3.0 means programming computers in English](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-06-17-software-3-0-english-as-programs.md) and [Context engineering](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-06-25-context-engineering.md).
 
 ---
 
@@ -3123,6 +3390,32 @@ and culture.
 - Follow-up: [LLMs are shaped by commercial evolution](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-11-29-llms-shaped-by-commercial-evolution.md).
 - Related: [Models are sharp where rewards are checkable](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-20-jagged-intelligence-follows-verifiability.md).
 - He holds these views with double-digit percent uncertainty.
+- He chose the word "ghost" because LLMs are digital, echo the living, are not fully understood, are called up by a training ritual, and need not be evil. He dislikes "shoggoth", which pictures an animal monster.
+
+---
+
+Date: 2025-10-01 · Kind: practice · Source: https://x.com/karpathy/status/1973459267324879172 · Themes: context-and-prompting, output-and-reading · Status: current
+
+# For deep reading, put the whole text in the context window
+
+When Karpathy studied a long podcast, he did not use a tool that retrieves chunks. He feared that such a tool does retrieval (RAG) under the hood. The transcript is not many tokens, so he wanted all of it in the context window. His own test: paste the full transcript, the essay it discusses and his own notes into one chat. Then fork that chat to ask any question and follow any direction. Our reading: chunk retrieval is a good fit for huge corpora, but for a few documents you care about, a full paste costs little and loses nothing.
+
+## In his words
+
+> "I want them in the context window. All of them and for sure."
+> — Andrej Karpathy, 2025-10-01
+
+## Apply
+
+- If the sources fit in the window, paste them whole, not a search result over them.
+- Put the sources first and your question last. Start a new chat for each new line of inquiry.
+- Keep a base chat with the sources loaded, and fork it for each question.
+- Use retrieval tools only when the corpus is too big to paste.
+
+## Context
+
+- Reply to a suggestion to use NotebookLM, plus his post of the same day about the ChatGPT chat he shared.
+- Related: [Weights are a hazy memory; the context window is working memory](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-10-17-weights-hazy-memory-context-working-memory.md) and [Read with an LLM in three passes](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-11-17-read-everything-with-llms-three-passes.md).
 
 ---
 
@@ -3156,6 +3449,7 @@ supervising automation.
 - Related: [the autonomy ladder](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2024-03-12-swe-autonomy-ladder-supervising-automation.md),
   [partial-autonomy apps](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-06-17-partial-autonomy-and-autonomy-slider.md) and
   [Cheaper software raises the demand for software](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-20-cheaper-software-more-demand.md).
+- In June 2025 he framed a job as a bundle of tasks plus the glue between them, and looked at task length, needed context, needed reliability and whether the work is fully digital. He noted that the number of US radiologists rose from 29,530 to 31,960 between 2021 and 2023.
 
 ---
 
@@ -3180,6 +3474,37 @@ Karpathy reports a pattern that happened three times. His coding agent struggled
 
 - Posted 2025-09-05.
 - Related: [stitching tools by task](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-08-24-stitch-coding-tools-by-task.md) and [llm-council](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-11-22-llm-council-anonymous-peer-review.md).
+- He tries the available tools in turn every few days. In August 2025 he found Codex less polished than Claude Code for basic edits, while GPT-5 Pro was clearly ahead on hard problems.
+
+---
+
+Date: 2025-08-31 · Kind: practice · Source: https://x.com/karpathy/status/1962166818325590122 · Themes: security-and-dependencies, agentic-coding · Status: current
+
+# A quoted tilde is not expanded, so check an agent's delete commands
+
+A user lost files when an AI-written command deleted the wrong thing while they coded on a plane.
+Karpathy explained how this can happen. A line such as `export WANDB_DIR="~/.cache/wandb"` in a
+shell startup file keeps the tilde as plain text inside the quotes. The result is a real folder
+named `~` in the current directory. If you then ask for `rm -rf ~` without quotes, the shell
+expands it to your home folder. His model had suggested the safe form with the tilde in single
+quotes. He still called it very scary.
+
+## In his words
+
+> "love the LLM horror genre."
+> — Andrej Karpathy, 2025-08-31
+
+## Apply
+
+- In config files, write `$HOME/.cache/wandb`, not `"~/.cache/wandb"`.
+- Before running a delete, run `ls` on the exact same path and read the result.
+- Quote odd names in single quotes, as in `rm -rf '~'`, and never run `rm -rf` on a bare `~`.
+- Do not auto-approve `rm -rf` in your agent's permission settings.
+
+## Context
+
+- Reply of 2025-08-31 about a reader's close call. The `$HOME` advice is our addition; his
+  example shows only the quoting problem.
 
 ---
 
@@ -3199,6 +3524,8 @@ Karpathy describes three eras by their data. Pretraining used internet text. Sup
 
 - Posted 2025-08-27.
 - Related: [what you can verify](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-11-17-software-2-automates-what-you-can-verify.md).
+- First raised on 2025-01-29: he called a varied set of RL environments that draw out cognitive strategies the highest-leverage thing open-source builders could make, a job that suits a large community. He also spoke of taking LLMs through school.
+- In August 2025 he said the missing piece is a shared skeleton: one schema so that many people can add environments in parallel. Long term he is bullish on environments and bearish on RL itself.
 
 ---
 
@@ -3227,6 +3554,7 @@ Karpathy describes a layered setup. Tab completion gives about 75 percent of his
   completion: see [Programming moved to English in December 2025](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-01-26-programming-in-english-december-shift.md).
   The cleanup pass, throwaway debug tools and second opinions from a stronger model still apply.
 - Related: [code is free](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-12-19-code-is-free-and-ephemeral.md) and [models fear exceptions](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-10-08-models-over-defensive-about-exceptions.md).
+- In July 2025 he described the same split: Cursor as the layer for reading code, manual edits, tab completion and edits to chunks; Claude Code for larger changes, architecture and questions.
 
 ---
 
@@ -3257,6 +3585,7 @@ models.
 
 - Created 2025-08-20. He says he vibe coded it months earlier and uses it often, without plans
   to maintain it. See [Treat small apps as disposable](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-11-18-disposable-vibe-coded-apps.md).
+- The habit behind it: [Pack your project into one prompt](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-02-14-package-repo-into-one-prompt.md).
 
 ---
 
@@ -3281,6 +3610,138 @@ Karpathy notes that models tuned hard on benchmarks are agentic by default. They
 
 - Posted 2025-08-09.
 - Related: [context engineering](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-06-25-context-engineering.md).
+- He frames it as two cases. A colleague at your screen asks "is this right?" and wants an answer in seconds; an exam gives two hours and high stakes. A person knows which case applies; a model does not, and training on benchmarks pushes it to assume the exam.
+- In October 2025 he said he does not want an agent that returns 1,000 lines after 20 minutes. He wants chunks he can hold in his head, with the code explained and the docs shown.
+
+---
+
+Date: 2025-07-14 · Kind: practice · Source: https://x.com/karpathy/status/1944885371957031005 · Themes: verification, research-and-training · Status: current
+
+# Read a few cases in depth, not only dashboards
+
+Karpathy says he learns more from a detailed look at a few random examples than from dashboards
+of statistics over every example. Both views are useful. The aggregate view, he says, is far
+more common than it should be. For work with LLMs this means a score on an eval set tells you
+how much, while a close read of single outputs tells you why. Our reading: an agent run is one
+such case, so its full transcript is worth reading even when the pass rate looks fine.
+
+## In his words
+
+> "in-depth analysis of few random cases over dashboards of aggregate statistics"
+> — Andrej Karpathy, 2025-07-14
+
+## Apply
+
+- After each eval run, pick five cases at random and read the full input, output and trace.
+- Sample at random; do not pick only failures or only your favourite examples.
+- Write down what each case taught you before you look at the average again.
+
+## Context
+
+- Posted 2025-07-14 with no thread. Short opinion; the Apply steps are our own use of it.
+
+---
+
+Date: 2025-07-11 · Kind: view · Source: https://x.com/karpathy/status/1980397031542989305 · Themes: research-and-training · Status: current
+
+# Pixels may be better LLM inputs than text tokens
+
+Prompted by the DeepSeek-OCR paper, Karpathy asks whether text tokens are a poor input. Perhaps every input should be an image, even pure text, which you would render first. He lists four gains: more compression and so shorter contexts; a richer stream that carries bold text, colour and pictures; bidirectional attention by default; and no tokenizer at the input. He dislikes the tokenizer: it brings Unicode and byte-encoding baggage and jailbreak risks, and it gives two look-alike characters different tokens. Using raw bytes does not fix it, since byte encoding is still arbitrary. The output side stays text. In a reply he says nothing in principle stops text from using bidirectional attention; text is just trained left to right for efficiency.
+
+## In his words
+
+> "The tokenizer must go."
+> — Andrej Karpathy, 2025-10-20
+
+## Context
+
+- Post of 2025-10-20 and replies on 2025-10-21. He said he held back from building an image-only nanochat.
+- Related: [Text chat is the terminal era](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-03-31-text-chat-is-the-terminal-era.md).
+- First raised on 2025-07-11: in a reply he wondered whether a VAE over image patches is the ultimate tokenizer, since Unicode plus UTF-8 takes too long to describe.
+
+---
+
+Date: 2025-07-10 · Kind: practice · Source: https://x.com/karpathy/status/1943345514239717873 · Themes: output-and-reading, ai-progress · Status: current
+
+# Write new knowledge for AI readers, not as a PDF
+
+A researcher complained that nobody has time to read papers. Karpathy answered with two claims.
+First, as AI improves, a person's real contribution is original knowledge: something that cannot
+be worked out by reasoning from what is already online, such as the result of an experiment.
+Second, such work should be written for AI readers as much as for people. A PDF is hard for a
+model to use. A git repository with the analysis code, results in CSV files and explanations in
+markdown is easier. He expects most attention soon to be LLM attention, and he sees room for a
+"research app" built around that. In September he repeated the first point to a new AI-science
+lab: we will not reason our way to Dyson spheres.
+
+## In his words
+
+> "PDF is an AI unfriendly format."
+> — Andrej Karpathy, 2025-07-10
+
+## Apply
+
+- Publish results with the code that made them, the raw numbers as CSV, and a short markdown
+  explanation.
+- Put the experiment, not only the conclusion, in the repository.
+- Give a model your repo and ask it questions, to test whether it can follow your work.
+
+## Context
+
+- Posted 2025-07-10 as a reply and a quote post about Michael Levin's question; related reply on
+  2025-09-30. The "research app" is an open idea, not a product.
+- Related: [Build docs and tools for agents, which curl instead of click](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-03-12-write-docs-for-llms.md).
+
+---
+
+Date: 2025-07-05 · Kind: practice · Source: https://x.com/karpathy/status/1941616674094170287 · Themes: agentic-coding, security-and-dependencies · Status: current
+
+# Write small, modular, copy-paste code like bacteria do
+
+Karpathy compares two ways to organise code. Bacterial genomes are small, split into swappable
+groups, and self-contained, so genes pass between cells by copying. This makes bacteria fast to
+adapt. Complex life needs the other style: a large, coupled monorepo that coordinates organs. He
+suggests we use both on purpose. Build a monorepo backbone where you must, but write as much code
+as possible in the bacterial style. The test for a function or class: could a stranger copy it,
+with no other part of your code and no new import, and gain a benefit? In a reply he adds why
+software bloats. In biology each line of code costs energy, so genomes stay lean. In software,
+code is cheap, so dependencies pile up into a brittle mess.
+
+## In his words
+
+> "More gists, less gits!"
+> — Andrej Karpathy, 2025-07-05
+
+## Apply
+
+- Before you merge a function, check that it runs when pasted alone into a new file.
+- Remove imports that exist only for one helper; inline the helper instead.
+- Share useful pieces as gists or single files, not only as parts of a large repository.
+- Ask an agent to list the dependencies each module pulls in, and to cut those it can replace
+  with a few lines.
+
+## Context
+
+- Posted 2025-07-05, with a follow-up reply and a related reply on 2025-07-06 about dependency
+  bloat. The post argues from analogy; the Apply steps are our own use of it.
+- Related: [Point an agent at a library and rip out only the part you need](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-02-11-rip-out-functionality-with-agents.md).
+
+---
+
+Date: 2025-06-30 · Kind: view · Source: https://x.com/karpathy/status/1939709449956126910 · Themes: ai-progress, research-and-training · Status: current
+
+# Recursive self-improvement has already begun
+
+Reacting to a benchmark that asks coding agents to re-create the speed-ups people made to nanoGPT, he restated his view on self-improvement. It will not be a thing that did not exist and then suddenly does. Any tool that speeds up developers in building the next version counts: IDEs, search, git. Most programmers now use LLM completion and diffs, in larger and larger chunks. The benchmark is useful because it is tractable. Training GPT-2 fell from 45 minutes to 3. Agents recover little of that so far. He warns that nanoGPT is about 750 lines and covers only pretraining; real code bases are 100 to 1000 times larger.
+
+## In his words
+
+> "Recursive self-improvement has already begun a long time ago"
+> — Andrej Karpathy, 2025-06-30
+
+## Context
+
+- June 2025. Related: [autoresearch loop](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-07-autoresearch-loop.md) and [GPT-2 training cost is falling](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-01-31-gpt2-training-cost-falling.md).
 
 ---
 
@@ -3318,6 +3779,28 @@ because internet data is poor.
 - His 2025 review frames it as the "microcontroller" of LLM computing.
 - Related: [Weights are hazy memory, context is working memory](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-10-17-weights-hazy-memory-context-working-memory.md)
   and [Fast, no-thinking LLMs fill a niche](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-09-21-low-latency-single-token-llm-niche.md).
+
+---
+
+Date: 2025-06-26 · Kind: view · Source: https://x.com/karpathy/status/1938278133465288715 · Themes: research-and-training, ai-progress · Status: current
+
+# The bitter lesson as "turn the crank"
+
+He explains the bitter lesson as a preference for algorithms where you only turn a crank. When you get more compute, which is a faster crank, you should not have to change anything: you run it faster and the result improves. You can break this rule on purpose, and locally that is often right. The risk is that you may not be around when the new, faster crank arrives.
+
+## In his words
+
+> "you just crank faster to make better."
+> — Andrej Karpathy, 2025-06-26
+
+## Apply
+
+- When you add a hand-made trick to a system, ask whether it would still help, or would block gains, with ten times more compute.
+- Keep such tricks easy to remove.
+
+## Context
+
+- June 2025, a reply to a post on common misreadings of the bitter lesson. Related: [RL supervision through a straw](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-10-17-rl-supervision-through-a-straw.md).
 
 ---
 
@@ -3385,6 +3868,18 @@ one message.
 
 ---
 
+Date: 2025-06-20 · Kind: view · Source: https://x.com/karpathy/status/1936171874398208202 · Themes: research-and-training · Status: current
+
+# What is the best possible pretraining data?
+
+He asked what the highest-grade pretraining stream would look like if quality were the only goal and quantity did not matter. His guess: textbook-like content in markdown, or samples from a very large model. He wants to know how strong a 1B model trained on 10B tokens of such data could be, and how far "micromodels" can go. Books already appear in data mixes, but when he looks closely they are full of bad formatting, padding, OCR errors and figure text mixed into the main text. He has never seen a stream that felt perfect. In a reply he called a leading open data mix "terrible" compared to what he can imagine, since makers trade quality for quantity.
+
+## Context
+
+- June 2025. Related: [textbooks: exposition, worked problems, practice](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-01-30-textbooks-exposition-worked-problems-practice.md) and [the LLM cognitive core](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-06-27-the-llm-cognitive-core.md).
+
+---
+
 Date: 2025-06-17 · Kind: practice · Source: https://www.youtube.com/watch?v=LCEmiRjPEtQ · Themes: ai-progress, verification · Status: current
 
 # A demo is the first nine; each next nine costs the same work
@@ -3414,6 +3909,7 @@ demos unimpressive and thinks "year of agents" claims are too fast.
 - Said at YC AI Startup School on 2025-06-17 and again, in more detail, in the Dwarkesh Patel
   interview on 2025-10-17, where he gave the "march of nines" phrase.
 - Related: [Agents will take a decade](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-10-17-decade-of-agents-not-year.md).
+- In April 2025 he noted how long the road from demo to polished product can be: AI portrait apps were an idea years before one worked well.
 
 ---
 
@@ -3441,6 +3937,7 @@ technology reached consumers first, not governments.
 
 - YC AI Startup School talk, 2025-06-17. Related: [Software 3.0](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-06-17-software-3-0-english-as-programs.md).
 - Models and costs have changed since; the structure of the analogy is what he offers.
+- In a reply he said GPT-2 is not the 6502 of this era. He expects that moment from a model one or two generations after GPT-4 that is multimodal, reasons, uses tools, acts as an agent and has memory.
 
 ---
 
@@ -3504,6 +4001,8 @@ field with private data, sensors, actuators and feedback loops.
 - Related: [Keep the AI on a tight leash](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-04-24-ai-assisted-coding-rhythm.md),
   [Context engineering](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-06-25-context-engineering.md) and
   [the autonomy ladder](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2024-03-12-swe-autonomy-ladder-supervising-automation.md).
+- A March 2025 example: a quiz generator for his videos gave a wrong answer. He said AI is reliable as a tool in a person's hands and gives slop when left to act alone.
+- In June 2025 he said people get distracted by demos of full autonomy instead of building strong products with partial autonomy.
 
 ---
 
@@ -3543,6 +4042,69 @@ advice to new engineers: be fluent in all three, because each has strengths.
 
 ---
 
+Date: 2025-06-16 · Kind: practice · Source: https://x.com/karpathy/status/1934651657444528277 · Themes: security-and-dependencies, agentic-coding · Status: current
+
+# Agent security is the wild west
+
+Sharing Simon Willison's "lethal trifecta" (private data, untrusted content, outside communication), he compared today to early computing. Malicious prompts hidden in web data and tools play the role of viruses, and defences are weak. He pointed to the mature idea of kernel and user space: an agent should get a few specific action types, not the power to run any bash script. He wants to adopt agents early, but the risk holds him back. In a follow-up he said the risk is highest for local agents such as Cursor or Claude Code. Chat on a website is safer until you turn on connectors, which combine badly with memory.
+
+## In his words
+
+> "Feels a bit like the wild west of early computing"
+> — Andrej Karpathy, 2025-06-16
+
+## Apply
+
+- Check each agent setup for the three parts of the trifecta, and remove at least one.
+- Give agents specific, limited tools instead of unrestricted shell access.
+- Turn on chat connectors one at a time, and review what memory could leak.
+
+## Context
+
+- June 2025, when agent and connector use was still new. Related: [rethink dependencies and the supply chain](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-24-rethink-dependencies-supply-chain.md).
+- In a separate reply (2025-05-20) he said that when people say "alignment" he hears computer security, now with neural nets.
+
+---
+
+Date: 2025-06-11 · Kind: view · Source: https://x.com/karpathy/status/1932925671770358113 · Themes: llm-psychology · Status: current
+
+# When the prior overwhelms the likelihood
+
+A user showed a model failing to read what a document or image really holds. In the example, the picture had one red circle and no surrounding circles. The model still recalled the well-known size illusion and answered from that memory. He described this as the prior overwhelming the likelihood: strong learned expectations beat the evidence in front of the model. This is a useful way to model one type of LLM error.
+
+## In his words
+
+> "It’s when the prior overwhelms the likelihood."
+> — Andrej Karpathy, 2025-06-11
+
+## Apply
+
+- When you ask a model about a familiar-looking input, change a detail that breaks the usual pattern and check that the answer follows the change.
+- Ask the model to quote or point to the exact part of the input that supports its answer.
+
+## Context
+
+- June 2025. Related: [LLMs are people spirits with deficits](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-06-17-llms-are-people-spirits-with-deficits.md).
+
+---
+
+Date: 2025-06-05 · Kind: view · Source: https://x.com/karpathy/status/1930653315605618725 · Themes: agent-native-software, ai-progress · Status: current
+
+# Either the automation adapts, or the world does
+
+Someone argued we should not train models for computer use, since the web was built for humans. He replied that this ignores inertia (COBOL is still in wide use). He framed the question in general terms: do LLMs adapt to all existing software, or does software adapt to LLMs, with text forms and APIs? The same holds for robots and warehouses. Most of the time it is a bit of both. His prediction: in software about 80% of the change will be software adapting, because flipping bits is cheap. In hardware it is the reverse, because moving atoms is costly.
+
+## In his words
+
+> "Either an automation meets all the tasks, or all the tasks meet the automation."
+> — Andrej Karpathy, 2025-06-05
+
+## Context
+
+- June 2025, a reply thread. Related: [opaque binary UIs are ngmi](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-06-04-opaque-binary-uis-are-ngmi.md) and [write docs for LLMs](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-03-12-write-docs-for-llms.md).
+
+---
+
 Date: 2025-06-04 · Kind: practice · Source: https://x.com/karpathy/status/1930354382106964079 · Themes: agent-native-software · Status: current
 
 # Opaque, binary-format tools do not fit human and AI work
@@ -3559,6 +4121,70 @@ Karpathy argues that products with rich visual UIs, no scripting and opaque bina
 
 - Posted 2025-06-04.
 - Related: [docs for LLMs](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-03-12-write-docs-for-llms.md) and [Software 3.0](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-06-17-software-3-0-english-as-programs.md).
+
+---
+
+Date: 2025-06-04 · Kind: practice · Source: https://x.com/karpathy/status/1930305209747812559 · Themes: verification, agentic-coding · Status: current
+
+# Verification, not generation, is the bottleneck
+
+He split creative work into generation and discrimination, as in a GAN. Discrimination can be costly. Images are easiest to judge, since the visual system is fast. Text is harder: you must read, and code needs reasoning. Audio may be harder still, because it forces a time axis and cannot be skimmed. LLMs made code generation near instant but did little for checking. A person still reads the result. His main criticism is that models give far too much code per request, as if stage two did not exist. A good model should split work into small steps that are easy to check. Programming is mostly staring at code, not typing it, so a faster step one gives little overall gain (Amdahl's law). In a reply he said a coloured diff view is a weak but real way to use vision, and he wants richer visual code views.
+
+## In his words
+
+> "It's about staring at the code (2)."
+> — Andrej Karpathy, 2025-06-04
+
+## Apply
+
+- Ask the model for one small, checkable change per turn, not a large patch.
+- Our reading: ask it to say how you can check each change: a test, a diff, a run.
+- Our reading: prefer outputs you can judge visually (diffs, diagrams, rendered pages) over long text.
+
+## Context
+
+- June 2025, replying to a post on the "verification gap". He tied it to his earlier workflow: [AI-assisted coding rhythm](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-04-24-ai-assisted-coding-rhythm.md). See also [codebases as spatial maps](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-09-12-codebases-as-spatial-maps.md).
+- Same loop from his talk two weeks later: [Partial autonomy and the autonomy slider](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-06-17-partial-autonomy-and-autonomy-slider.md).
+
+---
+
+Date: 2025-06-02 · Kind: view · Source: https://x.com/karpathy/status/1929634696474120576 · Themes: ai-progress · Status: current
+
+# Generated video can be optimised directly
+
+After Veo 3 added audio, he listed four points. Video is the highest-bandwidth input to the brain. It is the easiest and most fun medium, since most people dislike reading and writing. The cost to make it is near zero. And for the first time, video is directly optimisable. Until now, platforms ranked a finite pool of clips made by people, a weak optimiser. A generator is a neural net, so you can aim gradient descent, or even just prompt search, at an objective such as engagement or ad clicks. He fears what "optimal" will look like. In replies he said media will trend toward drugs, and that influencers already optimise for attention, not truth.
+
+## In his words
+
+> "For the first time, video is directly optimizable."
+> — Andrej Karpathy, 2025-06-02
+
+## Context
+
+- June 2025. The same post calls video a strong channel from AI to people (diagrams, animation); see [text chat is the terminal era](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-03-31-text-chat-is-the-terminal-era.md).
+- Related: [follow-up questions and engagement-maxxing](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-25-follow-up-questions-engagementmaxxing.md).
+- In August 2025 he asked whether tuning feeds for revenue and growth with A/B tests makes every feed converge on the same funny animal videos.
+
+---
+
+Date: 2025-05-25 · Kind: view · Source: https://x.com/karpathy/status/1926455303047970971 · Themes: ai-progress, research-and-training · Status: current
+
+# Prompting was the unlock he missed in 2015
+
+On "timeline compression", he said that in the char-rnn days one simple claim would have changed his view fast. The claim: make a text model bigger, fine-tune it on Q&A data such as StackOverflow, and it might become a useful assistant. Instead he waited seven years for InstructGPT. He says he did not see how general text generation is. He knew you could fine-tune it for single tasks, such as translation or image captions. The meta-idea of prompting was the missing piece: one fixed set of parameters can do all the tasks if you ask in the prompt. He frames it as a conceptual blind spot, not as evidence.
+
+## In his words
+
+> "it's the meta of prompting that is a major conceptual unlock"
+> — Andrej Karpathy, 2025-05-25
+
+## Apply
+
+- When you forecast, list the assumptions you hold without proof. Ask which one a single new framing could remove.
+
+## Context
+
+- May 2025, in a thread on short AI timelines. Related: [system prompt learning](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-05-10-system-prompt-learning.md).
 
 ---
 
@@ -3595,6 +4221,32 @@ that database into the weights to avoid bloat.
   are our own use of it.
 - Related: [RL sucks supervision through a straw](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-10-17-rl-supervision-through-a-straw.md) and
   [Make memory and compaction tools that RL trains](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-05-memory-as-rl-tools.md).
+- In June 2025 he described today's models as coworkers with anterograde amnesia: after training they keep only short-term memory, so they cannot build lasting expertise.
+- In July 2025 he said RL narrows the view. Review and reflection could also build tools for later use, tune what to try next, or work where there are no rewards.
+- On the strawberry letter count he said the core issue is that the model should find its own method. His later nanochat guide teaches it with synthetic data: [Teach a small model a skill with a synthetic task](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-10-24-teach-a-small-model-a-skill-with-a-synthetic-task.md).
+
+---
+
+Date: 2025-05-06 · Kind: view · Source: https://x.com/karpathy/status/1919647115099451892 · Themes: learning-and-education, research-and-training · Status: current
+
+# Learn the physical lens of computing
+
+He called it a major mistake of his undergraduate years that he leaned too far on the mathematical view of computing: computability, decidability and asymptotic complexity. He gave too little time to the physical view: the energy and heat of changing state, data locality, parallelism and computer architecture. The mathematical view is interesting. The physical view is where the power is. Our reading: this matters most for anyone who trains or serves large models, where memory movement and parallel hardware set the speed.
+
+## In his words
+
+> "The former is interesting; The latter bestows power."
+> — Andrej Karpathy, 2025-05-06
+
+## Apply
+
+- Our reading: when you plan study time, add hardware topics: memory hierarchy, cache, GPU parallelism, and the cost of moving data.
+- Our reading: before you optimise code, measure where data moves, not only how many operations run.
+
+## Context
+
+- Posted 2025-05-06.
+- In May 2025 he praised a project that ran a whole Llama 1B forward pass, at batch size one, in a single CUDA kernel. Each boundary between kernels forces a sync, so one kernel removes those gaps; he called it the only way to plan compute and memory at their best.
 
 ---
 
@@ -3627,6 +4279,7 @@ yet.
 - The Stripe example returns in 2026 as his case for human judgment in agentic work:
   [Vibe coding versus agentic engineering](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-02-04-agentic-engineering-vs-vibe-coding.md).
 - Related: [Write docs and tools for the user's agent](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-03-12-write-docs-for-llms.md).
+- A month earlier he described the same pain for a web app stack: [Building a web app is like assembling IKEA furniture](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-03-27-web-app-stack-is-ikea-furniture.md).
 
 ---
 
@@ -3705,6 +4358,27 @@ artifact in the middle, such as a course syllabus, so the AI stays inside it.
 - The strict counterpart to [vibe coding](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-02-02-vibe-coding-for-throwaway-projects.md).
   Related: [partial-autonomy apps](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-06-17-partial-autonomy-and-autonomy-slider.md) and
   [the junior intern test](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2024-12-14-would-you-hire-it-as-a-junior-intern.md).
+- In April 2025 he discussed names for this mode, such as "AI-assisted coding", and agreed that "coding" now assumes AI help by default, so the old way becomes "handcoding".
+- His June 2025 view on why checking is the slow step: [Verification, not generation, is the bottleneck](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-06-04-verification-not-generation-is-the-bottleneck.md).
+
+---
+
+Date: 2025-04-19 · Kind: view · Source: https://x.com/karpathy/status/1980672126131794063 · Themes: ai-progress · Status: current
+
+# AGI means a feature-complete remote worker; society-wide deployment is ASI
+
+In replies of October 2025, Karpathy states the definition he has kept. AGI is an automated system that can do any economically valuable work a human can, with the "digital concession" that physical work is left out. It is a remote worker you hire instead of a person, reached by email, chat or video calls. He compares it to a build with all features and many 9s, like current self-driving. That such a system exists is different from its use across society, which takes longer (compute limits, sensors and actuators, law). Full deployment into the economy he would call ASI. He does not rate AGI by puzzle benchmarks. His 10-year estimate is a vibe; at OpenAI in 2015 he voted for 20 years.
+
+## In his words
+
+> "when you're fired because GPT-n is better, cheaper, takes no equity and works weekends"
+> — Andrej Karpathy, 2025-10-21
+
+## Context
+
+- A thread of replies on 2025-10-21 and 2025-11-03. The quote defines AGI, as opposed to a score.
+- Related: [AI will blend into the same 2% growth curve](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-10-17-agi-blends-into-gdp-growth.md) and [This is the decade of agents, not the year of agents](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-10-17-decade-of-agents-not-year.md).
+- First raised on 2025-04-19: he said he sticks with the original OpenAI definition of AGI, at a time when his feed was full of LLMs solving prompt puzzles and of excited talk about AGI.
 
 ---
 
@@ -3740,6 +4414,49 @@ better models, and the rich could then get far more intelligence than others.
   [Vibe coding makes code free and ephemeral](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-12-19-code-is-free-and-ephemeral.md).
 - He names two forces on the "dynamic range" of capability: scaling and test-time compute widen
   it, and distillation narrows it.
+
+---
+
+Date: 2025-04-06 · Kind: practice · Source: https://x.com/karpathy/status/1909007524885672262 · Themes: agentic-coding · Status: current
+
+# Write boring code with NASA-style rules
+
+Asked for a better language than C, he said C gives too much rope. He would move toward an ideal by subtracting features. His best pointer is the NASA requirements for C code. They remove what is too exotic, too clever or too fancy, and each line does one thing. His test for a banned feature: it lets you impress friends with esoteric knowledge, or it makes a reader ask what a snippet will print.
+
+## In his words
+
+> "Every line does one single thing."
+> — Andrej Karpathy, 2025-04-06
+
+## Apply
+
+- Write a short style rule for your code base: no tricks, no code that needs a puzzle to read.
+- Review code with one question: can a new reader say what this line does without running it?
+- Our reading: give the same rule to coding agents in your project instructions, since plain code is also easier to review.
+
+## Context
+
+- April 2025, in a thread on C and safer subsets. He did not name a specific NASA document. Our reading: the rule is about readability, not only memory safety.
+- Related: [understanding is the bottleneck](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-31-understanding-is-the-bottleneck.md).
+
+---
+
+Date: 2025-04-04 · Kind: view · Source: https://x.com/karpathy/status/1908109168952676855 · Themes: ai-progress, verification · Status: current
+
+# Move AI predictions to betting markets
+
+Many AI predictions live in blog posts, podcasts and tweets, where nobody checks them. He wants to move them to betting markets, which he calls the best tool we have for finding truth. The hard part is the question. A good one has a concrete outcome that anyone can resolve later. Industry metrics and macroeconomics fit best. He doubts GDP works well, and he doubts evals work, because evals are incomplete and easy to game. In a reply he gave an example: the number of employees at the five biggest call-centre companies falls by 50% by a set year.
+
+## Apply
+
+- When you write a forecast, state it as a yes/no outcome with a number, a source and a date.
+- Prefer real-world measures, such as headcount in a task that "everyone" says is easy to automate. Avoid benchmark scores as the test.
+- Reject vague metrics such as "share of firms using AI" as too soft to resolve.
+
+## Context
+
+- April 2025. Related: [AGI blends into GDP growth](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-10-17-agi-blends-into-gdp-growth.md) and [AI and jobs: radiologists and engineers](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-09-25-ai-and-jobs-radiologists-and-engineers.md).
+- The call-centre example comes from his reply the same day.
 
 ---
 
@@ -3779,6 +4496,71 @@ default), and later interactive video made by a diffusion model.
 - Next step: [Make model output easier to understand](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-10-02-make-model-outputs-easy-to-understand.md).
 - Related: [LLMs are like 1960s operating systems](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-06-17-llms-are-1960s-operating-systems.md)
   and [Code is now free, custom and disposable](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-12-19-code-is-free-and-ephemeral.md).
+- He already used the punchcard image for prompt-and-paste chat in January 2025.
+- In May 2025 he expected the GUI to be visual, generated for each prompt, and built mostly from procedural parts such as charts and components, because some content, such as a map, must be exact.
+- In November 2025 he tried an image model that reasons, as a first sign of this GUI: see [Plan in text first, then illustrate](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-11-23-plan-in-text-then-illustrate-with-an-image-model.md).
+
+---
+
+Date: 2025-03-27 · Kind: view · Source: https://x.com/karpathy/status/1905051558783418370 · Themes: agent-native-software, agentic-coding · Status: current
+
+# Building a web app is like assembling IKEA furniture; make it just work for AIs
+
+Karpathy, newer to modern web development, listed what a 2025 app needs: frontend and backend,
+hosting, a database, login, file storage, email, payments, background jobs, analytics,
+monitoring, developer tools, secrets and more. None of it comes in one box. He said it took
+him about three hours to connect a Supabase backend to a Vercel app and fix a few errors.
+The moment you leave the "getting started" path you are lost.
+
+His point: the pain is not code. It is configuration, plumbing and workflow. He expects large
+rewards for whoever makes this accessible and working out of the box, for people and, more and
+more, for AI agents. In a reply he added the familiar friction: dependency conflicts, downgrading
+Node, and creating many accounts.
+
+## In his words
+
+> "a bit like assembling IKEA furniture"
+> — Andrej Karpathy, 2025-03-27
+
+## Context
+
+- Related ideas: [Make the whole DevOps lifecycle agent-native](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-26-devops-as-code-for-agents.md)
+  and [Build docs and tools for agents](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-03-12-write-docs-for-llms.md).
+
+---
+
+Date: 2025-03-23 · Kind: practice · Source: https://x.com/karpathy/status/1903671737780498883 · Themes: agentic-coding, learning-and-education · Status: current
+
+# Build a small app in a language you do not know, one chat step at a time
+
+Karpathy built an iOS app in Swift, which he had not used before, and had it running on his
+phone about an hour later. He read no docs. He opened a ChatGPT conversation and followed its
+instructions, step by step. The app is a calorie countdown: it tracks a net deficit against a
+base metabolic rate. It was about 200 lines at first.
+
+He kept steps small on purpose, because it taught him more and helped him avoid getting stuck.
+He used a separate conversation for each stage (start, enhance, persistence, deploy to phone)
+and shared them. By about 400 lines the work slowed and a long change got "dicey, long and
+strenuous". His next move was to connect the model to Xcode or to Cursor. In a reply to a
+blog post he said he uses "vibe coding" for moments like this, but that most of the time he
+still reads the code and adds complexity slowly.
+
+## In his words
+
+> "I just opened a ChatGPT convo and followed instructions"
+> — Andrej Karpathy, 2025-03-23
+
+## Apply
+
+- Choose a small tool you will use yourself and ask the chat for the first runnable version.
+- Ask for one change at a time and run it each time; ask why when you do not understand a step.
+- Start a new conversation for each stage and keep the links, so you can go back.
+- Move to an editor-integrated tool once the code outgrows a chat window.
+
+## Context
+
+- Sequel to [Vibe coding is fine for throwaway projects](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-02-02-vibe-coding-for-throwaway-projects.md); later he found shipping is harder than building: [Vibe coding a real app is easy locally and hard to ship](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-04-27-vibe-coding-real-app-lessons.md).
+- The code was for personal use; this is not a claim about production apps.
 
 ---
 
@@ -3815,6 +4597,7 @@ working memory and move on.
   alternative, browse the `knowledge-management` theme.
 - Our reading: the "review by gravity" rule is a cheap form of spaced attention, and it works
   with plain text that an LLM can also read.
+- He still uses Obsidian for concrete projects, but not for daily notes.
 
 ---
 
@@ -3859,6 +4642,28 @@ CLI let Claude build a terminal dashboard in about three minutes.
   [Opaque, binary-format tools](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-06-04-opaque-binary-uis-are-ngmi.md).
 - [Software 3.0](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-06-17-software-3-0-english-as-programs.md) names agents as a third consumer
   of software.
+- In March 2025 he said that putting a codebase into one file is easy; the hard part is knowledge locked in formats made for people, such as web pages, PDFs, images and video.
+- For research results, see [Write new knowledge for AI readers, not as a PDF](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-07-10-write-research-for-llms-not-pdf.md).
+
+---
+
+Date: 2025-03-02 · Kind: practice · Source: https://x.com/karpathy/status/1917546757929722115 · Themes: verification, ai-progress · Status: current
+
+# Leaderboards get gamed; watch real usage
+
+After a paper on the LMArena leaderboard, he said his own experience matched its doubts. A Gemini model once ranked far ahead of the rest, but it was worse in daily use. Claude 3.5 felt top tier to him yet ranked low. Several small models with little real knowledge ranked high. His reading: some labs focus on arena score, so they build better arena models, not better models. He suspected such models favour nested lists, bullets and emoji. As a new candidate for a hard-to-game eval he named the OpenRouter rankings. People there switch models for real work, with private evals and a real cost, so each choice is a vote. In a reply he said he used a word-of-mouth blend of many small private evals.
+
+## Apply
+
+- Do not choose a model from one public leaderboard. Test it on a few tasks of your own for several days.
+- Keep a small private eval set from your real work and re-run it on each new model.
+- Check usage-based rankings, such as the share of traffic a model gets, as a second signal.
+
+## Context
+
+- April 2025. Related: [go talk to the model: private evals](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-11-18-go-talk-to-the-model-private-evals.md) and [all LLMs sound the same](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2024-10-06-all-llms-sound-the-same.md).
+- In a reply of 2025-04-08 he called the pull toward arena style a "taste issue", like superhero films taking over Hollywood.
+- First raised on 2025-03-02: he said Chatbot Arena got so much attention, partly through him, that labs overfit to it by mining its prompts, sending many private test runs and training on its rankings. His answer then was an ensemble of private evals.
 
 ---
 
@@ -3884,6 +4689,39 @@ the one artifacts use he finds useful in daily work.
 
 - From *How I use LLMs* (2025-02).
 - Related: [Read books and papers together with an LLM](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2024-12-11-read-books-with-an-llm.md).
+
+---
+
+Date: 2025-02-27 · Kind: view · Source: https://x.com/karpathy/status/1895213020982472863 · Themes: ai-progress, research-and-training · Status: current
+
+# Bigger pretraining improves everything a little, and is hard to point to
+
+Karpathy used the release of GPT-4.5 to read the slope of gains from scaling pretraining alone.
+Each 0.5 step in the version number is roughly 10X pretraining compute. GPT-3.5 was where chat
+became a product. GPT-4 was better in a subtle way: word choice, nuance, analogies, rare
+knowledge and humor all improved by a little, and slam-dunk examples were hard to find. He saw
+the same pattern in GPT-4.5.
+
+He stressed it had no reasoning training, so it does not move math and code. Its gains should
+show on tasks that depend on knowledge, creativity and humor. To test that he ran five creative
+prompts as a public poll. The crowd preferred the older model in four of five, which he found
+surprising; he guessed at taste, a small sample, or weak examples, and waited for larger tests.
+
+## In his words
+
+> "Each 0.5 in the version is roughly 10X pretraining compute."
+> — Andrej Karpathy, 2025-02-27
+
+## Apply
+
+- Compare a new large model with the older one on creative and open tasks, not only on math or code.
+- Judge with careful side-by-side reading; a quick poll mixes taste levels and small samples.
+- Look for the odd phrases, tropes and formulaic parts in the older answer, which a careful reader catches.
+
+## Context
+
+- He also noted a mistake in GPT-4.5's text: it joked that an old model is slow like dial-up, but older models are faster.
+- On the evaluation problem that followed, see [Public benchmarks are gameable, so keep your own evals](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-11-18-go-talk-to-the-model-private-evals.md).
 
 ---
 
@@ -3932,12 +4770,14 @@ them his "LLM council".
   compare.
 - Turn on "think" or "reasoning" mode only for hard debugging, math or planning.
 - For open questions with no single right answer, ask two or three vendors and compare the replies.
+- Our reading: write down your own router like his: which model for quick questions, hard questions, code and long research. Update it when the model list changes.
 
 ## Context
 
 - From *How I use LLMs* (2025-02). The model names in the video (GPT-4o, o1 pro, Claude 3.5 Sonnet,
   Grok 3, DeepSeek R1) are dated. The habit does not depend on them.
 - Related: [Check which tools the model has](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-02-27-check-which-tools-the-model-has.md).
+- In June 2025 he shared his own ChatGPT router: the fast daily model for simple questions (about 40% of his use), the reasoning model o3 for hard or important ones (about 40%), GPT-4.1 for code edits (about 10%), and Deep Research to learn a topic in depth (about 10%). In replies he said the real choice is whether a question is important enough to wait for.
 
 ---
 
@@ -3993,6 +4833,7 @@ agentic context management with memory, where the system decides what to keep.
 - Our reading, for coding agents (he spoke about chat apps): keep one session per task, and hand
   off through a file (decisions, state, next step), not through a long history. Do not trust
   automatic compaction with key decisions; write them down yourself.
+- Group long-running work into projects, keep one default chat for quick questions, and when a chat gets too long, write a summary and continue in a new chat (a reader's setup he called interesting, 2025-03-20).
 
 ## Context
 
@@ -4049,12 +4890,207 @@ the app for one person. He adds that he is not a daily user of this and uses it 
 - Ask for the content first (cards, a checklist, a table). Then ask for a tiny app that uses it.
 - Keep the request to one screen and one job. Single-file, local apps work best.
 - Ask the model to keep the data inside the page, so you can copy it out later.
+- Before you search for an app, ask a model to build a small one for the task, and drop it when the task is done.
 
 ## Context
 
 - From *How I use LLMs* (2025-02). An early view of a theme he develops later in 2026: software
   written on demand, with agents as the user. See
   [Apps become APIs and agents are the glue](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-20-apps-become-apis-agents-are-glue.md).
+- In May 2025 he said many habits break when an app takes a second to make: software stops being scarce, and you no longer have to pick from what exists. He also found it easier to build his own tool than to find one.
+
+---
+
+Date: 2025-02-27 · Kind: view · Source: https://x.com/karpathy/status/1980347971935068380 · Themes: research-and-training · Status: current
+
+# Text diffusion is a bidirectional transformer that re-masks a token canvas
+
+Karpathy points to a short post that shows how simple discrete text diffusion can be. Image and video models mostly use diffusion, while text models mostly use autoregression. Without the formalism, diffusion is an ordinary transformer with bidirectional attention. It repeatedly re-samples and re-masks all tokens of a "canvas" on a noise schedule until the last step. In code terms, autoregression appends one token and looks only backwards. Diffusion sets any position in the canvas and looks both ways. Bidirectional attention is stronger, but it makes training costlier because you cannot parallelise over the sequence. He thinks the two may blend, and calls this part of the stack still fungible.
+
+## Context
+
+- Post of 2025-10-20. A later reply describes a small character-level text diffusion model as text "boiling" down to a simmer.
+- Related: [Pixels may be better LLM inputs than text tokens](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-07-11-pixels-may-be-better-llm-inputs-than-text.md).
+- First raised on 2025-02-27: he called Mercury the first large diffusion LLM. Most LLMs are autoregressive and alike, so a diffusion model may have new strengths and weaknesses. He found it a puzzle that images and video use diffusion while text does not.
+
+---
+
+Date: 2025-02-24 · Kind: view · Source: https://x.com/karpathy/status/1894099637218545984 · Themes: learning-and-education, ai-progress · Status: current
+
+# Agency matters more than intelligence, and is scarcer
+
+Karpathy says he got this wrong for decades, because culture, media and IQ talk put
+intelligence on a pedestal. Agency, the capacity to take initiative and shape what happens, is
+much more powerful and much more scarce. He turned it into three questions for the reader: are
+you hiring for agency, are you educating for agency, and are you acting as if you had ten times
+more agency? The post quoted a comment that intelligence is now on tap, so agency matters even more.
+
+## In his words
+
+> "Agency is significantly more powerful and significantly more scarce."
+> — Andrej Karpathy, 2025-02-24
+
+## Apply
+
+- Ask his three questions of your team and yourself: are we hiring for agency, educating for
+  agency, and acting as if we had 10X agency?
+
+## Context
+
+- Later posts on the same line: [Expertise may matter more with agents, not less](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-01-26-expertise-multiplier-generalists-and-10x.md) and [Test candidates on building and securing a project with agents](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-04-30-hire-for-agentic-engineering.md).
+
+---
+
+Date: 2025-02-18 · Kind: view · Source: https://x.com/karpathy/status/1891909328795492703 · Themes: ai-progress · Status: current
+
+# Three breakthroughs so far; autonomous agents need a few more
+
+Asked whether LLM limits come from the architecture, Karpathy first limited the question. Today's
+evals are small "task" problems served neatly, even when hard. When people talk about AGI they
+mean an autonomous swarm of agents doing long jobs across society. He believes that needs major
+research breakthroughs and not scaling alone.
+
+He counted three breakthroughs so far: the Transformer (about 2017), ChatGPT with supervised
+finetuning and RLHF (about 2022), and reinforcement learning for thinking models (about 2024),
+which is still maturing. He expects a few more of that size.
+
+A month earlier he made the same split on the Humanity's Last Exam benchmark: every task served
+on a platter will improve, even PhD-level ones, but jobs needing long, error-correcting chains
+of tasks will take longer, a Moravec's paradox effect. He called the "last exam" name misleading.
+
+## In his words
+
+> "I think we need a few more conceptual leaps of this class."
+> — Andrej Karpathy, 2025-02-18
+
+## Context
+
+- Same reasoning as [Hard closed problems are easy; long autonomous jobs are hard](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2024-11-10-llms-solve-hard-prompts-but-fail-long-jobs.md).
+- It fits his later claim in [This is the decade of agents, not the year of agents](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-10-17-decade-of-agents-not-year.md).
+
+---
+
+Date: 2025-02-16 · Kind: view · Source: https://x.com/karpathy/status/1916470365460512898 · Themes: llm-psychology · Status: current
+
+# Tic-tac-toe is harder for LLMs than it looks
+
+Someone asked why models cannot play Pokémon well. He answered that they cannot even play tic-tac-toe, so something deeper is going on. In a follow-up he said the game is secretly hard for a text model. There are eight lines to check, and each check is a tricky indexing step. To play well you must also roll the game forward a few moves. Humans find it easy because they see the board and use the paper to keep track. A text-only 1D version is much harder, since you must do it all in your head.
+
+## In his words
+
+> "tic tac toe is secretly relatively hard"
+> — Andrej Karpathy, 2025-04-27
+
+## Apply
+
+- When a model fails a task that looks trivial, ask what tool a human uses for it (sight, paper, a board). Give the model an equivalent: a rendered board, a scratchpad, or code.
+
+## Context
+
+- April 2025. He asked the author of a tic-tac-toe benchmark to re-run it.
+- Related: [jagged intelligence follows verifiability](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-20-jagged-intelligence-follows-verifiability.md).
+- First raised on 2025-02-16: he called tic-tac-toe the most interesting failure among games.
+- In his Grok 3 test of 2025-02-18, the model solved the boards he gave it but failed when asked to invent tricky boards, and so did o1-pro.
+
+---
+
+Date: 2025-02-14 · Kind: practice · Source: https://x.com/karpathy/status/1954227464596832670 · Themes: context-and-prompting, agentic-coding · Status: current
+
+# Pack your project into one prompt for a quick, scoped question
+
+When agents search the whole repo and think for minutes, Karpathy sometimes skips them. He runs a
+script that packs all project files into one text with the tool `files-to-prompt`. He opens a new
+chat, pastes the text, asks one question at the end, and chooses the model by hand. This works
+because his project is small enough to fit in the context. A later reply jokes about the same
+style: a mini model plus parallel subagents, with the codebase loaded through gitingest and low
+reasoning effort.
+
+## Apply
+
+- Keep a script that bundles your files into one text file (`files-to-prompt .` or gitingest).
+- Start a new chat per question, paste the bundle, and put the question last.
+- Choose the model yourself: a fast one for spot checks, a strong one for hard bugs.
+- Check the bundle size first; if it does not fit, send only the folders that matter.
+
+## Context
+
+- Reply of 2025-08-09, in a thread about agents that are too eager. Works only for repos that fit
+  the context window.
+- Related: [Models are too agentic: state the stakes and scope](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-08-09-models-too-agentic-state-stakes-and-scope.md).
+- First raised on 2025-02-14: he asked more apps to offer an "Export for prompt" button, after a trick that turns a GitHub repo URL into a gitingest URL to get the whole repo as one text.
+- His later tool for the same job: [Flatten a repository into one page for humans and LLMs](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-08-20-render-repo-for-humans-and-llms.md).
+
+---
+
+Date: 2025-02-12 · Kind: practice · Source: https://x.com/karpathy/status/1889714240878940659 · Themes: security-and-dependencies, llm-psychology · Status: current
+
+# Invisible Unicode characters can smuggle data and prompts into an LLM
+
+Karpathy knew about look-alike characters such as a Latin "e" and a Cyrillic "е". He then
+pointed to a write-up showing that you can also hide any byte stream inside a single character
+using Unicode "variation selectors". An emoji that looks like one symbol then turns into dozens
+of tokens, as a tokenizer viewer showed.
+
+He ran a test of prompt injection with the hidden bytes. It worked only when the prompt gave
+explicit decoding hints. Thinking models seemed more exposed, because they notice odd bytes and
+get curious. DeepSeek-R1 spent ten minutes searching for a pattern and nearly decoded it. He
+noted that if the article enters pretraining data, a future model might decode it with no hint.
+Later he called it a really bad idea of Unicode. Two readers pointed out that this is a
+Unicode property, not a UTF-8 one; he agreed.
+
+## In his words
+
+> "you can also smuggle arbitrary byte streams in any character"
+> — Andrej Karpathy, 2025-02-12
+
+## Apply
+
+- Our reading: paste suspicious text into a tokenizer viewer. A short visible string with a huge token count
+  signals hidden characters.
+- Our reading: treat text from outside your control (web pages, issues, documents) as untrusted before it
+  goes into an agent's context.
+- Our reading: strip or flag variation selectors and other invisible code points in untrusted
+  input before it reaches a model.
+
+## Context
+
+- A test on Grok 3 a few days later: it could not decode the hidden message even with a hint in
+  Rust code. See [Public benchmarks are gameable, so keep your own evals](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-11-18-go-talk-to-the-model-private-evals.md).
+- Related: [Third-party models can hide sleeper agents](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2024-01-12-sleeper-agent-llms-and-poisoned-models.md).
+
+---
+
+Date: 2025-02-07 · Kind: practice · Source: https://x.com/karpathy/status/1887980449550758121 · Themes: learning-and-education · Status: current
+
+# Make a long from-scratch intro to your own field
+
+After his 3.5-hour "Deep Dive into LLMs like ChatGPT", Karpathy said one reason he made it was
+to inspire others to make the same kind of video in their own areas of expertise. His example:
+he read an article about superconductivity in layered graphene and wanted an expert to take him
+through that area in a three-hour intro from scratch. He said many other fields would work too.
+
+The format is a general-audience walkthrough that covers the whole pipeline of a subject and
+adds mental models. He described the recording process as simple: OBS to record, a few takes
+per clip, and iMovie to stitch the clips.
+
+## In his words
+
+> "I hope to inspire others to make equivalents in their own domains of expertise"
+> — Andrej Karpathy, 2025-02-07
+
+## Apply
+
+- Pick the area you know best and outline the whole path from basics to current practice, in
+  the order a newcomer needs it.
+- Record in short clips with a free screen recorder and redo clips that go wrong; stitch them
+  in a basic editor.
+- Add worked examples and say how experts think about the field, not only what the facts are.
+
+## Context
+
+- The video pairs with a second one, "How I Use LLMs", and is also an input for
+  [Read with an LLM in three passes](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-11-17-read-everything-with-llms-three-passes.md): long, structured material is easier to learn from.
+- A reader asked for a deeper part 2; he asked for bullet-point suggestions.
 
 ---
 
@@ -4084,6 +5120,42 @@ In February 2025 Karpathy named a style of work: vibe coding. You give in to the
 - Still current. A year later he named the professional, reviewed form
   [agentic engineering](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-02-04-agentic-engineering-vs-vibe-coding.md), but kept vibe coding
   as the right mode for throwaway work: at Sequoia 2026 he said it "raises the floor".
+- He sees AI help as a slider, from coding as it was three years ago to full vibe coding. In March 2025 he said he seldom goes fully vibe: most of the time he still reads the code and learns how the parts fit.
+
+---
+
+Date: 2025-02-01 · Kind: practice · Source: https://x.com/karpathy/status/1885740680804504010 · Themes: verification, research-and-training · Status: current
+
+# Evaluate models by making them play each other
+
+Fixed evals saturate. Karpathy likes the idea of using games to compare LLMs head to head.
+When a model plays another intelligent player, the difficulty balances itself: a strong player
+meets a strong opponent, so the same environment keeps giving a signal. He pointed to early
+attempts, such as a text-game collection with a gym-style interface, and suggested Codenames
+and Diplomacy as good fits. In both, much of the difficulty comes from reasoning about other
+players and about the world, not from the rules.
+
+He built a small Battleship app himself, in which any two models fight in real time. Another
+builder reported that models playing Diplomacy came across as meek and peaceful, which tells
+you something about their training.
+
+## In his words
+
+> "Playing against another intelligent entity self-balances and adapts difficulty"
+> — Andrej Karpathy, 2025-02-01
+
+## Apply
+
+- Pick a game with simple rules and hidden information or negotiation (Codenames, Battleship,
+  Diplomacy) and let two models play. Log the moves and the reasoning.
+- Swap which model plays which side, and play several rounds, because single games are noisy.
+- Read the game logs, not only the win count: they show how each model plans and communicates.
+
+## Context
+
+- Posted a day after the DeepSeek-R1 wave, when the field was looking for new RL environments;
+  see [RL environments are the new training data](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-08-27-rl-environments-are-the-new-data.md).
+- Our reading: he suggests the idea and early results; he does not claim a finished benchmark.
 
 ---
 
@@ -4103,6 +5175,8 @@ Karpathy notes that a textbook has three kinds of content. Exposition matches pr
 - When you teach an agent a skill, give worked examples and practice tasks with checkable answers, not only explanations.
 - Turn your docs into markdown with runnable examples that an agent can query.
 - Use a problem generator to make many test cases for the same skill.
+- Keep practice problems at the right level: not trivial, not impossible. If every problem is too hard, reinforcement learning gets no signal (his reply of 2025-02-19).
+- Turn the practice problems of a textbook into RL-style environments, each checked against its answer key (his reply of 2025-08-27).
 
 ## Context
 
@@ -4126,6 +5200,102 @@ Karpathy says that RL on thinking models produces cognitive strategies: trying a
 ## Context
 
 - Posted 2025-01-28, soon after open reasoning models appeared.
+- A day earlier he tied synthetic data to RL: see [Filtering synthetic data is crude reinforcement learning](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-01-27-synthetic-data-and-rl-are-one-loop.md).
+- On 2025-11-25 he said AI had gone far past what he expected. His old mistake was to assume that someone must find and write down the algorithm. Instead, it emerges when you pretrain and finetune a big network on many tasks.
+
+---
+
+Date: 2025-01-27 · Kind: view · Source: https://x.com/karpathy/status/1883941452738355376 · Themes: research-and-training · Status: current
+
+# Filtering synthetic data is crude reinforcement learning
+
+Karpathy describes two kinds of learning, in children and in networks. Imitation (pretraining,
+supervised finetuning) copies a source. Trial and error (reinforcement learning) tries things
+and learns from the result. He says almost every striking deep learning result comes from the
+second kind, because the model can find things a human labeller would not know to write down.
+
+He then links synthetic data and RL. In RL the "trial" is the model generating data and the
+"error" is the reward. If you generate data and keep only what passes a filter, your filter is a
+simple 0-or-1 reward. In a reply he gave the core loop: sample many answers, keep the best,
+train on it, repeat. Fancier maths, such as smooth advantages and trust regions, refines this.
+He also noted that data is partly downstream of compute, because you can spend compute to make it.
+
+## In his words
+
+> "your filter is straight up equivalent to a 0-1 advantage function"
+> — Andrej Karpathy, 2025-01-27
+
+## Apply
+
+- To improve a model on a task you can score, sample several answers, keep the highest-scoring
+  one, and finetune on it. Then repeat.
+- Keep a reward or check you trust; the loop copies whatever the check rewards.
+- Use imitation data for what humans already know, and reward-based training for strategies
+  you cannot write down.
+
+## Context
+
+- A reaction to DeepSeek-R1, a week after its release. It builds on [RL gives thinking models strategies you cannot write by hand](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-01-28-cognitive-strategies-cannot-be-hand-programmed.md).
+- He added that RL is powerful but RLHF is not; see [An LLM judge gets gamed when you optimise against it](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2024-08-07-rlhf-is-just-barely-rl.md).
+
+---
+
+Date: 2025-01-17 · Kind: view · Source: https://x.com/karpathy/status/1880057571668807830 · Themes: learning-and-education, ai-progress · Status: current
+
+# People may train their minds the way they go to the gym
+
+A reply to a worry that skills AI can teach, AI can also perform for the economy, so learning
+loses its point. Karpathy answers with an analogy from the physical world. Machines removed the
+economic need for muscle, but people still go to the gym in large numbers. In a world of high
+automation, the economy will need fewer human brains. People will still do the mental
+equivalent of going to the gym, for the same reasons.
+
+Our reading: he separates the economic reason to learn from the personal one, and says only
+the first one weakens.
+
+## In his words
+
+> "People don’t need muscles when we have machines but still go to gym"
+> — Andrej Karpathy, 2025-01-17
+
+## Context
+
+- Related view on effort: [Learning takes effort, unlike entertainment](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2024-02-10-learning-is-not-supposed-to-be-fun.md).
+- Later he argued for testing yourself without AI: [Use AI to learn, but test without it](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-11-24-learn-with-ai-but-test-without-it.md).
+
+---
+
+Date: 2025-01-02 · Kind: view · Source: https://x.com/karpathy/status/1874678592702972398 · Themes: llm-psychology · Status: current
+
+# A good assistant skips the lecture and the flattery
+
+Asked what he would change about Claude, Karpathy listed quirks of tone. The model talks down
+to him with phrases like "it's important to". It follows a refusal with a lecture on morals. It
+praises him too fast, which feels fake and a little manipulative. It apologises too much. What
+he wants is the model's best effort at the problem, from a calm teammate and not an
+over-excited buddy. A plain refusal is fine.
+
+Six weeks later he praised a new ChatGPT 4o personality that felt more like a friend than an HR
+partner. It was more chill, a little sassy, and it named the user's frustration. He still
+disliked its long lists and growing use of emoji.
+
+## In his words
+
+> "I wish Claude would talk down to me less and do less grandstanding"
+> — Andrej Karpathy, 2025-01-02
+
+## Apply
+
+- Add a line to your custom instructions such as: "Answer directly. No moral lectures, no
+  compliments on my question, no apology unless you made an error."
+- When you test a new model, note its tone as well as its accuracy: flattery, lists, emoji, lectures.
+- If a model refuses, ask it to state the refusal in one sentence and move on to what it can do.
+
+## Context
+
+- The first post answers a question from a researcher at Anthropic. He also said Claude seemed
+  to have had the most thought put into its personality.
+- Later views on the same theme: [AI personality should feel like a teammate](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-21-ai-personality-like-rocky.md).
 
 ---
 
@@ -4208,6 +5378,8 @@ for easy copying. He prefers EPUB to PDF because code can parse it into clean te
   [Convert books and PDFs with an agent](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-04-02-convert-documents-with-an-agent.md),
   [Ask for a diagram of what you read](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-02-27-ask-for-a-diagram-of-what-you-read.md) and
   [Treat small apps as disposable](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-11-18-disposable-vibe-coded-apps.md).
+- In February 2025 he vibe coded a reader for The Wealth of Nations: click a paragraph, ask a question, and the app sends the chapter, the paragraph and the question to an LLM.
+- In September 2025 he said a book works better as a set of prompts that start your own questions, explanations and examples, like synthetic data generation for a model, than as text to absorb, like pretraining data.
 
 ---
 
@@ -4250,6 +5422,7 @@ Karpathy applies Moravec's paradox to LLM evals. Models solve hard, closed probl
 ## Context
 
 - Posted 2024-11-10. Related: [the junior intern test](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2024-12-14-would-you-hire-it-as-a-junior-intern.md), which sets a week-sized task as the bar.
+- In 2025 he made the same split about the Humanity's Last Exam benchmark: neatly served tasks will improve, while long, error-correcting jobs stay hard, a case of Moravec's paradox. See [Three breakthroughs so far](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-02-18-three-breakthroughs-more-leaps-needed.md).
 
 ---
 
@@ -4268,6 +5441,9 @@ Karpathy is puzzled that all LLMs sound alike. They overuse lists and words like
 ## Context
 
 - Posted 2024-10-06.
+- In May 2025 he called the convergence of models eerie: not fully true, but true to a surprising degree. In June 2025 he showed five chatbots that all answered 27 when asked to guess a number from 1 to 50.
+- In July 2025, after many models gave a science-fiction hero the same name, he wondered if subliminal learning during distillation plays a part, and guessed that more LLM text on the web could pull models toward a shared fixed point. Similar training sets are a simpler cause.
+- In August 2025 he guessed why finetuning did not make models differ: it is short and carries few bits, so it mostly moves style on a shared pretrained base. RL, with many more bits over a much longer run, might separate models more.
 
 ---
 
@@ -4387,6 +5563,7 @@ Karpathy says the ideal data for training an LLM is the whole sequence of intern
 ## Context
 
 - Posted 2024-01-20. Related practice: [system prompt learning](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-05-10-system-prompt-learning.md).
+- In January 2025 he guessed that the most valuable data would be screen recordings of exceptional people at work, ideally with their goals and reasoning recorded too.
 
 ---
 
@@ -4429,6 +5606,7 @@ In December 2023 Karpathy called LLMs dream machines that are directed by prompt
 
 - Posted 2023-12-08. Kept because the advice still applies.
 - Related: [what you can verify](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-11-17-software-2-automates-what-you-can-verify.md).
+- He says he probably coined "hallucinate" for this in his 2015 RNN post. Hinton's "confabulate" is closer to human psychology but too tied to facts, so he prefers the broader word.
 
 ---
 

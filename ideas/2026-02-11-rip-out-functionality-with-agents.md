@@ -3,7 +3,7 @@ title: Point an agent at a library and rip out only the part you need
 date: 2026-02-11
 source: x
 url: https://x.com/karpathy/status/2021633574089416993
-also: [https://x.com/karpathy/status/2021636275120583096, https://x.com/karpathy/status/2021637660532764999, https://x.com/karpathy/status/1941616674094170287]
+also: [https://x.com/karpathy/status/2021636275120583096, https://x.com/karpathy/status/2021637660532764999]
 themes: [agent-native-software, security-and-dependencies]
 summary: With DeepWiki MCP and the GitHub CLI, an agent can extract one feature from a big library, so you can drop the dependency.
 status: current
@@ -32,3 +32,4 @@ Karpathy asked Claude to study how torchao implements fp8 training and write a s
 
 - He also noted that many repos are now half useful library code and half "docs++": the code explains better than official docs.
 - Earlier bacterial code post: 2025-07-05. Related: [Code is now free, custom and disposable](2025-12-19-code-is-free-and-ephemeral.md).
+- His 2025 view on writing code that others can copy: [Write small, modular, copy-paste code like bacteria do](2025-07-05-write-code-like-bacteria.md).

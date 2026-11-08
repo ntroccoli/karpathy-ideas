@@ -3,7 +3,7 @@ title: LLM memory over-uses old facts about you
 date: 2026-03-25
 source: x
 url: https://x.com/karpathy/status/2036836816654147718
-also: [https://x.com/karpathy/status/2036841069636370467, https://x.com/karpathy/status/2036844441236103487, https://x.com/karpathy/status/2036846449103917436, https://x.com/karpathy/status/2036848219188351207]
+also: [https://x.com/karpathy/status/2036841069636370467, https://x.com/karpathy/status/2036844441236103487, https://x.com/karpathy/status/2036846449103917436, https://x.com/karpathy/status/2036848219188351207, https://x.com/karpathy/status/1910411355300954539]
 themes: [llm-psychology, context-and-prompting]
 summary: Memory features treat one old question as a lasting interest; models over-use given context, and naive retrieval cannot tell what is fleeting.
 status: current
@@ -39,3 +39,4 @@ name-dropping to win favour, and calls it a possible "uncanny valley" of emotion
 
 - These are guesses, labelled as such by him. Related:
   [memory as RL tools](2026-03-05-memory-as-rl-tools.md).
+- First raised on 2025-04-10: he asked whether a model he uses for work needs to remember a beginner bash question.

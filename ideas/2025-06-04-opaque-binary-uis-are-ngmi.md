@@ -3,7 +3,7 @@ title: Opaque, binary-format tools do not fit human and AI work
 date: 2025-06-04
 source: x
 url: https://x.com/karpathy/status/1930354382106964079
-also: []
+also: [https://x.com/karpathy/status/1930441813711827117, https://x.com/karpathy/status/1930359363623104788, https://x.com/karpathy/status/1931042840966222046]
 themes: [agent-native-software]
 summary: Tools with rich UIs, no scripting and binary formats are at risk, because an AI must be able to read and script the tools it works with.
 status: current

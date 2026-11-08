@@ -3,7 +3,7 @@ title: LLMs are ghosts, not animals
 date: 2025-10-01
 source: blog
 url: https://karpathy.bearblog.dev/animals-vs-ghosts/
-also: [https://x.com/karpathy/status/1973435013875314729, https://www.dwarkesh.com/p/andrej-karpathy, https://www.youtube.com/watch?v=96jN2OCOfLs]
+also: [https://x.com/karpathy/status/1973435013875314729, https://www.dwarkesh.com/p/andrej-karpathy, https://www.youtube.com/watch?v=96jN2OCOfLs, https://x.com/karpathy/status/1979644538185752935, https://x.com/karpathy/status/1973756330449236009, https://x.com/karpathy/status/1973454746754363579, https://x.com/karpathy/status/1992018398436524230]
 themes: [llm-psychology, research-and-training]
 summary: Frontier LLMs are statistical distillations of human text, a different kind of mind from animals; pretraining is a stand-in for evolution, not a copy of it.
 status: current
@@ -45,3 +45,4 @@ and culture.
 - Follow-up: [LLMs are shaped by commercial evolution](2025-11-29-llms-shaped-by-commercial-evolution.md).
 - Related: [Models are sharp where rewards are checkable](2026-03-20-jagged-intelligence-follows-verifiability.md).
 - He holds these views with double-digit percent uncertainty.
+- He chose the word "ghost" because LLMs are digital, echo the living, are not fully understood, are called up by a training ritual, and need not be evil. He dislikes "shoggoth", which pictures an animal monster.

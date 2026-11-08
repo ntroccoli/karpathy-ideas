@@ -3,7 +3,7 @@ title: Try a fast model first, switch to a thinking model for hard problems
 date: 2025-02-27
 source: talk
 url: https://www.youtube.com/watch?v=EWvNQjAaOHw
-also: []
+also: [https://x.com/karpathy/status/1929597620969951434, https://x.com/karpathy/status/1929603170365485416, https://x.com/karpathy/status/1929600512384745801]
 themes: [context-and-prompting, llm-psychology]
 summary: Know which model and tier you use; start fast, move to a reasoning model for hard code and math, and compare several vendors.
 status: current
@@ -30,9 +30,11 @@ them his "LLM council".
   compare.
 - Turn on "think" or "reasoning" mode only for hard debugging, math or planning.
 - For open questions with no single right answer, ask two or three vendors and compare the replies.
+- Our reading: write down your own router like his: which model for quick questions, hard questions, code and long research. Update it when the model list changes.
 
 ## Context
 
 - From *How I use LLMs* (2025-02). The model names in the video (GPT-4o, o1 pro, Claude 3.5 Sonnet,
   Grok 3, DeepSeek R1) are dated. The habit does not depend on them.
 - Related: [Check which tools the model has](2025-02-27-check-which-tools-the-model-has.md).
+- In June 2025 he shared his own ChatGPT router: the fast daily model for simple questions (about 40% of his use), the reasoning model o3 for hard or important ones (about 40%), GPT-4.1 for code edits (about 10%), and Deep Research to learn a topic in depth (about 10%). In replies he said the real choice is whether a question is important enough to wait for.

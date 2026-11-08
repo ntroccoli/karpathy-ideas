@@ -3,7 +3,7 @@ title: Context engineering, not prompt engineering
 date: 2025-06-25
 source: x
 url: https://x.com/karpathy/status/1937902205765607626
-also: [https://x.com/karpathy/status/2035174102974308666]
+also: [https://x.com/karpathy/status/2035174102974308666, https://x.com/karpathy/status/1937909397180796982]
 themes: [context-and-prompting, agentic-coding]
 summary: The skill is filling the context window with the right information for the next step, plus specs, tools and workflows, not polishing one prompt.
 status: current

@@ -4,11 +4,11 @@
 
 Output formats, simplified English, HTML, diagrams, reading with LLMs.
 
-15 ideas, newest first.
+18 ideas, newest first.
 
 ## Practices
 
-Ways of working you can apply. 15, newest first.
+Ways of working you can apply. 18, newest first.
 
 - 2026-10-02 · [Make model output easier to understand, from STE to video](../ideas/2026-10-02-make-model-outputs-easy-to-understand.md) — To follow what LLMs produce, ask for controlled English, then diagrams, then HTML pages, then custom explainer videos, each easier to take in.
 - 2026-09-12 · [Show big codebases as spatial maps, not file lists](../ideas/2026-09-12-codebases-as-spatial-maps.md) — Large software is an invisible structure; code explorers could cluster modules in space and show public interfaces, private parts and live diffs.
@@ -16,9 +16,12 @@ Ways of working you can apply. 15, newest first.
 - 2026-04-02 · [Let an LLM compile and maintain your knowledge base](../ideas/2026-04-02-llm-knowledge-bases.md) — Instead of RAG over loose files, let an LLM compile sources into a linked markdown wiki that grows with every source and every question.
 - 2026-03-14 · [Score data with an LLM rubric and ship it as one prompt](../ideas/2026-03-14-score-with-your-own-llm-prompt-and-paste-data.md) — His jobs repo scores 342 occupations for AI exposure with an LLM rubric, lets you swap in your own prompt, and packs all data into one file for chat.
 - 2026-02-27 · [Ask agents for long documents and notebooks, and read them in the IDE](../ideas/2026-02-27-ask-agents-for-documents-and-notebooks.md) — Agents write rich documents and Jupyter notebooks when asked; previewing them in an IDE reads better than a terminal.
+- 2025-11-23 · [Plan in text first, then ask an image model to illustrate, and re-roll](../ideas/2025-11-23-plan-in-text-then-illustrate-with-an-image-model.md) — Get the content right in a text chat, then ask an image model for printable posters or fixed pages; expect errors and re-roll or restart the chat.
 - 2025-11-17 · [Read with an LLM in three passes](../ideas/2025-11-17-read-everything-with-llms-three-passes.md) — Read the text yourself first, then ask for an explanation or summary, then ask questions, and you end with deeper understanding.
 - 2025-10-17 · [Share your beginner questions to an LLM with the author](../ideas/2025-10-17-share-dumb-llm-questions-with-experts.md) — Put the paper in an LLM's context, ask your naive questions, and share the thread; it shows authors where beginners get lost.
+- 2025-10-01 · [For deep reading, put the whole text in the context window](../ideas/2025-10-01-put-the-whole-text-in-context-not-rag.md) — Tools that retrieve chunks may drop what matters; paste the full sources into one chat so the model sees all of it, then fork the chat to ask more.
 - 2025-08-20 · [Flatten a repository into one page for humans and LLMs](../ideas/2025-08-20-render-repo-for-humans-and-llms.md) — rendergit turns a git repo into one static HTML page with a human view and an LLM view of the same code as plain text to paste into a model.
+- 2025-07-10 · [Write new knowledge for AI readers, not as a PDF](../ideas/2025-07-10-write-research-for-llms-not-pdf.md) — As AI can infer what is already online, people's main contribution is original results; publish them as repos, CSVs and markdown that LLMs can read.
 - 2025-06-25 · [Put the answer first and spend effort when you write](../ideas/2025-06-25-answer-first-compute-at-creation-time.md) — Write the specific ask or result first and the context after it, and spend more effort when you write so that readers spend less.
 - 2025-03-31 · [Text chat is the terminal era; ask for visual output](../ideas/2025-03-31-text-chat-is-the-terminal-era.md) — Chat with a model is like typing at a 1980s console; people take in images, layouts and HTML faster, so ask models to answer visually.
 - 2025-03-12 · [Build docs and tools for agents, which curl instead of click](../ideas/2025-03-12-write-docs-for-llms.md) — The main user of your product or docs is becoming an LLM agent, so ship markdown docs, a CLI or API, and skills, not only pages to click.

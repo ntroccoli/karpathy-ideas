@@ -3,7 +3,7 @@ title: Read with an LLM in three passes
 date: 2025-11-17
 source: x
 url: https://x.com/karpathy/status/1990577951671509438
-also: []
+also: [https://x.com/karpathy/status/1990612045700739548, https://x.com/karpathy/status/1990581548169769099, https://x.com/karpathy/status/1990584878099018181, https://x.com/karpathy/status/1990580578287300816]
 themes: [output-and-reading, learning-and-education]
 summary: Read the text yourself first, then ask for an explanation or summary, then ask questions, and you end with deeper understanding.
 status: current
@@ -31,3 +31,4 @@ Karpathy describes a reading habit that he counts among his top uses of LLMs. Pa
 
 - Posted 2025-11-17. Our reading: the order differs from his 2025 book habit, where he asked for the summary before reading; here he reads first.
 - Related: [docs for LLMs](2025-03-12-write-docs-for-llms.md) and [read books together with an LLM](2024-12-11-read-books-with-an-llm.md).
+- He says about half the gain comes from having a reading group on demand: you must work with the text, not only watch it. He pastes text into whichever model he uses that day and needs no special tool.

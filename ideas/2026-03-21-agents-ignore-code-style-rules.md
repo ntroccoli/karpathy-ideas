@@ -3,7 +3,7 @@ title: Agents bloat code and ignore style rules in AGENTS.md
 date: 2026-03-21
 source: x
 url: https://x.com/karpathy/status/2035173492447224237
-also: []
+also: [https://x.com/karpathy/status/1875189497551339799]
 themes: [agentic-coding, llm-psychology]
 summary: Coding agents copy-paste, bloat abstractions and skip style rules; hooks or review may be needed because AGENTS.md alone does not enforce them.
 status: current
@@ -37,3 +37,4 @@ not yet taken.
 
 - A reply after his No Priors podcast. It is a counterweight to the strong results he reported
   with [autoresearch](2026-03-07-autoresearch-loop.md): verifiable goals work, taste does not.
+- In January 2025 he noted that when you ask an LLM again and again to improve its code, it adds bloat, misses simple algorithmic wins and adds heavy optimisations too early.

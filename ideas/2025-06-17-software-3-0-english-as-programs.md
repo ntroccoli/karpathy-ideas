@@ -3,7 +3,7 @@ title: Software 3.0 means programming computers in English
 date: 2025-06-17
 source: talk
 url: https://www.youtube.com/watch?v=LCEmiRjPEtQ
-also: [https://karpathy.bearblog.dev/sequoia-ascent-2026/]
+also: [https://karpathy.bearblog.dev/sequoia-ascent-2026/, https://x.com/karpathy/status/1935518272667217925, https://x.com/karpathy/status/1935519334123848101]
 themes: [agent-native-software]
 summary: Code is Software 1.0, trained weights are 2.0, and an LLM's context window is 3.0; learn all three and pick the right one per task.
 status: current

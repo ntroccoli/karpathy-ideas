@@ -3,7 +3,7 @@ title: Hallucination is the LLM's main feature, so the system must check it
 date: 2023-12-08
 source: x
 url: https://x.com/karpathy/status/1733299213503787018
-also: []
+also: [https://x.com/karpathy/status/1980033964757946398]
 themes: [llm-psychology, verification]
 summary: An LLM is a dream machine steered by prompts, so the system around it must check its output with search, tools and verification.
 status: current
@@ -31,3 +31,4 @@ In December 2023 Karpathy called LLMs dream machines that are directed by prompt
 
 - Posted 2023-12-08. Kept because the advice still applies.
 - Related: [what you can verify](2025-11-17-software-2-automates-what-you-can-verify.md).
+- He says he probably coined "hallucinate" for this in his 2015 RNN post. Hinton's "confabulate" is closer to human psychology but too tied to facts, so he prefers the broader word.

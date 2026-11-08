@@ -4,13 +4,13 @@
 
 Success criteria, tests, verifiability, eval loops, autoresearch.
 
-26 ideas, newest first.
+32 ideas, newest first.
 
 *(Anthropic period)*: dated 2026-05-19 or later, after he [joined Anthropic](https://x.com/karpathy/status/2056753169888334312), and about Claude or Anthropic. Weigh these with that in mind.
 
 ## Practices
 
-Ways of working you can apply. 24, newest first.
+Ways of working you can apply. 29, newest first.
 
 - 2026-10-02 · [Test a model by asking if coordinates are land or water](../ideas/2026-10-02-land-or-water-eval.md) — Ask a model many times whether a latitude and longitude is land or water and plot the answers, and it draws the world from text alone. *(Anthropic period)*
 - 2026-08-02 · [Models cannot yet check their own work in video and games](../ideas/2026-08-02-models-cannot-audit-video-and-games.md) — Worlds and games expose a gap: models cannot watch video or play a game natively, so they audit their output slowly through screenshots. *(Anthropic period)*
@@ -26,20 +26,26 @@ Ways of working you can apply. 24, newest first.
 - 2026-01-03 · [Port to an unfamiliar language by testing against your own reference](../ideas/2026-01-03-port-with-equality-tests.md) — Write the reference in a language you master, let LLMs write the port in one you do not, and trust it through equality tests against the reference.
 - 2025-12-28 · [Let the agent run experiments and keep a results log](../ideas/2025-12-28-agent-runs-experiments-and-keeps-a-log.md) — An agent can write code, run and watch training jobs and log results, but a human is still needed for design and subtle errors.
 - 2025-12-10 · [LLM judges grade too freely and recognise who wrote the text](../ideas/2025-12-10-llm-grader-identity-bias.md) — Grading old HN threads, the model gave grades too easily and was biased by author names, and prompt tuning helped only a little.
+- 2025-12-09 · [Do not split train and test with positive and negative seeds](../ideas/2025-12-09-do-not-split-train-and-test-with-seed-sign.md) — Python's random.seed(3) and random.seed(-3) give the same stream, and the docs promise only that equal seeds match, so never separate datasets by seed sign.
 - 2025-11-22 · [Ask several models, then let them rank each other anonymously](../ideas/2025-11-22-llm-council-anonymous-peer-review.md) — An LLM council collects answers from several models, has each review the others' work under anonymous labels, and a chairman model writes the final answer.
 - 2025-11-18 · [Public benchmarks are gameable, so keep your own evals](../ideas/2025-11-18-go-talk-to-the-model-private-evals.md) — Benchmarks are verifiable, so labs train toward them and scores mislead; talk to each model and test it on a private set of your own tasks.
 - 2025-11-17 · [Software 2.0 automates what you can verify](../ideas/2025-11-17-software-2-automates-what-you-can-verify.md) — Classic software automates what you can specify and trained models automate what you can verify, so verifiability predicts where AI improves fastest.
 - 2025-10-13 · [Ask contributors to disclose LLM-written code they do not understand](../ideas/2025-10-13-ai-contribution-disclosure-policy.md) — nanochat's AI policy is disclosure: a PR must declare parts with substantial LLM contribution that the author did not write or does not fully understand.
 - 2025-08-27 · [RL environments are the new training data](../ideas/2025-08-27-rl-environments-are-the-new-data.md) — Pretraining used web text, finetuning used conversations, and RL uses environments where models act and see outcomes.
+- 2025-07-14 · [Read a few cases in depth, not only dashboards](../ideas/2025-07-14-study-a-few-cases-not-dashboards.md) — Close study of a few random cases teaches more than aggregate statistics over all cases; both help, but the aggregate view is overused.
 - 2025-06-17 · [A demo is the first nine; each next nine costs the same work](../ideas/2025-06-17-demo-to-product-gap-march-of-nines.md) — A system that works 90% of the time is a demo; reaching 99.999% takes years, so be sceptical of demos and agent timelines.
+- 2025-06-04 · [Verification, not generation, is the bottleneck](../ideas/2025-06-04-verification-not-generation-is-the-bottleneck.md) — Creating has a generate step and a discriminate step; LLMs made the first instant, so coding speed now depends on cutting the cost of checking.
+- 2025-03-02 · [Leaderboards get gamed; watch real usage](../ideas/2025-03-02-leaderboards-get-gamed-watch-real-usage.md) — A top rank on a public arena can mean the lab tuned for the arena. Trust your own use and real-usage signals such as OpenRouter rankings.
 - 2025-02-27 · [Treat LLM output as a first draft and check the sources](../ideas/2025-02-27-llm-output-is-a-first-draft.md) — Even with search or deep research, answers can be wrong; use citations, primary sources and a read of the generated code.
+- 2025-02-01 · [Evaluate models by making them play each other](../ideas/2025-02-01-evaluate-models-by-making-them-play-games.md) — A game against another model adjusts its own difficulty, so one environment tests far more than a fixed question set does.
 - 2024-12-14 · [Judge an agent as you would a junior intern](../ideas/2024-12-14-would-you-hire-it-as-a-junior-intern.md) — Judge agents by whether they can take an onboarding brief and finish a week-sized task, not by PhD-level puzzles.
 - 2024-08-07 · [An LLM judge gets gamed when you optimise against it](../ideas/2024-08-07-rlhf-is-just-barely-rl.md) — RLHF and LLM-graded RL optimise against a judge network, and the optimiser soon finds nonsense the judge scores highly; real RL needs rewards hard to game.
 - 2023-12-08 · [Hallucination is the LLM's main feature, so the system must check it](../ideas/2023-12-08-hallucination-is-the-llms-feature.md) — An LLM is a dream machine steered by prompts, so the system around it must check its output with search, tools and verification.
 
 ## Views
 
-How he sees the field: context, not steps. 2, newest first.
+How he sees the field: context, not steps. 3, newest first.
 
 - 2026-03-08 · [Autoresearch is not hyperparameter tuning](../ideas/2026-03-08-autoresearch-is-not-hyperparameter-tuning.md) — An agent can change any code, search serially instead of in sweeps and run with no human, and it found real architecture changes. *(view)*
+- 2025-04-04 · [Move AI predictions to betting markets](../ideas/2025-04-04-move-ai-predictions-to-betting-markets.md) — Turn AI forecasts into betting-market questions, but each one needs a concrete, resolvable predicate; evals and GDP make weak ones. *(view)*
 - 2024-11-10 · [Hard closed problems are easy; long autonomous jobs are hard](../ideas/2024-11-10-llms-solve-hard-prompts-but-fail-long-jobs.md) — LLMs solve hard problems served neatly in a prompt but struggle with long, coherent, autonomous work, and we need evals for that. *(view)*

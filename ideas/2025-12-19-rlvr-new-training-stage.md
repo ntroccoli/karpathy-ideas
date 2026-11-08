@@ -3,7 +3,7 @@ title: RLVR became the major new training stage of 2025
 date: 2025-12-19
 source: blog
 url: https://karpathy.bearblog.dev/year-in-review-2025/
-also: []
+also: [https://x.com/karpathy/status/2002118205729562949]
 themes: [research-and-training]
 summary: Training against automatic rewards (maths, code) made models learn reasoning on their own and shifted compute from pretraining to long RL runs.
 status: current

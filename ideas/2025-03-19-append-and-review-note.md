@@ -3,7 +3,7 @@ title: Keep one note you append to and review
 date: 2025-03-19
 source: blog
 url: https://karpathy.bearblog.dev/the-append-and-review-note/
-also: []
+also: [https://x.com/karpathy/status/1902520116652413239]
 themes: [knowledge-management]
 summary: One text note, new items added on top, old items sinking, and a periodic skim that rescues what still matters, covers most note-taking needs.
 status: current
@@ -43,3 +43,4 @@ working memory and move on.
   alternative, browse the `knowledge-management` theme.
 - Our reading: the "review by gravity" rule is a cheap form of spaced attention, and it works
   with plain text that an LLM can also read.
+- He still uses Obsidian for concrete projects, but not for daily notes.

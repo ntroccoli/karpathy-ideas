@@ -3,7 +3,7 @@ title: Keep the codebase minimal and forkable, with one dial
 date: 2025-10-13
 source: github
 url: https://github.com/karpathy/nanochat
-also: []
+also: [https://x.com/karpathy/status/1977755427569111362, https://x.com/karpathy/status/1977755430093980034]
 themes: [research-and-training, agent-native-software]
 summary: nanochat avoids configuration frameworks; one integer (depth) sets all other hyperparameters, and changes must work at every depth.
 status: current
@@ -40,3 +40,4 @@ from start to finish. Such code is also easy for an agent to read and change.
 - Repository created 2025-10-13; README text is from the 2026 version (the leaderboard and the
   January 2026 miniseries). Later, agents tuned this code: see
   [Autoresearch](2026-03-07-autoresearch-loop.md).
+- Its roughly 8,000 lines train a tokenizer, pretrain, midtrain, finetune, run optional RL and serve a chat UI. The report card shows the source size next to the lockfile size: see [Measure a project's weight with its lockfile](2025-10-14-count-dependencies-with-the-lockfile.md).

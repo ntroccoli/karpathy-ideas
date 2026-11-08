@@ -4,7 +4,7 @@
 
 Personal wikis, notes, compiling knowledge with LLMs.
 
-7 ideas, newest first.
+8 ideas, newest first.
 
 ## Practices
 
@@ -19,6 +19,7 @@ Ways of working you can apply. 6, newest first.
 
 ## Views
 
-How he sees the field: context, not steps. 1, newest first.
+How he sees the field: context, not steps. 2, newest first.
 
+- 2025-10-13 · [Making a model know your own data is still research; use retrieval for now](../ideas/2025-10-13-making-a-model-know-you-is-still-research.md) — Training a small model on your notes gives slop; a real personal model needs synthetic rewrites and a big finetune, so retrieval is the practical choice. *(view)*
 - 2024-01-20 · [The ideal training data is the thinking, not the final text](../ideas/2024-01-20-ideal-training-data-is-your-thinking-process.md) — Models would learn most from the full sequence of thoughts and edits behind a text, not just the finished result. *(view)*

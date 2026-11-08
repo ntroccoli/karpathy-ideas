@@ -3,7 +3,7 @@ title: System prompt learning, where the model writes its own lessons
 date: 2025-05-10
 source: x
 url: https://x.com/karpathy/status/1921368644069765486
-also: [https://x.com/karpathy/status/1944435412489171119]
+also: [https://x.com/karpathy/status/1944435412489171119, https://x.com/karpathy/status/1921371792582549988, https://x.com/karpathy/status/1922426059393265710, https://x.com/karpathy/status/1930003172246073412, https://x.com/karpathy/status/1944814767257842027]
 themes: [context-and-prompting, research-and-training]
 summary: A missing learning paradigm: after a task, the model reviews what happened and writes explicit lessons into its own system prompt, later distilled into weights.
 status: current
@@ -43,3 +43,6 @@ that database into the weights to avoid bloat.
   are our own use of it.
 - Related: [RL sucks supervision through a straw](2025-10-17-rl-supervision-through-a-straw.md) and
   [Make memory and compaction tools that RL trains](2026-03-05-memory-as-rl-tools.md).
+- In June 2025 he described today's models as coworkers with anterograde amnesia: after training they keep only short-term memory, so they cannot build lasting expertise.
+- In July 2025 he said RL narrows the view. Review and reflection could also build tools for later use, tune what to try next, or work where there are no rewards.
+- On the strawberry letter count he said the core issue is that the model should find its own method. His later nanochat guide teaches it with synthetic data: [Teach a small model a skill with a synthetic task](2025-10-24-teach-a-small-model-a-skill-with-a-synthetic-task.md).

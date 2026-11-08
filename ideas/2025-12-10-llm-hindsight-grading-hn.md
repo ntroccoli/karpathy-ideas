@@ -3,7 +3,7 @@ title: Use an LLM to grade past predictions with hindsight
 date: 2025-12-10
 source: github
 url: https://github.com/karpathy/hn-time-capsule
-also: [https://karpathy.bearblog.dev/auto-grade-hn/]
+also: [https://karpathy.bearblog.dev/auto-grade-hn/, https://x.com/karpathy/status/1998803709468487877]
 themes: [ai-progress, agentic-coding]
 summary: A pipeline pulls the Hacker News front page from ten years ago, has an LLM judge each discussion in hindsight, and grades each commenter.
 status: current

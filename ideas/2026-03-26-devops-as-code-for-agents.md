@@ -3,7 +3,7 @@ title: Make the whole DevOps lifecycle agent-native
 date: 2026-03-26
 source: x
 url: https://x.com/karpathy/status/2037200624450936940
-also: [https://x.com/karpathy/status/2030722108322717778, https://x.com/karpathy/status/2040838208674734473]
+also: [https://x.com/karpathy/status/2030722108322717778, https://x.com/karpathy/status/2040838208674734473, https://x.com/karpathy/status/1918132302158413866]
 themes: [agent-native-software]
 summary: The hard part of shipping an app is assembling services, not code; services must offer APIs, CLIs and docs an agent can use without a human clicking.
 status: current
@@ -41,3 +41,4 @@ click-here instructions. He would rather get something to paste into his agent.
 - In a related reply he asked X to make read access cheap for agents, noting that about 30
   minutes of hacking had cost him $200.
 - Related: [The LLM OS](2023-09-28-llm-as-operating-system-kernel.md).
+- First raised on 2025-05-02: he called devops the biggest pain in building an app. Services must work together and let an agent act on them. See also [Building a web app is like assembling IKEA furniture](2025-03-27-web-app-stack-is-ikea-furniture.md).

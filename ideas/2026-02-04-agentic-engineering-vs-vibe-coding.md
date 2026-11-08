@@ -3,7 +3,7 @@ title: Agentic engineering is the professional form of vibe coding
 date: 2026-02-04
 source: x
 url: https://x.com/karpathy/status/2019137879310836075
-also: [https://x.com/karpathy/status/2026743030280237562, https://karpathy.bearblog.dev/sequoia-ascent-2026/]
+also: [https://x.com/karpathy/status/2026743030280237562, https://karpathy.bearblog.dev/sequoia-ascent-2026/, https://x.com/karpathy/status/1903870973126045712, https://x.com/karpathy/status/1975740493855400153]
 themes: [agentic-coding]
 summary: A year after vibe coding, professionals orchestrate agents with oversight; he prefers the name agentic engineering.
 status: current
@@ -37,3 +37,4 @@ On the first anniversary of "vibe coding", Karpathy says it fit throwaway projec
   ceiling. His example of why a human must review: in MenuGen the agent matched Stripe payments
   to users by email, which can differ from the login email. He insisted on persistent user IDs.
   See [Vibe coding a real app](2025-04-27-vibe-coding-real-app-lessons.md).
+- Already in March 2025 he said the terms would take time to settle, and that he used "vibe coding" only for moments of full trust in the model. In October 2025 he called engineering and vibing the two ends of one spectrum.

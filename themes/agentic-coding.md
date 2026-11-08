@@ -4,13 +4,13 @@
 
 Coding with agents: workflows, IDEs, review, vibe coding vs agentic engineering.
 
-48 ideas, newest first.
+59 ideas, newest first.
 
 *(Anthropic period)*: dated 2026-05-19 or later, after he [joined Anthropic](https://x.com/karpathy/status/2056753169888334312), and about Claude or Anthropic. Weigh these with that in mind.
 
 ## Practices
 
-Ways of working you can apply. 41, newest first.
+Ways of working you can apply. 51, newest first.
 
 - 2026-11-01 · [Build a bespoke app in a weekend by only talking to Claude](../ideas/2026-11-01-hackertube-weekend-app.md) — Hand a data task to cheap models in bulk and let a strong model build and deploy the app, so only keys, domain and server stay manual. *(Anthropic period)*
 - 2026-09-12 · [Show big codebases as spatial maps, not file lists](../ideas/2026-09-12-codebases-as-spatial-maps.md) — Large software is an invisible structure; code explorers could cluster modules in space and show public interfaces, private parts and live diffs.
@@ -35,28 +35,38 @@ Ways of working you can apply. 41, newest first.
 - 2026-01-03 · [Port to an unfamiliar language by testing against your own reference](../ideas/2026-01-03-port-with-equality-tests.md) — Write the reference in a language you master, let LLMs write the port in one you do not, and trust it through equality tests against the reference.
 - 2025-12-28 · [Let the agent run experiments and keep a results log](../ideas/2025-12-28-agent-runs-experiments-and-keeps-a-log.md) — An agent can write code, run and watch training jobs and log results, but a human is still needed for design and subtle errors.
 - 2025-12-28 · [Connect your tools so the agent needs no manual steps](../ideas/2025-12-28-aggressively-jit-your-work.md) — Connect your databases, monitoring and deploy tools to the agent so tasks need almost no manual steps from you.
+- 2025-12-28 · [Let an agent find your local devices and build a better control app](../ideas/2025-12-28-let-an-agent-reverse-engineer-your-home-devices.md) — Claude Code found a home-automation system on the network, read its manual, paired with it and listed every device, so he could replace a slow vendor app.
 - 2025-12-26 · [Learn the new programmable layer of agent tools](../ideas/2025-12-26-learn-the-new-programmable-layer.md) — A new layer of agents, prompts, memory, skills, hooks and MCP must be mastered, and the tools are stochastic and fallible.
 - 2025-12-19 · [Run coding agents on the developer's own computer](../ideas/2025-12-19-agents-run-on-your-computer.md) — Local agents such as Claude Code beat cloud containers for now, because the booted machine with its data, config and low latency is what matters.
 - 2025-12-19 · [Code is now free, custom and disposable](../ideas/2025-12-19-code-is-free-and-ephemeral.md) — Models build programs from English, so software becomes custom and often single-use, and hunting for an app in a store becomes outdated.
 - 2025-12-10 · [Use an LLM to grade past predictions with hindsight](../ideas/2025-12-10-llm-hindsight-grading-hn.md) — A pipeline pulls the Hacker News front page from ten years ago, has an LLM judge each discussion in hindsight, and grades each commenter.
+- 2025-11-25 · [Ask an LLM whether a library function exists, and give it docs for new tools](../ideas/2025-11-25-ask-an-llm-if-a-function-exists.md) — Describe a hand-written transformation in words and ask if a built-in exists; for recent or niche libraries, package the docs as markdown into the context.
 - 2025-11-22 · [Ask several models, then let them rank each other anonymously](../ideas/2025-11-22-llm-council-anonymous-peer-review.md) — An LLM council collects answers from several models, has each review the others' work under anonymous labels, and a chairman model writes the final answer.
 - 2025-11-18 · [Treat small apps as disposable; ask your LLM to change them](../ideas/2025-11-18-disposable-vibe-coded-apps.md) — He publishes vibe-coded apps unsupported, as inspiration, and tells readers to have their own LLM adapt them instead of waiting for maintainers.
 - 2025-10-17 · [Coding agents are weak on novel code](../ideas/2025-10-17-coding-agents-weak-on-novel-code.md) — In October 2025 he found agents good for boilerplate and tested ports but poor on unusual code, and preferred autocomplete for precise work. *(superseded)*
+- 2025-10-14 · [Measure a project's weight with its lockfile, and rewrite heavy parts small](../ideas/2025-10-14-count-dependencies-with-the-lockfile.md) — Count lockfile lines as a quick proxy for total dependencies, and when a small task drags in heavy infrastructure, write a short clean version yourself.
 - 2025-10-13 · [Ask contributors to disclose LLM-written code they do not understand](../ideas/2025-10-13-ai-contribution-disclosure-policy.md) — nanochat's AI policy is disclosure: a PR must declare parts with substantial LLM contribution that the author did not write or does not fully understand.
 - 2025-10-08 · [Models write over-defensive error handling](../ideas/2025-10-08-models-over-defensive-about-exceptions.md) — After RL, models wrap code in try/except and fallbacks, so tell the agent to let errors surface.
 - 2025-09-05 · [Get a second opinion from a stronger model on hard problems](../ideas/2025-09-05-give-it-your-hardest-problems.md) — When one coding agent is stuck, a different, stronger model may solve the problem in minutes; then hand the result back.
+- 2025-08-31 · [A quoted tilde is not expanded, so check an agent's delete commands](../ideas/2025-08-31-quote-paths-and-check-agent-rm-commands.md) — In shell quotes, "~" stays a literal folder name; an env var set that way can create a "~" directory, and a careless rm -rf of it can wipe your home.
 - 2025-08-24 · [Stitch several coding tools together, by task size](../ideas/2025-08-24-stitch-coding-tools-by-task.md) — In August 2025 he used tab-complete for most edits, an agent for big easy chunks and a stronger model for hard bugs, and found agents lacked taste. *(superseded)*
+- 2025-07-05 · [Write small, modular, copy-paste code like bacteria do](../ideas/2025-07-05-write-code-like-bacteria.md) — Code that is small, modular and self-contained spreads easily; write functions someone can copy without new imports, and keep a big monorepo only where needed.
 - 2025-06-25 · [Context engineering, not prompt engineering](../ideas/2025-06-25-context-engineering.md) — The skill is filling the context window with the right information for the next step, plus specs, tools and workflows, not polishing one prompt.
 - 2025-06-17 · [Build partial-autonomy apps with an autonomy slider](../ideas/2025-06-17-partial-autonomy-and-autonomy-slider.md) — Good LLM apps manage context, chain model calls, give a GUI for fast checking and let the user set how much the AI does.
+- 2025-06-16 · [Agent security is the wild west](../ideas/2025-06-16-agent-security-is-the-wild-west.md) — Prompt injection is like early computer viruses; risk peaks with local agents and with chat connectors, and agents need narrow actions, not free bash.
+- 2025-06-04 · [Verification, not generation, is the bottleneck](../ideas/2025-06-04-verification-not-generation-is-the-bottleneck.md) — Creating has a generate step and a discriminate step; LLMs made the first instant, so coding speed now depends on cutting the cost of checking.
 - 2025-04-27 · [Vibe coding a real app is easy locally and hard to ship](../ideas/2025-04-27-vibe-coding-real-app-lessons.md) — A local prototype appears in minutes; real deployment hits stale model knowledge, rate limits, secrets and subtle design bugs that you must still catch.
 - 2025-04-24 · [Keep the AI on a tight leash for code you care about](../ideas/2025-04-24-ai-assisted-coding-rhythm.md) — Review is the bottleneck, so work in small, specific steps: give context, compare approaches, review, test and commit each change.
+- 2025-04-06 · [Write boring code with NASA-style rules](../ideas/2025-04-06-write-boring-code-with-nasa-style-rules.md) — To make C safer, remove clever features: ban anything exotic and keep every line to one plain action, as NASA's rules for C code do.
+- 2025-03-23 · [Build a small app in a language you do not know, one chat step at a time](../ideas/2025-03-23-build-an-app-in-a-language-you-do-not-know.md) — He shipped a working iPhone app in about an hour with no Swift experience, by following a chat with small steps; past 400 lines the chat started to struggle.
+- 2025-02-14 · [Pack your project into one prompt for a quick, scoped question](../ideas/2025-02-14-package-repo-into-one-prompt.md) — When coding agents over-explore, bundle a small repo into one prompt, start a new chat, ask one question at the end and pick the model yourself.
 - 2025-02-02 · [Vibe coding is fine for throwaway projects](../ideas/2025-02-02-vibe-coding-for-throwaway-projects.md) — Vibe coding means accepting all AI edits without reading them, which Karpathy calls fine for throwaway weekend projects.
 - 2024-12-25 · [Cognitive load is what matters in software engineering](../ideas/2024-12-25-cognitive-load-is-what-matters.md) — Karpathy endorses an essay that names cognitive load as the most true and least practiced view of good software.
 - 2024-12-14 · [Judge an agent as you would a junior intern](../ideas/2024-12-14-would-you-hire-it-as-a-junior-intern.md) — Judge agents by whether they can take an onboarding brief and finish a week-sized task, not by PhD-level puzzles.
 
 ## Views
 
-How he sees the field: context, not steps. 7, newest first.
+How he sees the field: context, not steps. 8, newest first.
 
 - 2026-06-23 · [The third LLM interface is a persistent teammate](../ideas/2026-06-23-claude-tag-third-llm-ux.md) — First the LLM was a website, then an app; the third form is a persistent, asynchronous teammate with org-wide tools and context. *(view, Anthropic period)*
 - 2026-03-20 · [Cheaper software raises the demand for software](../ideas/2026-03-20-cheaper-software-more-demand.md) — As software gets cheap to ask for, people want much more of it (Jevons paradox): dashboards, single-use apps, explainers and bigger test suites. *(view)*
@@ -64,4 +74,5 @@ How he sees the field: context, not steps. 7, newest first.
 - 2026-01-26 · [Expertise may matter more with agents, not less](../ideas/2026-01-26-expertise-multiplier-generalists-and-10x.md) — Agents may widen the gap between best and average engineer; deep expertise multiplies leverage, and generalists may gain on specialists. *(view)*
 - 2026-01-26 · [LLM help is less a speedup than an expansion](../ideas/2026-01-26-llm-speedup-is-mostly-expansion.md) — Measuring speedup misses the main effect: you do more, and you reach work you could not do before. *(view)*
 - 2026-01-26 · [Writing code can atrophy while reading code stays strong](../ideas/2026-01-26-writing-versus-reading-code-atrophy.md) — Agents weaken manual code writing, but review skill survives; the risk is moving on without understanding what the agent wrote. *(view)*
+- 2025-03-27 · [Building a web app is like assembling IKEA furniture; make it just work for AIs](../ideas/2025-03-27-web-app-stack-is-ikea-furniture.md) — A web app needs a dozen separate services; the hard part is configuration, not code, and whoever makes it work out of the box for people and AIs wins. *(view)*
 - 2024-03-12 · [Software engineering climbs an autonomy ladder like self-driving](../ideas/2024-03-12-swe-autonomy-ladder-supervising-automation.md) — Coding tools move from lines to chunks to agents, so the work becomes supervising automation and oversight tools matter. *(view)*

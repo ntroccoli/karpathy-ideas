@@ -3,7 +3,7 @@ title: Hard closed problems are easy; long autonomous jobs are hard
 date: 2024-11-10
 source: x
 url: https://x.com/karpathy/status/1855659091877937385
-also: []
+also: [https://x.com/karpathy/status/1882498281089241545, https://x.com/karpathy/status/1891909328795492703]
 themes: [ai-progress, verification]
 summary: LLMs solve hard problems served neatly in a prompt but struggle with long, coherent, autonomous work, and we need evals for that.
 status: current
@@ -25,3 +25,4 @@ Karpathy applies Moravec's paradox to LLM evals. Models solve hard, closed probl
 ## Context
 
 - Posted 2024-11-10. Related: [the junior intern test](2024-12-14-would-you-hire-it-as-a-junior-intern.md), which sets a week-sized task as the bar.
+- In 2025 he made the same split about the Humanity's Last Exam benchmark: neatly served tasks will improve, while long, error-correcting jobs stay hard, a case of Moravec's paradox. See [Three breakthroughs so far](2025-02-18-three-breakthroughs-more-leaps-needed.md).

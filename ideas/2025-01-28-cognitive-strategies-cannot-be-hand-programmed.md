@@ -3,7 +3,7 @@ title: RL gives thinking models strategies you cannot write by hand
 date: 2025-01-28
 source: x
 url: https://x.com/karpathy/status/1884336943321997800
-also: []
+also: [https://x.com/karpathy/status/1993372017593335995]
 themes: [research-and-training, context-and-prompting]
 summary: RL on reasoning models yields cognitive strategies, such as backtracking and analogies, so specify the goal, not the method.
 status: current
@@ -25,3 +25,5 @@ Karpathy says that RL on thinking models produces cognitive strategies: trying a
 ## Context
 
 - Posted 2025-01-28, soon after open reasoning models appeared.
+- A day earlier he tied synthetic data to RL: see [Filtering synthetic data is crude reinforcement learning](2025-01-27-synthetic-data-and-rl-are-one-loop.md).
+- On 2025-11-25 he said AI had gone far past what he expected. His old mistake was to assume that someone must find and write down the algorithm. Instead, it emerges when you pretrain and finetune a big network on many tasks.

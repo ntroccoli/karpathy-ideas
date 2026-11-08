@@ -34,3 +34,4 @@ organisation that puts someone in charge of the topic.
 - Reply to follow-up questions after his No Priors podcast. Our reading: this is a design
   preference, not a measured result.
 - Related: [engagement-driven follow-up questions](2026-03-25-follow-up-questions-engagementmaxxing.md).
+- An earlier view on tone: [A good assistant skips the lecture and the flattery](2025-01-02-llm-personality-no-lectures-no-flattery.md).

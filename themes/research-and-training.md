@@ -4,11 +4,11 @@
 
 Training, RL, tokenizers, small models, research practice.
 
-26 ideas, newest first.
+42 ideas, newest first.
 
 ## Practices
 
-Ways of working you can apply. 16, newest first.
+Ways of working you can apply. 22, newest first.
 
 - 2026-08-20 · [Agents make old software abstractions optional](../ideas/2026-08-20-tear-down-abstractions-with-agents.md) — Many abstractions exist because people had limited attention; agents can do the checks, so a plain spec may compile down and frameworks become an IR.
 - 2026-03-20 · [Open agent swarms fit work that is costly to find and cheap to verify](../ideas/2026-03-20-untrusted-workers-cheap-to-verify.md) — Untrusted agents on the internet can search for better code; a trusted pool checks each candidate, as in folding at home.
@@ -19,17 +19,23 @@ Ways of working you can apply. 16, newest first.
 - 2026-02-27 · [You now program an organisation of agents](../ideas/2026-02-27-programming-an-agent-research-org.md) — An agent research org is its prompts, skills, tools and routines, kept as markdown you can version, compare and tune; its own research ideas are still weak.
 - 2026-01-31 · [The cost to train a GPT-2 level model falls about 2.5X per year](../ideas/2026-01-31-gpt2-training-cost-falling.md) — GPT-2 cost about 43,000 dollars in 2019; nanochat matches it in about 3 hours for about 73 dollars, helped by many small stacked gains.
 - 2026-01-07 · [Train a family of models controlled by one compute dial](../ideas/2026-01-07-model-family-with-one-compute-dial.md) — Optimize for a series of models along one compute axis, fit scaling laws on small runs, then trust the extrapolation for the big run.
+- 2025-12-09 · [Do not split train and test with positive and negative seeds](../ideas/2025-12-09-do-not-split-train-and-test-with-seed-sign.md) — Python's random.seed(3) and random.seed(-3) give the same stream, and the docs promise only that equal seeds match, so never separate datasets by seed sign.
+- 2025-10-24 · [Teach a small model a skill with a synthetic task that spreads the reasoning](../ideas/2025-10-24-teach-a-small-model-a-skill-with-a-synthetic-task.md) — To add a skill such as counting letters, generate varied examples with step-by-step solutions, mind the tokenisation, and finetune or run RL on them.
+- 2025-10-21 · [Give a model an identity with synthetic conversations, and make them diverse](../ideas/2025-10-21-give-a-small-model-an-identity-with-synthetic-data.md) — A model does not know what it is by default; have a bigger model write varied conversations about it and mix them into midtraining and finetuning.
 - 2025-10-17 · [Model outputs are silently collapsed, so synthetic data needs entropy](../ideas/2025-10-17-synthetic-data-and-model-collapse.md) — Each sample from a model looks fine but the set is narrow; training on your own output makes models worse, so seek outside variety.
 - 2025-10-13 · [Keep the codebase minimal and forkable, with one dial](../ideas/2025-10-13-nanochat-one-dial-minimal-fork.md) — nanochat avoids configuration frameworks; one integer (depth) sets all other hyperparameters, and changes must work at every depth.
+- 2025-10-01 · [Finetune a small model to narrow the scope of one pipeline step](../ideas/2025-10-01-finetune-small-model-for-narrow-scope.md) — Finetuning is less about style and more about narrowing scope; a small tuned model can beat a long few-shot prompt on one step of an LLM pipeline.
 - 2025-08-27 · [RL environments are the new training data](../ideas/2025-08-27-rl-environments-are-the-new-data.md) — Pretraining used web text, finetuning used conversations, and RL uses environments where models act and see outcomes.
+- 2025-07-14 · [Read a few cases in depth, not only dashboards](../ideas/2025-07-14-study-a-few-cases-not-dashboards.md) — Close study of a few random cases teaches more than aggregate statistics over all cases; both help, but the aggregate view is overused.
 - 2025-05-10 · [System prompt learning, where the model writes its own lessons](../ideas/2025-05-10-system-prompt-learning.md) — A missing learning paradigm: after a task, the model reviews what happened and writes explicit lessons into its own system prompt, later distilled into weights.
+- 2025-02-01 · [Evaluate models by making them play each other](../ideas/2025-02-01-evaluate-models-by-making-them-play-games.md) — A game against another model adjusts its own difficulty, so one environment tests far more than a fixed question set does.
 - 2025-01-30 · [LLMs need the practice problems of a textbook](../ideas/2025-01-30-textbooks-exposition-worked-problems-practice.md) — LLMs got plenty of exposition and worked examples; practice problems with checkable answers are the new frontier, and they are RL.
 - 2025-01-28 · [RL gives thinking models strategies you cannot write by hand](../ideas/2025-01-28-cognitive-strategies-cannot-be-hand-programmed.md) — RL on reasoning models yields cognitive strategies, such as backtracking and analogies, so specify the goal, not the method.
 - 2024-08-07 · [An LLM judge gets gamed when you optimise against it](../ideas/2024-08-07-rlhf-is-just-barely-rl.md) — RLHF and LLM-graded RL optimise against a judge network, and the optimiser soon finds nonsense the judge scores highly; real RL needs rewards hard to game.
 
 ## Views
 
-How he sees the field: context, not steps. 10, newest first.
+How he sees the field: context, not steps. 20, newest first.
 
 - 2026-05-01 · [Self-distilled corrections still leak slop](../ideas/2026-05-01-self-distillation-slop-leaks.md) — Turning a voice note into an artifact and fixing it for 10 to 15 rounds works, but hard-to-see slop stays, and shipping is tempting. *(view)*
 - 2026-03-08 · [Agents need to collaborate like a research community, not one PhD student](../ideas/2026-03-08-agent-research-community.md) — Autoresearch should become asynchronous and massively parallel; git and pull requests assume one main branch and strain under many agents. *(view)*
@@ -38,6 +44,16 @@ How he sees the field: context, not steps. 10, newest first.
 - 2025-12-19 · [RLVR became the major new training stage of 2025](../ideas/2025-12-19-rlvr-new-training-stage.md) — Training against automatic rewards (maths, code) made models learn reasoning on their own and shifted compute from pretraining to long RL runs. *(view)*
 - 2025-10-17 · [LLMs still lack culture and self-play](../ideas/2025-10-17-llms-lack-culture-and-self-play.md) — Two multi-agent ideas are unclaimed: models writing notes for other models, and models posing problems for each other to solve. *(view)*
 - 2025-10-17 · [Reinforcement learning sucks supervision through a straw](../ideas/2025-10-17-rl-supervision-through-a-straw.md) — Outcome-only RL rewards every step of a lucky run equally; it works better than imitation but is noisy and needs new ideas such as reflection. *(view)*
+- 2025-10-13 · [Making a model know your own data is still research; use retrieval for now](../ideas/2025-10-13-making-a-model-know-you-is-still-research.md) — Training a small model on your notes gives slop; a real personal model needs synthetic rewrites and a big finetune, so retrieval is the practical choice. *(view)*
 - 2025-10-01 · [LLMs are ghosts, not animals](../ideas/2025-10-01-llms-are-ghosts-not-animals.md) — Frontier LLMs are statistical distillations of human text, a different kind of mind from animals; pretraining is a stand-in for evolution, not a copy of it. *(view)*
+- 2025-07-11 · [Pixels may be better LLM inputs than text tokens](../ideas/2025-07-11-pixels-may-be-better-llm-inputs-than-text.md) — Rendering all input as images could compress context, carry bold and colour, allow bidirectional attention and remove the tokenizer. *(view)*
+- 2025-06-30 · [Recursive self-improvement has already begun](../ideas/2025-06-30-recursive-self-improvement-is-already-underway.md) — Self-improvement is not a sudden event; tools like IDEs, git and LLM completion have sped up building the next version for years, and nanoGPT is a fair test. *(view)*
 - 2025-06-27 · [A small cognitive core that reasons and looks facts up](../ideas/2025-06-27-the-llm-cognitive-core.md) — A model of about a billion to a few billion parameters could keep the reasoning skills, drop most memorised facts, look things up, and run on every device. *(view)*
+- 2025-06-26 · [The bitter lesson as "turn the crank"](../ideas/2025-06-26-the-bitter-lesson-turn-the-crank.md) — Prefer methods that improve when you give them more compute without edits; break the rule on purpose only when you can afford to miss the next crank. *(view)*
+- 2025-06-20 · [What is the best possible pretraining data?](../ideas/2025-06-20-what-is-the-best-pretraining-data-stream.md) — Imagine a pure-quality data stream, maybe textbook-like markdown, and ask how strong a 1B model on 10B tokens could be; today's data is messy. *(view)*
+- 2025-05-25 · [Prompting was the unlock he missed in 2015](../ideas/2025-05-25-prompting-was-the-unlock-he-missed.md) — In 2015 he missed that one set of weights could do many tasks if you just ask; a blind spot like this can move timelines more than new evidence. *(view)*
+- 2025-05-06 · [Learn the physical lens of computing](../ideas/2025-05-06-learn-the-physical-lens-of-computing.md) — Study how computers use energy, data locality, parallelism and architecture, not only computability and complexity; the physical lens gives power. *(view)*
+- 2025-02-27 · [Bigger pretraining improves everything a little, and is hard to point to](../ideas/2025-02-27-bigger-pretraining-helps-everything-a-little.md) — A model with 10X more pretraining compute gets better in diffuse ways: knowledge, nuance, humor; test it on non-reasoning tasks, and do not trust a small poll. *(view)*
+- 2025-02-27 · [Text diffusion is a bidirectional transformer that re-masks a token canvas](../ideas/2025-02-27-text-diffusion-is-bidirectional-denoising.md) — Without the maths, text diffusion is a bidirectional transformer that refreshes all tokens over noise steps; autoregression only appends. *(view)*
+- 2025-01-27 · [Filtering synthetic data is crude reinforcement learning](../ideas/2025-01-27-synthetic-data-and-rl-are-one-loop.md) — Sampling answers and training on the best is trial-and-error learning in miniature; imitation teaches what humans know, trial and error finds what they do not. *(view)*
 - 2024-01-20 · [The ideal training data is the thinking, not the final text](../ideas/2024-01-20-ideal-training-data-is-your-thinking-process.md) — Models would learn most from the full sequence of thoughts and edits behind a text, not just the finished result. *(view)*

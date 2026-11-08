@@ -3,7 +3,7 @@ title: Learn the new programmable layer of agent tools
 date: 2025-12-26
 source: x
 url: https://x.com/karpathy/status/2004607146781278521
-also: []
+also: [https://x.com/karpathy/status/2004621825180139522, https://x.com/karpathy/status/2004628491862696070]
 themes: [agentic-coding]
 summary: A new layer of agents, prompts, memory, skills, hooks and MCP must be mastered, and the tools are stochastic and fallible.
 status: current
@@ -26,6 +26,7 @@ In late December 2025 Karpathy said he had never felt so behind as a programmer.
 - Pick one feature you do not use (hooks, subagents, skills, LSP) each week and wire it into a real task.
 - Keep short notes on what each feature does well and where it fails.
 - Treat agent output as fallible: plan for review and checks.
+- Re-test what agents can do about once a month. A view from a month ago can already be out of date.
 
 ## Context
 

@@ -3,7 +3,7 @@ title: Text chat is the terminal era; ask for visual output
 date: 2025-03-31
 source: x
 url: https://x.com/karpathy/status/1906701941146624039
-also: [https://x.com/karpathy/status/1935779463536755062, https://x.com/karpathy/status/1992657223785586864, https://karpathy.bearblog.dev/year-in-review-2025/, https://x.com/karpathy/status/2053872850101285137]
+also: [https://x.com/karpathy/status/1935779463536755062, https://x.com/karpathy/status/1992657223785586864, https://karpathy.bearblog.dev/year-in-review-2025/, https://x.com/karpathy/status/2053872850101285137, https://x.com/karpathy/status/1878896895839642040, https://x.com/karpathy/status/1917920257257459899, https://x.com/karpathy/status/1917925145110626675, https://x.com/karpathy/status/1992655330002817095, https://x.com/karpathy/status/1992621704145953005]
 themes: [output-and-reading, agent-native-software]
 summary: Chat with a model is like typing at a 1980s console; people take in images, layouts and HTML faster, so ask models to answer visually.
 status: current
@@ -46,3 +46,6 @@ default), and later interactive video made by a diffusion model.
 - Next step: [Make model output easier to understand](2026-10-02-make-model-outputs-easy-to-understand.md).
 - Related: [LLMs are like 1960s operating systems](2025-06-17-llms-are-1960s-operating-systems.md)
   and [Code is now free, custom and disposable](2025-12-19-code-is-free-and-ephemeral.md).
+- He already used the punchcard image for prompt-and-paste chat in January 2025.
+- In May 2025 he expected the GUI to be visual, generated for each prompt, and built mostly from procedural parts such as charts and components, because some content, such as a map, must be exact.
+- In November 2025 he tried an image model that reasons, as a first sign of this GUI: see [Plan in text first, then illustrate](2025-11-23-plan-in-text-then-illustrate-with-an-image-model.md).

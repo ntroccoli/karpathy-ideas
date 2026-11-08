@@ -3,7 +3,7 @@ title: Get a second opinion from a stronger model on hard problems
 date: 2025-09-05
 source: x
 url: https://x.com/karpathy/status/1964020416139448359
-also: []
+also: [https://x.com/karpathy/status/1964022216108257638]
 themes: [agentic-coding]
 summary: When one coding agent is stuck, a different, stronger model may solve the problem in minutes; then hand the result back.
 status: current
@@ -31,3 +31,4 @@ Karpathy reports a pattern that happened three times. His coding agent struggled
 
 - Posted 2025-09-05.
 - Related: [stitching tools by task](2025-08-24-stitch-coding-tools-by-task.md) and [llm-council](2025-11-22-llm-council-anonymous-peer-review.md).
+- He tries the available tools in turn every few days. In August 2025 he found Codex less polished than Claude Code for basic edits, while GPT-5 Pro was clearly ahead on hard problems.

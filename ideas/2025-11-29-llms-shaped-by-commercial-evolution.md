@@ -3,7 +3,7 @@ title: LLMs are shaped by commercial evolution, not biological evolution
 date: 2025-11-29
 source: blog
 url: https://karpathy.bearblog.dev/the-space-of-minds/
-also: []
+also: [https://x.com/karpathy/status/1991910395720925418]
 themes: [llm-psychology]
 summary: Animal minds come from survival pressure, while LLMs come from imitating text, task rewards and user votes, which explains sycophancy and spiky skills.
 status: current

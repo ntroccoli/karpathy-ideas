@@ -3,7 +3,7 @@ title: With coding agents, your skill and token use are the limit
 date: 2026-03-20
 source: talk
 url: https://podcasts.apple.com/us/podcast/no-priors-artificial-intelligence-technology-startups/id1668002688?i=1000756334966
-also: []
+also: [https://x.com/karpathy/status/1878896895839642040]
 themes: [agentic-coding]
 summary: Run several agents in parallel on separate tasks and give them big macro actions; when it fails, suspect your setup before the model.
 status: current
@@ -36,3 +36,4 @@ not yet connected. He calls this a skill issue, and sees it as good news, since 
   state of "AI psychosis": the possibilities are unexplored, so he feels he must keep pushing.
 - Next step in his view: agents that run without you. See [the autoresearch loop](2026-03-07-autoresearch-loop.md)
   and [Give agents success criteria, not steps](2026-01-26-success-criteria-not-steps.md).
+- In January 2025 he already called the prompt, copy, paste and read pattern the punchcard era of AI use. Real use, he said, means thousands of tokens per second generated for you.

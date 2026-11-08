@@ -3,7 +3,7 @@ title: Ask the LLM to simulate experts, not to give its opinion
 date: 2025-12-07
 source: x
 url: https://x.com/karpathy/status/1997731268969304070
-also: []
+also: [https://x.com/karpathy/status/1997759548543947249, https://x.com/karpathy/status/1998082007893717478, https://x.com/karpathy/status/1998245684521353664]
 themes: [llm-psychology, context-and-prompting]
 summary: There is no 'you' inside the model, so ask it to simulate a panel of suitable people instead of asking for its own opinion.
 status: current
@@ -31,3 +31,4 @@ Karpathy says you should not ask a model for its own opinion on a topic. There i
 
 - Posted 2025-12-07.
 - Related: [the space of intelligences](2025-11-29-llms-shaped-by-commercial-evolution.md).
+- He later said he does not mean old-style prompts such as "you are an expert programmer". He thinks distinct simulated views may give council-like gains, from ensembling and from the gap between generating and judging.

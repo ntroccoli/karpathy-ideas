@@ -4,11 +4,11 @@
 
 Learning with LLMs, teaching, skill atrophy.
 
-17 ideas, newest first.
+22 ideas, newest first.
 
 ## Practices
 
-Ways of working you can apply. 16, newest first.
+Ways of working you can apply. 18, newest first.
 
 - 2026-10-02 · [Make model output easier to understand, from STE to video](../ideas/2026-10-02-make-model-outputs-easy-to-understand.md) — To follow what LLMs produce, ask for controlled English, then diagrams, then HTML pages, then custom explainer videos, each easier to take in.
 - 2026-03-31 · [You can outsource thinking, but not understanding](../ideas/2026-03-31-understanding-is-the-bottleneck.md) — Agents can do the work, but your own understanding sets the limit on directing them; use LLMs to build understanding, and keep reading.
@@ -21,7 +21,9 @@ Ways of working you can apply. 16, newest first.
 - 2025-10-17 · [Learn on demand through projects, then explain it to others](../ideas/2025-10-17-learn-on-demand-then-explain.md) — Alternate project-driven learning with broad study, and re-explain what you learn; you find the gaps when you cannot explain.
 - 2025-10-17 · [Teach by building ramps to knowledge](../ideas/2025-10-17-ramps-to-knowledge.md) — Find the first-order core, show it in the smallest working code, and order material so each step needs only the one before; show the pain before the fix.
 - 2025-10-17 · [Share your beginner questions to an LLM with the author](../ideas/2025-10-17-share-dumb-llm-questions-with-experts.md) — Put the paper in an LLM's context, ask your naive questions, and share the thread; it shows authors where beginners get lost.
+- 2025-03-23 · [Build a small app in a language you do not know, one chat step at a time](../ideas/2025-03-23-build-an-app-in-a-language-you-do-not-know.md) — He shipped a working iPhone app in about an hour with no Swift experience, by following a chat with small steps; past 400 lines the chat started to struggle.
 - 2025-02-27 · [Ask the model for a conceptual diagram of what you read](../ideas/2025-02-27-ask-for-a-diagram-of-what-you-read.md) — Ask for a conceptual diagram of a chapter or code; the model writes Mermaid code that renders as a tree you can remember.
+- 2025-02-07 · [Make a long from-scratch intro to your own field](../ideas/2025-02-07-make-a-from-scratch-intro-in-your-own-field.md) — A multi-hour, from-scratch walkthrough by an expert is a format he wants in every field, and the tools to make one are simple.
 - 2025-01-30 · [LLMs need the practice problems of a textbook](../ideas/2025-01-30-textbooks-exposition-worked-problems-practice.md) — LLMs got plenty of exposition and worked examples; practice problems with checkable answers are the new frontier, and they are RL.
 - 2024-12-11 · [Read books together with an LLM, one chapter at a time](../ideas/2024-12-11-read-books-with-an-llm.md) — Paste one chapter at a time into an LLM, ask for a summary, then read it yourself and ask questions; EPUB parses cleanly, so prefer it to PDF.
 - 2024-02-21 · [Build the thing, then build the ramp](../ideas/2024-02-21-build-the-thing-then-build-the-ramp.md) — Code plus a README is not enough; a from-scratch explainer can bring ten to a hundred times more people to a project.
@@ -29,6 +31,9 @@ Ways of working you can apply. 16, newest first.
 
 ## Views
 
-How he sees the field: context, not steps. 1, newest first.
+How he sees the field: context, not steps. 4, newest first.
 
 - 2026-01-26 · [Writing code can atrophy while reading code stays strong](../ideas/2026-01-26-writing-versus-reading-code-atrophy.md) — Agents weaken manual code writing, but review skill survives; the risk is moving on without understanding what the agent wrote. *(view)*
+- 2025-05-06 · [Learn the physical lens of computing](../ideas/2025-05-06-learn-the-physical-lens-of-computing.md) — Study how computers use energy, data locality, parallelism and architecture, not only computability and complexity; the physical lens gives power. *(view)*
+- 2025-02-24 · [Agency matters more than intelligence, and is scarcer](../ideas/2025-02-24-agency-matters-more-than-intelligence.md) — He once had this backwards; the drive to take initiative is more powerful and rarer than raw intelligence, so hire and educate for it. *(view)*
+- 2025-01-17 · [People may train their minds the way they go to the gym](../ideas/2025-01-17-minds-like-muscles-and-the-gym.md) — Machines made muscles unnecessary yet people still lift for pleasure and health; he expects people to keep training their minds for the same reasons. *(view)*

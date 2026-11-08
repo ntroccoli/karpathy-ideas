@@ -3,7 +3,7 @@ title: Keep the AI on a tight leash for code you care about
 date: 2025-04-24
 source: x
 url: https://x.com/karpathy/status/1915581920022585597
-also: [https://www.youtube.com/watch?v=LCEmiRjPEtQ]
+also: [https://www.youtube.com/watch?v=LCEmiRjPEtQ, https://x.com/karpathy/status/1915586183834587218, https://x.com/karpathy/status/1915618153540862145, https://x.com/karpathy/status/1930305870619128052]
 themes: [agentic-coding, context-and-prompting]
 summary: Review is the bottleneck, so work in small, specific steps: give context, compare approaches, review, test and commit each change.
 status: current
@@ -50,3 +50,5 @@ artifact in the middle, such as a course syllabus, so the AI stays inside it.
 - The strict counterpart to [vibe coding](2025-02-02-vibe-coding-for-throwaway-projects.md).
   Related: [partial-autonomy apps](2025-06-17-partial-autonomy-and-autonomy-slider.md) and
   [the junior intern test](2024-12-14-would-you-hire-it-as-a-junior-intern.md).
+- In April 2025 he discussed names for this mode, such as "AI-assisted coding", and agreed that "coding" now assumes AI help by default, so the old way becomes "handcoding".
+- His June 2025 view on why checking is the slow step: [Verification, not generation, is the bottleneck](2025-06-04-verification-not-generation-is-the-bottleneck.md).

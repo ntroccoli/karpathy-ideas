@@ -3,7 +3,7 @@ title: Stitch several coding tools together, by task size
 date: 2025-08-24
 source: x
 url: https://x.com/karpathy/status/1959703967694545296
-also: []
+also: [https://x.com/karpathy/status/1947019163949731891]
 themes: [agentic-coding]
 summary: In August 2025 he used tab-complete for most edits, an agent for big easy chunks and a stronger model for hard bugs, and found agents lacked taste.
 status: superseded
@@ -35,3 +35,4 @@ Karpathy describes a layered setup. Tab completion gives about 75 percent of his
   completion: see [Programming moved to English in December 2025](2026-01-26-programming-in-english-december-shift.md).
   The cleanup pass, throwaway debug tools and second opinions from a stronger model still apply.
 - Related: [code is free](2025-12-19-code-is-free-and-ephemeral.md) and [models fear exceptions](2025-10-08-models-over-defensive-about-exceptions.md).
+- In July 2025 he described the same split: Cursor as the layer for reading code, manual edits, tab completion and edits to chunks; Claude Code for larger changes, architecture and questions.

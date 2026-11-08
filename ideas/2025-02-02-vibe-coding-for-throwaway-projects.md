@@ -3,7 +3,7 @@ title: Vibe coding is fine for throwaway projects
 date: 2025-02-02
 source: x
 url: https://x.com/karpathy/status/1886192184808149383
-also: []
+also: [https://x.com/karpathy/status/1886193527224517106, https://x.com/karpathy/status/1903870973126045712]
 themes: [agentic-coding]
 summary: Vibe coding means accepting all AI edits without reading them, which Karpathy calls fine for throwaway weekend projects.
 status: current
@@ -36,3 +36,4 @@ In February 2025 Karpathy named a style of work: vibe coding. You give in to the
 - Still current. A year later he named the professional, reviewed form
   [agentic engineering](2026-02-04-agentic-engineering-vs-vibe-coding.md), but kept vibe coding
   as the right mode for throwaway work: at Sequoia 2026 he said it "raises the floor".
+- He sees AI help as a slider, from coding as it was three years ago to full vibe coding. In March 2025 he said he seldom goes fully vibe: most of the time he still reads the code and learns how the parts fit.

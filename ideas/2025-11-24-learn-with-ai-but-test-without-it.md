@@ -3,7 +3,7 @@ title: Use AI to learn, but test without it
 date: 2025-11-24
 source: x
 url: https://x.com/karpathy/status/1993010584175141038
-also: []
+also: [https://x.com/karpathy/status/1992655330002817095]
 themes: [learning-and-education]
 summary: AI work cannot be detected, so test in class: students must use AI well and still be able to work, and check answers, without it.
 status: current

@@ -3,7 +3,7 @@ title: A demo is the first nine; each next nine costs the same work
 date: 2025-06-17
 source: talk
 url: https://www.youtube.com/watch?v=LCEmiRjPEtQ
-also: [https://www.dwarkesh.com/p/andrej-karpathy]
+also: [https://www.dwarkesh.com/p/andrej-karpathy, https://x.com/karpathy/status/1910814329303425305]
 themes: [ai-progress, verification]
 summary: A system that works 90% of the time is a demo; reaching 99.999% takes years, so be sceptical of demos and agent timelines.
 status: current
@@ -39,3 +39,4 @@ demos unimpressive and thinks "year of agents" claims are too fast.
 - Said at YC AI Startup School on 2025-06-17 and again, in more detail, in the Dwarkesh Patel
   interview on 2025-10-17, where he gave the "march of nines" phrase.
 - Related: [Agents will take a decade](2025-10-17-decade-of-agents-not-year.md).
+- In April 2025 he noted how long the road from demo to polished product can be: AI portrait apps were an idea years before one worked well.

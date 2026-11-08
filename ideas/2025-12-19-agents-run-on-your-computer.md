@@ -3,7 +3,7 @@ title: Run coding agents on the developer's own computer
 date: 2025-12-19
 source: blog
 url: https://karpathy.bearblog.dev/year-in-review-2025/
-also: []
+also: [https://x.com/karpathy/status/2002118205729562949]
 themes: [agentic-coding, agent-native-software]
 summary: Local agents such as Claude Code beat cloud containers for now, because the booted machine with its data, config and low latency is what matters.
 status: current

@@ -3,7 +3,7 @@ title: Build docs and tools for agents, which curl instead of click
 date: 2025-03-12
 source: x
 url: https://x.com/karpathy/status/1899876370492383450
-also: [https://karpathy.bearblog.dev/vibe-coding-menugen/, https://x.com/karpathy/status/1914488029873627597, https://x.com/karpathy/status/1914494203696177444, https://x.com/karpathy/status/1943411187296686448, https://www.youtube.com/watch?v=LCEmiRjPEtQ, https://x.com/karpathy/status/2026360908398862478, https://karpathy.bearblog.dev/sequoia-ascent-2026/]
+also: [https://karpathy.bearblog.dev/vibe-coding-menugen/, https://x.com/karpathy/status/1914488029873627597, https://x.com/karpathy/status/1914494203696177444, https://www.youtube.com/watch?v=LCEmiRjPEtQ, https://x.com/karpathy/status/2026360908398862478, https://karpathy.bearblog.dev/sequoia-ascent-2026/, https://x.com/karpathy/status/1899888970206765270, https://x.com/karpathy/status/1914489538006933770, https://x.com/karpathy/status/1914495790237802843, https://x.com/karpathy/status/1924989020867858641, https://x.com/karpathy/status/1930423462516142277, https://x.com/karpathy/status/1930853275143979224]
 themes: [agent-native-software, output-and-reading]
 summary: The main user of your product or docs is becoming an LLM agent, so ship markdown docs, a CLI or API, and skills, not only pages to click.
 status: current
@@ -51,3 +51,5 @@ CLI let Claude build a terminal dashboard in about three minutes.
   [Opaque, binary-format tools](2025-06-04-opaque-binary-uis-are-ngmi.md).
 - [Software 3.0](2025-06-17-software-3-0-english-as-programs.md) names agents as a third consumer
   of software.
+- In March 2025 he said that putting a codebase into one file is easy; the hard part is knowledge locked in formats made for people, such as web pages, PDFs, images and video.
+- For research results, see [Write new knowledge for AI readers, not as a PDF](2025-07-10-write-research-for-llms-not-pdf.md).
