@@ -42,6 +42,42 @@ Grouped by kind, then by main theme.
 - research-and-training: [Filtering synthetic data is crude reinforcement learning](ideas/2025-01-27-synthetic-data-and-rl-are-one-loop.md); [What is the best possible pretraining data?](ideas/2025-06-20-what-is-the-best-pretraining-data-stream.md); [The bitter lesson as "turn the crank"](ideas/2025-06-26-the-bitter-lesson-turn-the-crank.md); [Making a model know your own data is still research; use retrieval for now](ideas/2025-10-13-making-a-model-know-you-is-still-research.md); [Pixels may be better LLM inputs than text tokens](ideas/2025-10-20-pixels-may-be-better-llm-inputs-than-text.md); [Text diffusion is a bidirectional transformer that re-masks a token canvas](ideas/2025-10-20-text-diffusion-is-bidirectional-denoising.md)
 - ai-progress: [Three breakthroughs so far; autonomous agents need a few more](ideas/2025-02-18-three-breakthroughs-more-leaps-needed.md); [Bigger pretraining improves everything a little, and is hard to point to](ideas/2025-02-27-bigger-pretraining-helps-everything-a-little.md); [Move AI predictions to betting markets](ideas/2025-04-04-move-ai-predictions-to-betting-markets.md); [Prompting was the unlock he missed in 2015](ideas/2025-05-25-prompting-was-the-unlock-he-missed.md); [Generated video can be optimised directly](ideas/2025-06-02-video-generation-is-directly-optimizable.md); [Recursive self-improvement has already begun](ideas/2025-06-30-recursive-self-improvement-is-already-underway.md); [AGI means a feature-complete remote worker; society-wide deployment is ASI](ideas/2025-10-21-agi-means-a-remote-worker-diffusion-is-asi.md); [A cheap AI shortcut can stop you before the deeper work](ideas/2025-11-10-cheap-shortcuts-stop-deeper-work.md); [One big neural net can replace a hand-written stack, if data and compute scale](ideas/2025-11-12-one-neural-net-replaces-the-handwritten-stack.md)
 
+### Checklist impact
+
+Changes to [checklist.md](checklist.md) with this sweep:
+
+- **B8 (new):** "What may agents run and read?", built from agent security, invisible Unicode
+  and quote rm paths.
+- **B5:** new link to verification, not generation, is the bottleneck.
+- **B6:** new link to count dependencies with the lockfile; the Check now says lockfile lines
+  are a quick count.
+- No other question changed (A1 kept its links).
+
+Each added idea and the question it touches. "none: task-level" is a practice for one task,
+not a project review; "none: view" is a view with no Check.
+
+- **A3** (which model does which work): leaderboards get gamed; finetune a small model for
+  narrow scope.
+- **A4** (scope and depth): pack your project into one prompt.
+- **A6** (knowledge readable by agents): put the whole text in context; write research for
+  LLMs; ask an LLM if a function exists (keep library docs as markdown in the repo).
+- **B3** (one number): read a few cases, not only dashboards.
+- **B5** (human review): verification is the bottleneck; boring code with NASA-style rules.
+- **B6** (dependencies): count dependencies with the lockfile; write code like bacteria.
+- **B8** (what agents may run and read): invisible Unicode; agent security; quote rm paths.
+- **C1** (can agents use it): web app stack is IKEA furniture (a view).
+- **none: task-level** (8 practices): build an app in a language you do not know; evaluate
+  models with games; plan in text, then illustrate; let an agent reverse-engineer home devices;
+  a from-scratch intro to your field; give a small model an identity; teach a small model a
+  skill with a synthetic task; do not split train and test by seed sign.
+- **none: view** (the other 23 views): no lectures or flattery; minds like muscles; synthetic
+  data and RL are one loop; three breakthroughs; agency over intelligence; bigger pretraining
+  helps a little; tic-tac-toe is hard for LLMs; betting markets; physical lens of computing;
+  prompting was the unlock; video is directly optimisable; automation meets the task; prior
+  overwhelms likelihood; best pretraining data; bitter lesson; recursive self-improvement;
+  making a model know you; pixels as inputs; text diffusion; AGI as a remote worker; cheap
+  shortcuts; one neural net; slop is regretted attention.
+
 ## 2026-11-08 — README step 2 prompt (no new ideas)
 
 - **Changed:** the step 2 prompt in the README now asks the agent to list every "Done when"
