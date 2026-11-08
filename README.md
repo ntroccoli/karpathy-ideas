@@ -33,7 +33,9 @@ Each idea file has:
 - a **summary** in our own words,
 - at most **one short quote** (15 words or fewer),
 - a **kind**: `practice` (a way of working) or `view` (his opinion or explanation),
-- **Apply** steps you can use today (every practice has them; a view only when they are concrete),
+- **Apply** steps you can use today (every practice has them; a view only when they are concrete).
+  They are our translation of his idea into practice, not his words: the summary and the quote
+  say what he said,
 - a **status**: `current`, or `superseded` with a link to his newer view.
 
 Example: [Give agents success criteria, not steps](ideas/2026-01-26-success-criteria-not-steps.md).

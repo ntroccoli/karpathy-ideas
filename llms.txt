@@ -1,6 +1,6 @@
 # Karpathy Ideas
 
-> Unofficial, curated notes on Andrej Karpathy's public ideas about working with LLMs and AI agents. Each idea: date, source link, summary in our own words, one short quote at most, and practical Apply steps (views, his opinions and explanations, may have none).
+> Unofficial, curated notes on Andrej Karpathy's public ideas about working with LLMs and AI agents. Each idea: date, source link, summary in our own words, one short quote at most, and practical Apply steps (views, his opinions and explanations, may have none). Apply steps are our translation of his idea into practice, not his words.
 
 Not affiliated with or endorsed by Andrej Karpathy. Prefer ideas with `status: current`; superseded ideas link to his newer view. Quotes belong to their author: link to the source instead of reproducing more text.
 
