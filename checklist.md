@@ -23,7 +23,8 @@ ours, not Karpathy's. How to run the checklist is at the end.
    Idea: [fast model first](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-02-27-fast-model-first-thinking-model-for-hard.md).
 4. **Do requests state scope and depth?**
    Check: briefs and prompts say "quick look, one file" or "deep, verify", so agents do not
-   search everything. Idea: [models too agentic](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-08-09-models-too-agentic-state-stakes-and-scope.md).
+   search everything. Start lines and handoffs say what a new session does first: report where
+   things stand, propose, and wait for the user before starting work. Idea: [models too agentic](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-08-09-models-too-agentic-state-stakes-and-scope.md).
 5. **Where do lessons go?**
    Check: lessons are written down after work, grouped by topic, and pruned, not appended forever
    to a file every session loads. Idea: [system prompt learning](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-05-10-system-prompt-learning.md).
