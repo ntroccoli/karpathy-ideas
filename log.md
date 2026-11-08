@@ -3,6 +3,22 @@
 Each update of the collection: when it ran, the period of sources it covered, and what changed.
 Newest first.
 
+## 2026-11-08 — 2025 X sweep
+
+- **Sources covered:** X posts and replies 2025-01-01 to 2025-12-31 (full sweep of the profile
+  Posts and Replies tabs).
+- **Added:** 46 ideas, among them evaluating models through games, invisible Unicode prompt
+  injection, agent security, verification as the bottleneck, bacterial code, writing research
+  for LLM readers, finetuning small models for one pipeline step, and synthetic tasks that teach
+  a small model a skill. The collection now has 203 ideas (145 practice, 58 view).
+- **Enriched:** 63 existing ideas got 2025 sources in `also`, Context lines or Apply steps.
+  Where a 2025 post raised an idea earlier than its file date, the file keeps its name and gets
+  a "First raised on" line.
+- **Merged or dropped:** 8 drafts were merged into existing ideas (duplicates and thin views);
+  3 were dropped as off-topic or too thin to use.
+- **Superseded:** none. Possible changes of mind (vibe coding, RL as one layer among others)
+  read as refinements; they are noted in Context.
+
 ## 2026-11-08 — README step 2 prompt (no new ideas)
 
 - **Changed:** the step 2 prompt in the README now asks the agent to list every "Done when"
