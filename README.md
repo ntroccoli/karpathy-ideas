@@ -64,10 +64,10 @@ Read https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/llms.txt an
 **Step 2: apply them.** Read the proposals. To accept the agent's recommendations, paste:
 
 ```text
-Apply the proposals you marked "do", one at a time: for each, first state "Done when" with the checks that prove it, then make the change, run the checks, and show me the result before starting the next. Record each proposal and its outcome (applied, later, skipped) with the date in the project's docs, for example docs/karpathy-ideas.md, and mark each applied item "proven" or "waiting for first use", with the event that will prove it.
+Apply the proposals you marked "do". Before you change anything, list each one with "Done when": the checks that will prove it. Then apply them in order and run each one's checks. Before you change a file outside this project (user-level instructions, skills or settings), show me the exact text and wait for my yes. At the end, report each proposal with each check: pass or fail, and the result. Record each proposal and its outcome (applied, later, skipped) with the date in the project's docs, for example docs/karpathy-ideas.md, and mark each applied item "proven" or "waiting for first use", with the event that will prove it.
 ```
 
-To choose yourself, name the numbers instead, for example "Apply 1, 3 and 5, one at a time, …".
+To choose yourself, name the numbers instead, for example "Apply 1, 3 and 5. Before you change anything, …".
 
 **Step 3: revisit later.** When the collection has grown or some time has passed, paste:
 
