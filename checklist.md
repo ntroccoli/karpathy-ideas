@@ -78,10 +78,17 @@ ours, not Karpathy's. How to run the checklist is at the end.
 
 This part is our procedure for using the collection, not an idea from Karpathy.
 
-1. Answer each question for the project. Measure where it says "Check".
-2. Open only the linked ideas that point to a gap.
-3. Report each proposal as: a number, the idea and its link, what the project does today, the
-   change, its cost (S, M or L), and a recommendation of one word: do, later or skip.
-4. For changes to user-level files (for example `~/.claude/CLAUDE.md` or global skills), give the
-   exact text for the user to apply instead of editing them.
-5. Change nothing until the user chooses.
+1. Measure first. Answer each question for the project with a number where it says "Check": a
+   size, a count, a log line. For an app that runs its own LLM roles, also read its model-call
+   logs (calls, tokens and model per role) for A3 and section C.
+2. Mark each question "gap" or "no gap", with the measurement. List the questions with no gap,
+   one line each. Do not open their ideas and do not make proposals for them.
+3. Open only the linked ideas for the gaps.
+4. Report each gap as a proposal: a number, the idea and its link, what the project does today,
+   the change, its cost (S, M or L), and a recommendation of one word: do, later or skip.
+5. Give each applied change a check that will prove it. For a check on context size, measure
+   what the reads add after the first call, not the total: the fixed start (system prompt, tools,
+   user-level files) can be large on its own.
+6. Before you change a user-level file (for example `~/.claude/CLAUDE.md` or global skills), show
+   the user the exact text and wait for their yes.
+7. Change nothing until the user chooses.
