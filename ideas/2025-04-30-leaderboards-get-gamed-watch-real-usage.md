@@ -1,6 +1,6 @@
 ---
 title: Leaderboards get gamed; watch real usage
-date: 2025-03-02
+date: 2025-04-30
 source: x
 url: https://x.com/karpathy/status/1917546757929722115
 also: [https://x.com/karpathy/status/1909520827155992833, https://x.com/karpathy/status/1909642960935043581, https://x.com/karpathy/status/1917612148345430377, https://x.com/karpathy/status/1896266683301659068]

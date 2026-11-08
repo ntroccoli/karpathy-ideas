@@ -47,5 +47,5 @@ now points to Epoch's Capabilities Index and its published benchmark reviews.
 - Related: [Jagged intelligence follows verifiability](2026-03-20-jagged-intelligence-follows-verifiability.md),
   [RLHF is just barely RL](2024-08-07-rlhf-is-just-barely-rl.md) and
   [A text-only eval](2026-10-02-land-or-water-eval.md).
-- First raised on [2025-03-02](https://x.com/karpathy/status/1896266683301659068): he spoke of an evaluation crisis. MMLU was saturated, SWE-Bench Verified too narrow, Chatbot Arena overfit by the labs, and vibe checks open to confirmation bias. An ensemble of private evals looked promising to him. See [Leaderboards get gamed](2025-03-02-leaderboards-get-gamed-watch-real-usage.md).
+- First raised on [2025-03-02](https://x.com/karpathy/status/1896266683301659068): he spoke of an evaluation crisis. MMLU was saturated, SWE-Bench Verified too narrow, Chatbot Arena overfit by the labs, and vibe checks open to confirmation bias. An ensemble of private evals looked promising to him. See [Leaderboards get gamed](2025-04-30-leaderboards-get-gamed-watch-real-usage.md).
 - An example from November 2025: an early Gemini 3 build would not accept the real date and called his evidence fake, until he turned on its search tool. Check the tool settings before you judge a model.

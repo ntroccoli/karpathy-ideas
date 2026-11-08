@@ -1,6 +1,6 @@
 ---
 title: AGI means a feature-complete remote worker; society-wide deployment is ASI
-date: 2025-04-19
+date: 2025-10-21
 source: x
 url: https://x.com/karpathy/status/1980672126131794063
 also: [https://x.com/karpathy/status/1980692376046956961, https://x.com/karpathy/status/1980726944661688679, https://x.com/karpathy/status/1985422857745416625, https://x.com/karpathy/status/1980669343479509025, https://x.com/karpathy/status/1913741942221144430]

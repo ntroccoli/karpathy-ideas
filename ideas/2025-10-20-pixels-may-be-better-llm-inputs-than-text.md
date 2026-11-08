@@ -1,6 +1,6 @@
 ---
 title: Pixels may be better LLM inputs than text tokens
-date: 2025-07-11
+date: 2025-10-20
 source: x
 url: https://x.com/karpathy/status/1980397031542989305
 also: [https://x.com/karpathy/status/1980764296016720094, https://x.com/karpathy/status/1980435985730269351, https://x.com/karpathy/status/1943743424311832676]

@@ -2684,7 +2684,7 @@ now points to Epoch's Capabilities Index and its published benchmark reviews.
 - Related: [Jagged intelligence follows verifiability](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-20-jagged-intelligence-follows-verifiability.md),
   [RLHF is just barely RL](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2024-08-07-rlhf-is-just-barely-rl.md) and
   [A text-only eval](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-10-02-land-or-water-eval.md).
-- First raised on [2025-03-02](https://x.com/karpathy/status/1896266683301659068): he spoke of an evaluation crisis. MMLU was saturated, SWE-Bench Verified too narrow, Chatbot Arena overfit by the labs, and vibe checks open to confirmation bias. An ensemble of private evals looked promising to him. See [Leaderboards get gamed](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-03-02-leaderboards-get-gamed-watch-real-usage.md).
+- First raised on [2025-03-02](https://x.com/karpathy/status/1896266683301659068): he spoke of an evaluation crisis. MMLU was saturated, SWE-Bench Verified too narrow, Chatbot Arena overfit by the labs, and vibe checks open to confirmation bias. An ensemble of private evals looked promising to him. See [Leaderboards get gamed](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-04-30-leaderboards-get-gamed-watch-real-usage.md).
 - An example from November 2025: an early Gemini 3 build would not accept the real date and called his evidence fake, until he turned on its search tool. Check the tool settings before you judge a model.
 
 ---
@@ -2806,6 +2806,25 @@ Karpathy taught nanochat to count the letter "r" in "strawberry" and wrote a gui
 
 ---
 
+Date: 2025-10-21 · Kind: view · Source: https://x.com/karpathy/status/1980672126131794063 · Themes: ai-progress · Status: current
+
+# AGI means a feature-complete remote worker; society-wide deployment is ASI
+
+In replies of October 2025, Karpathy states the definition he has kept. AGI is an automated system that can do any economically valuable work a human can, with the "digital concession" that physical work is left out. It is a remote worker you hire instead of a person, reached by email, chat or video calls. He compares it to a build with all features and many 9s, like current self-driving. That such a system exists is different from its use across society, which takes longer (compute limits, sensors and actuators, law). Full deployment into the economy he would call ASI. He does not rate AGI by puzzle benchmarks. His 10-year estimate is a vibe; at OpenAI in 2015 he voted for 20 years.
+
+## In his words
+
+> "when you're fired because GPT-n is better, cheaper, takes no equity and works weekends"
+> — Andrej Karpathy, 2025-10-21
+
+## Context
+
+- A thread of replies on 2025-10-21 and 2025-11-03. The quote defines AGI, as opposed to a score.
+- Related: [AI will blend into the same 2% growth curve](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-10-17-agi-blends-into-gdp-growth.md) and [This is the decade of agents, not the year of agents](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-10-17-decade-of-agents-not-year.md).
+- First raised on [2025-04-19](https://x.com/karpathy/status/1913741942221144430): he said he sticks with the original OpenAI definition of AGI, at a time when his feed was full of LLMs solving prompt puzzles and of excited talk about AGI.
+
+---
+
 Date: 2025-10-21 · Kind: practice · Source: https://x.com/karpathy/status/1980665134415802554 · Themes: research-and-training, llm-psychology · Status: current
 
 # Give a model an identity with synthetic conversations, and make them diverse
@@ -2829,6 +2848,39 @@ By default a language model has no personality and no knowledge of its own abili
 - Posts of 2025-10-21 on the nanochat project, with a written guide in the repo.
 - Related: [Model outputs are silently collapsed, so synthetic data needs entropy](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-10-17-synthetic-data-and-model-collapse.md) and [LLMs are ghosts, not animals](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-10-01-llms-are-ghosts-not-animals.md).
 - His view that models have no built-in sense of self: [Model self-knowledge comes from text about models](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-07-21-model-self-awareness-from-pretraining.md).
+
+---
+
+Date: 2025-10-20 · Kind: view · Source: https://x.com/karpathy/status/1980397031542989305 · Themes: research-and-training · Status: current
+
+# Pixels may be better LLM inputs than text tokens
+
+Prompted by the DeepSeek-OCR paper, Karpathy asks whether text tokens are a poor input. Perhaps every input should be an image, even pure text, which you would render first. He lists four gains: more compression and so shorter contexts; a richer stream that carries bold text, colour and pictures; bidirectional attention by default; and no tokenizer at the input. He dislikes the tokenizer: it brings Unicode and byte-encoding baggage and jailbreak risks, and it gives two look-alike characters different tokens. Using raw bytes does not fix it, since byte encoding is still arbitrary. The output side stays text. In a reply he says nothing in principle stops text from using bidirectional attention; text is just trained left to right for efficiency.
+
+## In his words
+
+> "The tokenizer must go."
+> — Andrej Karpathy, 2025-10-20
+
+## Context
+
+- Post of 2025-10-20 and replies on 2025-10-21. He said he held back from building an image-only nanochat.
+- Related: [Text chat is the terminal era](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-03-31-text-chat-is-the-terminal-era.md).
+- First raised on [2025-07-11](https://x.com/karpathy/status/1943743424311832676): in a reply he wondered whether a VAE over image patches is the ultimate tokenizer, since Unicode plus UTF-8 takes too long to describe.
+
+---
+
+Date: 2025-10-20 · Kind: view · Source: https://x.com/karpathy/status/1980347971935068380 · Themes: research-and-training · Status: current
+
+# Text diffusion is a bidirectional transformer that re-masks a token canvas
+
+Karpathy points to a short post that shows how simple discrete text diffusion can be. Image and video models mostly use diffusion, while text models mostly use autoregression. Without the formalism, diffusion is an ordinary transformer with bidirectional attention. It repeatedly re-samples and re-masks all tokens of a "canvas" on a noise schedule until the last step. In code terms, autoregression appends one token and looks only backwards. Diffusion sets any position in the canvas and looks both ways. Bidirectional attention is stronger, but it makes training costlier because you cannot parallelise over the sequence. He thinks the two may blend, and calls this part of the stack still fungible.
+
+## Context
+
+- Post of 2025-10-20. A later reply describes a small character-level text diffusion model as text "boiling" down to a simmer.
+- Related: [Pixels may be better LLM inputs than text tokens](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-10-20-pixels-may-be-better-llm-inputs-than-text.md).
+- First raised on [2025-02-27](https://x.com/karpathy/status/1894923254864978091): he called Mercury the first large diffusion LLM. Most LLMs are autoregressive and alike, so a diffusion model may have new strengths and weaknesses. He found it a puzzle that images and video use diffusion while text does not.
 
 ---
 
@@ -3645,25 +3697,6 @@ such case, so its full transcript is worth reading even when the pass rate looks
 
 ---
 
-Date: 2025-07-11 · Kind: view · Source: https://x.com/karpathy/status/1980397031542989305 · Themes: research-and-training · Status: current
-
-# Pixels may be better LLM inputs than text tokens
-
-Prompted by the DeepSeek-OCR paper, Karpathy asks whether text tokens are a poor input. Perhaps every input should be an image, even pure text, which you would render first. He lists four gains: more compression and so shorter contexts; a richer stream that carries bold text, colour and pictures; bidirectional attention by default; and no tokenizer at the input. He dislikes the tokenizer: it brings Unicode and byte-encoding baggage and jailbreak risks, and it gives two look-alike characters different tokens. Using raw bytes does not fix it, since byte encoding is still arbitrary. The output side stays text. In a reply he says nothing in principle stops text from using bidirectional attention; text is just trained left to right for efficiency.
-
-## In his words
-
-> "The tokenizer must go."
-> — Andrej Karpathy, 2025-10-20
-
-## Context
-
-- Post of 2025-10-20 and replies on 2025-10-21. He said he held back from building an image-only nanochat.
-- Related: [Text chat is the terminal era](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-03-31-text-chat-is-the-terminal-era.md).
-- First raised on [2025-07-11](https://x.com/karpathy/status/1943743424311832676): in a reply he wondered whether a VAE over image patches is the ultimate tokenizer, since Unicode plus UTF-8 takes too long to describe.
-
----
-
 Date: 2025-07-10 · Kind: practice · Source: https://x.com/karpathy/status/1943345514239717873 · Themes: output-and-reading, ai-progress · Status: current
 
 # Write new knowledge for AI readers, not as a PDF
@@ -4253,6 +4286,50 @@ He called it a major mistake of his undergraduate years that he leaned too far o
 
 ---
 
+Date: 2025-04-30 · Kind: practice · Source: https://x.com/karpathy/status/1917546757929722115 · Themes: verification, ai-progress · Status: current
+
+# Leaderboards get gamed; watch real usage
+
+After a paper on the LMArena leaderboard, he said his own experience matched its doubts. A Gemini model once ranked far ahead of the rest, but it was worse in daily use. Claude 3.5 felt top tier to him yet ranked low. Several small models with little real knowledge ranked high. His reading: some labs focus on arena score, so they build better arena models, not better models. He suspected such models favour nested lists, bullets and emoji. As a new candidate for a hard-to-game eval he named the OpenRouter rankings. People there switch models for real work, with private evals and a real cost, so each choice is a vote. In a reply he said he used a word-of-mouth blend of many small private evals.
+
+## Apply
+
+- Do not choose a model from one public leaderboard. Test it on a few tasks of your own for several days.
+- Keep a small private eval set from your real work and re-run it on each new model.
+- Check usage-based rankings, such as the share of traffic a model gets, as a second signal.
+
+## Context
+
+- April 2025. Related: [go talk to the model: private evals](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-11-18-go-talk-to-the-model-private-evals.md) and [all LLMs sound the same](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2024-10-06-all-llms-sound-the-same.md).
+- In a reply of 2025-04-08 he called the pull toward arena style a "taste issue", like superhero films taking over Hollywood.
+- First raised on [2025-03-02](https://x.com/karpathy/status/1896266683301659068): he said Chatbot Arena got so much attention, partly through him, that labs overfit to it by mining its prompts, sending many private test runs and training on its rankings. His answer then was an ensemble of private evals.
+
+---
+
+Date: 2025-04-27 · Kind: view · Source: https://x.com/karpathy/status/1916470365460512898 · Themes: llm-psychology · Status: current
+
+# Tic-tac-toe is harder for LLMs than it looks
+
+Someone asked why models cannot play Pokémon well. He answered that they cannot even play tic-tac-toe, so something deeper is going on. In a follow-up he said the game is secretly hard for a text model. There are eight lines to check, and each check is a tricky indexing step. To play well you must also roll the game forward a few moves. Humans find it easy because they see the board and use the paper to keep track. A text-only 1D version is much harder, since you must do it all in your head.
+
+## In his words
+
+> "tic tac toe is secretly relatively hard"
+> — Andrej Karpathy, 2025-04-27
+
+## Apply
+
+- When a model fails a task that looks trivial, ask what tool a human uses for it (sight, paper, a board). Give the model an equivalent: a rendered board, a scratchpad, or code.
+
+## Context
+
+- April 2025. He asked the author of a tic-tac-toe benchmark to re-run it.
+- Related: [jagged intelligence follows verifiability](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-20-jagged-intelligence-follows-verifiability.md).
+- First raised on [2025-02-16](https://x.com/karpathy/status/1891204392277151749): he called tic-tac-toe the most interesting failure among games.
+- In his Grok 3 test of 2025-02-18, the model solved the boards he gave it but failed when asked to invent tricky boards, and so did o1-pro.
+
+---
+
 Date: 2025-04-27 · Kind: practice · Source: https://karpathy.bearblog.dev/vibe-coding-menugen/ · Themes: agentic-coding · Status: current
 
 # Vibe coding a real app is easy locally and hard to ship
@@ -4363,25 +4440,6 @@ artifact in the middle, such as a course syllabus, so the AI stays inside it.
   [the junior intern test](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2024-12-14-would-you-hire-it-as-a-junior-intern.md).
 - In April 2025 he discussed names for this mode, such as "AI-assisted coding", and agreed that "coding" now assumes AI help by default, so the old way becomes "handcoding".
 - His June 2025 view on why checking is the slow step: [Verification, not generation, is the bottleneck](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-06-04-verification-not-generation-is-the-bottleneck.md).
-
----
-
-Date: 2025-04-19 · Kind: view · Source: https://x.com/karpathy/status/1980672126131794063 · Themes: ai-progress · Status: current
-
-# AGI means a feature-complete remote worker; society-wide deployment is ASI
-
-In replies of October 2025, Karpathy states the definition he has kept. AGI is an automated system that can do any economically valuable work a human can, with the "digital concession" that physical work is left out. It is a remote worker you hire instead of a person, reached by email, chat or video calls. He compares it to a build with all features and many 9s, like current self-driving. That such a system exists is different from its use across society, which takes longer (compute limits, sensors and actuators, law). Full deployment into the economy he would call ASI. He does not rate AGI by puzzle benchmarks. His 10-year estimate is a vibe; at OpenAI in 2015 he voted for 20 years.
-
-## In his words
-
-> "when you're fired because GPT-n is better, cheaper, takes no equity and works weekends"
-> — Andrej Karpathy, 2025-10-21
-
-## Context
-
-- A thread of replies on 2025-10-21 and 2025-11-03. The quote defines AGI, as opposed to a score.
-- Related: [AI will blend into the same 2% growth curve](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-10-17-agi-blends-into-gdp-growth.md) and [This is the decade of agents, not the year of agents](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-10-17-decade-of-agents-not-year.md).
-- First raised on [2025-04-19](https://x.com/karpathy/status/1913741942221144430): he said he sticks with the original OpenAI definition of AGI, at a time when his feed was full of LLMs solving prompt puzzles and of excited talk about AGI.
 
 ---
 
@@ -4650,26 +4708,6 @@ CLI let Claude build a terminal dashboard in about three minutes.
 
 ---
 
-Date: 2025-03-02 · Kind: practice · Source: https://x.com/karpathy/status/1917546757929722115 · Themes: verification, ai-progress · Status: current
-
-# Leaderboards get gamed; watch real usage
-
-After a paper on the LMArena leaderboard, he said his own experience matched its doubts. A Gemini model once ranked far ahead of the rest, but it was worse in daily use. Claude 3.5 felt top tier to him yet ranked low. Several small models with little real knowledge ranked high. His reading: some labs focus on arena score, so they build better arena models, not better models. He suspected such models favour nested lists, bullets and emoji. As a new candidate for a hard-to-game eval he named the OpenRouter rankings. People there switch models for real work, with private evals and a real cost, so each choice is a vote. In a reply he said he used a word-of-mouth blend of many small private evals.
-
-## Apply
-
-- Do not choose a model from one public leaderboard. Test it on a few tasks of your own for several days.
-- Keep a small private eval set from your real work and re-run it on each new model.
-- Check usage-based rankings, such as the share of traffic a model gets, as a second signal.
-
-## Context
-
-- April 2025. Related: [go talk to the model: private evals](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-11-18-go-talk-to-the-model-private-evals.md) and [all LLMs sound the same](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2024-10-06-all-llms-sound-the-same.md).
-- In a reply of 2025-04-08 he called the pull toward arena style a "taste issue", like superhero films taking over Hollywood.
-- First raised on [2025-03-02](https://x.com/karpathy/status/1896266683301659068): he said Chatbot Arena got so much attention, partly through him, that labs overfit to it by mining its prompts, sending many private test runs and training on its rankings. His answer then was an ensemble of private evals.
-
----
-
 Date: 2025-02-27 · Kind: practice · Source: https://www.youtube.com/watch?v=EWvNQjAaOHw · Themes: output-and-reading, learning-and-education · Status: current
 
 # Ask the model for a conceptual diagram of what you read
@@ -4904,20 +4942,6 @@ the app for one person. He adds that he is not a daily user of this and uses it 
 
 ---
 
-Date: 2025-02-27 · Kind: view · Source: https://x.com/karpathy/status/1980347971935068380 · Themes: research-and-training · Status: current
-
-# Text diffusion is a bidirectional transformer that re-masks a token canvas
-
-Karpathy points to a short post that shows how simple discrete text diffusion can be. Image and video models mostly use diffusion, while text models mostly use autoregression. Without the formalism, diffusion is an ordinary transformer with bidirectional attention. It repeatedly re-samples and re-masks all tokens of a "canvas" on a noise schedule until the last step. In code terms, autoregression appends one token and looks only backwards. Diffusion sets any position in the canvas and looks both ways. Bidirectional attention is stronger, but it makes training costlier because you cannot parallelise over the sequence. He thinks the two may blend, and calls this part of the stack still fungible.
-
-## Context
-
-- Post of 2025-10-20. A later reply describes a small character-level text diffusion model as text "boiling" down to a simmer.
-- Related: [Pixels may be better LLM inputs than text tokens](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-07-11-pixels-may-be-better-llm-inputs-than-text.md).
-- First raised on [2025-02-27](https://x.com/karpathy/status/1894923254864978091): he called Mercury the first large diffusion LLM. Most LLMs are autoregressive and alike, so a diffusion model may have new strengths and weaknesses. He found it a puzzle that images and video use diffusion while text does not.
-
----
-
 Date: 2025-02-24 · Kind: view · Source: https://x.com/karpathy/status/1894099637218545984 · Themes: learning-and-education, ai-progress · Status: current
 
 # Agency matters more than intelligence, and is scarcer
@@ -4973,40 +4997,16 @@ of tasks will take longer, a Moravec's paradox effect. He called the "last exam"
 
 ---
 
-Date: 2025-02-16 · Kind: view · Source: https://x.com/karpathy/status/1916470365460512898 · Themes: llm-psychology · Status: current
-
-# Tic-tac-toe is harder for LLMs than it looks
-
-Someone asked why models cannot play Pokémon well. He answered that they cannot even play tic-tac-toe, so something deeper is going on. In a follow-up he said the game is secretly hard for a text model. There are eight lines to check, and each check is a tricky indexing step. To play well you must also roll the game forward a few moves. Humans find it easy because they see the board and use the paper to keep track. A text-only 1D version is much harder, since you must do it all in your head.
-
-## In his words
-
-> "tic tac toe is secretly relatively hard"
-> — Andrej Karpathy, 2025-04-27
-
-## Apply
-
-- When a model fails a task that looks trivial, ask what tool a human uses for it (sight, paper, a board). Give the model an equivalent: a rendered board, a scratchpad, or code.
-
-## Context
-
-- April 2025. He asked the author of a tic-tac-toe benchmark to re-run it.
-- Related: [jagged intelligence follows verifiability](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-20-jagged-intelligence-follows-verifiability.md).
-- First raised on [2025-02-16](https://x.com/karpathy/status/1891204392277151749): he called tic-tac-toe the most interesting failure among games.
-- In his Grok 3 test of 2025-02-18, the model solved the boards he gave it but failed when asked to invent tricky boards, and so did o1-pro.
-
----
-
-Date: 2025-02-14 · Kind: practice · Source: https://x.com/karpathy/status/1954227464596832670 · Themes: context-and-prompting, agentic-coding · Status: current
+Date: 2025-02-14 · Kind: practice · Source: https://x.com/karpathy/status/1890208670732124372 · Themes: context-and-prompting, agentic-coding · Status: current
 
 # Pack your project into one prompt for a quick, scoped question
 
-When agents search the whole repo and think for minutes, Karpathy sometimes skips them. He runs a
-script that packs all project files into one text with the tool `files-to-prompt`. He opens a new
-chat, pastes the text, asks one question at the end, and chooses the model by hand. This works
-because his project is small enough to fit in the context. A later reply jokes about the same
-style: a mini model plus parallel subagents, with the codebase loaded through gitingest and low
-reasoning effort.
+In February 2025 Karpathy asked more apps to offer an "Export for prompt" button, after a trick
+that turns a GitHub repo URL into a gitingest URL to get the whole repo as one text. In August he
+described his own routine. When agents search the whole repo and think for minutes, he sometimes
+skips them. He runs a script that packs all project files into one text with the tool
+`files-to-prompt`. He opens a new chat, pastes the text, asks one question at the end, and chooses
+the model by hand. This works because his project is small enough to fit in the context.
 
 ## Apply
 
@@ -5017,10 +5017,10 @@ reasoning effort.
 
 ## Context
 
-- Reply of 2025-08-09, in a thread about agents that are too eager. Works only for repos that fit
-  the context window.
+- Quote post of 2025-02-14 about gitingest, then a
+  [reply of 2025-08-09](https://x.com/karpathy/status/1954227464596832670) in a thread about agents
+  that are too eager. Works only for repos that fit the context window.
 - Related: [Models are too agentic: state the stakes and scope](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-08-09-models-too-agentic-state-stakes-and-scope.md).
-- First raised on [2025-02-14](https://x.com/karpathy/status/1890208670732124372): he asked more apps to offer an "Export for prompt" button, after a trick that turns a GitHub repo URL into a gitingest URL to get the whole repo as one text.
 - His later tool for the same job: [Flatten a repository into one page for humans and LLMs](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-08-20-render-repo-for-humans-and-llms.md).
 
 ---

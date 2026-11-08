@@ -1,6 +1,6 @@
 ---
 title: Tic-tac-toe is harder for LLMs than it looks
-date: 2025-02-16
+date: 2025-04-27
 source: x
 url: https://x.com/karpathy/status/1916470365460512898
 also: [https://x.com/karpathy/status/1916495940049047819, https://x.com/karpathy/status/1891204392277151749, https://x.com/karpathy/status/1891555738394279976, https://x.com/karpathy/status/1891720635363254772]

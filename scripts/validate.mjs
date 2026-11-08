@@ -20,6 +20,12 @@ for (const { file, meta, body, error } of ideas) {
 
   if (!SOURCES.includes(meta.source)) err(file, `source must be one of ${SOURCES.join(', ')}`);
   if (!/^https:\/\/\S+$/.test(meta.url || '')) err(file, 'url must be an https URL');
+  // An X status id encodes its UTC time: the url's post must be from `date`, within one day (time zones).
+  const xid = meta.source === 'x' && /\/status\/(\d+)/.exec(meta.url || '')?.[1];
+  if (xid && !isNaN(Date.parse(meta.date))) {
+    const day = new Date(Number((BigInt(xid) >> 22n) + 1288834974657n)).toISOString().slice(0, 10);
+    if (Math.abs(Date.parse(day) - Date.parse(meta.date)) > 86400000) err(file, `url post is from ${day}, not ${meta.date}`);
+  }
   if (!Array.isArray(meta.also)) err(file, 'also must be a list, e.g. []');
   else for (const u of meta.also) if (!/^https:\/\/\S+$/.test(u)) err(file, `also: bad URL ${u}`);
 
