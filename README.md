@@ -43,7 +43,7 @@ Example: [Give agents success criteria, not steps](ideas/2026-01-26-success-crit
 
 ## Browse
 
-- [checklist.md](checklist.md): 16 questions to ask about your project, each linked to the ideas behind it.
+- [checklist.md](checklist.md): 17 questions to ask about your project, each linked to the ideas behind it.
 - [index.md](index.md): every idea, newest first, with a one-line summary.
 - [themes/](themes/): ideas grouped by topic, for example
   [agentic-coding](themes/agentic-coding.md), [verification](themes/verification.md) and

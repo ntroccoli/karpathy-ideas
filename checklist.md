@@ -50,13 +50,26 @@ ours, not Karpathy's. How to run the checklist is at the end.
 5. **Does a human still review and understand the code?**
    Check: diffs are reviewed for wrong assumptions, bloat and unrelated edits.
    Ideas: [subtle conceptual mistakes](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-01-26-coding-agents-make-subtle-conceptual-mistakes.md),
-   [understanding is the bottleneck](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-31-understanding-is-the-bottleneck.md).
+   [understanding is the bottleneck](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-31-understanding-is-the-bottleneck.md),
+   [verification, not generation, is the bottleneck](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-06-04-verification-not-generation-is-the-bottleneck.md).
 6. **Are dependencies few and pinned?**
-   Check: count dependencies; let an agent write small functions instead of adding packages.
-   Idea: [rethink dependencies](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-24-rethink-dependencies-supply-chain.md).
+   Check: count dependencies (lockfile lines are a quick count); let an agent write small
+   functions instead of adding packages.
+   Ideas: [rethink dependencies](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-24-rethink-dependencies-supply-chain.md),
+   [count dependencies with the lockfile](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-10-14-count-dependencies-with-the-lockfile.md).
 7. **Are big decisions tested against the other side?**
    Check: before committing to a design, ask a model to argue the opposite.
    Idea: [argue the opposite](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-28-ask-llm-to-argue-the-opposite.md).
+8. **What may agents run and read?**
+   Check: list each agent's tools and permissions. Where one agent has private data, untrusted
+   content and a way to send data out, remove one of the three; give it specific, limited tools
+   instead of unrestricted shell access
+   ([agent security](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-06-16-agent-security-is-the-wild-west.md)). Treat text from
+   outside your control as untrusted, and strip or flag invisible code points such as variation
+   selectors before it reaches a model
+   ([invisible Unicode](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-02-12-invisible-unicode-can-hide-prompts.md)). Read the delete
+   commands agents run: odd names in single quotes, never `rm -rf` on a bare `~`
+   ([quote rm paths](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-08-31-quote-paths-and-check-agent-rm-commands.md)).
 
 ## C. The product
 

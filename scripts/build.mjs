@@ -100,7 +100,7 @@ out['llms.txt'] = [
   '',
   '## Applying the ideas to a project',
   '',
-  `To review a whole project, use the [project checklist](${RAW_BASE}/checklist.md), not the themes: 16 questions about agent setup and token use, how the project is built, and the product. Measure each question first (where it says "Check"), then open only the linked ideas that point to a gap.`,
+  `To review a whole project, use the [project checklist](${RAW_BASE}/checklist.md), not the themes: 17 questions about agent setup and token use, how the project is built, and the product. Measure each question first (where it says "Check"), then open only the linked ideas that point to a gap.`,
   '',
   '## For a single task: how to read this cheaply',
   '',
