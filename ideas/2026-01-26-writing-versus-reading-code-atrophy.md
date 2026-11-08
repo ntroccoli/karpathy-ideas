@@ -9,6 +9,7 @@ summary: Agents weaken manual code writing, but review skill survives; the risk 
 status: current
 superseded_by:
 anthropic: false
+kind: view
 ---
 
 # Writing code can atrophy while reading code stays strong

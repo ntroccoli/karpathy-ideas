@@ -9,6 +9,7 @@ summary: Karpathy endorses an essay that names cognitive load as the most true a
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Cognitive load is what matters in software engineering

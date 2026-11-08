@@ -9,6 +9,7 @@ summary: A pipeline pulls the Hacker News front page from ten years ago, has an 
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Use an LLM to grade past predictions with hindsight

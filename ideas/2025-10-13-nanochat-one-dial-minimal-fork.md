@@ -9,6 +9,7 @@ summary: nanochat avoids configuration frameworks; one integer (depth) sets all 
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Keep the codebase minimal and forkable, with one dial

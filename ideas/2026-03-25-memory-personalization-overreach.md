@@ -9,6 +9,7 @@ summary: Memory features treat one old question as a lasting interest; models ov
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # LLM memory over-uses old facts about you

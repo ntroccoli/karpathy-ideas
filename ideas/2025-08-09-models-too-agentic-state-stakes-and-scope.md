@@ -9,6 +9,7 @@ summary: Tuned models over-think simple questions and search the whole repo, so 
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Models are too agentic by default, so state stakes and scope

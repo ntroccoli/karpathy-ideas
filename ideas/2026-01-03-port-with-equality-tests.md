@@ -9,6 +9,7 @@ summary: Write the reference in a language you master, let LLMs write the port i
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Port to an unfamiliar language by testing against your own reference

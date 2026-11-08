@@ -9,6 +9,7 @@ summary: A year after vibe coding, professionals orchestrate agents with oversig
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Agentic engineering is the professional form of vibe coding

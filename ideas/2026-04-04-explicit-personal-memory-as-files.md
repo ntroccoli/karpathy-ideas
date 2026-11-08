@@ -9,6 +9,7 @@ summary: A wiki of plain files that an LLM builds about you beats hidden provide
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Personal AI memory should be plain files you own

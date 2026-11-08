@@ -9,6 +9,7 @@ summary: Like computers and phones, AI will diffuse slowly and not show as a jum
 status: current
 superseded_by:
 anthropic: false
+kind: view
 ---
 
 # AI will blend into the same 2% growth curve
@@ -20,12 +21,6 @@ expects no sudden change, no single dramatic arrival. The model will do some tas
 society step by step. Recursive self-improvement is also old: search engines, IDEs and autocomplete
 already help build the next tools. Dwarkesh argues for a jump, as with the Industrial Revolution;
 Karpathy says that needs a discrete event he cannot find in the statistics.
-
-## Apply
-
-- When you plan for AI, use a gradual adoption model: some tasks first, many human checks left.
-- Judge claims of sudden change by asking what has to be adopted, and by whom.
-- Track real usage in your own work, not forecasts.
 
 ## Context
 

@@ -9,6 +9,7 @@ summary: Agents write rich documents and Jupyter notebooks when asked; previewin
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Ask agents for long documents and notebooks, and read them in the IDE

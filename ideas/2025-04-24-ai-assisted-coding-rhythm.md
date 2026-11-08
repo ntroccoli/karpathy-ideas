@@ -9,6 +9,7 @@ summary: Review is the bottleneck, so work in small, specific steps: give contex
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Keep the AI on a tight leash for code you care about

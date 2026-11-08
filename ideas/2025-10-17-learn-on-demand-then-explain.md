@@ -9,6 +9,7 @@ summary: Alternate project-driven learning with broad study, and re-explain what
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Learn on demand through projects, then explain it to others

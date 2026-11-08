@@ -9,6 +9,7 @@ summary: Search and a code interpreter fix recent facts and hard arithmetic; mod
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Check which tools the model has before you trust its answer

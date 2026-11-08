@@ -9,6 +9,7 @@ summary: In October 2025 he found agents good for boilerplate and tested ports b
 status: superseded
 superseded_by: 2026-01-26-programming-in-english-december-shift.md
 anthropic: false
+kind: practice
 ---
 
 # Coding agents are weak on novel code

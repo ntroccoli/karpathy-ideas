@@ -8,13 +8,16 @@ Success criteria, tests, verifiability, eval loops, autoresearch.
 
 *(Anthropic period)*: dated 2026-05-19 or later, after he [joined Anthropic](https://x.com/karpathy/status/2056753169888334312), and about Claude or Anthropic. Weigh these with that in mind.
 
+## Practices
+
+Ways of working you can apply. 24, newest first.
+
 - 2026-10-02 · [Test a model by asking if coordinates are land or water](../ideas/2026-10-02-land-or-water-eval.md) — Ask a model many times whether a latitude and longitude is land or water and plot the answers, and it draws the world from text alone. *(Anthropic period)*
 - 2026-08-02 · [Models cannot yet check their own work in video and games](../ideas/2026-08-02-models-cannot-audit-video-and-games.md) — Worlds and games expose a gap: models cannot watch video or play a game natively, so they audit their output slowly through screenshots. *(Anthropic period)*
 - 2026-04-30 · [Find valuable domains that are verifiable and undertrained](../ideas/2026-04-30-find-valuable-verifiable-environments.md) — Founders can win by building an environment where models try actions and get reliable rewards in a valuable field the big labs have not targeted.
 - 2026-03-20 · [Jagged intelligence follows verifiability and training focus](../ideas/2026-03-20-jagged-intelligence-follows-verifiability.md) — Models are sharp where rewards are checkable and where labs put training effort, and dull elsewhere; check that your task is on the model's rails.
 - 2026-03-20 · [Open agent swarms fit work that is costly to find and cheap to verify](../ideas/2026-03-20-untrusted-workers-cheap-to-verify.md) — Untrusted agents on the internet can search for better code; a trusted pool checks each candidate, as in folding at home.
 - 2026-03-09 · [Any metric that is cheap to evaluate can be autoresearched](../ideas/2026-03-09-autoresearch-gains-transfer.md) — An agent found about 20 additive tuning gains in two days that transferred to a bigger model; any cheap-to-check metric can use the same loop.
-- 2026-03-08 · [Autoresearch is not hyperparameter tuning](../ideas/2026-03-08-autoresearch-is-not-hyperparameter-tuning.md) — An agent can change any code, search serially instead of in sweeps and run with no human, and it found real architecture changes.
 - 2026-03-07 · [Autoresearch: the agent edits the code, the human edits the prompt](../ideas/2026-03-07-autoresearch-loop.md) — An agent loops on a training script against a fixed 5-minute run and a loss number, while the human only tunes the prompt file.
 - 2026-03-06 · [Write the agent's operating rules as a program.md skill](../ideas/2026-03-06-program-md-is-the-research-org.md) — The autoresearch program.md shows how to brief a long-running agent: fixed scope, read-only judge, ledger, simplicity rule, crash policy.
 - 2026-02-27 · [You now program an organisation of agents](../ideas/2026-02-27-programming-an-agent-research-org.md) — An agent research org is its prompts, skills, tools and routines, kept as markdown you can version, compare and tune; its own research ideas are still weak.
@@ -31,6 +34,12 @@ Success criteria, tests, verifiability, eval loops, autoresearch.
 - 2025-06-17 · [A demo is the first nine; each next nine costs the same work](../ideas/2025-06-17-demo-to-product-gap-march-of-nines.md) — A system that works 90% of the time is a demo; reaching 99.999% takes years, so be sceptical of demos and agent timelines.
 - 2025-02-27 · [Treat LLM output as a first draft and check the sources](../ideas/2025-02-27-llm-output-is-a-first-draft.md) — Even with search or deep research, answers can be wrong; use citations, primary sources and a read of the generated code.
 - 2024-12-14 · [Judge an agent as you would a junior intern](../ideas/2024-12-14-would-you-hire-it-as-a-junior-intern.md) — Judge agents by whether they can take an onboarding brief and finish a week-sized task, not by PhD-level puzzles.
-- 2024-11-10 · [Hard closed problems are easy; long autonomous jobs are hard](../ideas/2024-11-10-llms-solve-hard-prompts-but-fail-long-jobs.md) — LLMs solve hard problems served neatly in a prompt but struggle with long, coherent, autonomous work, and we need evals for that.
 - 2024-08-07 · [An LLM judge gets gamed when you optimise against it](../ideas/2024-08-07-rlhf-is-just-barely-rl.md) — RLHF and LLM-graded RL optimise against a judge network, and the optimiser soon finds nonsense the judge scores highly; real RL needs rewards hard to game.
 - 2023-12-08 · [Hallucination is the LLM's main feature, so the system must check it](../ideas/2023-12-08-hallucination-is-the-llms-feature.md) — An LLM is a dream machine steered by prompts, so the system around it must check its output with search, tools and verification.
+
+## Views
+
+How he sees the field: context, not steps. 2, newest first.
+
+- 2026-03-08 · [Autoresearch is not hyperparameter tuning](../ideas/2026-03-08-autoresearch-is-not-hyperparameter-tuning.md) — An agent can change any code, search serially instead of in sweeps and run with no human, and it found real architecture changes. *(view)*
+- 2024-11-10 · [Hard closed problems are easy; long autonomous jobs are hard](../ideas/2024-11-10-llms-solve-hard-prompts-but-fail-long-jobs.md) — LLMs solve hard problems served neatly in a prompt but struggle with long, coherent, autonomous work, and we need evals for that. *(view)*

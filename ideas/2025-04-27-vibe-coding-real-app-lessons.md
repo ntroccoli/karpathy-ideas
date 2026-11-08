@@ -9,6 +9,7 @@ summary: A local prototype appears in minutes; real deployment hits stale model 
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Vibe coding a real app is easy locally and hard to ship

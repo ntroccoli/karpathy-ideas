@@ -9,6 +9,7 @@ summary: Old context distracts the model and costs more per token, so reset when
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Start a new chat when the topic changes

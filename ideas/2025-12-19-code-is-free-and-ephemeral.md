@@ -9,6 +9,7 @@ summary: Models build programs from English, so software becomes custom and ofte
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Code is now free, custom and disposable

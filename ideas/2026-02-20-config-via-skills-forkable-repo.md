@@ -9,6 +9,7 @@ summary: Instead of config files and if-else branches, ship skills that tell an 
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Configure software with skills, and build the most forkable repo

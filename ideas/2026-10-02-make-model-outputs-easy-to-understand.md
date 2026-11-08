@@ -9,6 +9,7 @@ summary: To follow what LLMs produce, ask for controlled English, then diagrams,
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Make model output easier to understand, from STE to video

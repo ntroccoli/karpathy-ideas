@@ -9,6 +9,7 @@ summary: LLMs solve hard problems served neatly in a prompt but struggle with lo
 status: current
 superseded_by:
 anthropic: false
+kind: view
 ---
 
 # Hard closed problems are easy; long autonomous jobs are hard

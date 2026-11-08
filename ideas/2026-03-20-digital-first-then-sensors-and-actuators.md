@@ -9,6 +9,7 @@ summary: Bits move far faster than atoms; the next opportunity is the interface 
 status: current
 superseded_by:
 anthropic: false
+kind: view
 ---
 
 # Digital work changes first, then the sensors and actuators, then atoms

@@ -9,6 +9,7 @@ summary: With DeepWiki MCP and the GitHub CLI, an agent can extract one feature 
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Point an agent at a library and rip out only the part you need

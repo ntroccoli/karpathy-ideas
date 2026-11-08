@@ -9,6 +9,7 @@ summary: Worlds and games expose a gap: models cannot watch video or play a game
 status: current
 superseded_by:
 anthropic: true
+kind: practice
 ---
 
 # Models cannot yet check their own work in video and games

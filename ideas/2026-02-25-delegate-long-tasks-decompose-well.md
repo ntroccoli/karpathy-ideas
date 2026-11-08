@@ -9,6 +9,7 @@ summary: Coding agents now run 30-minute tasks alone; gains come from clear spec
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Delegate long tasks to agents and make work legible to them

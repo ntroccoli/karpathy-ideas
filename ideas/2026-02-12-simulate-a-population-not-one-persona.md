@@ -9,6 +9,7 @@ summary: A base model is trained on many kinds of people, so it can simulate a p
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # A pretrained LLM can simulate a population, not one persona

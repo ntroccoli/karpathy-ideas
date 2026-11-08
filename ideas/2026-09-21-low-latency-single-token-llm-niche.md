@@ -9,6 +9,7 @@ summary: A zero-shot classifier with frontier-level knowledge is a point on the 
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Fast, no-thinking LLMs fill an under-served niche

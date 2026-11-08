@@ -6,6 +6,10 @@ Supply chain, sandboxing, dependency hygiene.
 
 5 ideas, newest first.
 
+## Practices
+
+Ways of working you can apply. 5, newest first.
+
 - 2026-03-24 · [Rethink dependencies after supply chain attacks](../ideas/2026-03-24-rethink-dependencies-supply-chain.md) — After the litellm and axios attacks, he prefers fewer dependencies, uses LLMs to write simple functions himself, and wants safer package manager defaults.
 - 2026-02-20 · [Claws are a new layer on top of LLM agents](../ideas/2026-02-20-claws-new-layer-of-the-stack.md) — Claws add orchestration, scheduling and persistence above agents; prefer small auditable ones in containers over a large vibe-coded one.
 - 2026-02-11 · [Point an agent at a library and rip out only the part you need](../ideas/2026-02-11-rip-out-functionality-with-agents.md) — With DeepWiki MCP and the GitHub CLI, an agent can extract one feature from a big library, so you can drop the dependency.

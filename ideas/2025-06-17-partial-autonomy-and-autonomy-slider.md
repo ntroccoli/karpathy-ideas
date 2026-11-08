@@ -9,6 +9,7 @@ summary: Good LLM apps manage context, chain model calls, give a GUI for fast ch
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Build partial-autonomy apps with an autonomy slider

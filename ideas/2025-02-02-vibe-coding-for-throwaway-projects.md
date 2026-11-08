@@ -9,6 +9,7 @@ summary: Vibe coding means accepting all AI edits without reading them, which Ka
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Vibe coding is fine for throwaway projects

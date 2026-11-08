@@ -9,6 +9,7 @@ summary: He expects fewer people to understand systems built by AI, and many com
 status: current
 superseded_by:
 anthropic: false
+kind: view
 ---
 
 # The likely risk is a gradual loss of control and understanding

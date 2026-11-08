@@ -9,6 +9,7 @@ summary: Once intelligence is cheap, anyone can scrutinise old public records in
 status: current
 superseded_by:
 anthropic: false
+kind: view
 ---
 
 # Future LLMs will read everything we do today

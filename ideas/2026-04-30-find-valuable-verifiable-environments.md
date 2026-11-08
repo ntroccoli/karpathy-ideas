@@ -9,6 +9,7 @@ summary: Founders can win by building an environment where models try actions an
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Find valuable domains that are verifiable and undertrained

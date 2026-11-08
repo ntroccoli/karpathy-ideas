@@ -9,6 +9,7 @@ summary: The hard part of shipping an app is assembling services, not code; serv
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Make the whole DevOps lifecycle agent-native

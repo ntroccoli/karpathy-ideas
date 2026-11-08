@@ -9,6 +9,7 @@ summary: LLMs argue almost any side convincingly, so use them to test your opini
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Ask the LLM to argue the opposite side

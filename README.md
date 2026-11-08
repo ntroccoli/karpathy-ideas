@@ -32,7 +32,8 @@ Each idea file has:
 - the **date** and a **link** to the original source,
 - a **summary** in our own words,
 - at most **one short quote** (15 words or fewer),
-- **Apply** steps you can use today,
+- a **kind**: `practice` (a way of working) or `view` (his opinion or explanation),
+- **Apply** steps you can use today (every practice has them; a view only when they are concrete),
 - a **status**: `current`, or `superseded` with a link to his newer view.
 
 Example: [Give agents success criteria, not steps](ideas/2026-01-26-success-criteria-not-steps.md).

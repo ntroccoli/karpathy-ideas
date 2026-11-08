@@ -9,6 +9,7 @@ summary: Chat with a model is like typing at a 1980s console; people take in ima
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Text chat is the terminal era; ask for visual output

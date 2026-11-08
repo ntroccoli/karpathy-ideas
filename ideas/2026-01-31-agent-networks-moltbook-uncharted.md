@@ -9,6 +9,7 @@ summary: Moltbook is full of spam, scams and injection attacks, yet 150,000 capa
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Networks of agents are a mess today and a security risk at scale

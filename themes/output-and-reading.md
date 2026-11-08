@@ -6,6 +6,10 @@ Output formats, simplified English, HTML, diagrams, reading with LLMs.
 
 15 ideas, newest first.
 
+## Practices
+
+Ways of working you can apply. 15, newest first.
+
 - 2026-10-02 · [Make model output easier to understand, from STE to video](../ideas/2026-10-02-make-model-outputs-easy-to-understand.md) — To follow what LLMs produce, ask for controlled English, then diagrams, then HTML pages, then custom explainer videos, each easier to take in.
 - 2026-09-12 · [Show big codebases as spatial maps, not file lists](../ideas/2026-09-12-codebases-as-spatial-maps.md) — Large software is an invisible structure; code explorers could cluster modules in space and show public interfaces, private parts and live diffs.
 - 2026-04-02 · [Convert books and PDFs with an agent, in chunks](../ideas/2026-04-02-convert-documents-with-an-agent.md) — For good results with long documents, use EPUB over PDF, convert with an agent, and summarise chapter by chapter with book context.

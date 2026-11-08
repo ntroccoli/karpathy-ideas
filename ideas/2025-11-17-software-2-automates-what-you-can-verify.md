@@ -9,6 +9,7 @@ summary: Classic software automates what you can specify and trained models auto
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Software 2.0 automates what you can verify

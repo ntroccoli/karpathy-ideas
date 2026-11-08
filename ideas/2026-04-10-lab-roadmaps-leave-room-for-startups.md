@@ -9,6 +9,7 @@ summary: AI labs focus on a clear set of products; promising ideas they drop are
 status: current
 superseded_by:
 anthropic: false
+kind: view
 ---
 
 # Big labs' roadmaps are predictable, which leaves room for startups

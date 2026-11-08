@@ -9,6 +9,7 @@ summary: When one coding agent is stuck, a different, stronger model may solve t
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Get a second opinion from a stronger model on hard problems

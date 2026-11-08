@@ -9,6 +9,7 @@ summary: Replace the pelican-on-a-bicycle test with a large open task, where mod
 status: current
 superseded_by:
 anthropic: true
+kind: practice
 ---
 
 # Test frontier models with a large creative job

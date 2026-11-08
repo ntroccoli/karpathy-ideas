@@ -9,6 +9,7 @@ summary: Coding agents copy-paste, bloat abstractions and skip style rules; hook
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Agents bloat code and ignore style rules in AGENTS.md

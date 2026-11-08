@@ -9,6 +9,7 @@ summary: Measuring speedup misses the main effect: you do more, and you reach wo
 status: current
 superseded_by:
 anthropic: false
+kind: view
 ---
 
 # LLM help is less a speedup than an expansion

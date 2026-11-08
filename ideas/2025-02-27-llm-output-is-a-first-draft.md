@@ -9,6 +9,7 @@ summary: Even with search or deep research, answers can be wrong; use citations,
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Treat LLM output as a first draft and check the sources

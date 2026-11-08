@@ -9,6 +9,7 @@ summary: Many abstractions exist because people had limited attention; agents ca
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Agents make old software abstractions optional

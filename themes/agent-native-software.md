@@ -8,13 +8,15 @@ Software 3.0, LLM OS, CLIs and docs for agents, products.
 
 *(Anthropic period)*: dated 2026-05-19 or later, after he [joined Anthropic](https://x.com/karpathy/status/2056753169888334312), and about Claude or Anthropic. Weigh these with that in mind.
 
+## Practices
+
+Ways of working you can apply. 28, newest first.
+
 - 2026-11-01 · [Build a bespoke app in a weekend by only talking to Claude](../ideas/2026-11-01-hackertube-weekend-app.md) — Hand a data task to cheap models in bulk and let a strong model build and deploy the app, so only keys, domain and server stay manual. *(Anthropic period)*
 - 2026-10-02 · [Human work rises into oversight, helped by throwaway software](../ideas/2026-10-02-oversight-and-discardable-software.md) — As agents do more of the legwork, human work moves up to oversight and understanding, and large custom throwaway artifacts help with that.
 - 2026-09-21 · [Fast, no-thinking LLMs fill an under-served niche](../ideas/2026-09-21-low-latency-single-token-llm-niche.md) — A zero-shot classifier with frontier-level knowledge is a point on the LLM trade-off curve that the race for raw intelligence left empty.
 - 2026-08-02 · [Test frontier models with a large creative job](../ideas/2026-08-02-big-budget-creative-test-for-models.md) — Replace the pelican-on-a-bicycle test with a large open task, where models build custom worlds no person would make by hand. *(Anthropic period)*
-- 2026-06-23 · [The third LLM interface is a persistent teammate](../ideas/2026-06-23-claude-tag-third-llm-ux.md) — First the LLM was a website, then an app; the third form is a persistent, asynchronous teammate with org-wide tools and context. *(Anthropic period)*
 - 2026-04-30 · [Some apps should disappear into the model](../ideas/2026-04-30-some-apps-should-disappear.md) — A multimodal model can do in one step what MenuGen needed a full web stack for; much of an app is scaffolding around a transformation.
-- 2026-04-10 · [Big labs' roadmaps are predictable, which leaves room for startups](../ideas/2026-04-10-lab-roadmaps-leave-room-for-startups.md) — AI labs focus on a clear set of products; promising ideas they drop are a gap that a careful startup can fill.
 - 2026-04-04 · [Personal AI memory should be plain files you own](../ideas/2026-04-04-explicit-personal-memory-as-files.md) — A wiki of plain files that an LLM builds about you beats hidden provider memory: you can inspect it, own it, use any tools and any model.
 - 2026-04-04 · [Share an idea file, not code](../ideas/2026-04-04-idea-file-instead-of-code.md) — Publish a short abstract description of a pattern, meant to be pasted into the reader's own agent, which builds a version that fits their needs.
 - 2026-03-26 · [Make the whole DevOps lifecycle agent-native](../ideas/2026-03-26-devops-as-code-for-agents.md) — The hard part of shipping an app is assembling services, not code; services must offer APIs, CLIs and docs an agent can use without a human clicking.
@@ -29,11 +31,8 @@ Software 3.0, LLM OS, CLIs and docs for agents, products.
 - 2025-12-19 · [Run coding agents on the developer's own computer](../ideas/2025-12-19-agents-run-on-your-computer.md) — Local agents such as Claude Code beat cloud containers for now, because the booted machine with its data, config and low latency is what matters.
 - 2025-12-19 · [Code is now free, custom and disposable](../ideas/2025-12-19-code-is-free-and-ephemeral.md) — Models build programs from English, so software becomes custom and often single-use, and hunting for an app in a store becomes outdated.
 - 2025-11-18 · [Treat small apps as disposable; ask your LLM to change them](../ideas/2025-11-18-disposable-vibe-coded-apps.md) — He publishes vibe-coded apps unsupported, as inspiration, and tells readers to have their own LLM adapt them instead of waiting for maintainers.
-- 2025-10-17 · [Coding came first because it is text with diff tools](../ideas/2025-10-17-coding-first-text-and-diffs.md) — Code is plain text with editors and diffs already built, so agents fit it; slides and other visual work lack a way to show changes.
-- 2025-10-17 · [LLMs still lack culture and self-play](../ideas/2025-10-17-llms-lack-culture-and-self-play.md) — Two multi-agent ideas are unclaimed: models writing notes for other models, and models posing problems for each other to solve.
 - 2025-10-13 · [Keep the codebase minimal and forkable, with one dial](../ideas/2025-10-13-nanochat-one-dial-minimal-fork.md) — nanochat avoids configuration frameworks; one integer (depth) sets all other hyperparameters, and changes must work at every depth.
 - 2025-08-20 · [Flatten a repository into one page for humans and LLMs](../ideas/2025-08-20-render-repo-for-humans-and-llms.md) — rendergit turns a git repo into one static HTML page with a human view and an LLM view of the same code as plain text to paste into a model.
-- 2025-06-17 · [LLMs are like 1960s operating systems](../ideas/2025-06-17-llms-are-1960s-operating-systems.md) — The LLM is a new computer whose context is memory; it runs time-shared in the cloud, with text as its only interface for now.
 - 2025-06-17 · [Build partial-autonomy apps with an autonomy slider](../ideas/2025-06-17-partial-autonomy-and-autonomy-slider.md) — Good LLM apps manage context, chain model calls, give a GUI for fast checking and let the user set how much the AI does.
 - 2025-06-17 · [Software 3.0 means programming computers in English](../ideas/2025-06-17-software-3-0-english-as-programs.md) — Code is Software 1.0, trained weights are 2.0, and an LLM's context window is 3.0; learn all three and pick the right one per task.
 - 2025-06-04 · [Opaque, binary-format tools do not fit human and AI work](../ideas/2025-06-04-opaque-binary-uis-are-ngmi.md) — Tools with rich UIs, no scripting and binary formats are at risk, because an AI must be able to read and script the tools it works with.
@@ -41,4 +40,14 @@ Software 3.0, LLM OS, CLIs and docs for agents, products.
 - 2025-03-31 · [Text chat is the terminal era; ask for visual output](../ideas/2025-03-31-text-chat-is-the-terminal-era.md) — Chat with a model is like typing at a 1980s console; people take in images, layouts and HTML faster, so ask models to answer visually.
 - 2025-03-12 · [Build docs and tools for agents, which curl instead of click](../ideas/2025-03-12-write-docs-for-llms.md) — The main user of your product or docs is becoming an LLM agent, so ship markdown docs, a CLI or API, and skills, not only pages to click.
 - 2025-02-27 · [Ask the model to write a small app just for you](../ideas/2025-02-27-one-off-apps-on-demand.md) — Instead of finding an app, have the model write a tiny local one, such as a flashcard quiz, and run it in the chat.
-- 2023-09-28 · [The LLM OS, with the model as CPU and the agent as kernel](../ideas/2023-09-28-llm-as-operating-system-kernel.md) — Treat the LLM as the processor of a new operating system and the agent as its kernel, with context as RAM, files as disk and tools as peripherals.
+
+## Views
+
+How he sees the field: context, not steps. 6, newest first.
+
+- 2026-06-23 · [The third LLM interface is a persistent teammate](../ideas/2026-06-23-claude-tag-third-llm-ux.md) — First the LLM was a website, then an app; the third form is a persistent, asynchronous teammate with org-wide tools and context. *(view, Anthropic period)*
+- 2026-04-10 · [Big labs' roadmaps are predictable, which leaves room for startups](../ideas/2026-04-10-lab-roadmaps-leave-room-for-startups.md) — AI labs focus on a clear set of products; promising ideas they drop are a gap that a careful startup can fill. *(view)*
+- 2025-10-17 · [Coding came first because it is text with diff tools](../ideas/2025-10-17-coding-first-text-and-diffs.md) — Code is plain text with editors and diffs already built, so agents fit it; slides and other visual work lack a way to show changes. *(view)*
+- 2025-10-17 · [LLMs still lack culture and self-play](../ideas/2025-10-17-llms-lack-culture-and-self-play.md) — Two multi-agent ideas are unclaimed: models writing notes for other models, and models posing problems for each other to solve. *(view)*
+- 2025-06-17 · [LLMs are like 1960s operating systems](../ideas/2025-06-17-llms-are-1960s-operating-systems.md) — The LLM is a new computer whose context is memory; it runs time-shared in the cloud, with text as its only interface for now. *(view)*
+- 2023-09-28 · [The LLM OS, with the model as CPU and the agent as kernel](../ideas/2023-09-28-llm-as-operating-system-kernel.md) — Treat the LLM as the processor of a new operating system and the agent as its kernel, with context as RAM, files as disk and tools as peripherals. *(view)*

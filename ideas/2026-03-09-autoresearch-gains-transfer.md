@@ -9,6 +9,7 @@ summary: An agent found about 20 additive tuning gains in two days that transfer
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Any metric that is cheap to evaluate can be autoresearched

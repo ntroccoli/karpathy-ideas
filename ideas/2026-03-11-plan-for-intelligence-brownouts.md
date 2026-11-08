@@ -9,6 +9,7 @@ summary: When a frontier AI service stalls, work built on it stalls too; design 
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Plan failover for intelligence brownouts

@@ -9,6 +9,7 @@ summary: Benchmarks are verifiable, so labs train toward them and scores mislead
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Public benchmarks are gameable, so keep your own evals

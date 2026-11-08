@@ -9,6 +9,7 @@ summary: First the LLM was a website, then an app; the third form is a persisten
 status: current
 superseded_by:
 anthropic: true
+kind: view
 ---
 
 # The third LLM interface is a persistent teammate

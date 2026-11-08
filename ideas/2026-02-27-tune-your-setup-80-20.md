@@ -9,6 +9,7 @@ summary: The best AI coding setup keeps changing; stay productive in a proven se
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Spend 80% of time on a setup that works, 20% exploring the next

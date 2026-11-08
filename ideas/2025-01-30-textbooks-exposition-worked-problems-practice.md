@@ -9,6 +9,7 @@ summary: LLMs got plenty of exposition and worked examples; practice problems wi
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # LLMs need the practice problems of a textbook

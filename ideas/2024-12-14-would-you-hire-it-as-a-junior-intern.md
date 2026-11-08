@@ -9,6 +9,7 @@ summary: Judge agents by whether they can take an onboarding brief and finish a 
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Judge an agent as you would a junior intern

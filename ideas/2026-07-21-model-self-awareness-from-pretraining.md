@@ -9,6 +9,7 @@ summary: Models learn about themselves from pretraining text in which people dis
 status: current
 superseded_by:
 anthropic: false
+kind: view
 ---
 
 # Model self-knowledge comes from text about models

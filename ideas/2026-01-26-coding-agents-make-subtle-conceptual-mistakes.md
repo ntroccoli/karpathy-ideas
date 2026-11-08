@@ -9,6 +9,7 @@ summary: Agent errors are no longer syntax slips but wrong assumptions and bloat
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Coding agents make subtle conceptual mistakes, so watch them

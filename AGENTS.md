@@ -19,12 +19,14 @@ then open only the linked ideas that point to a gap. For one task, use the steps
 2. Open only the idea files that match your task.
    If you can delegate, let a smaller, cheaper model or subagent do steps 1-2 and return a
    shortlist of idea links with one line each on why they fit; the main model reads only those.
-3. Prefer ideas with `status: current`. A `superseded` idea links to the newer view in
+3. Each idea has a `kind`: `practice` (a way of working you can apply) or `view` (his opinion or
+   explanation; context, not steps). Theme pages list practices first. For a task, read practices.
+4. Prefer ideas with `status: current`. A `superseded` idea links to the newer view in
    `superseded_by`; he changed his mind, usually because models improved.
-4. Ideas with `anthropic: true` are dated after he joined Anthropic (2026-05-19) and concern
+5. Ideas with `anthropic: true` are dated after he joined Anthropic (2026-05-19) and concern
    Claude or Anthropic. Weigh them with that in mind.
-5. Do not reproduce more of his words than the quote in the file. Link to the source instead.
-6. `llms-full.txt` holds every idea in one file, for tools that cannot browse.
+6. Do not reproduce more of his words than the quote in the file. Link to the source instead.
+7. `llms-full.txt` holds every idea in one file, for tools that cannot browse.
 
 ## Idea file format
 
@@ -42,6 +44,7 @@ summary: Agents loop well toward a checkable goal; describe the goal and the tes
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Give agents success criteria, not steps
@@ -73,6 +76,9 @@ Field rules:
   newer idea (without folder), and the newer idea's Context links back.
 - `anthropic`: `true` only when the date is 2026-05-19 or later and the idea concerns Claude,
   Anthropic or its products.
+- `kind`: `practice` when a reader can change how they work because of it (a technique, workflow,
+  prompt pattern, design rule); `view` when it is mainly an opinion, prediction or explanation. A
+  practice needs an "Apply" section; a view has one only when its steps are concrete, never as filler.
 - Quote: at most one per file, at most 15 words, in the "In his words" section, exact text,
   attributed and dated. The section is optional.
 

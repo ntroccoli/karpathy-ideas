@@ -9,6 +9,7 @@ summary: A missing learning paradigm: after a task, the model reviews what happe
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # System prompt learning, where the model writes its own lessons

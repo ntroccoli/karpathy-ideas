@@ -9,6 +9,7 @@ summary: His jobs repo scores 342 occupations for AI exposure with an LLM rubric
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Score data with an LLM rubric and ship it as one prompt

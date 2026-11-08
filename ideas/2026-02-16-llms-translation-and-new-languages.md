@@ -9,6 +9,7 @@ summary: Translation beats from-scratch generation because the old code is a det
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # LLMs excel at translating code, which reopens language design

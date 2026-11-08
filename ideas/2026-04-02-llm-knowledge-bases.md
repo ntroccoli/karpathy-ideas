@@ -9,6 +9,7 @@ summary: Instead of RAG over loose files, let an LLM compile sources into a link
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Let an LLM compile and maintain your knowledge base

@@ -9,6 +9,7 @@ summary: A model's answer reflects a skilled, average data labeler distilled int
 status: current
 superseded_by:
 anthropic: false
+kind: view
 ---
 
 # Asking an AI is like asking the average data labeler

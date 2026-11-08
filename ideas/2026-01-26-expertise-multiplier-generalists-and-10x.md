@@ -9,6 +9,7 @@ summary: Agents may widen the gap between best and average engineer; deep expert
 status: current
 superseded_by:
 anthropic: false
+kind: view
 ---
 
 # Expertise may matter more with agents, not less

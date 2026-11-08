@@ -7,7 +7,7 @@ Summaries are our own words under CC BY 4.0; quotes belong to their author. Sour
 
 ---
 
-Date: 2026-11-04 · Source: https://x.com/karpathy/status/2118048337018712423 · Themes: ai-progress · Status: current
+Date: 2026-11-04 · Kind: view · Source: https://x.com/karpathy/status/2118048337018712423 · Themes: ai-progress · Status: current
 
 # How you could have predicted LLMs from the 1970s
 
@@ -20,12 +20,6 @@ enough data and compute, an ELIZA-like model becomes an economically useful imit
 laws then concentrate the economics: a few organizations build a few minds and deploy copies. You
 would also have to bet against hand-programmed robots.
 
-## Apply
-
-- Use this chain as a checklist when you judge a forecast: which of the six steps does it assume?
-- Look for the next "boring" enablers, such as data, compute and networks, not only for the
-  headline technology.
-
 ## Context
 
 - His list names HAL as a notable exception among older stories.
@@ -33,7 +27,7 @@ would also have to bet against hand-programmed robots.
 
 ---
 
-Date: 2026-11-01 · Source: https://x.com/karpathy/status/2116957135661945283 · Themes: agentic-coding, agent-native-software · Status: current · Anthropic period
+Date: 2026-11-01 · Kind: practice · Source: https://x.com/karpathy/status/2116957135661945283 · Themes: agentic-coding, agent-native-software · Status: current · Anthropic period
 
 # Build a bespoke app in a weekend by only talking to Claude
 
@@ -65,7 +59,7 @@ about one million Opus tokens. He also published the data so others can rebuild.
 
 ---
 
-Date: 2026-11-01 · Source: https://news.ycombinator.com/item?id=50323111 · Themes: context-and-prompting · Status: current
+Date: 2026-11-01 · Kind: practice · Source: https://news.ycombinator.com/item?id=50323111 · Themes: context-and-prompting · Status: current
 
 # With strong models, write shorter prompts
 
@@ -90,7 +84,7 @@ embarrassing.
 
 ---
 
-Date: 2026-10-02 · Source: https://x.com/karpathy/status/2105909609487872075 · Themes: llm-psychology, verification · Status: current · Anthropic period
+Date: 2026-10-02 · Kind: practice · Source: https://x.com/karpathy/status/2105909609487872075 · Themes: llm-psychology, verification · Status: current · Anthropic period
 
 # Test a model by asking if coordinates are land or water
 
@@ -115,7 +109,7 @@ only image is how the answers are placed in 2D.
 
 ---
 
-Date: 2026-10-02 · Source: https://x.com/karpathy/status/2105819303471976479 · Themes: output-and-reading, learning-and-education · Status: current
+Date: 2026-10-02 · Kind: practice · Source: https://x.com/karpathy/status/2105819303471976479 · Themes: output-and-reading, learning-and-education · Status: current
 
 # Make model output easier to understand, from STE to video
 
@@ -144,7 +138,7 @@ of 3Blue1Brown, with narration from a speech API. He says this is starting to wo
 
 ---
 
-Date: 2026-10-02 · Source: https://x.com/karpathy/status/2105819303471976479 · Themes: agent-native-software, ai-progress · Status: current
+Date: 2026-10-02 · Kind: practice · Source: https://x.com/karpathy/status/2105819303471976479 · Themes: agent-native-software, ai-progress · Status: current
 
 # Human work rises into oversight, helped by throwaway software
 
@@ -169,7 +163,7 @@ advice is to push on this and see what happens.
 
 ---
 
-Date: 2026-09-21 · Source: https://x.com/karpathy/status/2102124533729955960 · Themes: ai-progress, agent-native-software · Status: current
+Date: 2026-09-21 · Kind: practice · Source: https://x.com/karpathy/status/2102124533729955960 · Themes: ai-progress, agent-native-software · Status: current
 
 # Fast, no-thinking LLMs fill an under-served niche
 
@@ -193,7 +187,7 @@ intelligence. The practical view: the best model for a job is not always the sma
 
 ---
 
-Date: 2026-09-12 · Source: https://x.com/karpathy/status/2098781917076504752 · Themes: output-and-reading, agentic-coding · Status: current
+Date: 2026-09-12 · Kind: practice · Source: https://x.com/karpathy/status/2098781917076504752 · Themes: output-and-reading, agentic-coding · Status: current
 
 # Show big codebases as spatial maps, not file lists
 
@@ -215,7 +209,7 @@ their call sites, and collaborators would zoom around and cast diffs.
 
 ---
 
-Date: 2026-08-20 · Source: https://x.com/karpathy/status/2090478783895929036 · Themes: agentic-coding, research-and-training · Status: current
+Date: 2026-08-20 · Kind: practice · Source: https://x.com/karpathy/status/2090478783895929036 · Themes: agentic-coding, research-and-training · Status: current
 
 # Agents make old software abstractions optional
 
@@ -240,7 +234,7 @@ PyTorch becomes a rather poor intermediate representation.
 
 ---
 
-Date: 2026-08-02 · Source: https://x.com/karpathy/status/2083749667410727319 · Themes: ai-progress, agent-native-software · Status: current · Anthropic period
+Date: 2026-08-02 · Kind: practice · Source: https://x.com/karpathy/status/2083749667410727319 · Themes: ai-progress, agent-native-software · Status: current · Anthropic period
 
 # Test frontier models with a large creative job
 
@@ -267,7 +261,7 @@ idea of turning a historical photo into a playable world.
 
 ---
 
-Date: 2026-08-02 · Source: https://x.com/karpathy/status/2083749667410727319 · Themes: verification, llm-psychology · Status: current · Anthropic period
+Date: 2026-08-02 · Kind: practice · Source: https://x.com/karpathy/status/2083749667410727319 · Themes: verification, llm-psychology · Status: current · Anthropic period
 
 # Models cannot yet check their own work in video and games
 
@@ -292,7 +286,7 @@ capability: native multimodal perception of moving scenes and gameplay. Our read
 
 ---
 
-Date: 2026-07-21 · Source: https://x.com/karpathy/status/2079645572047548608 · Themes: llm-psychology · Status: current
+Date: 2026-07-21 · Kind: view · Source: https://x.com/karpathy/status/2079645572047548608 · Themes: llm-psychology · Status: current
 
 # Model self-knowledge comes from text about models
 
@@ -315,7 +309,7 @@ sees that a model now seems to understand what he means when he says he will com
 
 ---
 
-Date: 2026-07-21 · Source: https://x.com/karpathy/status/2079610838143623371 · Themes: context-and-prompting · Status: current
+Date: 2026-07-21 · Kind: practice · Source: https://x.com/karpathy/status/2079610838143623371 · Themes: context-and-prompting · Status: current
 
 # Give the LLM more context by rambling into voice mode
 
@@ -340,7 +334,7 @@ picture of the task, so you correct less from then on.
 
 ---
 
-Date: 2026-06-23 · Source: https://x.com/karpathy/status/2069547676849557725 · Themes: agent-native-software, agentic-coding · Status: current · Anthropic period
+Date: 2026-06-23 · Kind: view · Source: https://x.com/karpathy/status/2069547676849557725 · Themes: agent-native-software, agentic-coding · Status: current · Anthropic period
 
 # The third LLM interface is a persistent teammate
 
@@ -366,7 +360,7 @@ it writes most of the code, is deeply integrated, and makes everyone feel like a
 
 ---
 
-Date: 2026-05-01 · Source: https://x.com/karpathy/status/2050240810403410211 · Themes: research-and-training, llm-psychology · Status: current
+Date: 2026-05-01 · Kind: view · Source: https://x.com/karpathy/status/2050240810403410211 · Themes: research-and-training, llm-psychology · Status: current
 
 # Self-distilled corrections still leak slop
 
@@ -390,7 +384,7 @@ data for supervised fine-tuning of most smaller students.
 
 ---
 
-Date: 2026-04-30 · Source: https://karpathy.bearblog.dev/sequoia-ascent-2026/ · Themes: ai-progress, verification · Status: current
+Date: 2026-04-30 · Kind: practice · Source: https://karpathy.bearblog.dev/sequoia-ascent-2026/ · Themes: ai-progress, verification · Status: current
 
 # Find valuable domains that are verifiable and undertrained
 
@@ -418,7 +412,7 @@ startup wedge.
 
 ---
 
-Date: 2026-04-30 · Source: https://karpathy.bearblog.dev/sequoia-ascent-2026/ · Themes: ai-progress, agentic-coding · Status: current
+Date: 2026-04-30 · Kind: practice · Source: https://karpathy.bearblog.dev/sequoia-ascent-2026/ · Themes: ai-progress, agentic-coding · Status: current
 
 # Test candidates on building and securing a project with agents
 
@@ -445,7 +439,7 @@ slop. He expects the "10x engineer" gap to widen for people who master these wor
 
 ---
 
-Date: 2026-04-30 · Source: https://karpathy.bearblog.dev/sequoia-ascent-2026/ · Themes: agent-native-software · Status: current
+Date: 2026-04-30 · Kind: practice · Source: https://karpathy.bearblog.dev/sequoia-ascent-2026/ · Themes: agent-native-software · Status: current
 
 # Some apps should disappear into the model
 
@@ -473,7 +467,7 @@ being apps. The old stack wrapped code around a conversion that the model can do
 
 ---
 
-Date: 2026-04-10 · Source: https://x.com/karpathy/status/2042615713219908059 · Themes: ai-progress, agent-native-software · Status: current
+Date: 2026-04-10 · Kind: view · Source: https://x.com/karpathy/status/2042615713219908059 · Themes: ai-progress, agent-native-software · Status: current
 
 # Big labs' roadmaps are predictable, which leaves room for startups
 
@@ -499,7 +493,7 @@ of the biggest.
 
 ---
 
-Date: 2026-04-10 · Source: https://x.com/karpathy/status/2042626702459674801 · Themes: ai-progress · Status: current
+Date: 2026-04-10 · Kind: view · Source: https://x.com/karpathy/status/2042626702459674801 · Themes: ai-progress · Status: current
 
 # LLM simulators are the tractable form of brain upload
 
@@ -511,13 +505,6 @@ you an API endpoint of your simulation. With avatar tools such as HeyGen plus a 
 knowledge and personality, he says it is possible around now. He calls it trippy and somewhat
 dystopian. He thinks neuroscience-based approaches are armchair philosophy next to this path.
 
-## Apply
-
-- Treat this as a prediction, not a product claim. Keep any personal data you gather for such a
-  project local, with clear consent.
-- A small test: build a persona prompt from your own writing and check whether people who know
-  you find it believable.
-
 ## Context
 
 - Replies from 2026-04-10, with no source tested. Our reading: a forecast with an open
@@ -525,7 +512,7 @@ dystopian. He thinks neuroscience-based approaches are armchair philosophy next 
 
 ---
 
-Date: 2026-04-09 · Source: https://x.com/karpathy/status/2042334451611693415 · Themes: ai-progress, llm-psychology · Status: current
+Date: 2026-04-09 · Kind: view · Source: https://x.com/karpathy/status/2042334451611693415 · Themes: ai-progress, llm-psychology · Status: current
 
 # People judge AI differently because they use different AI
 
@@ -563,7 +550,7 @@ projects. Impact also grows with the size of the problem you give it.
 
 ---
 
-Date: 2026-04-04 · Source: https://x.com/karpathy/status/2040549459193704852 · Themes: ai-progress · Status: current
+Date: 2026-04-04 · Kind: practice · Source: https://x.com/karpathy/status/2040549459193704852 · Themes: ai-progress · Status: current
 
 # AI can make governments more legible and accountable
 
@@ -595,7 +582,7 @@ that the same tools can be used the other way.
 
 ---
 
-Date: 2026-04-04 · Source: https://x.com/karpathy/status/2040572272944324650 · Themes: knowledge-management, agent-native-software · Status: current
+Date: 2026-04-04 · Kind: practice · Source: https://x.com/karpathy/status/2040572272944324650 · Themes: knowledge-management, agent-native-software · Status: current
 
 # Personal AI memory should be plain files you own
 
@@ -626,7 +613,7 @@ skill is a core skill of this century.
 
 ---
 
-Date: 2026-04-04 · Source: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f · Themes: agent-native-software, context-and-prompting · Status: current
+Date: 2026-04-04 · Kind: practice · Source: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f · Themes: agent-native-software, context-and-prompting · Status: current
 
 # Share an idea file, not code
 
@@ -654,7 +641,7 @@ agent that can build the specifics, so a fixed implementation is less useful tha
 
 ---
 
-Date: 2026-04-04 · Source: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f · Themes: knowledge-management, context-and-prompting · Status: current
+Date: 2026-04-04 · Kind: practice · Source: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f · Themes: knowledge-management, context-and-prompting · Status: current
 
 # An LLM wiki has three layers and three operations
 
@@ -690,7 +677,7 @@ append-only timeline.
 
 ---
 
-Date: 2026-04-02 · Source: https://x.com/karpathy/status/2039823314982744522 · Themes: output-and-reading, knowledge-management · Status: current
+Date: 2026-04-02 · Kind: practice · Source: https://x.com/karpathy/status/2039823314982744522 · Themes: output-and-reading, knowledge-management · Status: current
 
 # Convert books and PDFs with an agent, in chunks
 
@@ -721,7 +708,7 @@ thinks it must be a skill run by a strong LLM, not a fixed program.
 
 ---
 
-Date: 2026-04-02 · Source: https://x.com/karpathy/status/2039805659525644595 · Themes: knowledge-management, output-and-reading · Status: current
+Date: 2026-04-02 · Kind: practice · Source: https://x.com/karpathy/status/2039805659525644595 · Themes: knowledge-management, output-and-reading · Status: current
 
 # Let an LLM compile and maintain your knowledge base
 
@@ -765,7 +752,7 @@ picks sources and asks questions; the LLM does the bookkeeping that makes people
 
 ---
 
-Date: 2026-03-31 · Source: https://x.com/karpathy/status/2038791421050880489 · Themes: learning-and-education, llm-psychology · Status: current
+Date: 2026-03-31 · Kind: practice · Source: https://x.com/karpathy/status/2038791421050880489 · Themes: learning-and-education, llm-psychology · Status: current
 
 # You can outsource thinking, but not understanding
 
@@ -803,7 +790,7 @@ the same point: LLM tools let you skip writing, but not reading and thinking.
 
 ---
 
-Date: 2026-03-28 · Source: https://x.com/karpathy/status/2037921699824607591 · Themes: llm-psychology, learning-and-education · Status: current
+Date: 2026-03-28 · Kind: practice · Source: https://x.com/karpathy/status/2037921699824607591 · Themes: llm-psychology, learning-and-education · Status: current
 
 # Ask the LLM to argue the opposite side
 
@@ -833,7 +820,7 @@ own opinion, if you ask from several directions and stay alert to sycophancy.
 
 ---
 
-Date: 2026-03-26 · Source: https://x.com/karpathy/status/2037200624450936940 · Themes: agent-native-software · Status: current
+Date: 2026-03-26 · Kind: practice · Source: https://x.com/karpathy/status/2037200624450936940 · Themes: agent-native-software · Status: current
 
 # Make the whole DevOps lifecycle agent-native
 
@@ -867,7 +854,7 @@ click-here instructions. He would rather get something to paste into his agent.
 
 ---
 
-Date: 2026-03-25 · Source: https://x.com/karpathy/status/2036851031355904165 · Themes: llm-psychology · Status: current
+Date: 2026-03-25 · Kind: practice · Source: https://x.com/karpathy/status/2036851031355904165 · Themes: llm-psychology · Status: current
 
 # Closing follow-up questions in chatbots are engagement bait
 
@@ -896,7 +883,7 @@ opinion about product incentives, not a measured result.
 
 ---
 
-Date: 2026-03-25 · Source: https://x.com/karpathy/status/2036836816654147718 · Themes: llm-psychology, context-and-prompting · Status: current
+Date: 2026-03-25 · Kind: practice · Source: https://x.com/karpathy/status/2036836816654147718 · Themes: llm-psychology, context-and-prompting · Status: current
 
 # LLM memory over-uses old facts about you
 
@@ -928,7 +915,7 @@ name-dropping to win favour, and calls it a possible "uncanny valley" of emotion
 
 ---
 
-Date: 2026-03-24 · Source: https://x.com/karpathy/status/2036487306585268612 · Themes: security-and-dependencies · Status: current
+Date: 2026-03-24 · Kind: practice · Source: https://x.com/karpathy/status/2036487306585268612 · Themes: security-and-dependencies · Status: current
 
 # Rethink dependencies after supply chain attacks
 
@@ -964,7 +951,7 @@ including those his LLMs run for him.
 
 ---
 
-Date: 2026-03-21 · Source: https://x.com/karpathy/status/2035173492447224237 · Themes: agentic-coding, llm-psychology · Status: current
+Date: 2026-03-21 · Kind: practice · Source: https://x.com/karpathy/status/2035173492447224237 · Themes: agentic-coding, llm-psychology · Status: current
 
 # Agents bloat code and ignore style rules in AGENTS.md
 
@@ -994,7 +981,7 @@ not yet taken.
 
 ---
 
-Date: 2026-03-21 · Source: https://x.com/karpathy/status/2035170809304723736 · Themes: llm-psychology, agent-native-software · Status: current
+Date: 2026-03-21 · Kind: practice · Source: https://x.com/karpathy/status/2035170809304723736 · Themes: llm-psychology, agent-native-software · Status: current
 
 # AI personality should feel like a teammate, and it takes deliberate work
 
@@ -1021,7 +1008,7 @@ organisation that puts someone in charge of the topic.
 
 ---
 
-Date: 2026-03-20 · Source: https://podcasts.apple.com/us/podcast/no-priors-artificial-intelligence-technology-startups/id1668002688?i=1000756334966 · Themes: agent-native-software · Status: current
+Date: 2026-03-20 · Kind: practice · Source: https://podcasts.apple.com/us/podcast/no-priors-artificial-intelligence-technology-startups/id1668002688?i=1000756334966 · Themes: agent-native-software · Status: current
 
 # Apps should be APIs, and agents the glue between them
 
@@ -1048,7 +1035,7 @@ coding within a few years.
 
 ---
 
-Date: 2026-03-20 · Source: https://podcasts.apple.com/us/podcast/no-priors-artificial-intelligence-technology-startups/id1668002688?i=1000756334966 · Themes: ai-progress, agentic-coding · Status: current
+Date: 2026-03-20 · Kind: view · Source: https://podcasts.apple.com/us/podcast/no-priors-artificial-intelligence-technology-startups/id1668002688?i=1000756334966 · Themes: ai-progress, agentic-coding · Status: current
 
 # Cheaper software raises the demand for software
 
@@ -1082,7 +1069,7 @@ code, and that production code still needs review.
 
 ---
 
-Date: 2026-03-20 · Source: https://podcasts.apple.com/us/podcast/no-priors-artificial-intelligence-technology-startups/id1668002688?i=1000756334966 · Themes: ai-progress · Status: current
+Date: 2026-03-20 · Kind: view · Source: https://podcasts.apple.com/us/podcast/no-priors-artificial-intelligence-technology-startups/id1668002688?i=1000756334966 · Themes: ai-progress · Status: current
 
 # Digital work changes first, then the sensors and actuators, then atoms
 
@@ -1108,7 +1095,7 @@ in self-driving. He still thinks the physical market may be larger.
 
 ---
 
-Date: 2026-03-20 · Source: https://podcasts.apple.com/us/podcast/no-priors-artificial-intelligence-technology-startups/id1668002688?i=1000756334966 · Themes: learning-and-education, agent-native-software · Status: current
+Date: 2026-03-20 · Kind: practice · Source: https://podcasts.apple.com/us/podcast/no-priors-artificial-intelligence-technology-startups/id1668002688?i=1000756334966 · Themes: learning-and-education, agent-native-software · Status: current
 
 # Explain things to agents, and let agents teach people
 
@@ -1139,7 +1126,7 @@ that distillation is his contribution. The rest of the teaching is the agent's j
 
 ---
 
-Date: 2026-03-20 · Source: https://podcasts.apple.com/us/podcast/no-priors-artificial-intelligence-technology-startups/id1668002688?i=1000756334966 · Themes: llm-psychology, verification · Status: current
+Date: 2026-03-20 · Kind: practice · Source: https://podcasts.apple.com/us/podcast/no-priors-artificial-intelligence-technology-startups/id1668002688?i=1000756334966 · Themes: llm-psychology, verification · Status: current
 
 # Jagged intelligence follows verifiability and training focus
 
@@ -1175,7 +1162,7 @@ rails". If not, it may fail in basic ways.
 
 ---
 
-Date: 2026-03-20 · Source: https://podcasts.apple.com/us/podcast/no-priors-artificial-intelligence-technology-startups/id1668002688?i=1000756334966 · Themes: agentic-coding · Status: current
+Date: 2026-03-20 · Kind: practice · Source: https://podcasts.apple.com/us/podcast/no-priors-artificial-intelligence-technology-startups/id1668002688?i=1000756334966 · Themes: agentic-coding · Status: current
 
 # With coding agents, your skill and token use are the limit
 
@@ -1204,7 +1191,7 @@ not yet connected. He calls this a skill issue, and sees it as good news, since 
 
 ---
 
-Date: 2026-03-20 · Source: https://podcasts.apple.com/us/podcast/no-priors-artificial-intelligence-technology-startups/id1668002688?i=1000756334966 · Themes: verification, research-and-training · Status: current
+Date: 2026-03-20 · Kind: practice · Source: https://podcasts.apple.com/us/podcast/no-priors-artificial-intelligence-technology-startups/id1668002688?i=1000756334966 · Themes: verification, research-and-training · Status: current
 
 # Open agent swarms fit work that is costly to find and cheap to verify
 
@@ -1230,7 +1217,7 @@ people buying compute to join a shared research track on a cause they care about
 
 ---
 
-Date: 2026-03-14 · Source: https://github.com/karpathy/jobs · Themes: ai-progress, output-and-reading · Status: current
+Date: 2026-03-14 · Kind: practice · Source: https://github.com/karpathy/jobs · Themes: ai-progress, output-and-reading · Status: current
 
 # Score data with an LLM rubric and ship it as one prompt
 
@@ -1258,7 +1245,7 @@ paste it into a chat and discuss it with no code.
 
 ---
 
-Date: 2026-03-11 · Source: https://x.com/karpathy/status/2031767720933634100 · Themes: agentic-coding, agent-native-software · Status: current
+Date: 2026-03-11 · Kind: practice · Source: https://x.com/karpathy/status/2031767720933634100 · Themes: agentic-coding, agent-native-software · Status: current
 
 # The IDE is not dead; the unit of work is now an agent
 
@@ -1293,7 +1280,7 @@ cannot do with a classical company.
 
 ---
 
-Date: 2026-03-11 · Source: https://x.com/karpathy/status/2031792523187040643 · Themes: agentic-coding, ai-progress · Status: current
+Date: 2026-03-11 · Kind: practice · Source: https://x.com/karpathy/status/2031792523187040643 · Themes: agentic-coding, ai-progress · Status: current
 
 # Plan failover for intelligence brownouts
 
@@ -1317,7 +1304,7 @@ sees the stall until hours later.
 
 ---
 
-Date: 2026-03-09 · Source: https://x.com/karpathy/status/2031135152349524125 · Themes: verification, research-and-training · Status: current
+Date: 2026-03-09 · Kind: practice · Source: https://x.com/karpathy/status/2031135152349524125 · Themes: verification, research-and-training · Status: current
 
 # Any metric that is cheap to evaluate can be autoresearched
 
@@ -1346,7 +1333,7 @@ this way.
 
 ---
 
-Date: 2026-03-08 · Source: https://x.com/karpathy/status/2030705271627284816 · Themes: agentic-coding, research-and-training · Status: current
+Date: 2026-03-08 · Kind: view · Source: https://x.com/karpathy/status/2030705271627284816 · Themes: agentic-coding, research-and-training · Status: current
 
 # Agents need to collaborate like a research community, not one PhD student
 
@@ -1379,7 +1366,7 @@ that agents read such posts first and add a short "paper" afterwards.
 
 ---
 
-Date: 2026-03-08 · Source: https://news.ycombinator.com/item?id=47293311 · Themes: research-and-training, verification · Status: current
+Date: 2026-03-08 · Kind: view · Source: https://news.ycombinator.com/item?id=47293311 · Themes: research-and-training, verification · Status: current
 
 # Autoresearch is not hyperparameter tuning
 
@@ -1405,7 +1392,7 @@ gate and a backout skip connection, and helped cut time to GPT-2 from 1.8 to 1.6
 
 ---
 
-Date: 2026-03-08 · Source: https://news.ycombinator.com/item?id=47293311 · Themes: research-and-training, agentic-coding · Status: current
+Date: 2026-03-08 · Kind: practice · Source: https://news.ycombinator.com/item?id=47293311 · Themes: research-and-training, agentic-coding · Status: current
 
 # Models turn cagy on open-ended research; try a chief scientist
 
@@ -1431,7 +1418,7 @@ prompt file can prevent it.
 
 ---
 
-Date: 2026-03-07 · Source: https://x.com/karpathy/status/2030371219518931079 · Themes: verification, research-and-training · Status: current
+Date: 2026-03-07 · Kind: practice · Source: https://x.com/karpathy/status/2030371219518931079 · Themes: verification, research-and-training · Status: current
 
 # Autoresearch: the agent edits the code, the human edits the prompt
 
@@ -1456,7 +1443,7 @@ written by AI, and that he tunes this "meta-setup" as much as the training code.
   results with simpler code is a win).
 - Fix the budget per experiment (here, five minutes) so runs compare fairly.
 - Keep the agent on a branch. Commit each kept change, so the history is the lab notebook.
-- Compare agent setups, not only models: change the prompt file, rerun, and compare the curves.
+- Compare agent setups, not only models: see [programming an organisation of agents](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-02-27-programming-an-agent-research-org.md) for how to compare two prompt files.
 - Use it only where a result can be measured. If you cannot evaluate it, you cannot loop on it (his caveat on the No Priors podcast).
 
 ## Context
@@ -1472,7 +1459,7 @@ written by AI, and that he tunes this "meta-setup" as much as the training code.
 
 ---
 
-Date: 2026-03-06 · Source: https://github.com/karpathy/autoresearch/blob/master/program.md · Themes: context-and-prompting, verification · Status: current
+Date: 2026-03-06 · Kind: practice · Source: https://github.com/karpathy/autoresearch/blob/master/program.md · Themes: context-and-prompting, verification · Status: current
 
 # Write the agent's operating rules as a program.md skill
 
@@ -1509,7 +1496,7 @@ code at equal results is a win. The loop is: commit, run, read the number, keep 
 
 ---
 
-Date: 2026-03-05 · Source: https://x.com/karpathy/status/2029696850366971921 · Themes: research-and-training, context-and-prompting · Status: current
+Date: 2026-03-05 · Kind: practice · Source: https://x.com/karpathy/status/2029696850366971921 · Themes: research-and-training, context-and-prompting · Status: current
 
 # Make memory and compaction tools that RL trains
 
@@ -1542,7 +1529,7 @@ outside today's production stack.
 
 ---
 
-Date: 2026-02-27 · Source: https://x.com/karpathy/status/2027503094016446499 · Themes: output-and-reading, agentic-coding · Status: current
+Date: 2026-02-27 · Kind: practice · Source: https://x.com/karpathy/status/2027503094016446499 · Themes: output-and-reading, agentic-coding · Status: current
 
 # Ask agents for long documents and notebooks, and read them in the IDE
 
@@ -1560,7 +1547,7 @@ Karpathy still keeps an IDE open next to his agents. One reason is output format
 
 ---
 
-Date: 2026-02-27 · Source: https://x.com/karpathy/status/2027521323275325622 · Themes: verification, research-and-training, agentic-coding · Status: current
+Date: 2026-02-27 · Kind: practice · Source: https://x.com/karpathy/status/2027521323275325622 · Themes: verification, research-and-training, agentic-coding · Status: current
 
 # You now program an organisation of agents
 
@@ -1604,7 +1591,7 @@ ask a model to write a better file. He calls this the meta layer.
 
 ---
 
-Date: 2026-02-27 · Source: https://x.com/karpathy/status/2027501331125239822 · Themes: agentic-coding · Status: current
+Date: 2026-02-27 · Kind: practice · Source: https://x.com/karpathy/status/2027501331125239822 · Themes: agentic-coding · Status: current
 
 # Spend 80% of time on a setup that works, 20% exploring the next
 
@@ -1628,7 +1615,7 @@ Karpathy comments on a chart from Cursor that shows agent requests overtaking ta
 
 ---
 
-Date: 2026-02-25 · Source: https://x.com/karpathy/status/2026731645169185220 · Themes: agentic-coding, verification · Status: current
+Date: 2026-02-25 · Kind: practice · Source: https://x.com/karpathy/status/2026731645169185220 · Themes: agentic-coding, verification · Status: current
 
 # Delegate long tasks to agents and make work legible to them
 
@@ -1654,7 +1641,7 @@ Karpathy says coding agents basically did not work before December 2025 and basi
 
 ---
 
-Date: 2026-02-20 · Source: https://x.com/karpathy/status/2024987174077432126 · Themes: agent-native-software, security-and-dependencies · Status: current
+Date: 2026-02-20 · Kind: practice · Source: https://x.com/karpathy/status/2024987174077432126 · Themes: agent-native-software, security-and-dependencies · Status: current
 
 # Claws are a new layer on top of LLM agents
 
@@ -1679,7 +1666,7 @@ Karpathy bought a Mac mini to try "claws": persistent personal agents that handl
 
 ---
 
-Date: 2026-02-20 · Source: https://x.com/karpathy/status/2024987174077432126 · Themes: agent-native-software, agentic-coding · Status: current
+Date: 2026-02-20 · Kind: practice · Source: https://x.com/karpathy/status/2024987174077432126 · Themes: agent-native-software, agentic-coding · Status: current
 
 # Configure software with skills, and build the most forkable repo
 
@@ -1703,7 +1690,7 @@ While reading about NanoClaw, Karpathy found a new way to handle configuration. 
 
 ---
 
-Date: 2026-02-16 · Source: https://x.com/karpathy/status/2023476423055601903 · Themes: agentic-coding, ai-progress · Status: current
+Date: 2026-02-16 · Kind: practice · Source: https://x.com/karpathy/status/2023476423055601903 · Themes: agentic-coding, ai-progress · Status: current
 
 # LLMs excel at translating code, which reopens language design
 
@@ -1728,7 +1715,7 @@ Karpathy says LLMs change the constraints of software, so it is a good time for 
 
 ---
 
-Date: 2026-02-12 · Source: https://x.com/karpathy/status/2022041235188580788 · Themes: llm-psychology · Status: current
+Date: 2026-02-12 · Kind: practice · Source: https://x.com/karpathy/status/2022041235188580788 · Themes: llm-psychology · Status: current
 
 # A pretrained LLM can simulate a population, not one persona
 
@@ -1751,7 +1738,7 @@ Chat models usually have one crafted personality. Karpathy notes that the raw pr
 
 ---
 
-Date: 2026-02-11 · Source: https://x.com/karpathy/status/2021633574089416993 · Themes: agent-native-software, security-and-dependencies · Status: current
+Date: 2026-02-11 · Kind: practice · Source: https://x.com/karpathy/status/2021633574089416993 · Themes: agent-native-software, security-and-dependencies · Status: current
 
 # Point an agent at a library and rip out only the part you need
 
@@ -1776,7 +1763,7 @@ Karpathy asked Claude to study how torchao implements fp8 training and write a s
 
 ---
 
-Date: 2026-02-04 · Source: https://x.com/karpathy/status/2019137879310836075 · Themes: agentic-coding · Status: current
+Date: 2026-02-04 · Kind: practice · Source: https://x.com/karpathy/status/2019137879310836075 · Themes: agentic-coding · Status: current
 
 # Agentic engineering is the professional form of vibe coding
 
@@ -1806,7 +1793,7 @@ On the first anniversary of "vibe coding", Karpathy says it fit throwaway projec
 
 ---
 
-Date: 2026-01-31 · Source: https://x.com/karpathy/status/2017442712388309406 · Themes: security-and-dependencies, ai-progress · Status: current
+Date: 2026-01-31 · Kind: practice · Source: https://x.com/karpathy/status/2017442712388309406 · Themes: security-and-dependencies, ai-progress · Status: current
 
 # Networks of agents are a mess today and a security risk at scale
 
@@ -1830,7 +1817,7 @@ Karpathy was accused of overhyping Moltbook, a site where AI agents post to each
 
 ---
 
-Date: 2026-01-31 · Source: https://x.com/karpathy/status/2017703360393318587 · Themes: research-and-training, ai-progress · Status: current
+Date: 2026-01-31 · Kind: practice · Source: https://x.com/karpathy/status/2017703360393318587 · Themes: research-and-training, ai-progress · Status: current
 
 # The cost to train a GPT-2 level model falls about 2.5X per year
 
@@ -1854,16 +1841,11 @@ Karpathy reproduced GPT-2 level quality (CORE score) in nanochat on one 8xH100 n
 
 ---
 
-Date: 2026-01-28 · Source: https://x.com/karpathy/status/2016590919143952466 · Themes: ai-progress, research-and-training · Status: current
+Date: 2026-01-28 · Kind: view · Source: https://x.com/karpathy/status/2016590919143952466 · Themes: ai-progress, research-and-training · Status: current
 
 # New research startups can still win; 10X breakthroughs remain likely
 
 Karpathy rejects the view that AI is too mature for a research-focused startup to beat the incumbents. People said the same when OpenAI started, and again about later challengers, and they were wrong each time. Scaling and local improvements will keep giving gains. But the gap between frontier LLMs and a mind that runs on 20 watts is large, and much progress is happening with much confusion. So he rates the chance of breakthroughs that give about 10X, not 10%, as high enough to bet on. The hard part is creating conditions where such discoveries happen. In a reply he added that AI can go beyond a brain, for example as a hive mind without the bandwidth limits of speech.
-
-## Apply
-
-- When you plan research, split effort between improving what works and a small number of high-variance bets.
-- Look for teams with understanding of the full stack, from algorithms to kernels.
 
 ## Context
 
@@ -1871,7 +1853,7 @@ Karpathy rejects the view that AI is too mature for a research-focused startup t
 
 ---
 
-Date: 2026-01-26 · Source: https://x.com/karpathy/status/2015883857489522876 · Themes: agentic-coding, llm-psychology · Status: current
+Date: 2026-01-26 · Kind: practice · Source: https://x.com/karpathy/status/2015883857489522876 · Themes: agentic-coding, llm-psychology · Status: current
 
 # Coding agents make subtle conceptual mistakes, so watch them
 
@@ -1903,7 +1885,7 @@ Karpathy says the mistakes of coding agents have changed. They are no longer syn
 
 ---
 
-Date: 2026-01-26 · Source: https://x.com/karpathy/status/2015883857489522876 · Themes: ai-progress, agentic-coding · Status: current
+Date: 2026-01-26 · Kind: view · Source: https://x.com/karpathy/status/2015883857489522876 · Themes: ai-progress, agentic-coding · Status: current
 
 # Expertise may matter more with agents, not less
 
@@ -1926,7 +1908,7 @@ Karpathy asks open questions about who gains from coding agents. The "10X engine
 
 ---
 
-Date: 2026-01-26 · Source: https://x.com/karpathy/status/2015883857489522876 · Themes: agentic-coding, ai-progress · Status: current
+Date: 2026-01-26 · Kind: view · Source: https://x.com/karpathy/status/2015883857489522876 · Themes: agentic-coding, ai-progress · Status: current
 
 # LLM help is less a speedup than an expansion
 
@@ -1950,7 +1932,7 @@ Karpathy says it is hard to measure the speedup from LLM help. He feels faster a
 
 ---
 
-Date: 2026-01-26 · Source: https://x.com/karpathy/status/2015883857489522876 · Themes: agentic-coding, ai-progress · Status: current
+Date: 2026-01-26 · Kind: practice · Source: https://x.com/karpathy/status/2015883857489522876 · Themes: agentic-coding, ai-progress · Status: current
 
 # Programming moved to English in December 2025
 
@@ -1994,7 +1976,7 @@ single digits. Writing code by prompt feels odd, a little like cheating.
 
 ---
 
-Date: 2026-01-26 · Source: https://x.com/karpathy/status/2015883857489522876 · Themes: ai-progress · Status: current
+Date: 2026-01-26 · Kind: view · Source: https://x.com/karpathy/status/2015883857489522876 · Themes: ai-progress · Status: current
 
 # Expect a slopacolypse of AI content in 2026
 
@@ -2005,19 +1987,14 @@ Karpathy predicts that 2026 brings a flood of low-quality AI output across GitHu
 > "I am bracing for 2026 as the year of the slopacolypse"
 > — Andrej Karpathy, 2026-01-26
 
-## Apply
-
-- Check any claim about AI productivity against a measured result before you repeat it.
-- Treat repositories, papers and posts with no sign of human review as unverified.
-- Reduce slop in your own feed: see [Go back to RSS](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-04-26-rss-reader-with-llm-feed.md).
-
 ## Context
 
 - Part of the 2026-01-26 notes. The 2026-02-01 reply points to a study named "LLM brain rot".
+- Related: [Go back to RSS](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-04-26-rss-reader-with-llm-feed.md) to cut slop from your own feed.
 
 ---
 
-Date: 2026-01-26 · Source: https://x.com/karpathy/status/2015883857489522876 · Themes: agentic-coding, verification · Status: current
+Date: 2026-01-26 · Kind: practice · Source: https://x.com/karpathy/status/2015883857489522876 · Themes: agentic-coding, verification · Status: current
 
 # Give agents success criteria, not steps
 
@@ -2054,7 +2031,7 @@ optimize it while it keeps the output correct.
 
 ---
 
-Date: 2026-01-26 · Source: https://x.com/karpathy/status/2015883857489522876 · Themes: learning-and-education, agentic-coding · Status: current
+Date: 2026-01-26 · Kind: view · Source: https://x.com/karpathy/status/2015883857489522876 · Themes: learning-and-education, agentic-coding · Status: current
 
 # Writing code can atrophy while reading code stays strong
 
@@ -2078,7 +2055,7 @@ Karpathy notices that his ability to write code by hand is slowly fading because
 
 ---
 
-Date: 2026-01-12 · Source: https://github.com/karpathy/nanochat/blob/master/.claude/skills/read-arxiv-paper/SKILL.md · Themes: agentic-coding, context-and-prompting · Status: current
+Date: 2026-01-12 · Kind: practice · Source: https://github.com/karpathy/nanochat/blob/master/.claude/skills/read-arxiv-paper/SKILL.md · Themes: agentic-coding, context-and-prompting · Status: current
 
 # Have the agent read a paper's TeX source and relate it to your repo
 
@@ -2111,7 +2088,7 @@ in plain markdown.
 
 ---
 
-Date: 2026-01-07 · Source: https://x.com/karpathy/status/2009037707918626874 · Themes: research-and-training · Status: current
+Date: 2026-01-07 · Kind: practice · Source: https://x.com/karpathy/status/2009037707918626874 · Themes: research-and-training · Status: current
 
 # Train a family of models controlled by one compute dial
 
@@ -2135,7 +2112,7 @@ Karpathy argues that you should not tune for one model. You tune a family of mod
 
 ---
 
-Date: 2026-01-03 · Source: https://github.com/karpathy/rustbpe · Themes: verification, agentic-coding · Status: current
+Date: 2026-01-03 · Kind: practice · Source: https://github.com/karpathy/rustbpe · Themes: verification, agentic-coding · Status: current
 
 # Port to an unfamiliar language by testing against your own reference
 
@@ -2161,7 +2138,7 @@ the tests, and the model owns the translation.
 
 ---
 
-Date: 2025-12-28 · Source: https://x.com/karpathy/status/2005421816110862601 · Themes: agentic-coding, verification · Status: current
+Date: 2025-12-28 · Kind: practice · Source: https://x.com/karpathy/status/2005421816110862601 · Themes: agentic-coding, verification · Status: current
 
 # Let the agent run experiments and keep a results log
 
@@ -2180,7 +2157,7 @@ Karpathy reports that Claude implemented ideas, tested them on toy examples, lau
 
 ---
 
-Date: 2025-12-28 · Source: https://x.com/karpathy/status/2005353145128583447 · Themes: agentic-coding, agent-native-software · Status: current
+Date: 2025-12-28 · Kind: practice · Source: https://x.com/karpathy/status/2005353145128583447 · Themes: agentic-coding, agent-native-software · Status: current
 
 # Connect your tools so the agent needs no manual steps
 
@@ -2199,7 +2176,7 @@ In a reply about wiring everything into a coding agent through skills, Karpathy 
 
 ---
 
-Date: 2025-12-26 · Source: https://x.com/karpathy/status/2004607146781278521 · Themes: agentic-coding · Status: current
+Date: 2025-12-26 · Kind: practice · Source: https://x.com/karpathy/status/2004607146781278521 · Themes: agentic-coding · Status: current
 
 # Learn the new programmable layer of agent tools
 
@@ -2223,7 +2200,7 @@ In late December 2025 Karpathy said he had never felt so behind as a programmer.
 
 ---
 
-Date: 2025-12-19 · Source: https://karpathy.bearblog.dev/year-in-review-2025/ · Themes: agentic-coding, agent-native-software · Status: current
+Date: 2025-12-19 · Kind: practice · Source: https://karpathy.bearblog.dev/year-in-review-2025/ · Themes: agentic-coding, agent-native-software · Status: current
 
 # Run coding agents on the developer's own computer
 
@@ -2248,7 +2225,7 @@ interaction. He sees a new interaction style: an AI that lives on your computer,
 
 ---
 
-Date: 2025-12-19 · Source: https://karpathy.bearblog.dev/year-in-review-2025/ · Themes: agentic-coding, agent-native-software · Status: current
+Date: 2025-12-19 · Kind: practice · Source: https://karpathy.bearblog.dev/year-in-review-2025/ · Themes: agentic-coding, agent-native-software · Status: current
 
 # Code is now free, custom and disposable
 
@@ -2293,7 +2270,7 @@ one purpose and deleted after one run.
 
 ---
 
-Date: 2025-12-19 · Source: https://karpathy.bearblog.dev/year-in-review-2025/ · Themes: research-and-training · Status: current
+Date: 2025-12-19 · Kind: view · Source: https://karpathy.bearblog.dev/year-in-review-2025/ · Themes: research-and-training · Status: current
 
 # RLVR became the major new training stage of 2025
 
@@ -2321,7 +2298,7 @@ longer reasoning at test time. OpenAI o1 first showed it. The o3 release was the
 
 ---
 
-Date: 2025-12-10 · Source: https://karpathy.bearblog.dev/auto-grade-hn/ · Themes: ai-progress · Status: current
+Date: 2025-12-10 · Kind: view · Source: https://karpathy.bearblog.dev/auto-grade-hn/ · Themes: ai-progress · Status: current
 
 # Future LLMs will read everything we do today
 
@@ -2352,7 +2329,7 @@ short: be good.
 
 ---
 
-Date: 2025-12-10 · Source: https://news.ycombinator.com/item?id=46222634 · Themes: llm-psychology, verification · Status: current
+Date: 2025-12-10 · Kind: practice · Source: https://news.ycombinator.com/item?id=46222634 · Themes: llm-psychology, verification · Status: current
 
 # LLM judges grade too freely and recognise who wrote the text
 
@@ -2375,7 +2352,7 @@ possible.
 
 ---
 
-Date: 2025-12-10 · Source: https://github.com/karpathy/hn-time-capsule · Themes: ai-progress, agentic-coding · Status: current
+Date: 2025-12-10 · Kind: practice · Source: https://github.com/karpathy/hn-time-capsule · Themes: ai-progress, agentic-coding · Status: current
 
 # Use an LLM to grade past predictions with hindsight
 
@@ -2407,7 +2384,7 @@ five stages (fetch, prompt, analyze, parse, render) that run alone or together.
 
 ---
 
-Date: 2025-12-07 · Source: https://x.com/karpathy/status/1997731268969304070 · Themes: llm-psychology, context-and-prompting · Status: current
+Date: 2025-12-07 · Kind: practice · Source: https://x.com/karpathy/status/1997731268969304070 · Themes: llm-psychology, context-and-prompting · Status: current
 
 # Ask the LLM to simulate experts, not to give its opinion
 
@@ -2431,7 +2408,7 @@ Karpathy says you should not ask a model for its own opinion on a topic. There i
 
 ---
 
-Date: 2025-11-29 · Source: https://karpathy.bearblog.dev/the-space-of-minds/ · Themes: llm-psychology · Status: current
+Date: 2025-11-29 · Kind: practice · Source: https://karpathy.bearblog.dev/the-space-of-minds/ · Themes: llm-psychology · Status: current
 
 # LLMs are shaped by commercial evolution, not biological evolution
 
@@ -2460,7 +2437,7 @@ direction. Good mental models of this new entity help us predict it.
 
 ---
 
-Date: 2025-11-24 · Source: https://x.com/karpathy/status/1993010584175141038 · Themes: learning-and-education · Status: current
+Date: 2025-11-24 · Kind: practice · Source: https://x.com/karpathy/status/1993010584175141038 · Themes: learning-and-education · Status: current
 
 # Use AI to learn, but test without it
 
@@ -2484,7 +2461,7 @@ Karpathy argues that you cannot detect AI use in homework. Schools should move m
 
 ---
 
-Date: 2025-11-22 · Source: https://github.com/karpathy/llm-council · Themes: verification, agentic-coding · Status: current
+Date: 2025-11-22 · Kind: practice · Source: https://github.com/karpathy/llm-council · Themes: verification, agentic-coding · Status: current
 
 # Ask several models, then let them rank each other anonymously
 
@@ -2515,7 +2492,7 @@ were probably written by his coding agent, not by him.
 
 ---
 
-Date: 2025-11-18 · Source: https://github.com/karpathy/reader3 · Themes: agent-native-software, agentic-coding · Status: current
+Date: 2025-11-18 · Kind: practice · Source: https://github.com/karpathy/reader3 · Themes: agent-native-software, agentic-coding · Status: current
 
 # Treat small apps as disposable; ask your LLM to change them
 
@@ -2549,7 +2526,7 @@ model wrote, which tells the reader how much to trust it.
 
 ---
 
-Date: 2025-11-18 · Source: https://x.com/karpathy/status/1990854771058913347 · Themes: verification, llm-psychology · Status: current
+Date: 2025-11-18 · Kind: practice · Source: https://x.com/karpathy/status/1990854771058913347 · Themes: verification, llm-psychology · Status: current
 
 # Public benchmarks are gameable, so keep your own evals
 
@@ -2588,7 +2565,7 @@ now points to Epoch's Capabilities Index and its published benchmark reviews.
 
 ---
 
-Date: 2025-11-17 · Source: https://x.com/karpathy/status/1990577951671509438 · Themes: output-and-reading, learning-and-education · Status: current
+Date: 2025-11-17 · Kind: practice · Source: https://x.com/karpathy/status/1990577951671509438 · Themes: output-and-reading, learning-and-education · Status: current
 
 # Read with an LLM in three passes
 
@@ -2612,7 +2589,7 @@ Karpathy describes a reading habit that he counts among his top uses of LLMs. Pa
 
 ---
 
-Date: 2025-11-17 · Source: https://karpathy.bearblog.dev/verifiability/ · Themes: verification, ai-progress · Status: current
+Date: 2025-11-17 · Kind: practice · Source: https://karpathy.bearblog.dev/verifiability/ · Themes: verification, ai-progress · Status: current
 
 # Software 2.0 automates what you can verify
 
@@ -2646,7 +2623,7 @@ is the "jagged" frontier.
 
 ---
 
-Date: 2025-10-17 · Source: https://www.dwarkesh.com/p/andrej-karpathy · Themes: ai-progress · Status: current
+Date: 2025-10-17 · Kind: view · Source: https://www.dwarkesh.com/p/andrej-karpathy · Themes: ai-progress · Status: current
 
 # AI will blend into the same 2% growth curve
 
@@ -2658,12 +2635,6 @@ society step by step. Recursive self-improvement is also old: search engines, ID
 already help build the next tools. Dwarkesh argues for a jump, as with the Industrial Revolution;
 Karpathy says that needs a discrete event he cannot find in the statistics.
 
-## Apply
-
-- When you plan for AI, use a gradual adoption model: some tasks first, many human checks left.
-- Judge claims of sudden change by asking what has to be adopted, and by whom.
-- Track real usage in your own work, not forecasts.
-
 ## Context
 
 - Dwarkesh Patel interview, 2025-10-17. He says he is open to being convinced.
@@ -2672,7 +2643,7 @@ Karpathy says that needs a discrete event he cannot find in the statistics.
 
 ---
 
-Date: 2025-10-17 · Source: https://www.dwarkesh.com/p/andrej-karpathy · Themes: learning-and-education · Status: current
+Date: 2025-10-17 · Kind: practice · Source: https://www.dwarkesh.com/p/andrej-karpathy · Themes: learning-and-education · Status: current
 
 # To learn something, build it yourself without copy-paste
 
@@ -2701,7 +2672,7 @@ build-up video would help.
 
 ---
 
-Date: 2025-10-17 · Source: https://www.dwarkesh.com/p/andrej-karpathy · Themes: learning-and-education, ai-progress · Status: current
+Date: 2025-10-17 · Kind: practice · Source: https://www.dwarkesh.com/p/andrej-karpathy · Themes: learning-and-education, ai-progress · Status: current
 
 # Build for the capability that exists; a real tutor is a high bar
 
@@ -2726,7 +2697,7 @@ create the content. He says that as a consultant, much of his value was telling 
 
 ---
 
-Date: 2025-10-17 · Source: https://www.dwarkesh.com/p/andrej-karpathy · Themes: agentic-coding · Status: superseded (by 2026-01-26-programming-in-english-december-shift.md)
+Date: 2025-10-17 · Kind: practice · Source: https://www.dwarkesh.com/p/andrej-karpathy · Themes: agentic-coding · Status: superseded (by 2026-01-26-programming-in-english-december-shift.md)
 
 # Coding agents are weak on novel code
 
@@ -2762,7 +2733,7 @@ so his timelines are longer.
 
 ---
 
-Date: 2025-10-17 · Source: https://www.dwarkesh.com/p/andrej-karpathy · Themes: ai-progress, agent-native-software · Status: current
+Date: 2025-10-17 · Kind: view · Source: https://www.dwarkesh.com/p/andrej-karpathy · Themes: ai-progress, agent-native-software · Status: current
 
 # Coding came first because it is text with diff tools
 
@@ -2786,7 +2757,7 @@ surrounding tools, not only the model.
 
 ---
 
-Date: 2025-10-17 · Source: https://www.dwarkesh.com/p/andrej-karpathy · Themes: ai-progress · Status: current
+Date: 2025-10-17 · Kind: view · Source: https://www.dwarkesh.com/p/andrej-karpathy · Themes: ai-progress · Status: current
 
 # This is the decade of agents, not the year of agents
 
@@ -2818,7 +2789,7 @@ reacting to over-prediction in the industry, and that he is optimistic about the
 
 ---
 
-Date: 2025-10-17 · Source: https://www.dwarkesh.com/p/andrej-karpathy · Themes: ai-progress · Status: current
+Date: 2025-10-17 · Kind: view · Source: https://www.dwarkesh.com/p/andrej-karpathy · Themes: ai-progress · Status: current
 
 # The likely risk is a gradual loss of control and understanding
 
@@ -2844,7 +2815,7 @@ acts for a person, society may not get the outcomes it wants. This is why he wor
 
 ---
 
-Date: 2025-10-17 · Source: https://www.dwarkesh.com/p/andrej-karpathy · Themes: learning-and-education · Status: current
+Date: 2025-10-17 · Kind: practice · Source: https://www.dwarkesh.com/p/andrej-karpathy · Themes: learning-and-education · Status: current
 
 # Learn on demand through projects, then explain it to others
 
@@ -2869,7 +2840,7 @@ explanation hard for beginners.
 
 ---
 
-Date: 2025-10-17 · Source: https://www.dwarkesh.com/p/andrej-karpathy · Themes: research-and-training, agent-native-software · Status: current
+Date: 2025-10-17 · Kind: view · Source: https://www.dwarkesh.com/p/andrej-karpathy · Themes: research-and-training, agent-native-software · Status: current
 
 # LLMs still lack culture and self-play
 
@@ -2895,7 +2866,7 @@ but cannot yet build culture. He sees organisations of agents as part of the sam
 
 ---
 
-Date: 2025-10-17 · Source: https://www.dwarkesh.com/p/andrej-karpathy · Themes: learning-and-education · Status: current
+Date: 2025-10-17 · Kind: practice · Source: https://www.dwarkesh.com/p/andrej-karpathy · Themes: learning-and-education · Status: current
 
 # Teach by building ramps to knowledge
 
@@ -2921,7 +2892,7 @@ lets the student try first, so the answer is valued. His goal is many "eurekas p
 
 ---
 
-Date: 2025-10-17 · Source: https://www.dwarkesh.com/p/andrej-karpathy · Themes: research-and-training · Status: current
+Date: 2025-10-17 · Kind: view · Source: https://www.dwarkesh.com/p/andrej-karpathy · Themes: research-and-training · Status: current
 
 # Reinforcement learning sucks supervision through a straw
 
@@ -2954,7 +2925,7 @@ needs three to five more big algorithm ideas.
 
 ---
 
-Date: 2025-10-17 · Source: https://www.dwarkesh.com/p/andrej-karpathy · Themes: learning-and-education, output-and-reading · Status: current
+Date: 2025-10-17 · Kind: practice · Source: https://www.dwarkesh.com/p/andrej-karpathy · Themes: learning-and-education, output-and-reading · Status: current
 
 # Share your beginner questions to an LLM with the author
 
@@ -2980,7 +2951,7 @@ not the abstract.
 
 ---
 
-Date: 2025-10-17 · Source: https://www.dwarkesh.com/p/andrej-karpathy · Themes: research-and-training, llm-psychology · Status: current
+Date: 2025-10-17 · Kind: practice · Source: https://www.dwarkesh.com/p/andrej-karpathy · Themes: research-and-training, llm-psychology · Status: current
 
 # Model outputs are silently collapsed, so synthetic data needs entropy
 
@@ -3011,7 +2982,7 @@ prompts for you to think with, which LLM pre-training does not do.
 
 ---
 
-Date: 2025-10-17 · Source: https://www.dwarkesh.com/p/andrej-karpathy · Themes: context-and-prompting, llm-psychology · Status: current
+Date: 2025-10-17 · Kind: practice · Source: https://www.dwarkesh.com/p/andrej-karpathy · Themes: context-and-prompting, llm-psychology · Status: current
 
 # Weights are a hazy memory; the context window is working memory
 
@@ -3036,7 +3007,7 @@ inside a conversation, where they spot and fix their own mistakes in context.
 
 ---
 
-Date: 2025-10-13 · Source: https://github.com/karpathy/nanochat · Themes: agentic-coding, verification · Status: current
+Date: 2025-10-13 · Kind: practice · Source: https://github.com/karpathy/nanochat · Themes: agentic-coding, verification · Status: current
 
 # Ask contributors to disclose LLM-written code they do not understand
 
@@ -3065,7 +3036,7 @@ aim of low cognitive complexity.
 
 ---
 
-Date: 2025-10-13 · Source: https://github.com/karpathy/nanochat · Themes: research-and-training, agent-native-software · Status: current
+Date: 2025-10-13 · Kind: practice · Source: https://github.com/karpathy/nanochat · Themes: research-and-training, agent-native-software · Status: current
 
 # Keep the codebase minimal and forkable, with one dial
 
@@ -3098,7 +3069,7 @@ from start to finish. Such code is also easy for an agent to read and change.
 
 ---
 
-Date: 2025-10-08 · Source: https://x.com/karpathy/status/1976077806443569355 · Themes: agentic-coding · Status: current
+Date: 2025-10-08 · Kind: practice · Source: https://x.com/karpathy/status/1976077806443569355 · Themes: agentic-coding · Status: current
 
 # Models write over-defensive error handling
 
@@ -3117,7 +3088,7 @@ Karpathy jokes that models are terrified of exceptions, as if RL had taught them
 
 ---
 
-Date: 2025-10-01 · Source: https://karpathy.bearblog.dev/animals-vs-ghosts/ · Themes: llm-psychology, research-and-training · Status: current
+Date: 2025-10-01 · Kind: view · Source: https://karpathy.bearblog.dev/animals-vs-ghosts/ · Themes: llm-psychology, research-and-training · Status: current
 
 # LLMs are ghosts, not animals
 
@@ -3155,7 +3126,7 @@ and culture.
 
 ---
 
-Date: 2025-09-25 · Source: https://x.com/karpathy/status/1971220449515516391 · Themes: ai-progress · Status: current
+Date: 2025-09-25 · Kind: view · Source: https://x.com/karpathy/status/1971220449515516391 · Themes: ai-progress · Status: current
 
 # Jobs change before they vanish, and supervision grows
 
@@ -3188,7 +3159,7 @@ supervising automation.
 
 ---
 
-Date: 2025-09-05 · Source: https://x.com/karpathy/status/1964020416139448359 · Themes: agentic-coding · Status: current
+Date: 2025-09-05 · Kind: practice · Source: https://x.com/karpathy/status/1964020416139448359 · Themes: agentic-coding · Status: current
 
 # Get a second opinion from a stronger model on hard problems
 
@@ -3212,7 +3183,7 @@ Karpathy reports a pattern that happened three times. His coding agent struggled
 
 ---
 
-Date: 2025-08-27 · Source: https://x.com/karpathy/status/1960803117689397543 · Themes: research-and-training, verification · Status: current
+Date: 2025-08-27 · Kind: practice · Source: https://x.com/karpathy/status/1960803117689397543 · Themes: research-and-training, verification · Status: current
 
 # RL environments are the new training data
 
@@ -3231,7 +3202,7 @@ Karpathy describes three eras by their data. Pretraining used internet text. Sup
 
 ---
 
-Date: 2025-08-24 · Source: https://x.com/karpathy/status/1959703967694545296 · Themes: agentic-coding · Status: superseded (by 2026-01-26-programming-in-english-december-shift.md)
+Date: 2025-08-24 · Kind: practice · Source: https://x.com/karpathy/status/1959703967694545296 · Themes: agentic-coding · Status: superseded (by 2026-01-26-programming-in-english-december-shift.md)
 
 # Stitch several coding tools together, by task size
 
@@ -3259,7 +3230,7 @@ Karpathy describes a layered setup. Tab completion gives about 75 percent of his
 
 ---
 
-Date: 2025-08-20 · Source: https://github.com/karpathy/rendergit · Themes: output-and-reading, agent-native-software · Status: current
+Date: 2025-08-20 · Kind: practice · Source: https://github.com/karpathy/rendergit · Themes: output-and-reading, agent-native-software · Status: current
 
 # Flatten a repository into one page for humans and LLMs
 
@@ -3289,7 +3260,7 @@ models.
 
 ---
 
-Date: 2025-08-09 · Source: https://x.com/karpathy/status/1954224651443544436 · Themes: context-and-prompting, llm-psychology · Status: current
+Date: 2025-08-09 · Kind: practice · Source: https://x.com/karpathy/status/1954224651443544436 · Themes: context-and-prompting, llm-psychology · Status: current
 
 # Models are too agentic by default, so state stakes and scope
 
@@ -3313,7 +3284,7 @@ Karpathy notes that models tuned hard on benchmarks are agentic by default. They
 
 ---
 
-Date: 2025-06-27 · Source: https://x.com/karpathy/status/1938626382248149433 · Themes: ai-progress, research-and-training · Status: current
+Date: 2025-06-27 · Kind: view · Source: https://x.com/karpathy/status/1938626382248149433 · Themes: ai-progress, research-and-training · Status: current
 
 # A small cognitive core that reasons and looks facts up
 
@@ -3350,7 +3321,7 @@ because internet data is poor.
 
 ---
 
-Date: 2025-06-25 · Source: https://news.ycombinator.com/item?id=44379953 · Themes: output-and-reading, context-and-prompting · Status: current
+Date: 2025-06-25 · Kind: practice · Source: https://news.ycombinator.com/item?id=44379953 · Themes: output-and-reading, context-and-prompting · Status: current
 
 # Put the answer first and spend effort when you write
 
@@ -3375,7 +3346,7 @@ consumption. He calls this the respectful and kind thing to do.
 
 ---
 
-Date: 2025-06-25 · Source: https://x.com/karpathy/status/1937902205765607626 · Themes: context-and-prompting, agentic-coding · Status: current
+Date: 2025-06-25 · Kind: practice · Source: https://x.com/karpathy/status/1937902205765607626 · Themes: context-and-prompting, agentic-coding · Status: current
 
 # Context engineering, not prompt engineering
 
@@ -3414,7 +3385,7 @@ one message.
 
 ---
 
-Date: 2025-06-17 · Source: https://www.youtube.com/watch?v=LCEmiRjPEtQ · Themes: ai-progress, verification · Status: current
+Date: 2025-06-17 · Kind: practice · Source: https://www.youtube.com/watch?v=LCEmiRjPEtQ · Themes: ai-progress, verification · Status: current
 
 # A demo is the first nine; each next nine costs the same work
 
@@ -3446,7 +3417,7 @@ demos unimpressive and thinks "year of agents" claims are too fast.
 
 ---
 
-Date: 2025-06-17 · Source: https://www.youtube.com/watch?v=LCEmiRjPEtQ · Themes: agent-native-software · Status: current
+Date: 2025-06-17 · Kind: view · Source: https://www.youtube.com/watch?v=LCEmiRjPEtQ · Themes: agent-native-software · Status: current
 
 # LLMs are like 1960s operating systems
 
@@ -3473,7 +3444,7 @@ technology reached consumers first, not governments.
 
 ---
 
-Date: 2025-06-17 · Source: https://www.youtube.com/watch?v=LCEmiRjPEtQ · Themes: llm-psychology · Status: current
+Date: 2025-06-17 · Kind: practice · Source: https://www.youtube.com/watch?v=LCEmiRjPEtQ · Themes: llm-psychology · Status: current
 
 # LLMs are people spirits with superpowers and deficits
 
@@ -3502,7 +3473,7 @@ and may leak data. The skill is to use the strengths and design around the weakn
 
 ---
 
-Date: 2025-06-17 · Source: https://www.youtube.com/watch?v=LCEmiRjPEtQ · Themes: agent-native-software, agentic-coding · Status: current
+Date: 2025-06-17 · Kind: practice · Source: https://www.youtube.com/watch?v=LCEmiRjPEtQ · Themes: agent-native-software, agentic-coding · Status: current
 
 # Build partial-autonomy apps with an autonomy slider
 
@@ -3536,7 +3507,7 @@ field with private data, sensors, actuators and feedback loops.
 
 ---
 
-Date: 2025-06-17 · Source: https://www.youtube.com/watch?v=LCEmiRjPEtQ · Themes: agent-native-software · Status: current
+Date: 2025-06-17 · Kind: practice · Source: https://www.youtube.com/watch?v=LCEmiRjPEtQ · Themes: agent-native-software · Status: current
 
 # Software 3.0 means programming computers in English
 
@@ -3572,7 +3543,7 @@ advice to new engineers: be fluent in all three, because each has strengths.
 
 ---
 
-Date: 2025-06-04 · Source: https://x.com/karpathy/status/1930354382106964079 · Themes: agent-native-software · Status: current
+Date: 2025-06-04 · Kind: practice · Source: https://x.com/karpathy/status/1930354382106964079 · Themes: agent-native-software · Status: current
 
 # Opaque, binary-format tools do not fit human and AI work
 
@@ -3591,7 +3562,7 @@ Karpathy argues that products with rich visual UIs, no scripting and opaque bina
 
 ---
 
-Date: 2025-05-10 · Source: https://x.com/karpathy/status/1921368644069765486 · Themes: context-and-prompting, research-and-training · Status: current
+Date: 2025-05-10 · Kind: practice · Source: https://x.com/karpathy/status/1921368644069765486 · Themes: context-and-prompting, research-and-training · Status: current
 
 # System prompt learning, where the model writes its own lessons
 
@@ -3627,7 +3598,7 @@ that database into the weights to avoid bloat.
 
 ---
 
-Date: 2025-04-27 · Source: https://karpathy.bearblog.dev/vibe-coding-menugen/ · Themes: agentic-coding · Status: current
+Date: 2025-04-27 · Kind: practice · Source: https://karpathy.bearblog.dev/vibe-coding-menugen/ · Themes: agentic-coding · Status: current
 
 # Vibe coding a real app is easy locally and hard to ship
 
@@ -3659,7 +3630,7 @@ yet.
 
 ---
 
-Date: 2025-04-26 · Source: https://news.ycombinator.com/item?id=43800879 · Themes: knowledge-management, agent-native-software · Status: current
+Date: 2025-04-26 · Kind: practice · Source: https://news.ycombinator.com/item?id=43800879 · Themes: knowledge-management, agent-native-software · Status: current
 
 # Go back to RSS, with a feed you control
 
@@ -3694,7 +3665,7 @@ Hacker News.
 
 ---
 
-Date: 2025-04-24 · Source: https://x.com/karpathy/status/1915581920022585597 · Themes: agentic-coding, context-and-prompting · Status: current
+Date: 2025-04-24 · Kind: practice · Source: https://x.com/karpathy/status/1915581920022585597 · Themes: agentic-coding, context-and-prompting · Status: current
 
 # Keep the AI on a tight leash for code you care about
 
@@ -3737,7 +3708,7 @@ artifact in the middle, such as a course syllabus, so the AI stays inside it.
 
 ---
 
-Date: 2025-04-07 · Source: https://karpathy.bearblog.dev/power-to-the-people/ · Themes: ai-progress · Status: current
+Date: 2025-04-07 · Kind: view · Source: https://karpathy.bearblog.dev/power-to-the-people/ · Themes: ai-progress · Status: current
 
 # LLMs reverse the usual path of technology diffusion
 
@@ -3772,7 +3743,7 @@ better models, and the rich could then get far more intelligence than others.
 
 ---
 
-Date: 2025-03-31 · Source: https://x.com/karpathy/status/1906701941146624039 · Themes: output-and-reading, agent-native-software · Status: current
+Date: 2025-03-31 · Kind: practice · Source: https://x.com/karpathy/status/1906701941146624039 · Themes: output-and-reading, agent-native-software · Status: current
 
 # Text chat is the terminal era; ask for visual output
 
@@ -3811,7 +3782,7 @@ default), and later interactive video made by a diffusion model.
 
 ---
 
-Date: 2025-03-19 · Source: https://karpathy.bearblog.dev/the-append-and-review-note/ · Themes: knowledge-management · Status: current
+Date: 2025-03-19 · Kind: practice · Source: https://karpathy.bearblog.dev/the-append-and-review-note/ · Themes: knowledge-management · Status: current
 
 # Keep one note you append to and review
 
@@ -3847,7 +3818,7 @@ working memory and move on.
 
 ---
 
-Date: 2025-03-12 · Source: https://x.com/karpathy/status/1899876370492383450 · Themes: agent-native-software, output-and-reading · Status: current
+Date: 2025-03-12 · Kind: practice · Source: https://x.com/karpathy/status/1899876370492383450 · Themes: agent-native-software, output-and-reading · Status: current
 
 # Build docs and tools for agents, which curl instead of click
 
@@ -3891,7 +3862,7 @@ CLI let Claude build a terminal dashboard in about three minutes.
 
 ---
 
-Date: 2025-02-27 · Source: https://www.youtube.com/watch?v=EWvNQjAaOHw · Themes: output-and-reading, learning-and-education · Status: current
+Date: 2025-02-27 · Kind: practice · Source: https://www.youtube.com/watch?v=EWvNQjAaOHw · Themes: output-and-reading, learning-and-education · Status: current
 
 # Ask the model for a conceptual diagram of what you read
 
@@ -3916,7 +3887,7 @@ the one artifacts use he finds useful in daily work.
 
 ---
 
-Date: 2025-02-27 · Source: https://www.youtube.com/watch?v=EWvNQjAaOHw · Themes: context-and-prompting, llm-psychology · Status: current
+Date: 2025-02-27 · Kind: practice · Source: https://www.youtube.com/watch?v=EWvNQjAaOHw · Themes: context-and-prompting, llm-psychology · Status: current
 
 # Check which tools the model has before you trust its answer
 
@@ -3941,7 +3912,7 @@ changed, or is rare on the web. He often uses a search-first app for this.
 
 ---
 
-Date: 2025-02-27 · Source: https://www.youtube.com/watch?v=EWvNQjAaOHw · Themes: context-and-prompting, llm-psychology · Status: current
+Date: 2025-02-27 · Kind: practice · Source: https://www.youtube.com/watch?v=EWvNQjAaOHw · Themes: context-and-prompting, llm-psychology · Status: current
 
 # Try a fast model first, switch to a thinking model for hard problems
 
@@ -3970,7 +3941,7 @@ them his "LLM council".
 
 ---
 
-Date: 2025-02-27 · Source: https://www.youtube.com/watch?v=EWvNQjAaOHw · Themes: context-and-prompting · Status: current
+Date: 2025-02-27 · Kind: practice · Source: https://www.youtube.com/watch?v=EWvNQjAaOHw · Themes: context-and-prompting · Status: current
 
 # Give examples in prompts, and save the prompts you reuse
 
@@ -3996,7 +3967,7 @@ such as the level of formality in Korean replies.
 
 ---
 
-Date: 2025-02-27 · Source: https://www.youtube.com/watch?v=EWvNQjAaOHw · Themes: context-and-prompting · Status: current
+Date: 2025-02-27 · Kind: practice · Source: https://www.youtube.com/watch?v=EWvNQjAaOHw · Themes: context-and-prompting · Status: current
 
 # Start a new chat when the topic changes
 
@@ -4032,7 +4003,7 @@ agentic context management with memory, where the system decides what to keep.
 
 ---
 
-Date: 2025-02-27 · Source: https://www.youtube.com/watch?v=EWvNQjAaOHw · Themes: verification, llm-psychology · Status: current
+Date: 2025-02-27 · Kind: practice · Source: https://www.youtube.com/watch?v=EWvNQjAaOHw · Themes: verification, llm-psychology · Status: current
 
 # Treat LLM output as a first draft and check the sources
 
@@ -4063,7 +4034,7 @@ also checks the label on the box.
 
 ---
 
-Date: 2025-02-27 · Source: https://www.youtube.com/watch?v=EWvNQjAaOHw · Themes: agent-native-software · Status: current
+Date: 2025-02-27 · Kind: practice · Source: https://www.youtube.com/watch?v=EWvNQjAaOHw · Themes: agent-native-software · Status: current
 
 # Ask the model to write a small app just for you
 
@@ -4087,7 +4058,7 @@ the app for one person. He adds that he is not a daily user of this and uses it 
 
 ---
 
-Date: 2025-02-02 · Source: https://x.com/karpathy/status/1886192184808149383 · Themes: agentic-coding · Status: current
+Date: 2025-02-02 · Kind: practice · Source: https://x.com/karpathy/status/1886192184808149383 · Themes: agentic-coding · Status: current
 
 # Vibe coding is fine for throwaway projects
 
@@ -4116,7 +4087,7 @@ In February 2025 Karpathy named a style of work: vibe coding. You give in to the
 
 ---
 
-Date: 2025-01-30 · Source: https://x.com/karpathy/status/1885026028428681698 · Themes: learning-and-education, research-and-training · Status: current
+Date: 2025-01-30 · Kind: practice · Source: https://x.com/karpathy/status/1885026028428681698 · Themes: learning-and-education, research-and-training · Status: current
 
 # LLMs need the practice problems of a textbook
 
@@ -4140,7 +4111,7 @@ Karpathy notes that a textbook has three kinds of content. Exposition matches pr
 
 ---
 
-Date: 2025-01-28 · Source: https://x.com/karpathy/status/1884336943321997800 · Themes: research-and-training, context-and-prompting · Status: current
+Date: 2025-01-28 · Kind: practice · Source: https://x.com/karpathy/status/1884336943321997800 · Themes: research-and-training, context-and-prompting · Status: current
 
 # RL gives thinking models strategies you cannot write by hand
 
@@ -4158,7 +4129,7 @@ Karpathy says that RL on thinking models produces cognitive strategies: trying a
 
 ---
 
-Date: 2024-12-25 · Source: https://x.com/karpathy/status/1872038630405054853 · Themes: agentic-coding · Status: current
+Date: 2024-12-25 · Kind: practice · Source: https://x.com/karpathy/status/1872038630405054853 · Themes: agentic-coding · Status: current
 
 # Cognitive load is what matters in software engineering
 
@@ -4176,7 +4147,7 @@ Karpathy endorsed an essay titled Cognitive load is what matters. He called it t
 
 ---
 
-Date: 2024-12-14 · Source: https://x.com/karpathy/status/1868061331355840704 · Themes: agentic-coding, verification · Status: current
+Date: 2024-12-14 · Kind: practice · Source: https://x.com/karpathy/status/1868061331355840704 · Themes: agentic-coding, verification · Status: current
 
 # Judge an agent as you would a junior intern
 
@@ -4199,7 +4170,7 @@ Karpathy says the capability to watch is not PhD-level problems. It is the junio
 
 ---
 
-Date: 2024-12-11 · Source: https://x.com/karpathy/status/1866896395363553418 · Themes: learning-and-education, output-and-reading · Status: current
+Date: 2024-12-11 · Kind: practice · Source: https://x.com/karpathy/status/1866896395363553418 · Themes: learning-and-education, output-and-reading · Status: current
 
 # Read books together with an LLM, one chapter at a time
 
@@ -4240,7 +4211,7 @@ for easy copying. He prefers EPUB to PDF because code can parse it into clean te
 
 ---
 
-Date: 2024-11-29 · Source: https://x.com/karpathy/status/1862565643436138619 · Themes: llm-psychology · Status: current
+Date: 2024-11-29 · Kind: view · Source: https://x.com/karpathy/status/1862565643436138619 · Themes: llm-psychology · Status: current
 
 # Asking an AI is like asking the average data labeler
 
@@ -4264,7 +4235,7 @@ Karpathy says that when you ask an AI, you are closer to asking an average data 
 
 ---
 
-Date: 2024-11-10 · Source: https://x.com/karpathy/status/1855659091877937385 · Themes: ai-progress, verification · Status: current
+Date: 2024-11-10 · Kind: view · Source: https://x.com/karpathy/status/1855659091877937385 · Themes: ai-progress, verification · Status: current
 
 # Hard closed problems are easy; long autonomous jobs are hard
 
@@ -4282,7 +4253,7 @@ Karpathy applies Moravec's paradox to LLM evals. Models solve hard, closed probl
 
 ---
 
-Date: 2024-10-06 · Source: https://x.com/karpathy/status/1843005000206909856 · Themes: output-and-reading · Status: current
+Date: 2024-10-06 · Kind: practice · Source: https://x.com/karpathy/status/1843005000206909856 · Themes: output-and-reading · Status: current
 
 # Break the shared LLM house voice with a style guide
 
@@ -4300,7 +4271,7 @@ Karpathy is puzzled that all LLMs sound alike. They overuse lists and words like
 
 ---
 
-Date: 2024-08-07 · Source: https://x.com/karpathy/status/1821277264996352246 · Themes: research-and-training, verification · Status: current
+Date: 2024-08-07 · Kind: practice · Source: https://x.com/karpathy/status/1821277264996352246 · Themes: research-and-training, verification · Status: current
 
 # An LLM judge gets gamed when you optimise against it
 
@@ -4331,7 +4302,7 @@ judge works for perhaps 10 or 20 optimisation steps, not hundreds.
 
 ---
 
-Date: 2024-03-12 · Source: https://x.com/karpathy/status/1767598414945292695 · Themes: agentic-coding · Status: current
+Date: 2024-03-12 · Kind: view · Source: https://x.com/karpathy/status/1767598414945292695 · Themes: agentic-coding · Status: current
 
 # Software engineering climbs an autonomy ladder like self-driving
 
@@ -4354,7 +4325,7 @@ In March 2024 Karpathy compared software engineering to self-driving. The steps:
 
 ---
 
-Date: 2024-02-21 · Source: https://x.com/karpathy/status/1760388761349927356 · Themes: learning-and-education · Status: current
+Date: 2024-02-21 · Kind: practice · Source: https://x.com/karpathy/status/1760388761349927356 · Themes: learning-and-education · Status: current
 
 # Build the thing, then build the ramp
 
@@ -4377,7 +4348,7 @@ Karpathy says his micrograd project stagnated until he made a from-scratch video
 
 ---
 
-Date: 2024-02-10 · Source: https://x.com/karpathy/status/1756380066580455557 · Themes: learning-and-education · Status: current
+Date: 2024-02-10 · Kind: practice · Source: https://x.com/karpathy/status/1756380066580455557 · Themes: learning-and-education · Status: current
 
 # Learning takes effort, unlike entertainment
 
@@ -4401,7 +4372,7 @@ Karpathy says much "educational" short video is entertainment. Learning should f
 
 ---
 
-Date: 2024-01-20 · Source: https://x.com/karpathy/status/1748784260318990496 · Themes: knowledge-management, research-and-training · Status: current
+Date: 2024-01-20 · Kind: view · Source: https://x.com/karpathy/status/1748784260318990496 · Themes: knowledge-management, research-and-training · Status: current
 
 # The ideal training data is the thinking, not the final text
 
@@ -4419,7 +4390,7 @@ Karpathy says the ideal data for training an LLM is the whole sequence of intern
 
 ---
 
-Date: 2024-01-12 · Source: https://x.com/karpathy/status/1745921205020799433 · Themes: security-and-dependencies · Status: current
+Date: 2024-01-12 · Kind: practice · Source: https://x.com/karpathy/status/1745921205020799433 · Themes: security-and-dependencies · Status: current
 
 # Third-party models can hide sleeper agents
 
@@ -4437,7 +4408,7 @@ Karpathy points to a risk beyond prompt injection: poisoned training text or ope
 
 ---
 
-Date: 2023-12-08 · Source: https://x.com/karpathy/status/1733299213503787018 · Themes: llm-psychology, verification · Status: current
+Date: 2023-12-08 · Kind: practice · Source: https://x.com/karpathy/status/1733299213503787018 · Themes: llm-psychology, verification · Status: current
 
 # Hallucination is the LLM's main feature, so the system must check it
 
@@ -4461,7 +4432,7 @@ In December 2023 Karpathy called LLMs dream machines that are directed by prompt
 
 ---
 
-Date: 2023-09-28 · Source: https://x.com/karpathy/status/1707437820045062561 · Themes: agent-native-software, llm-psychology · Status: current
+Date: 2023-09-28 · Kind: view · Source: https://x.com/karpathy/status/1707437820045062561 · Themes: agent-native-software, llm-psychology · Status: current
 
 # The LLM OS, with the model as CPU and the agent as kernel
 

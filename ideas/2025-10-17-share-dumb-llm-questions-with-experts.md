@@ -9,6 +9,7 @@ summary: Put the paper in an LLM's context, ask your naive questions, and share 
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Share your beginner questions to an LLM with the author

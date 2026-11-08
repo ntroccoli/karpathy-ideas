@@ -9,6 +9,7 @@ summary: For good results with long documents, use EPUB over PDF, convert with a
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Convert books and PDFs with an agent, in chunks

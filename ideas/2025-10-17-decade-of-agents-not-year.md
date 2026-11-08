@@ -9,6 +9,7 @@ summary: Agents are useful today but lack memory, multimodality and reliability;
 status: current
 superseded_by:
 anthropic: false
+kind: view
 ---
 
 # This is the decade of agents, not the year of agents

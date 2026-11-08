@@ -9,6 +9,7 @@ summary: Optimize for a series of models along one compute axis, fit scaling law
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Train a family of models controlled by one compute dial

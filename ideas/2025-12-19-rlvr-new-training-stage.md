@@ -9,6 +9,7 @@ summary: Training against automatic rewards (maths, code) made models learn reas
 status: current
 superseded_by:
 anthropic: false
+kind: view
 ---
 
 # RLVR became the major new training stage of 2025

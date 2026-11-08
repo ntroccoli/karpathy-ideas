@@ -9,6 +9,7 @@ summary: Writing the code from scratch, only looking at a reference, shows what 
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # To learn something, build it yourself without copy-paste

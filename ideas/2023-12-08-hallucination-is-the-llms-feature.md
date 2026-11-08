@@ -9,6 +9,7 @@ summary: An LLM is a dream machine steered by prompts, so the system around it m
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Hallucination is the LLM's main feature, so the system must check it

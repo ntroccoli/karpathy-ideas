@@ -9,6 +9,7 @@ summary: Large software is an invisible structure; code explorers could cluster 
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Show big codebases as spatial maps, not file lists

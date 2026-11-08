@@ -9,6 +9,7 @@ summary: rendergit turns a git repo into one static HTML page with a human view 
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Flatten a repository into one page for humans and LLMs

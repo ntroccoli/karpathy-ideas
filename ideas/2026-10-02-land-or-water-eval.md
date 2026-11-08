@@ -9,6 +9,7 @@ summary: Ask a model many times whether a latitude and longitude is land or wate
 status: current
 superseded_by:
 anthropic: true
+kind: practice
 ---
 
 # Test a model by asking if coordinates are land or water

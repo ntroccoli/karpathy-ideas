@@ -9,6 +9,7 @@ summary: Claws add orchestration, scheduling and persistence above agents; prefe
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Claws are a new layer on top of LLM agents

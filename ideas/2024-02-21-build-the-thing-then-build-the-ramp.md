@@ -9,6 +9,7 @@ summary: Code plus a README is not enough; a from-scratch explainer can bring te
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Build the thing, then build the ramp

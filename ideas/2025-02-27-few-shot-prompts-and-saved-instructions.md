@@ -9,6 +9,7 @@ summary: A description plus a few concrete examples raises accuracy; save repeat
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Give examples in prompts, and save the prompts you reuse

@@ -9,6 +9,7 @@ summary: Instead of finding an app, have the model write a tiny local one, such 
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Ask the model to write a small app just for you

@@ -9,6 +9,7 @@ summary: As software gets cheap to ask for, people want much more of it (Jevons 
 status: current
 superseded_by:
 anthropic: false
+kind: view
 ---
 
 # Cheaper software raises the demand for software

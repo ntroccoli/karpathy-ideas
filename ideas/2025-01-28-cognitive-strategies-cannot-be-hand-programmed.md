@@ -9,6 +9,7 @@ summary: RL on reasoning models yields cognitive strategies, such as backtrackin
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # RL gives thinking models strategies you cannot write by hand

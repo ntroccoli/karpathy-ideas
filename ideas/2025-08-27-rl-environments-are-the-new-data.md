@@ -9,6 +9,7 @@ summary: Pretraining used web text, finetuning used conversations, and RL uses e
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # RL environments are the new training data

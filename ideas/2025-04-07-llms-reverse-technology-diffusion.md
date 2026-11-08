@@ -9,6 +9,7 @@ summary: Most technologies reach governments and firms first; LLMs help ordinary
 status: current
 superseded_by:
 anthropic: false
+kind: view
 ---
 
 # LLMs reverse the usual path of technology diffusion

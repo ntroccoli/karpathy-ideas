@@ -9,6 +9,7 @@ summary: As agents do more of the legwork, human work moves up to oversight and 
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Human work rises into oversight, helped by throwaway software

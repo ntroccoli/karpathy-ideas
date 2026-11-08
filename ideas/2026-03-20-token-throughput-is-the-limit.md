@@ -9,6 +9,7 @@ summary: Run several agents in parallel on separate tasks and give them big macr
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # With coding agents, your skill and token use are the limit

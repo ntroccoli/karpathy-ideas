@@ -9,6 +9,7 @@ summary: Models are sharp where rewards are checkable and where labs put trainin
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Jagged intelligence follows verifiability and training focus

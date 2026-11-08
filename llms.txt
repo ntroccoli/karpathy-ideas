@@ -1,6 +1,6 @@
 # Karpathy Ideas
 
-> Unofficial, curated notes on Andrej Karpathy's public ideas about working with LLMs and AI agents. Each idea: date, source link, summary in our own words, one short quote at most, and practical Apply steps.
+> Unofficial, curated notes on Andrej Karpathy's public ideas about working with LLMs and AI agents. Each idea: date, source link, summary in our own words, one short quote at most, and practical Apply steps (views, his opinions and explanations, may have none).
 
 Not affiliated with or endorsed by Andrej Karpathy. Prefer ideas with `status: current`; superseded ideas link to his newer view. Quotes belong to their author: link to the source instead of reproducing more text.
 
@@ -14,7 +14,7 @@ To review a whole project, use the [project checklist](https://raw.githubusercon
 
 Use the themes when you need ideas for one task (a prompt, a workflow, a tool), not a project review.
 
-1. Pick the 2-3 themes below that match your task and read only those theme pages (one line per idea). Read the full index only if you need everything.
+1. Pick the 2-3 themes below that match your task and read only those theme pages (one line per idea). Each page lists practices (ways of working) first, then views (his opinions and explanations); for a task, the practices are usually enough. Read the full index only if you need everything.
 2. Open only the idea files you will use (each is short: summary, Apply steps, context).
 3. If you can delegate, let a smaller, cheaper model or subagent do steps 1-2 and return a shortlist of idea links with one line each on why they fit. The main model then reads only the shortlisted files. This saves cost and keeps the main context clean.
 
@@ -41,5 +41,5 @@ Relative links inside these files resolve against https://raw.githubusercontent.
 
 ## Optional
 
-- [All ideas in one file](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/llms-full.txt): for tools that cannot browse. About 250 KB (~64k tokens), so prefer the themes when you can follow links
+- [All ideas in one file](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/llms-full.txt): for tools that cannot browse. About 252 KB (~65k tokens), so prefer the themes when you can follow links
 - [Sweep log](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/log.md): what was collected and when

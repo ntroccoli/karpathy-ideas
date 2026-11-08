@@ -9,6 +9,7 @@ summary: AI work cannot be detected, so test in class: students must use AI well
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Use AI to learn, but test without it

@@ -9,6 +9,7 @@ summary: A model recalls training data vaguely but reads its context directly, s
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Weights are a hazy memory; the context window is working memory

@@ -9,6 +9,7 @@ summary: Find the first-order core, show it in the smallest working code, and or
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Teach by building ramps to knowledge

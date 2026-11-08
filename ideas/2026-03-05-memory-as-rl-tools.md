@@ -9,6 +9,7 @@ summary: Long-term memory may need less than new weights at first: treat memory 
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Make memory and compaction tools that RL trains

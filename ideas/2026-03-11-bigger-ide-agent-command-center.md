@@ -9,6 +9,7 @@ summary: Developers need a bigger IDE built around many supervised agents, not o
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # The IDE is not dead; the unit of work is now an agent

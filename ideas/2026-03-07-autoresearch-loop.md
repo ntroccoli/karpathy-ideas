@@ -9,6 +9,7 @@ summary: An agent loops on a training script against a fixed 5-minute run and a 
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Autoresearch: the agent edits the code, the human edits the prompt
@@ -34,7 +35,7 @@ written by AI, and that he tunes this "meta-setup" as much as the training code.
   results with simpler code is a win).
 - Fix the budget per experiment (here, five minutes) so runs compare fairly.
 - Keep the agent on a branch. Commit each kept change, so the history is the lab notebook.
-- Compare agent setups, not only models: change the prompt file, rerun, and compare the curves.
+- Compare agent setups, not only models: see [programming an organisation of agents](2026-02-27-programming-an-agent-research-org.md) for how to compare two prompt files.
 - Use it only where a result can be measured. If you cannot evaluate it, you cannot loop on it (his caveat on the No Priors podcast).
 
 ## Context

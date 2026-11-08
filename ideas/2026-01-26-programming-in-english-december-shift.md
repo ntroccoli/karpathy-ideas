@@ -9,6 +9,7 @@ summary: Agent coding went from 20% to 80% of his work in a few weeks; the unit 
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Programming moved to English in December 2025

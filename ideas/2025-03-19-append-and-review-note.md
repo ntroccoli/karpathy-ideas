@@ -9,6 +9,7 @@ summary: One text note, new items added on top, old items sinking, and a periodi
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Keep one note you append to and review

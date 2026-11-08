@@ -9,6 +9,7 @@ summary: Models would learn most from the full sequence of thoughts and edits be
 status: current
 superseded_by:
 anthropic: false
+kind: view
 ---
 
 # The ideal training data is the thinking, not the final text

@@ -9,6 +9,7 @@ summary: Outcome-only RL rewards every step of a lucky run equally; it works bet
 status: current
 superseded_by:
 anthropic: false
+kind: view
 ---
 
 # Reinforcement learning sucks supervision through a straw

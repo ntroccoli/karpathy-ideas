@@ -9,6 +9,7 @@ summary: Models overuse lists, 'multifaceted' and offers of help, all at the sam
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Break the shared LLM house voice with a style guide

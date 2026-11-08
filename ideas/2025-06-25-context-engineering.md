@@ -9,6 +9,7 @@ summary: The skill is filling the context window with the right information for 
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Context engineering, not prompt engineering

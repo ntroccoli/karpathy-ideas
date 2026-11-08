@@ -9,6 +9,7 @@ summary: Autoresearch should become asynchronous and massively parallel; git and
 status: current
 superseded_by:
 anthropic: false
+kind: view
 ---
 
 # Agents need to collaborate like a research community, not one PhD student

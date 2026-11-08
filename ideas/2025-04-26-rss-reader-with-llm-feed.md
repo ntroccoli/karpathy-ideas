@@ -9,6 +9,7 @@ summary: RSS is open and hackable and escapes engagement slop; a good reader wou
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Go back to RSS, with a feed you control

@@ -9,6 +9,7 @@ summary: Much educational short video is entertainment; real learning feels like
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Learning takes effort, unlike entertainment

@@ -9,6 +9,7 @@ summary: A home agent replaced six device apps; vendors should expose APIs, beca
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Apps should be APIs, and agents the glue between them

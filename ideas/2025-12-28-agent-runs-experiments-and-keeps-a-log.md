@@ -9,6 +9,7 @@ summary: An agent can write code, run and watch training jobs and log results, b
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Let the agent run experiments and keep a results log

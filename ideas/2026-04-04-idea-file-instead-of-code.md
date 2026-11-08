@@ -9,6 +9,7 @@ summary: Publish a short abstract description of a pattern, meant to be pasted i
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Share an idea file, not code

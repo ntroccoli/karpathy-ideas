@@ -9,6 +9,7 @@ summary: Agents can do the work, but your own understanding sets the limit on di
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # You can outsource thinking, but not understanding

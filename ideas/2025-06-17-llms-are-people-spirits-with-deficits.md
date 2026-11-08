@@ -9,6 +9,7 @@ summary: An LLM simulates people, so it recalls like a savant, is jagged, forget
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # LLMs are people spirits with superpowers and deficits

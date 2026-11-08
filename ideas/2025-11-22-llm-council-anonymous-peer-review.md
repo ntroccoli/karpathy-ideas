@@ -9,6 +9,7 @@ summary: An LLM council collects answers from several models, has each review th
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Ask several models, then let them rank each other anonymously

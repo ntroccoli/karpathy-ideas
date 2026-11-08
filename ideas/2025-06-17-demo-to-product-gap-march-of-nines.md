@@ -9,6 +9,7 @@ summary: A system that works 90% of the time is a demo; reaching 99.999% takes y
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # A demo is the first nine; each next nine costs the same work

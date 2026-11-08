@@ -9,6 +9,7 @@ summary: Grading old HN threads, the model gave grades too easily and was biased
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # LLM judges grade too freely and recognise who wrote the text

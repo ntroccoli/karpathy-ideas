@@ -9,6 +9,7 @@ summary: After the litellm and axios attacks, he prefers fewer dependencies, use
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Rethink dependencies after supply chain attacks

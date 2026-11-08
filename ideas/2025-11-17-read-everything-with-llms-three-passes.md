@@ -9,6 +9,7 @@ summary: Read the text yourself first, then ask for an explanation or summary, t
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Read with an LLM in three passes

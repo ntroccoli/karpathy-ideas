@@ -9,6 +9,7 @@ summary: After RL, models wrap code in try/except and fallbacks, so tell the age
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Models write over-defensive error handling

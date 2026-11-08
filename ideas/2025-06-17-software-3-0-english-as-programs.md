@@ -9,6 +9,7 @@ summary: Code is Software 1.0, trained weights are 2.0, and an LLM's context win
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Software 3.0 means programming computers in English

@@ -9,6 +9,7 @@ summary: Poisoned training text or open weights can hide trigger phrases that sa
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Third-party models can hide sleeper agents

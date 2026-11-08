@@ -9,6 +9,7 @@ summary: Know which model and tier you use; start fast, move to a reasoning mode
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Try a fast model first, switch to a thinking model for hard problems

@@ -9,6 +9,7 @@ summary: Write a skill that tells an agent how to teach your code, and docs in m
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Explain things to agents, and let agents teach people

@@ -9,6 +9,7 @@ summary: Connect your databases, monitoring and deploy tools to the agent so tas
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Connect your tools so the agent needs no manual steps

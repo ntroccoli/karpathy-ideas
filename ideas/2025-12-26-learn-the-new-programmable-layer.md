@@ -9,6 +9,7 @@ summary: A new layer of agents, prompts, memory, skills, hooks and MCP must be m
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Learn the new programmable layer of agent tools

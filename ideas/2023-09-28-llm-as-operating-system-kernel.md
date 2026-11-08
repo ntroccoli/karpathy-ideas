@@ -9,6 +9,7 @@ summary: Treat the LLM as the processor of a new operating system and the agent 
 status: current
 superseded_by:
 anthropic: false
+kind: view
 ---
 
 # The LLM OS, with the model as CPU and the agent as kernel

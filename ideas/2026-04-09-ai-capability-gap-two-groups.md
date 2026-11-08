@@ -9,6 +9,7 @@ summary: Free-tier users and professionals on frontier models see different AI, 
 status: current
 superseded_by:
 anthropic: false
+kind: view
 ---
 
 # People judge AI differently because they use different AI

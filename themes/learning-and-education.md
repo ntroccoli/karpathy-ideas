@@ -6,11 +6,14 @@ Learning with LLMs, teaching, skill atrophy.
 
 17 ideas, newest first.
 
+## Practices
+
+Ways of working you can apply. 16, newest first.
+
 - 2026-10-02 · [Make model output easier to understand, from STE to video](../ideas/2026-10-02-make-model-outputs-easy-to-understand.md) — To follow what LLMs produce, ask for controlled English, then diagrams, then HTML pages, then custom explainer videos, each easier to take in.
 - 2026-03-31 · [You can outsource thinking, but not understanding](../ideas/2026-03-31-understanding-is-the-bottleneck.md) — Agents can do the work, but your own understanding sets the limit on directing them; use LLMs to build understanding, and keep reading.
 - 2026-03-28 · [Ask the LLM to argue the opposite side](../ideas/2026-03-28-ask-llm-to-argue-the-opposite.md) — LLMs argue almost any side convincingly, so use them to test your opinion from several directions and watch for sycophancy.
 - 2026-03-20 · [Explain things to agents, and let agents teach people](../ideas/2026-03-20-explain-to-agents-not-people.md) — Write a skill that tells an agent how to teach your code, and docs in markdown; keep your own effort for what agents cannot invent.
-- 2026-01-26 · [Writing code can atrophy while reading code stays strong](../ideas/2026-01-26-writing-versus-reading-code-atrophy.md) — Agents weaken manual code writing, but review skill survives; the risk is moving on without understanding what the agent wrote.
 - 2025-11-24 · [Use AI to learn, but test without it](../ideas/2025-11-24-learn-with-ai-but-test-without-it.md) — AI work cannot be detected, so test in class: students must use AI well and still be able to work, and check answers, without it.
 - 2025-11-17 · [Read with an LLM in three passes](../ideas/2025-11-17-read-everything-with-llms-three-passes.md) — Read the text yourself first, then ask for an explanation or summary, then ask questions, and you end with deeper understanding.
 - 2025-10-17 · [To learn something, build it yourself without copy-paste](../ideas/2025-10-17-build-it-yourself-no-copy-paste.md) — Writing the code from scratch, only looking at a reference, shows what you do not understand; blog posts and slides do not.
@@ -23,3 +26,9 @@ Learning with LLMs, teaching, skill atrophy.
 - 2024-12-11 · [Read books together with an LLM, one chapter at a time](../ideas/2024-12-11-read-books-with-an-llm.md) — Paste one chapter at a time into an LLM, ask for a summary, then read it yourself and ask questions; EPUB parses cleanly, so prefer it to PDF.
 - 2024-02-21 · [Build the thing, then build the ramp](../ideas/2024-02-21-build-the-thing-then-build-the-ramp.md) — Code plus a README is not enough; a from-scratch explainer can bring ten to a hundred times more people to a project.
 - 2024-02-10 · [Learning takes effort, unlike entertainment](../ideas/2024-02-10-learning-is-not-supposed-to-be-fun.md) — Much educational short video is entertainment; real learning feels like effort, so use real sources, time, notes and rephrasing.
+
+## Views
+
+How he sees the field: context, not steps. 1, newest first.
+
+- 2026-01-26 · [Writing code can atrophy while reading code stays strong](../ideas/2026-01-26-writing-versus-reading-code-atrophy.md) — Agents weaken manual code writing, but review skill survives; the risk is moving on without understanding what the agent wrote. *(view)*

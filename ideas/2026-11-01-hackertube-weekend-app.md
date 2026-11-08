@@ -9,6 +9,7 @@ summary: Hand a data task to cheap models in bulk and let a strong model build a
 status: current
 superseded_by:
 anthropic: true
+kind: practice
 ---
 
 # Build a bespoke app in a weekend by only talking to Claude

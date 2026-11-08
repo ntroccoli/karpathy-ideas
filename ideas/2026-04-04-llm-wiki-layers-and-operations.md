@@ -9,6 +9,7 @@ summary: Split an LLM wiki into raw sources, wiki pages and a schema file, and r
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # An LLM wiki has three layers and three operations

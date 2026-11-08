@@ -9,6 +9,7 @@ summary: A Claude skill fetches an arXiv paper as TeX source, not PDF, then writ
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Have the agent read a paper's TeX source and relate it to your repo

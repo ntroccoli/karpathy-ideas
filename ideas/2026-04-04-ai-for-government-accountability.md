@@ -9,6 +9,7 @@ summary: Public data was never the limit on accountability; the ability to proce
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # AI can make governments more legible and accountable

@@ -9,6 +9,7 @@ summary: Untrusted agents on the internet can search for better code; a trusted 
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Open agent swarms fit work that is costly to find and cheap to verify

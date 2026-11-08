@@ -9,6 +9,7 @@ summary: Agents loop well toward a checkable goal; describe the goal and the tes
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Give agents success criteria, not steps

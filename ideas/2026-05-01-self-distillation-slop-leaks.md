@@ -9,6 +9,7 @@ summary: Turning a voice note into an artifact and fixing it for 10 to 15 rounds
 status: current
 superseded_by:
 anthropic: false
+kind: view
 ---
 
 # Self-distilled corrections still leak slop

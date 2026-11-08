@@ -9,6 +9,7 @@ summary: RLHF and LLM-graded RL optimise against a judge network, and the optimi
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # An LLM judge gets gamed when you optimise against it

@@ -9,6 +9,7 @@ summary: Tools with rich UIs, no scripting and binary formats are at risk, becau
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Opaque, binary-format tools do not fit human and AI work

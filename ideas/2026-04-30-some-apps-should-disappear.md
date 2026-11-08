@@ -9,6 +9,7 @@ summary: A multimodal model can do in one step what MenuGen needed a full web st
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Some apps should disappear into the model

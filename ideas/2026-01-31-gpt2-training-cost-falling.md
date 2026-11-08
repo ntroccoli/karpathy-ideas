@@ -9,6 +9,7 @@ summary: GPT-2 cost about 43,000 dollars in 2019; nanochat matches it in about 3
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # The cost to train a GPT-2 level model falls about 2.5X per year

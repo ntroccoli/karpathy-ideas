@@ -9,6 +9,7 @@ summary: The main user of your product or docs is becoming an LLM agent, so ship
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Build docs and tools for agents, which curl instead of click

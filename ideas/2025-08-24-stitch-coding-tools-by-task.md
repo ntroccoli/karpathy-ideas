@@ -9,6 +9,7 @@ summary: In August 2025 he used tab-complete for most edits, an agent for big ea
 status: superseded
 superseded_by: 2026-01-26-programming-in-english-december-shift.md
 anthropic: false
+kind: practice
 ---
 
 # Stitch several coding tools together, by task size

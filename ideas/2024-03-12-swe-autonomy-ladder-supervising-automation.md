@@ -9,6 +9,7 @@ summary: Coding tools move from lines to chunks to agents, so the work becomes s
 status: current
 superseded_by:
 anthropic: false
+kind: view
 ---
 
 # Software engineering climbs an autonomy ladder like self-driving

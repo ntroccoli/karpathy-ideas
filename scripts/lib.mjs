@@ -24,7 +24,8 @@ export const THEMES = {
 
 export const SOURCES = ['x', 'blog', 'github', 'talk', 'hn'];
 export const STATUSES = ['current', 'superseded'];
-export const REQUIRED = ['title', 'date', 'source', 'url', 'also', 'themes', 'summary', 'status', 'superseded_by', 'anthropic'];
+export const KINDS = ['practice', 'view'];
+export const REQUIRED = ['title', 'date', 'source', 'url', 'also', 'themes', 'summary', 'status', 'superseded_by', 'anthropic', 'kind'];
 
 // Parse the simple frontmatter used by idea files: `key: value`, inline lists `[a, b]`.
 export function parseIdea(file) {

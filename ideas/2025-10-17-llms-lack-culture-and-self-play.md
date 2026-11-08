@@ -9,6 +9,7 @@ summary: Two multi-agent ideas are unclaimed: models writing notes for other mod
 status: current
 superseded_by:
 anthropic: false
+kind: view
 ---
 
 # LLMs still lack culture and self-play

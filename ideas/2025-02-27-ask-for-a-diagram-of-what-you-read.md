@@ -9,6 +9,7 @@ summary: Ask for a conceptual diagram of a chapter or code; the model writes Mer
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Ask the model for a conceptual diagram of what you read

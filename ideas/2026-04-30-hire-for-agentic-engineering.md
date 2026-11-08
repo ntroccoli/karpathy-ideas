@@ -9,6 +9,7 @@ summary: Replace coding puzzles with a work sample: build a big project with age
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Test candidates on building and securing a project with agents

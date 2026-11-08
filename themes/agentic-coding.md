@@ -8,17 +8,18 @@ Coding with agents: workflows, IDEs, review, vibe coding vs agentic engineering.
 
 *(Anthropic period)*: dated 2026-05-19 or later, after he [joined Anthropic](https://x.com/karpathy/status/2056753169888334312), and about Claude or Anthropic. Weigh these with that in mind.
 
+## Practices
+
+Ways of working you can apply. 41, newest first.
+
 - 2026-11-01 · [Build a bespoke app in a weekend by only talking to Claude](../ideas/2026-11-01-hackertube-weekend-app.md) — Hand a data task to cheap models in bulk and let a strong model build and deploy the app, so only keys, domain and server stay manual. *(Anthropic period)*
 - 2026-09-12 · [Show big codebases as spatial maps, not file lists](../ideas/2026-09-12-codebases-as-spatial-maps.md) — Large software is an invisible structure; code explorers could cluster modules in space and show public interfaces, private parts and live diffs.
 - 2026-08-20 · [Agents make old software abstractions optional](../ideas/2026-08-20-tear-down-abstractions-with-agents.md) — Many abstractions exist because people had limited attention; agents can do the checks, so a plain spec may compile down and frameworks become an IR.
-- 2026-06-23 · [The third LLM interface is a persistent teammate](../ideas/2026-06-23-claude-tag-third-llm-ux.md) — First the LLM was a website, then an app; the third form is a persistent, asynchronous teammate with org-wide tools and context. *(Anthropic period)*
 - 2026-04-30 · [Test candidates on building and securing a project with agents](../ideas/2026-04-30-hire-for-agentic-engineering.md) — Replace coding puzzles with a work sample: build a big project with agents, deploy it, harden it, and let adversarial agents attack it.
 - 2026-03-21 · [Agents bloat code and ignore style rules in AGENTS.md](../ideas/2026-03-21-agents-ignore-code-style-rules.md) — Coding agents copy-paste, bloat abstractions and skip style rules; hooks or review may be needed because AGENTS.md alone does not enforce them.
-- 2026-03-20 · [Cheaper software raises the demand for software](../ideas/2026-03-20-cheaper-software-more-demand.md) — As software gets cheap to ask for, people want much more of it (Jevons paradox): dashboards, single-use apps, explainers and bigger test suites.
 - 2026-03-20 · [With coding agents, your skill and token use are the limit](../ideas/2026-03-20-token-throughput-is-the-limit.md) — Run several agents in parallel on separate tasks and give them big macro actions; when it fails, suspect your setup before the model.
 - 2026-03-11 · [The IDE is not dead; the unit of work is now an agent](../ideas/2026-03-11-bigger-ide-agent-command-center.md) — Developers need a bigger IDE built around many supervised agents, not one file; headless loops lose the supervision that makes agent work trustworthy.
 - 2026-03-11 · [Plan failover for intelligence brownouts](../ideas/2026-03-11-plan-for-intelligence-brownouts.md) — When a frontier AI service stalls, work built on it stalls too; design agent workflows with a fallback provider.
-- 2026-03-08 · [Agents need to collaborate like a research community, not one PhD student](../ideas/2026-03-08-agent-research-community.md) — Autoresearch should become asynchronous and massively parallel; git and pull requests assume one main branch and strain under many agents.
 - 2026-03-08 · [Models turn cagy on open-ended research; try a chief scientist](../ideas/2026-03-08-cagy-models-and-chief-scientist.md) — Models avoid very open problems; a never-ending plan mode that feeds junior agents helped, and he calls the gap half capability, half skill.
 - 2026-02-27 · [Ask agents for long documents and notebooks, and read them in the IDE](../ideas/2026-02-27-ask-agents-for-documents-and-notebooks.md) — Agents write rich documents and Jupyter notebooks when asked; previewing them in an IDE reads better than a terminal.
 - 2026-02-27 · [You now program an organisation of agents](../ideas/2026-02-27-programming-an-agent-research-org.md) — An agent research org is its prompts, skills, tools and routines, kept as markdown you can version, compare and tune; its own research ideas are still weak.
@@ -28,11 +29,8 @@ Coding with agents: workflows, IDEs, review, vibe coding vs agentic engineering.
 - 2026-02-16 · [LLMs excel at translating code, which reopens language design](../ideas/2026-02-16-llms-translation-and-new-languages.md) — Translation beats from-scratch generation because the old code is a detailed prompt and a test reference; we may rewrite much software.
 - 2026-02-04 · [Agentic engineering is the professional form of vibe coding](../ideas/2026-02-04-agentic-engineering-vs-vibe-coding.md) — A year after vibe coding, professionals orchestrate agents with oversight; he prefers the name agentic engineering.
 - 2026-01-26 · [Coding agents make subtle conceptual mistakes, so watch them](../ideas/2026-01-26-coding-agents-make-subtle-conceptual-mistakes.md) — Agent errors are no longer syntax slips but wrong assumptions and bloat, so keep an IDE open and review code you care about.
-- 2026-01-26 · [Expertise may matter more with agents, not less](../ideas/2026-01-26-expertise-multiplier-generalists-and-10x.md) — Agents may widen the gap between best and average engineer; deep expertise multiplies leverage, and generalists may gain on specialists.
-- 2026-01-26 · [LLM help is less a speedup than an expansion](../ideas/2026-01-26-llm-speedup-is-mostly-expansion.md) — Measuring speedup misses the main effect: you do more, and you reach work you could not do before.
 - 2026-01-26 · [Programming moved to English in December 2025](../ideas/2026-01-26-programming-in-english-december-shift.md) — Agent coding went from 20% to 80% of his work in a few weeks; the unit of programming moved from typing lines to delegating whole tasks.
 - 2026-01-26 · [Give agents success criteria, not steps](../ideas/2026-01-26-success-criteria-not-steps.md) — Agents loop well toward a checkable goal; describe the goal and the test, not the steps.
-- 2026-01-26 · [Writing code can atrophy while reading code stays strong](../ideas/2026-01-26-writing-versus-reading-code-atrophy.md) — Agents weaken manual code writing, but review skill survives; the risk is moving on without understanding what the agent wrote.
 - 2026-01-12 · [Have the agent read a paper's TeX source and relate it to your repo](../ideas/2026-01-12-skill-read-papers-from-tex-source.md) — A Claude skill fetches an arXiv paper as TeX source, not PDF, then writes a summary in the repo that links the paper to the project's own code.
 - 2026-01-03 · [Port to an unfamiliar language by testing against your own reference](../ideas/2026-01-03-port-with-equality-tests.md) — Write the reference in a language you master, let LLMs write the port in one you do not, and trust it through equality tests against the reference.
 - 2025-12-28 · [Let the agent run experiments and keep a results log](../ideas/2025-12-28-agent-runs-experiments-and-keeps-a-log.md) — An agent can write code, run and watch training jobs and log results, but a human is still needed for design and subtle errors.
@@ -55,4 +53,15 @@ Coding with agents: workflows, IDEs, review, vibe coding vs agentic engineering.
 - 2025-02-02 · [Vibe coding is fine for throwaway projects](../ideas/2025-02-02-vibe-coding-for-throwaway-projects.md) — Vibe coding means accepting all AI edits without reading them, which Karpathy calls fine for throwaway weekend projects.
 - 2024-12-25 · [Cognitive load is what matters in software engineering](../ideas/2024-12-25-cognitive-load-is-what-matters.md) — Karpathy endorses an essay that names cognitive load as the most true and least practiced view of good software.
 - 2024-12-14 · [Judge an agent as you would a junior intern](../ideas/2024-12-14-would-you-hire-it-as-a-junior-intern.md) — Judge agents by whether they can take an onboarding brief and finish a week-sized task, not by PhD-level puzzles.
-- 2024-03-12 · [Software engineering climbs an autonomy ladder like self-driving](../ideas/2024-03-12-swe-autonomy-ladder-supervising-automation.md) — Coding tools move from lines to chunks to agents, so the work becomes supervising automation and oversight tools matter.
+
+## Views
+
+How he sees the field: context, not steps. 7, newest first.
+
+- 2026-06-23 · [The third LLM interface is a persistent teammate](../ideas/2026-06-23-claude-tag-third-llm-ux.md) — First the LLM was a website, then an app; the third form is a persistent, asynchronous teammate with org-wide tools and context. *(view, Anthropic period)*
+- 2026-03-20 · [Cheaper software raises the demand for software](../ideas/2026-03-20-cheaper-software-more-demand.md) — As software gets cheap to ask for, people want much more of it (Jevons paradox): dashboards, single-use apps, explainers and bigger test suites. *(view)*
+- 2026-03-08 · [Agents need to collaborate like a research community, not one PhD student](../ideas/2026-03-08-agent-research-community.md) — Autoresearch should become asynchronous and massively parallel; git and pull requests assume one main branch and strain under many agents. *(view)*
+- 2026-01-26 · [Expertise may matter more with agents, not less](../ideas/2026-01-26-expertise-multiplier-generalists-and-10x.md) — Agents may widen the gap between best and average engineer; deep expertise multiplies leverage, and generalists may gain on specialists. *(view)*
+- 2026-01-26 · [LLM help is less a speedup than an expansion](../ideas/2026-01-26-llm-speedup-is-mostly-expansion.md) — Measuring speedup misses the main effect: you do more, and you reach work you could not do before. *(view)*
+- 2026-01-26 · [Writing code can atrophy while reading code stays strong](../ideas/2026-01-26-writing-versus-reading-code-atrophy.md) — Agents weaken manual code writing, but review skill survives; the risk is moving on without understanding what the agent wrote. *(view)*
+- 2024-03-12 · [Software engineering climbs an autonomy ladder like self-driving](../ideas/2024-03-12-swe-autonomy-ladder-supervising-automation.md) — Coding tools move from lines to chunks to agents, so the work becomes supervising automation and oversight tools matter. *(view)*

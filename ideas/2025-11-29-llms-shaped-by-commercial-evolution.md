@@ -9,6 +9,7 @@ summary: Animal minds come from survival pressure, while LLMs come from imitatin
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # LLMs are shaped by commercial evolution, not biological evolution

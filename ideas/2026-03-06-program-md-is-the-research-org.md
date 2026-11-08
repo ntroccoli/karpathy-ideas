@@ -9,6 +9,7 @@ summary: The autoresearch program.md shows how to brief a long-running agent: fi
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Write the agent's operating rules as a program.md skill

@@ -9,6 +9,7 @@ summary: When you are too lazy to type enough context, ramble by voice for ten m
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Give the LLM more context by rambling into voice mode

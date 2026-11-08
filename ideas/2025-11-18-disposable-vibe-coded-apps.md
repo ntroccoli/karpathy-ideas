@@ -9,6 +9,7 @@ summary: He publishes vibe-coded apps unsupported, as inspiration, and tells rea
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Treat small apps as disposable; ask your LLM to change them

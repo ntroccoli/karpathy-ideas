@@ -9,6 +9,7 @@ summary: A good tutor finds your level and serves what fits; chat models do not 
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Build for the capability that exists; a real tutor is a high bar

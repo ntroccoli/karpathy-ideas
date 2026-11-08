@@ -6,6 +6,10 @@ Context engineering, prompting, stating scope, giving intent.
 
 20 ideas, newest first.
 
+## Practices
+
+Ways of working you can apply. 20, newest first.
+
 - 2026-11-01 · [With strong models, write shorter prompts](../ideas/2026-11-01-shorter-prompts-fewer-bits.md) — Strong models get the point from fewer words, and too many requirements can hold the model below what it would do on its own.
 - 2026-07-21 · [Give the LLM more context by rambling into voice mode](../ideas/2026-07-21-ramble-session-with-voice.md) — When you are too lazy to type enough context, ramble by voice for ten minutes; the model restates your tangle more cleanly than you said it.
 - 2026-04-04 · [Share an idea file, not code](../ideas/2026-04-04-idea-file-instead-of-code.md) — Publish a short abstract description of a pattern, meant to be pasted into the reader's own agent, which builds a version that fits their needs.

@@ -3,7 +3,7 @@
 import { existsSync } from 'node:fs';
 import { join } from 'node:path';
 import { execFileSync } from 'node:child_process';
-import { IDEAS_DIR, THEMES, SOURCES, STATUSES, REQUIRED, loadIdeas } from './lib.mjs';
+import { IDEAS_DIR, THEMES, SOURCES, STATUSES, KINDS, REQUIRED, loadIdeas } from './lib.mjs';
 
 const errors = [];
 const ideas = loadIdeas();
@@ -34,10 +34,11 @@ for (const { file, meta, body, error } of ideas) {
   } else if (meta.superseded_by) err(file, 'superseded_by set but status is current');
   if (typeof meta.anthropic !== 'boolean') err(file, 'anthropic must be true or false');
   else if (meta.anthropic && meta.date < '2026-05-19') err(file, 'anthropic: true only from 2026-05-19');
+  if (!KINDS.includes(meta.kind)) err(file, `kind must be ${KINDS.join(' or ')}`);
 
-  // Body: title heading, Apply section, quote rule.
+  // Body: title heading, Apply section (required for practices, optional for views), quote rule.
   if (!new RegExp(`^# ${meta.title?.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\s*$`, 'm').test(body)) err(file, 'first heading must equal the title');
-  if (!/^## Apply\s*$/m.test(body)) err(file, 'missing "## Apply" section');
+  if (meta.kind === 'practice' && !/^## Apply\s*$/m.test(body)) err(file, 'a practice needs a "## Apply" section');
   const quotes = body.split('\n').filter(l => /^>\s*"/.test(l));
   if (quotes.length > 1) err(file, 'at most one quote per file');
   for (const q of quotes) {

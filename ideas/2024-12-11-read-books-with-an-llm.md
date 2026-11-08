@@ -9,6 +9,7 @@ summary: Paste one chapter at a time into an LLM, ask for a summary, then read i
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Read books together with an LLM, one chapter at a time

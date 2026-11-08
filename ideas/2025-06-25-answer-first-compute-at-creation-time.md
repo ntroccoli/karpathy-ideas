@@ -9,6 +9,7 @@ summary: Write the specific ask or result first and the context after it, and sp
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Put the answer first and spend effort when you write

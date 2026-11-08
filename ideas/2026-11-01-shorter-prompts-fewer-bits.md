@@ -9,6 +9,7 @@ summary: Strong models get the point from fewer words, and too many requirements
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # With strong models, write shorter prompts

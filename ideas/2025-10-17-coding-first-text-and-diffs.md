@@ -9,6 +9,7 @@ summary: Code is plain text with editors and diffs already built, so agents fit 
 status: current
 superseded_by:
 anthropic: false
+kind: view
 ---
 
 # Coding came first because it is text with diff tools

@@ -9,6 +9,7 @@ summary: Getting AI right in 1970 needs a chain of six leaps from digital work t
 status: current
 superseded_by:
 anthropic: false
+kind: view
 ---
 
 # How you could have predicted LLMs from the 1970s
@@ -21,12 +22,6 @@ hard, but language has statistical structure that you can learn, as Shannon's n-
 enough data and compute, an ELIZA-like model becomes an economically useful imitation. Scaling
 laws then concentrate the economics: a few organizations build a few minds and deploy copies. You
 would also have to bet against hand-programmed robots.
-
-## Apply
-
-- Use this chain as a checklist when you judge a forecast: which of the six steps does it assume?
-- Look for the next "boring" enablers, such as data, compute and networks, not only for the
-  headline technology.
 
 ## Context
 

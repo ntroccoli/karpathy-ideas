@@ -9,6 +9,7 @@ summary: A model of about a billion to a few billion parameters could keep the r
 status: current
 superseded_by:
 anthropic: false
+kind: view
 ---
 
 # A small cognitive core that reasons and looks facts up

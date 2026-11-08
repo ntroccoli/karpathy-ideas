@@ -9,6 +9,7 @@ summary: Jobs are bundles of tasks; closed, repetitive digital work automates fi
 status: current
 superseded_by:
 anthropic: false
+kind: view
 ---
 
 # Jobs change before they vanish, and supervision grows

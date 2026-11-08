@@ -9,6 +9,7 @@ summary: nanochat's AI policy is disclosure: a PR must declare parts with substa
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Ask contributors to disclose LLM-written code they do not understand

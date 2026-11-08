@@ -9,6 +9,7 @@ summary: An agent can change any code, search serially instead of in sweeps and 
 status: current
 superseded_by:
 anthropic: false
+kind: view
 ---
 
 # Autoresearch is not hyperparameter tuning

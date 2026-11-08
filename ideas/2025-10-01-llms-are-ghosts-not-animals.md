@@ -9,6 +9,7 @@ summary: Frontier LLMs are statistical distillations of human text, a different 
 status: current
 superseded_by:
 anthropic: false
+kind: view
 ---
 
 # LLMs are ghosts, not animals

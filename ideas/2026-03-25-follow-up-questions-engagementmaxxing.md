@@ -9,6 +9,7 @@ summary: The habit of ending every answer with a question probably wins A/B test
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Closing follow-up questions in chatbots are engagement bait

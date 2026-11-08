@@ -9,6 +9,7 @@ summary: Models avoid very open problems; a never-ending plan mode that feeds ju
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Models turn cagy on open-ended research; try a chief scientist

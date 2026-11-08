@@ -9,6 +9,7 @@ summary: An agent research org is its prompts, skills, tools and routines, kept 
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # You now program an organisation of agents

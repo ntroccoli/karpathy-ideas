@@ -9,6 +9,7 @@ summary: Local agents such as Claude Code beat cloud containers for now, because
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Run coding agents on the developer's own computer

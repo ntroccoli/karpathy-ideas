@@ -9,6 +9,7 @@ summary: A lossy "upload" of a person, built by finetuning an LLM on long interv
 status: current
 superseded_by:
 anthropic: false
+kind: view
 ---
 
 # LLM simulators are the tractable form of brain upload
@@ -20,13 +21,6 @@ questions chosen to give the best fidelity. The company finetunes an LLM on the 
 you an API endpoint of your simulation. With avatar tools such as HeyGen plus a model with deep
 knowledge and personality, he says it is possible around now. He calls it trippy and somewhat
 dystopian. He thinks neuroscience-based approaches are armchair philosophy next to this path.
-
-## Apply
-
-- Treat this as a prediction, not a product claim. Keep any personal data you gather for such a
-  project local, with clear consent.
-- A small test: build a persona prompt from your own writing and check whether people who know
-  you find it believable.
 
 ## Context
 

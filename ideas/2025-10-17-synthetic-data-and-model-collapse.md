@@ -9,6 +9,7 @@ summary: Each sample from a model looks fine but the set is narrow; training on 
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Model outputs are silently collapsed, so synthetic data needs entropy

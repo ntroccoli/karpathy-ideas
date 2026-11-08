@@ -9,6 +9,7 @@ summary: Assistants feel too safe and corporate; a teammate-like personality nee
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # AI personality should feel like a teammate, and it takes deliberate work

@@ -9,6 +9,7 @@ summary: There is no 'you' inside the model, so ask it to simulate a panel of su
 status: current
 superseded_by:
 anthropic: false
+kind: practice
 ---
 
 # Ask the LLM to simulate experts, not to give its opinion

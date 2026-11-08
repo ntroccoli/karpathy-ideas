@@ -9,6 +9,7 @@ summary: The LLM is a new computer whose context is memory; it runs time-shared 
 status: current
 superseded_by:
 anthropic: false
+kind: view
 ---
 
 # LLMs are like 1960s operating systems
