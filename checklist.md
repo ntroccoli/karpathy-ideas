@@ -115,7 +115,8 @@ fills gaps from memory and tends to find none.
    user-level files) can be large on its own. A check that cannot be run yet is "not shown",
    with the numbers you have.
 6. Before you change a user-level file (for example `~/.claude/CLAUDE.md` or global skills), show
-   the user the exact text and wait for their yes.
+   the user the exact text and wait for their yes. When several projects share user-level files,
+   apply their changes one project at a time, each from the latest version of the files.
 7. Change nothing until the user chooses.
 8. Record each proposal and its outcome with the date in the project's docs, for example
    `docs/karpathy-ideas.md`, and name the newest `log.md` entry the review covered.
