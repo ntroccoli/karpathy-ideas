@@ -66,7 +66,7 @@ Open a session of your coding agent (Claude Code, Codex, Cursor, …) in your pr
 **Step 1: get proposals.** Paste:
 
 ```text
-Read https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/llms.txt and follow it. Study this project, then propose which ideas to apply here: to the product, to how it is built, and to how agents work in it (instruction files, skills, session length, token use). Number each proposal, and for each give: the idea and its link, what the project already does, the change, the cost (S, M or L), and a recommendation of exactly one word: do, later or skip. Change nothing until I choose.
+Read https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/llms.txt and follow it. Study this project and measure every checklist question; do not judge from memory. Then propose which ideas to apply here: to the product, to how it is built, and to how agents work in it (instruction files, skills, session length, token use). Number each proposal, and for each give: the idea and its link, what the project already does, the change, the cost (S, M or L), and a recommendation of exactly one word: do, later or skip. Change nothing until I choose.
 ```
 
 **Step 2: apply them.** Read the proposals. To accept the agent's recommendations, paste:
@@ -80,11 +80,12 @@ To choose yourself, name the numbers instead, for example "Apply 1, 3 and 5. Bef
 **Step 3: revisit later.** When the collection has grown or some time has passed, paste:
 
 ```text
-Read https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/llms.txt and follow it. Read docs/karpathy-ideas.md, then the log.md entries newer than the last entry it names (if it names none, newer than its date); each entry's "Checklist impact" part says which questions its new ideas touch. Using the checklist, first re-check the items marked "waiting for first use" and the applied items that may have stopped holding, and mark each "proven", "still waiting", "stopped holding" or "not shown" (a proof that cannot be run yet), always with the numbers. Then measure every checklist question and report every gap, but open and propose only ideas new since the last review and earlier "later" items; give other gaps one line each. Use the checklist's report format. Then update docs/karpathy-ideas.md in its existing layout and name in it the newest log.md entry you read. Change nothing else until I choose.
+Read https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/llms.txt and follow it. Read docs/karpathy-ideas.md, then the log.md entries newer than the last entry it names (if it names none, newer than its date); each entry's "Checklist impact" part says which questions its new ideas touch. Using the checklist, first re-check the items marked "waiting for first use" and the applied items that may have stopped holding, and mark each "proven", "still waiting", "stopped holding" or "not shown" (a proof that cannot be run yet), always with the numbers. Then measure every checklist question (do not judge from memory) and report every gap, but open and propose only ideas new since the last review, earlier "later" items and applied items that stopped holding; give other gaps one line each. Use the checklist's report format. Then update docs/karpathy-ideas.md in its existing layout and name in it the newest log.md entry you read. Change nothing else until I choose.
 ```
 
 The record file keeps each project's history, so a revisit reads only what is new.
-Tip: a fresh session costs fewer tokens than a long-running one.
+Tip: run each review in a fresh session, not in the one that built the project. It judges from
+the files instead of from memory, and it costs fewer tokens than a long-running session.
 
 ### Other ways
 

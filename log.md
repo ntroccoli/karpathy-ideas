@@ -3,6 +3,22 @@
 Each update of the collection: when it ran, the period of sources it covered, and what changed.
 Newest first.
 
+## 2026-11-09 — checklist and prompts from five project reviews (no new ideas)
+
+- **Why:** fresh sessions reviewed five projects with the checklist and gave feedback. Reviews
+  by the session that built a project had marked questions "no gap" that a fresh, measuring
+  review found to be gaps (one to four per project).
+- **Changed:** the README step 1 and step 3 prompts ask to measure every question and not to
+  judge from memory, and step 3 also proposes applied items that stopped holding. The README tip
+  says to review in a fresh session.
+- **Checklist impact:** wording of the Checks for A1 (handoff and state files read at start;
+  what the first reads add), A6 (a compiled page for an append-only log), B2 (count rules not
+  followed), B3 (a headline number never measured), B8 (subagents included; no shell for an
+  agent that reads web pages) and C2 (does not apply when the product runs no AI). The procedure
+  part (ours) adds: review in a fresh session, the grade "partial gap", measuring from session
+  logs, a sign of a gap for A2, and revisit rules. No new ideas. On a revisit, re-measure A1,
+  A6, B2, B3, B8 and C2 with the new wording.
+
 ## 2026-11-08 — 2025 X sweep
 
 - **Sources covered:** X posts and replies 2025-01-01 to 2025-12-31 (full sweep of the profile

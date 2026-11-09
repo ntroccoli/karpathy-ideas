@@ -7,9 +7,12 @@ ours, not Karpathy's. How to run the checklist is at the end.
 ## A. Agent setup and token use
 
 1. **What does every agent session load at start?**
-   Check: measure the files loaded into every session, including user-level ones, for example
+   Check: measure the files loaded into every session, including user-level ones and the
+   handoff or state files a session is told to read at start, for example
    `wc -c AGENTS.md CLAUDE.md ~/.claude/CLAUDE.md ~/.claude/skills/*/SKILL.md` (adapt the paths
-   to your agent). Keep the always-loaded part short; move topic lessons into files read on demand.
+   to your agent). A skill counts with its description at start and with its body when read. Also
+   measure what the first reads add after the first call. Keep the always-loaded part short; move
+   topic lessons into files read on demand.
    Ideas: [context engineering](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-06-25-context-engineering.md),
    [shorter prompts](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-11-01-shorter-prompts-fewer-bits.md).
 2. **Do sessions run long across topics?**
@@ -28,7 +31,8 @@ ours, not Karpathy's. How to run the checklist is at the end.
    to a file every session loads. Idea: [system prompt learning](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-05-10-system-prompt-learning.md).
 6. **Is project knowledge readable by agents?**
    Check: decisions, specs and research live in linked markdown an agent can read and update; source
-   text is given to the model, not left to its memory.
+   text is given to the model, not left to its memory. A log that is only appended to and never
+   read in full gets a short page of what is current, compiled from it.
    Ideas: [LLM knowledge bases](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-04-02-llm-knowledge-bases.md),
    [context as working memory](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-10-17-weights-hazy-memory-context-working-memory.md).
 
@@ -40,9 +44,11 @@ ours, not Karpathy's. How to run the checklist is at the end.
    [automate what you can verify](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-11-17-software-2-automates-what-you-can-verify.md).
 2. **Are rules enforced by tools or only written in prose?**
    Check: rules that agents keep breaking become a script, hook, linter or test that must pass.
+   Count the written rules that sessions do not follow.
    Idea: [agents ignore style rules](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-21-agents-ignore-code-style-rules.md).
 3. **Is performance work driven by one number?**
-   Check: a fixed benchmark, one metric, a results log, and revert when there is no gain.
+   Check: a fixed benchmark, one metric, a results log, and revert when there is no gain. A
+   headline number that has never been measured is a gap: there is nothing to compare against.
    Idea: [autoresearch loop](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-07-autoresearch-loop.md).
 4. **Can agents work alone for long stretches?**
    Check: tasks are decomposed, and the system is testable and observable (logs, metrics), so an
@@ -61,9 +67,10 @@ ours, not Karpathy's. How to run the checklist is at the end.
    Check: before committing to a design, ask a model to argue the opposite.
    Idea: [argue the opposite](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-28-ask-llm-to-argue-the-opposite.md).
 8. **What may agents run and read?**
-   Check: list each agent's tools and permissions. Where one agent has private data, untrusted
-   content and a way to send data out, remove one of the three; give it specific, limited tools
-   instead of unrestricted shell access
+   Check: list each agent's tools and permissions, subagents included. Where one agent has private
+   data, untrusted content and a way to send data out, remove one of the three; give it specific,
+   limited tools instead of unrestricted shell access, for example no shell for an agent that
+   reads web pages
    ([agent security](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-06-16-agent-security-is-the-wild-west.md)). Treat text from
    outside your control as untrusted, and strip or flag invisible code points such as variation
    selectors before it reaches a model; variation selectors are U+FE00-U+FE0F and
@@ -79,7 +86,8 @@ ours, not Karpathy's. How to run the checklist is at the end.
    Ideas: [docs for LLMs](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-03-12-write-docs-for-llms.md),
    [DevOps as code for agents](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-26-devops-as-code-for-agents.md).
 2. **Can users see and steer what the AI does?**
-   Check: the user sees what each agent is doing, can step in, and can set how much it does alone.
+   Check: the people who use the product's AI features see what each agent is doing, can step in,
+   and can set how much it does alone. If the product runs no AI, this question does not apply.
    Ideas: [agent command center](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-11-bigger-ide-agent-command-center.md),
    [autonomy slider](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-06-17-partial-autonomy-and-autonomy-slider.md).
 3. **Are AI outputs easy to check?**
@@ -90,11 +98,15 @@ ours, not Karpathy's. How to run the checklist is at the end.
 
 This part is our procedure for using the collection, not an idea from Karpathy.
 
-1. Measure first. Answer each question for the project with a number where it says "Check": a
-   size, a count, a log line. For an app that runs its own LLM roles, also read its model-call
-   logs (calls, tokens and model per role) for A3 and section C.
-2. Mark each question "gap" or "no gap", with the measurement. List the questions with no gap,
-   one line each. Do not open their ideas and do not make proposals for them.
+Run the review in a fresh session, not in the one that built the project: a builder's session
+fills gaps from memory and tends to find none.
+
+1. Measure first, every question; do not judge from memory. Answer each question for the project
+   with a number where it says "Check": a size, a count, a log line. For an app that runs its own
+   LLM roles, also read its model-call logs (calls, tokens and model per role) for A3 and
+   section C. Also count the skill and tool listings that plugins and MCP servers add (A1).
+2. Mark each question "gap", "partial gap" or "no gap", with the measurement. List the questions
+   with no gap, one line each. Do not open their ideas and do not make proposals for them.
 3. Open only the linked ideas for the gaps.
 4. Report each gap as a proposal: a number, the idea and its link, what the project does today,
    the change, its cost (S, M or L), and a recommendation of one word: do, later or skip.
@@ -108,13 +120,26 @@ This part is our procedure for using the collection, not an idea from Karpathy.
 8. Record each proposal and its outcome with the date in the project's docs, for example
    `docs/karpathy-ideas.md`, and name the newest `log.md` entry the review covered.
 
-On a revisit (README step 3), read only the `log.md` entries newer than the one the record names.
-First re-check the recorded items waiting for first use and the applied items that may have
-stopped holding. Then run steps 1 to 7: report a gap in any question, but open and propose only
-ideas new since the last review and earlier "later" items. Each `log.md` entry's "Checklist
-impact" part maps its new ideas to the questions.
+Measuring from session logs. A2, A3, B2, B5 and B8 often need the agent's session logs. Claude
+Code keeps one JSONL file per session in `~/.claude/projects/<folder>/<session-id>.jsonl`; the
+folder is named after the directory the session started in (a session started in the home folder
+is under the home folder's name), and subagents have their own files. Useful fields: the first
+and last `timestamp` and `isCompactSummary` (session length and compactions, A2); `message.usage`
+per reply (context at the first call and at the peak, A1 and step 5); `message.model` (A3); the
+tool calls and their inputs (B2, B5, B8). Count tool calls, not all text: a search over all text
+also matches the rules quoted in the loaded instructions. Other agents keep similar logs.
+
+On a revisit (README step 3), read only the `log.md` entries newer than the one the record names;
+if it names none, those newer than the record's date. First re-check the recorded items waiting
+for first use and the applied items that may have stopped holding. Then run steps 1 to 7: report a
+gap in any question, but open and propose only ideas new since the last review, earlier "later"
+items, and applied items that stopped holding. Report a gap that a waiting item already covers
+under that item, not as a new proposal. Do not reopen ideas the record already summarises. Each
+`log.md` entry's "Checklist impact" part maps its new ideas to the questions.
 
 Our own practices that go with A2 and A4 (not from the ideas): measure a session's context with
 `/context` (Claude Code) or the status line; carry state to a new session through a handoff file
 (decisions, state, next step) instead of the old history; and make a start line or handoff tell
 the new session to report where things stand, propose, and wait for the user before it starts.
+A sign of a gap for A2: one session covers more than one topic, or it was compacted. Make a fresh
+start cheap, so it gets chosen: a short handoff, and no manual edits before a new session can start.
