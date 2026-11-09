@@ -16,8 +16,9 @@ Newest first.
   followed), B3 (a headline number never measured), B8 (subagents included; no shell for an
   agent that reads web pages) and C2 (does not apply when the product runs no AI). The procedure
   part (ours) adds: review in a fresh session, the grade "partial gap", measuring from session
-  logs, a sign of a gap for A2, and revisit rules. No new ideas. On a revisit, re-measure A1,
-  A6, B2, B3, B8 and C2 with the new wording.
+  logs, starting thresholds for A1, A2, A4 and A5, revisit rules, and applying shared
+  user-level changes one project at a time. The README opens with why, what you get and a
+  prompt to try. No new ideas. On a revisit, re-measure A1, A2, A4, A5, A6, B2, B3, B8 and C2.
 
 ## 2026-11-08 — 2025 X sweep
 

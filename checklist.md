@@ -130,6 +130,18 @@ per reply (context at the first call and at the peak, A1 and step 5); `message.m
 tool calls and their inputs (B2, B5, B8). Count tool calls, not all text: a search over all text
 also matches the rules quoted in the loaded instructions. Other agents keep similar logs.
 
+Starting thresholds, from five projects reviewed with this checklist in 2026-11 (Claude Code).
+They are starting points, not his numbers; adjust them to your agent and setup. Above a
+threshold is a gap; close to it is a partial gap.
+
+- A1: the first call of a new session uses 50k tokens or fewer; the project files loaded at
+  every start (instruction files, project skill, handoff) total 15 KB or less.
+- A2: one topic per session, and no compaction.
+- A4: a package changes about 500 lines or fewer, and a worker's peak context stays under 200k
+  tokens.
+- A5: each file loaded at every start is 12 KB or less, and a check (a test or the gate) keeps it
+  there.
+
 On a revisit (README step 3), read only the `log.md` entries newer than the one the record names;
 if it names none, those newer than the record's date. First re-check the recorded items waiting
 for first use and the applied items that may have stopped holding. Then run steps 1 to 7: report a
@@ -142,5 +154,4 @@ Our own practices that go with A2 and A4 (not from the ideas): measure a session
 `/context` (Claude Code) or the status line; carry state to a new session through a handoff file
 (decisions, state, next step) instead of the old history; and make a start line or handoff tell
 the new session to report where things stand, propose, and wait for the user before it starts.
-A sign of a gap for A2: one session covers more than one topic, or it was compacted. Make a fresh
-start cheap, so it gets chosen: a short handoff, and no manual edits before a new session can start.
+Make a fresh start cheap, so it gets chosen: a short handoff, and no manual edits before a new session can start.
