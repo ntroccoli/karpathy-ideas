@@ -3,6 +3,20 @@
 Each update of the collection: when it ran, the period of sources it covered, and what changed.
 Newest first.
 
+## 2026-11-09 — procedure fixes from a large multi-repository setup (no new ideas)
+
+- **Why:** a review of a large agent setup (several repositories, a manager session with
+  workers) gave feedback on steps 1 and 2.
+- **Changed:** the checklist's procedure part (ours) defines "project" for a setup without one
+  repository; counts skill descriptions and tool listings at start, each file once; opens an idea
+  file only when its index summary is not enough; adds two counts (wake-ups of a long session
+  times its context, for A2; rules in prose against rules enforced, and hooks never wired, for
+  B2); tests guard hooks against heredocs; caps only files loaded at every start; accepts a diff,
+  or a summary with a file path, as "the exact text"; and lets a setup without a repository keep
+  its record file elsewhere. README steps 2 and 3 follow.
+- **Checklist impact:** no question changed. On a revisit, re-measure A1, A2 and B2 with the new
+  counts.
+
 ## 2026-11-09 — checklist and prompts from five project reviews (no new ideas)
 
 - **Why:** fresh sessions reviewed five projects with the checklist and gave feedback. Reviews

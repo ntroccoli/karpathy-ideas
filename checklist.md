@@ -99,15 +99,23 @@ ours, not Karpathy's. How to run the checklist is at the end.
 This part is our procedure for using the collection, not an idea from Karpathy.
 
 Run the review in a fresh session, not in the one that built the project: a builder's session
-fills gaps from memory and tends to find none.
+fills gaps from memory and tends to find none. A long-lived session can instead send the
+research to fresh subagents and only merge their results.
+
+The project is the code repository the agent works in. For an agent setup without a single
+repository (several repositories, a manager session and its workers), the project is the folder
+sessions start in plus the user-level files they load.
 
 1. Measure first, every question; do not judge from memory. Answer each question for the project
    with a number where it says "Check": a size, a count, a log line. For an app that runs its own
    LLM roles, also read its model-call logs (calls, tokens and model per role) for A3 and
-   section C. Also count the skill and tool listings that plugins and MCP servers add (A1).
+   section C. Also count the skill descriptions and the tool listings that plugins and MCP
+   servers add (A1): with many skills, the descriptions are often the largest part of the start.
+   Count each file once (synced copies of skills are easy to count twice).
 2. Mark each question "gap", "partial gap" or "no gap", with the measurement. List the questions
    with no gap, one line each. Do not open their ideas and do not make proposals for them.
-3. Open only the linked ideas for the gaps.
+3. Open only the linked ideas for the gaps, and only when the idea's one-line summary in
+   `index.md` is not enough to write the proposal.
 4. Report each gap as a proposal: a number, the idea and its link, what the project does today,
    the change, its cost (S, M or L), and a recommendation of one word: do, later or skip.
 5. Give each applied change a check that will prove it. For a check on context size, measure
@@ -115,11 +123,15 @@ fills gaps from memory and tends to find none.
    user-level files) can be large on its own. A check that cannot be run yet is "not shown",
    with the numbers you have.
 6. Before you change a user-level file (for example `~/.claude/CLAUDE.md` or global skills), show
-   the user the exact text and wait for their yes. When several projects share user-level files,
-   apply their changes one project at a time, each from the latest version of the files.
+   the user the exact text and wait for their yes. A diff counts. For many or long changes, give
+   a short summary and the path to a file with the full text, not one long message. The user may
+   name an agent to review the text; the yes stays the user's unless they say otherwise. When
+   several projects share user-level files, apply their changes one project at a time, each from
+   the latest version of the files.
 7. Change nothing until the user chooses.
-8. Record each proposal and its outcome with the date in the project's docs, for example
-   `docs/karpathy-ideas.md`, and name the newest `log.md` entry the review covered.
+8. Record each proposal and its outcome with the date in the project's record file,
+   `docs/karpathy-ideas.md` (or, without a repository, the record file the review named), and
+   name the newest `log.md` entry the review covered.
 
 Measuring from session logs. A2, A3, B2, B5 and B8 often need the agent's session logs. Claude
 Code keeps one JSONL file per session in `~/.claude/projects/<folder>/<session-id>.jsonl`; the
@@ -129,6 +141,13 @@ and last `timestamp` and `isCompactSummary` (session length and compactions, A2)
 per reply (context at the first call and at the peak, A1 and step 5); `message.model` (A3); the
 tool calls and their inputs (B2, B5, B8). Count tool calls, not all text: a search over all text
 also matches the rules quoted in the loaded instructions. Other agents keep similar logs.
+
+Two counts that are easy to miss. For A2, count the messages that wake a long session, times the
+context each one re-reads: in one setup, 2,320 wake-ups in a week each re-read more than 300k
+tokens. For B2, count the "must", "never" and "always" rules in the instruction files against
+the rules a hook, test or linter enforces, and count hooks that were written but never wired.
+Before you rely on a guard hook, test it against heredocs and quoted text: a hook that matches
+command text can block harmless commands.
 
 Starting thresholds, from five projects reviewed with this checklist in 2026-11 (Claude Code).
 They are starting points, not his numbers; adjust them to your agent and setup. Above a
@@ -140,7 +159,7 @@ threshold is a gap; close to it is a partial gap.
 - A4: a package changes about 500 lines or fewer, and a worker's peak context stays under 200k
   tokens.
 - A5: each file loaded at every start is 12 KB or less, and a check (a test or the gate) keeps it
-  there.
+  there. Cap only files loaded at every start, not files that grow by design, such as logs.
 
 On a revisit (README step 3), read only the `log.md` entries newer than the one the record names;
 if it names none, those newer than the record's date. First re-check the recorded items waiting
