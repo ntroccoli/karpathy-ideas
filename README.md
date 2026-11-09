@@ -42,6 +42,20 @@ it. This repository collects it in one place, one idea per file, for people and 
 - **Views kept current:** when he changes his mind, the older idea links to the newer one.
 - **Cheap for agents:** `llms.txt` and theme pages let an agent read only what it needs.
 
+```mermaid
+flowchart LR
+  A["His posts, talks<br>and repos"] -->|monthly update| B["Ideas<br>one file each, dated, sourced"]
+  B --> C["Checklist<br>17 questions"]
+  B --> D["llms.txt<br>and themes"]
+  C --> E["Your coding agent"]
+  D --> E
+  E -->|measures your project| F["Numbered proposals<br>with costs"]
+  F --> G{"You choose"}
+  G --> H["Applied and recorded<br>docs/karpathy-ideas.md"]
+  H -->|"new ideas in log.md"| I["Revisit<br>step 3"]
+  I --> E
+```
+
 ## Try it
 
 Open your coding agent (Claude Code, Codex, Cursor, …) in your project and paste:
