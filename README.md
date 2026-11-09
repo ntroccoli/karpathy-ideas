@@ -3,24 +3,51 @@
 > Let your coding agent check your project against Andrej Karpathy's ideas on working with LLMs and agents.
 
 **Unofficial. Not affiliated with or endorsed by Andrej Karpathy.** Summaries are in our own
-words. Each one links to the original source. Quotes are short, attributed, and remain the author's.
+words. Each one links to the original source. Quotes are short, attributed, and belong to Karpathy.
 
 [![CI](https://github.com/ntroccoli/karpathy-ideas/actions/workflows/ci.yml/badge.svg)](https://github.com/ntroccoli/karpathy-ideas/actions/workflows/ci.yml)
 [![Content: CC BY 4.0](https://img.shields.io/badge/content-CC%20BY%204.0-lightgrey.svg)](LICENSE-CONTENT.md)
 [![Code: MIT](https://img.shields.io/badge/code-MIT-blue.svg)](LICENSE)
 
-## Contents
+## Try it
 
-- [Why](#why)
-- [What you get](#what-you-get)
-- [Try it](#try-it)
-- [Browse](#browse)
-- [Use this with an LLM](#use-this-with-an-llm)
-- [How it is maintained](#how-it-is-maintained)
-- [Contributing](#contributing)
-- [Legal](#legal)
-- [License](#license)
-- [Cite](#cite)
+Open your coding agent (Claude Code, Codex, Cursor, …) in your project. Step 1 only reads your
+project and changes nothing. You get numbered proposals, each with the idea, its source, a cost
+and a recommendation, and you choose what happens next. Steps 2 and 3 are optional.
+
+> **Example proposal**, from this repository's own review:
+> **2. Dependencies (checklist B6).** Idea: [rethink dependencies](ideas/2026-03-24-rethink-dependencies-supply-chain.md).
+> Today: the check script runs a Markdown linter without a version, so it fetches the newest
+> release on every run. Change: pin exact versions. Cost: S. Recommendation: do.
+
+### Step 1: get proposals
+
+```text
+Read https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/llms.txt and follow it. Study this project and measure every checklist question; do not judge from memory. Then propose which ideas to apply here: to the product, to how it is built, and to how agents work in it (instruction files, skills, session length, token use). Number each proposal, and for each give: the idea and its link, what the project already does, the change, the cost (S, M or L), and a recommendation of exactly one word: do, later or skip. Change nothing until I choose.
+```
+
+### Step 2: apply them
+
+Read the proposals. To accept the agent's recommendations, paste:
+
+```text
+Apply the proposals you marked "do". First list each one with "Done when:" and the checks that prove it. Then apply them in order and run each one's checks. Before you change a file outside this project (user-level instructions, skills or settings), show me the exact text and wait for my yes. Then report each proposal with each check: pass or fail, and the result. Write the record in docs/karpathy-ideas.md: for every proposal, including later and skipped ones, give the date and the outcome (applied, later or skipped). Mark each applied item "proven" or "waiting for first use", with the event that will prove it. Name the newest entry (date and title) in https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/log.md that this review covered.
+```
+
+To choose yourself, replace the first sentence with "Apply proposals 1, 3 and 5."
+
+### Step 3: revisit later
+
+When the collection has grown or some time has passed, paste:
+
+```text
+Read https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/llms.txt and follow it. Read docs/karpathy-ideas.md. Then read the entries in https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/log.md that are newer than the last entry the record names (if it names none, newer than its date); each entry's "Checklist impact" part says which questions its new ideas touch. Re-check the items marked "waiting for first use" and the applied items that may have stopped holding. Mark each "proven", "still waiting", "stopped holding" or "not shown" (the proof cannot be run yet), and give the numbers. Then measure every checklist question; do not judge from memory. Report every gap. Propose only ideas new since the last revisit, earlier "later" items, and applied items that stopped holding; give other gaps one line each. Use the checklist's report format. Update docs/karpathy-ideas.md in its existing layout and name in it the newest log.md entry you read. Change nothing else until I choose.
+```
+
+The record file, `docs/karpathy-ideas.md`, keeps each project's history, so a revisit reads only
+what is new. Tip: run step 1 and each revisit in a fresh session, not in the one that built the
+project. It judges from the files instead of from memory, and it costs fewer tokens than a
+long-running session.
 
 ## Why
 
@@ -33,48 +60,18 @@ and autoresearch. He shares practical advice on agents across hundreds of posts,
 repositories, and it changes as models improve. Few people can follow all of it, and fewer apply
 it. This repository collects it in one place, one idea per file, for people and coding agents.
 
-## What you get
+## What's inside
 
-- **A project checklist** your agent runs on your code: [17 questions](checklist.md) about agent
-  setup, how you build, and your product. It measures first, then proposes changes with costs.
-- **Over 200 ideas, one per file**, each with its date, source link, a summary in our words, and
-  Apply steps you can use today.
+- **[A project checklist](checklist.md):** 17 questions about agent setup, how you build, and
+  your product, each linked to the ideas behind it. Your agent measures first, then proposes.
+- **Over 200 ideas, one per file:** every idea newest first in [index.md](index.md), or by topic
+  in [themes/](themes/), for example [agentic-coding](themes/agentic-coding.md),
+  [verification](themes/verification.md) and [context-and-prompting](themes/context-and-prompting.md).
 - **Views kept current:** when he changes his mind, the older idea links to the newer one.
-- **Cheap for agents:** `llms.txt` and theme pages let an agent read only what it needs.
+- **Cheap for agents:** `llms.txt` and the theme pages let an agent read only what it needs.
+- **[log.md](log.md):** what each update collected, and when.
 
-```mermaid
-flowchart LR
-  A["His posts, talks<br>and repos"] -->|monthly update| B["Ideas<br>one file each, dated, sourced"]
-  B --> C["Checklist<br>17 questions"]
-  B --> D["llms.txt<br>and themes"]
-  C --> E["Your coding agent"]
-  D --> E
-  E -->|measures your project| F["Numbered proposals<br>with costs"]
-  F --> G{"You choose"}
-  G --> H["Applied and recorded<br>docs/karpathy-ideas.md"]
-  H -->|"new ideas in log.md"| I["Revisit<br>step 3"]
-  I --> E
-```
-
-## Try it
-
-Open your coding agent (Claude Code, Codex, Cursor, …) in your project and paste:
-
-```text
-Read https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/llms.txt and follow it. Study this project and measure every checklist question; do not judge from memory. Then propose which ideas to apply here: to the product, to how it is built, and to how agents work in it (instruction files, skills, session length, token use). Number each proposal, and for each give: the idea and its link, what the project already does, the change, the cost (S, M or L), and a recommendation of exactly one word: do, later or skip. Change nothing until I choose.
-```
-
-You get numbered proposals with costs. Nothing changes until you choose. Then
-[apply them and revisit later](#apply-it-to-your-project).
-
-## Browse
-
-- [checklist.md](checklist.md): 17 questions to ask about your project, each linked to the ideas behind it.
-- [index.md](index.md): every idea, newest first, with a one-line summary.
-- [themes/](themes/): ideas grouped by topic, for example
-  [agentic-coding](themes/agentic-coding.md), [verification](themes/verification.md) and
-  [context-and-prompting](themes/context-and-prompting.md).
-- [log.md](log.md): what each update collected, and when.
+### How an idea file looks
 
 Each idea file has:
 
@@ -94,36 +91,7 @@ Ideas marked *(Anthropic period)* are dated 2026-05-19 or later, after he
 [joined Anthropic](https://x.com/karpathy/status/2056753169888334312), and are about Claude or
 Anthropic. Weigh them with that in mind.
 
-## Use this with an LLM
-
-The repository is designed to be read by LLM agents at low token cost: a small index first, then
-only the files that matter.
-
-### Apply it to your project
-
-Open a session of your coding agent (Claude Code, Codex, Cursor, …) in your project.
-
-**Step 1: get proposals.** Paste the prompt from [Try it](#try-it).
-
-**Step 2: apply them.** Read the proposals. To accept the agent's recommendations, paste:
-
-```text
-Apply the proposals you marked "do". Before you change anything, list each one with "Done when": the checks that will prove it. Then apply them in order and run each one's checks. Before you change a file outside this project (user-level instructions, skills or settings), show me the exact text and wait for my yes. At the end, report each proposal with each check: pass or fail, and the result. Record each proposal and its outcome (applied, later, skipped) with the date in the project's docs, for example docs/karpathy-ideas.md, and mark each applied item "proven" or "waiting for first use", with the event that will prove it. In the record, also name the newest log.md entry (date and title) this review covered.
-```
-
-To choose yourself, name the numbers instead, for example "Apply 1, 3 and 5. Before you change anything, …".
-
-**Step 3: revisit later.** When the collection has grown or some time has passed, paste:
-
-```text
-Read https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/llms.txt and follow it. Read docs/karpathy-ideas.md, then the log.md entries newer than the last entry it names (if it names none, newer than its date); each entry's "Checklist impact" part says which questions its new ideas touch. Using the checklist, first re-check the items marked "waiting for first use" and the applied items that may have stopped holding, and mark each "proven", "still waiting", "stopped holding" or "not shown" (a proof that cannot be run yet), always with the numbers. Then measure every checklist question (do not judge from memory) and report every gap, but open and propose only ideas new since the last review, earlier "later" items and applied items that stopped holding; give other gaps one line each. Use the checklist's report format. Then update docs/karpathy-ideas.md in its existing layout and name in it the newest log.md entry you read. Change nothing else until I choose.
-```
-
-The record file keeps each project's history, so a revisit reads only what is new.
-Tip: run each review in a fresh session, not in the one that built the project. It judges from
-the files instead of from memory, and it costs fewer tokens than a long-running session.
-
-### Other ways
+## Other ways to use it
 
 - **Any LLM that can fetch URLs:** give it
   `https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/llms.txt` and your question.
@@ -136,11 +104,6 @@ the files instead of from memory, and it costs fewer tokens than a long-running 
   use it in other projects, copy that folder to `~/.claude/skills/`.
 - **Other coding agents:** [AGENTS.md](AGENTS.md) explains the file format and how to read the
   collection.
-
-To save tokens, `llms.txt` tells agents to read only the matching theme pages and, when they
-can, to let a smaller, cheaper model or subagent find the relevant ideas, so the main model reads
-only a short list. Agents should link to the source rather than reproduce more of the original
-text.
 
 ## How it is maintained
 
