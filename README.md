@@ -1,9 +1,9 @@
 # Karpathy Ideas
 
-> Unofficial, curated notes on Andrej Karpathy's public ideas about LLMs and AI agents, for people and LLM agents.
+> Let your coding agent check your project against Andrej Karpathy's ideas on working with LLMs and agents.
 
-**Not affiliated with or endorsed by Andrej Karpathy.** Summaries are in our own words. Each one
-links to the original source. Quotes are short, attributed, and remain the author's.
+**Unofficial. Not affiliated with or endorsed by Andrej Karpathy.** Summaries are in our own
+words. Each one links to the original source. Quotes are short, attributed, and remain the author's.
 
 [![CI](https://github.com/ntroccoli/karpathy-ideas/actions/workflows/ci.yml/badge.svg)](https://github.com/ntroccoli/karpathy-ideas/actions/workflows/ci.yml)
 [![Content: CC BY 4.0](https://img.shields.io/badge/content-CC%20BY%204.0-lightgrey.svg)](LICENSE-CONTENT.md)
@@ -11,7 +11,9 @@ links to the original source. Quotes are short, attributed, and remain the autho
 
 ## Contents
 
-- [What this is](#what-this-is)
+- [Why](#why)
+- [What you get](#what-you-get)
+- [Try it](#try-it)
 - [Browse](#browse)
 - [Use this with an LLM](#use-this-with-an-llm)
 - [How it is maintained](#how-it-is-maintained)
@@ -20,12 +22,45 @@ links to the original source. Quotes are short, attributed, and remain the autho
 - [License](#license)
 - [Cite](#cite)
 
-## What this is
+## Why
 
-Andrej Karpathy shares many practical ideas about working with LLMs: on X, on his blogs, in his
-GitHub repositories and in talks. They are spread across hundreds of posts, and his views change
-as models improve. This repository collects them in one place, one idea per file, so that both
-people and LLM agents can find and apply them.
+Andrej Karpathy was a founding member of OpenAI, Director of AI at Tesla (2017-2022) and the
+teacher of Stanford's CS231n ([Wikipedia](https://en.wikipedia.org/wiki/Andrej_Karpathy)). He
+named [Software 2.0](https://karpathy.medium.com/software-2-0-a64152b37c35) and
+[vibe coding](ideas/2025-02-02-vibe-coding-for-throwaway-projects.md), framed
+[Software 3.0](ideas/2025-06-17-software-3-0-english-as-programs.md), and wrote nanoGPT, nanochat
+and autoresearch. He shares practical advice on agents across hundreds of posts, talks and
+repositories, and it changes as models improve. Few people can follow all of it, and fewer apply
+it. This repository collects it in one place, one idea per file, for people and coding agents.
+
+## What you get
+
+- **A project checklist** your agent runs on your code: [17 questions](checklist.md) about agent
+  setup, how you build, and your product. It measures first, then proposes changes with costs.
+- **Over 200 ideas, one per file**, each with its date, source link, a summary in our words, and
+  Apply steps you can use today.
+- **Views kept current:** when he changes his mind, the older idea links to the newer one.
+- **Cheap for agents:** `llms.txt` and theme pages let an agent read only what it needs.
+
+## Try it
+
+Open your coding agent (Claude Code, Codex, Cursor, …) in your project and paste:
+
+```text
+Read https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/llms.txt and follow it. Study this project and measure every checklist question; do not judge from memory. Then propose which ideas to apply here: to the product, to how it is built, and to how agents work in it (instruction files, skills, session length, token use). Number each proposal, and for each give: the idea and its link, what the project already does, the change, the cost (S, M or L), and a recommendation of exactly one word: do, later or skip. Change nothing until I choose.
+```
+
+You get numbered proposals with costs. Nothing changes until you choose. Then
+[apply them and revisit later](#apply-it-to-your-project).
+
+## Browse
+
+- [checklist.md](checklist.md): 17 questions to ask about your project, each linked to the ideas behind it.
+- [index.md](index.md): every idea, newest first, with a one-line summary.
+- [themes/](themes/): ideas grouped by topic, for example
+  [agentic-coding](themes/agentic-coding.md), [verification](themes/verification.md) and
+  [context-and-prompting](themes/context-and-prompting.md).
+- [log.md](log.md): what each update collected, and when.
 
 Each idea file has:
 
@@ -41,15 +76,6 @@ Each idea file has:
 
 Example: [Give agents success criteria, not steps](ideas/2026-01-26-success-criteria-not-steps.md).
 
-## Browse
-
-- [checklist.md](checklist.md): 17 questions to ask about your project, each linked to the ideas behind it.
-- [index.md](index.md): every idea, newest first, with a one-line summary.
-- [themes/](themes/): ideas grouped by topic, for example
-  [agentic-coding](themes/agentic-coding.md), [verification](themes/verification.md) and
-  [context-and-prompting](themes/context-and-prompting.md).
-- [log.md](log.md): what each update collected, and when.
-
 Ideas marked *(Anthropic period)* are dated 2026-05-19 or later, after he
 [joined Anthropic](https://x.com/karpathy/status/2056753169888334312), and are about Claude or
 Anthropic. Weigh them with that in mind.
@@ -63,11 +89,7 @@ only the files that matter.
 
 Open a session of your coding agent (Claude Code, Codex, Cursor, …) in your project.
 
-**Step 1: get proposals.** Paste:
-
-```text
-Read https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/llms.txt and follow it. Study this project and measure every checklist question; do not judge from memory. Then propose which ideas to apply here: to the product, to how it is built, and to how agents work in it (instruction files, skills, session length, token use). Number each proposal, and for each give: the idea and its link, what the project already does, the change, the cost (S, M or L), and a recommendation of exactly one word: do, later or skip. Change nothing until I choose.
-```
+**Step 1: get proposals.** Paste the prompt from [Try it](#try-it).
 
 **Step 2: apply them.** Read the proposals. To accept the agent's recommendations, paste:
 
