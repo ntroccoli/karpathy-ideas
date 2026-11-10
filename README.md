@@ -20,12 +20,12 @@ public repository. Nothing is changed or sent without your yes.
 
 What to expect, from his ideas (expected effects, not guarantees):
 
-- Short, relevant instruction files that load every time leave more of the context window for the task. (A1)
-- A new session for each new topic stops old history from distracting the AI and adding cost. (A2)
-- Try a fast model first. Switch to a stronger one when the answer is weak or the problem is hard. (A3)
-- Each task states its goal and a check the agent can run, so it can loop until the check passes. (B1)
-- Rules in prose are often ignored. A linter, test or hook can enforce them where an instruction file does not. (B2)
-- Agents get a few specific actions, not a full command line, so a bad web page can do less harm. (B8)
+- Short, relevant instruction files that load every time leave more of the context window for the task.
+- A new session for each new topic stops old history from distracting the AI and adding cost.
+- Try a fast model first. Switch to a stronger one when the answer is weak or the problem is hard.
+- Each task states its goal and a check the agent can run, so it can loop until the check passes.
+- Rules in prose are often ignored. A linter, test or hook can enforce them where an instruction file does not.
+- Agents get a few specific actions, not a full command line, so a bad web page can do less harm.
 
 ## Try it
 
