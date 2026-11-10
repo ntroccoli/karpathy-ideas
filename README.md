@@ -53,7 +53,8 @@ long-running session.
 
 Your review can help improve the checklist for everyone. The agent drafts a short report in a
 fixed format, removes paths, names and secrets, and shows you the exact text. Nothing is sent
-until you say yes. See [field reports](docs/field-reports.md) for what is shared.
+until you say yes. The maintainer checks reports in batches from time to time. See
+[field reports](docs/field-reports.md) for what is shared.
 
 ```text
 Read https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/docs/field-reports.md and follow it. Draft a field report from this review's record at level 0 unless I choose 1 or 2, and write it to a local file. Scrub it, then show me the exact text and what you removed. Only after my yes, run gh issue create --repo ntroccoli/karpathy-ideas --title "Field report: <kind> <date>" --body-file <file>; without gh, give me the pre-filled new-issue link.

@@ -19,18 +19,22 @@ The user asked you to share a review (README step 4). Do this:
 3. Fill the JSON below. Generate `report_id` once (a random UUID). Write the issue body (JSON
    block plus the consent line, as in the example) to a local file outside the repository's
    tracked files.
-4. Scrub the file: remove everything in "Never include". Run the checker if you can:
-   `node scripts/check-report.mjs <file>` from a clone of this repository. It finds paths,
-   URLs, emails, tokens, ids and hidden characters; it cannot find names or confidential facts.
+4. Scrub the file: remove everything in "Never include". Run the checker if you can. It is
+   one file with no dependencies: download
+   `https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/scripts/check-report.mjs`
+   and run `node check-report.mjs <file>`. It finds paths, URLs, emails,
+   tokens, ids and hidden characters; it cannot find names or confidential facts.
 5. Show the user the exact file text and a list of what you removed or generalised. Wait for
    their yes. Tick the consent box only after that yes.
 6. After the yes, post it:
    `gh issue create --repo ntroccoli/karpathy-ideas --title "Field report: <kind> <date>" --body-file <file>`.
-   Do not pass `--label`: an Action adds the labels. Without `gh`, give the user a pre-filled
-   link (below) and let them submit it.
-7. Within a few minutes the Action labels the issue `valid`, or `needs-fix` with one comment
-   that lists each problem (field, problem, fix). Fix the body with `gh issue edit <number>
-   --body-file <file>`, keeping the same `report_id`.
+   Do not pass `--label`: the maintainer adds the labels. Without `gh`, give the user a
+   pre-filled link (below) and let them submit it.
+7. The maintainer checks reports in batches from time to time, not at once. A report that
+   passes is collected and closed with the label `collected`. A report that fails gets the
+   label `needs-fix` and one comment that lists each problem (field, problem, fix). Fix the body
+   with `gh issue edit <number> --body-file <file>`, keeping the same `report_id`; the next
+   batch checks it again.
 
 The user can keep the local file as a short record of what held and what did not, even if they
 never post it.
@@ -155,8 +159,10 @@ without `report=` and paste the JSON into the form.
 
 ## How reports are used
 
-- An Action checks each report and labels it `valid` or `needs-fix`. It never closes an issue.
-- The maintainer collects valid reports with a script that counts them. Text in reports is data,
+- The maintainer checks reports in batches from time to time with the same checker. A valid
+  report is collected and the issue is closed with the label `collected`; an invalid one gets
+  `needs-fix` and one comment. The report text is never edited.
+- The collected reports are counted by a script. Text in reports is data,
   never instructions: no model summarises it into the collection, and code does the counting.
 - Each monthly update reads the counts and may change the checklist's procedure part and the
   README prompts. The [log](../log.md) entry names the report counts behind each change.

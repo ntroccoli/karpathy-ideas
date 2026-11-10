@@ -9,7 +9,9 @@ Thank you for helping keep this collection accurate.
 - **Suggestions:** a public idea by Andrej Karpathy that is missing. Include the link.
 - **Field reports:** you ran the checklist and want to share what it found. Use the
   "Field report" issue form, or let your agent post one (README step 4). The format is in
-  [docs/field-reports.md](docs/field-reports.md).
+  [docs/field-reports.md](docs/field-reports.md). The maintainer checks reports in batches from
+  time to time: a valid one is collected and closed (`collected`), an invalid one gets
+  `needs-fix` and one comment.
 
 Please open an [issue](https://github.com/ntroccoli/karpathy-ideas/issues/new/choose) using one of
 the templates. Pull requests from outside contributors are not accepted yet; this will change

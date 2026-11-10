@@ -8,7 +8,7 @@ body:
       value: |
         Our procedure, not Karpathy's ideas. This collection is unofficial and not affiliated with or endorsed by Andrej Karpathy.
 
-        Your coding agent usually fills this in (README step 4): it drafts the report from your review's record, scrubs it, and shows you the exact text first. The format and the levels are in [docs/field-reports.md](https://github.com/ntroccoli/karpathy-ideas/blob/main/docs/field-reports.md). Reports are public. Never include code, prompts, file paths, URLs, secrets, personal data, or session or ticket ids. An Action checks the report and labels it `valid` or `needs-fix`.
+        Your coding agent usually fills this in (README step 4): it drafts the report from your review's record, scrubs it, and shows you the exact text first. The format and the levels are in [docs/field-reports.md](https://github.com/ntroccoli/karpathy-ideas/blob/main/docs/field-reports.md). Reports are public. Never include code, prompts, file paths, URLs, secrets, personal data, or session or ticket ids. The maintainer checks reports in batches from time to time: a valid report is collected and closed with the label `collected`; an invalid one gets `needs-fix` and one comment.
   - type: textarea
     id: report
     attributes:

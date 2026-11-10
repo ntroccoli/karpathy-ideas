@@ -3,7 +3,7 @@
 //
 // Usage:
 //   node scripts/check-report.mjs report.md        a file with the issue body
-//   REPORT_BODY="..." node scripts/check-report.mjs   the body from an env var (the Action uses this)
+//   REPORT_BODY="..." node scripts/check-report.mjs   the body from an env var
 //   node scripts/check-report.mjs < report.md      the body on stdin
 // The body holds one ```json block (the first one is checked) and the consent line.
 // Exit 0 when the report is valid, 1 when it is not. No dependencies.

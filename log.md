@@ -9,8 +9,9 @@ Newest first.
   shape lets reviews from any project be counted and compared.
 - **Changed:** a new procedure page (ours), [docs/field-reports.md](docs/field-reports.md): the
   report schema, three sharing levels, what never to include, how reports are used, CC BY 4.0
-  and deletion. A "Field report" issue form, a checker script and an Action that labels each
-  report `valid` or `needs-fix`. README step 4 (optional) gives the prompt that drafts a
+  and deletion. A "Field report" issue form and a checker script. The maintainer checks
+  reports in batches from time to time: a valid report is collected and closed (`collected`),
+  an invalid one gets `needs-fix` and one comment. README step 4 (optional) gives the prompt that drafts a
   report and posts it only after the user's yes. Steps 1 to 3 did not change.
 - **Checklist impact:** none.
 
