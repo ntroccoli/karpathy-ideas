@@ -18,14 +18,14 @@ changes with a cost for each, applies the ones you choose, and records which one
 are his; the steps are ours. The prompts point your agent to `llms.txt`, a plain text file in this
 public repository. Nothing is changed or sent without your yes.
 
-Results so far, from the maintainer's own five projects (reported by their agents, not a benchmark):
+What to expect, from his ideas (expected effects, not guarantees):
 
-- A guard hook for recursive deletes passes 26 test cases and blocks 91 of 987 past deletes
-  ([field report #5](https://github.com/ntroccoli/karpathy-ideas/issues/5)).
-- Instruction files had grown 1.8 KB in one week; a size test now fails above 12 KB
-  ([#3](https://github.com/ntroccoli/karpathy-ideas/issues/3)).
-- Checks that ran only by hand now run before every push, and every tool version is pinned
-  ([#1](https://github.com/ntroccoli/karpathy-ideas/issues/1)).
+- Short, relevant instruction files that load every time leave more of the context window for the task. (A1)
+- A new session for each new topic stops old history from distracting the AI and adding cost. (A2)
+- Try a fast model first. Switch to a stronger one when the answer is weak or the problem is hard. (A3)
+- Each task states its goal and a check the agent can run, so it can loop until the check passes. (B1)
+- Rules in prose are often ignored. A linter, test or hook can enforce them where an instruction file does not. (B2)
+- Agents get a few specific actions, not a full command line, so a bad web page can do less harm. (B8)
 
 ## Try it
 
