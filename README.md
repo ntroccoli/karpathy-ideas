@@ -9,6 +9,24 @@ words. Each one links to the original source. Quotes are short, attributed, and 
 [![Content: CC BY 4.0](https://img.shields.io/badge/content-CC%20BY%204.0-lightgrey.svg)](LICENSE-CONTENT.md)
 [![Code: MIT](https://img.shields.io/badge/code-MIT-blue.svg)](LICENSE)
 
+## What it does
+
+Your coding agent measures your project against a 17-question [checklist](checklist.md) built from
+Karpathy's ideas: what each session loads at start, how long sessions run, which model does which
+work, whether tools enforce your rules, and whether each task says when it is done. It proposes
+changes with a cost for each, applies the ones you choose, and records which ones held. The ideas
+are his; the steps are ours. The prompts point your agent to `llms.txt`, a plain text file in this
+public repository. Nothing is changed or sent without your yes.
+
+Results so far, from the maintainer's own five projects (reported by their agents, not a benchmark):
+
+- A guard hook for recursive deletes passes 26 test cases and blocks 91 of 987 past deletes
+  ([field report #5](https://github.com/ntroccoli/karpathy-ideas/issues/5)).
+- Instruction files had grown 1.8 KB in one week; a size test now fails above 12 KB
+  ([#3](https://github.com/ntroccoli/karpathy-ideas/issues/3)).
+- Checks that ran only by hand now run before every push, and every tool version is pinned
+  ([#1](https://github.com/ntroccoli/karpathy-ideas/issues/1)).
+
 ## Try it
 
 Open your coding agent (Claude Code, Codex, Cursor, …) in your project. Step 1 only reads your
