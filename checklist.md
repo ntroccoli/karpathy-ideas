@@ -52,7 +52,11 @@ ours, not Karpathy's. How to run the checklist is at the end.
    Idea: [autoresearch loop](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-07-autoresearch-loop.md).
 4. **Can agents work alone for long stretches?**
    Check: tasks are decomposed, and the system is testable and observable (logs, metrics), so an
-   agent can check its own work. Idea: [delegate long tasks](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-02-25-delegate-long-tasks-decompose-well.md).
+   agent can check its own work. The owner sets how much each kind of session does alone: which
+   work runs unattended and which stops for the owner's choice (for example, a session started
+   from a handoff). Check what such sessions actually did before the owner's first answer.
+   Ideas: [delegate long tasks](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-02-25-delegate-long-tasks-decompose-well.md),
+   [autonomy slider](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-06-17-partial-autonomy-and-autonomy-slider.md).
 5. **Does a human still review and understand the code?**
    Check: diffs are reviewed for wrong assumptions, bloat and unrelated edits.
    Ideas: [subtle conceptual mistakes](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-01-26-coding-agents-make-subtle-conceptual-mistakes.md),
@@ -171,6 +175,5 @@ under that item, not as a new proposal. Do not reopen ideas the record already s
 
 Our own practices that go with A2 and A4 (not from the ideas): measure a session's context with
 `/context` (Claude Code) or the status line; carry state to a new session through a handoff file
-(decisions, state, next step) instead of the old history; and make a start line or handoff tell
-the new session to report where things stand, propose, and wait for the user before it starts.
-Make a fresh start cheap, so it gets chosen: a short handoff, and no manual edits before a new session can start.
+(decisions, state, open items) instead of the old history. How much a new session does before
+the user answers is set under B4. Make a fresh start cheap, so it gets chosen: a short handoff, and no manual edits before a new session can start.

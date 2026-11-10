@@ -4874,7 +4874,7 @@ agentic context management with memory, where the system decides what to keep.
 - Before you continue a long chat, ask whether its early messages still help. If not, copy only the
   useful facts into a new chat.
 - Our reading, for coding agents (he spoke about chat apps): keep one session per task, and hand
-  off through a file (decisions, state, next step), not through a long history. Do not trust
+  off through a file (decisions, state, open items), not through a long history. Do not trust
   automatic compaction with key decisions; write them down yourself.
 - Group long-running work into projects, keep one default chat for quick questions, and when a chat gets too long, write a summary and continue in a new chat (a reader's setup he called interesting, 2025-03-20).
 

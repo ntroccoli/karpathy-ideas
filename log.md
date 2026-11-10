@@ -3,6 +3,18 @@
 Each update of the collection: when it ran, the period of sources it covered, and what changed.
 Newest first.
 
+## 2026-11-10 — B4 links the autonomy slider (no new ideas)
+
+- **Why:** sessions started from a handoff began work before the owner answered, in several
+  projects. Our procedure note told start lines to wait; it was easy to miss, and a handoff's
+  "next step" read as an order.
+- **Changed:** B4's Check now traces the wait to Karpathy's autonomy slider: the owner sets how
+  much each kind of session does alone, and the review checks what sessions started from a
+  handoff did before the owner's first answer. The procedure note no longer adds its own wait
+  rule, and handoffs carry "open items" instead of "next step" (also in the fresh chat per
+  topic idea's "Our reading" step).
+- **Checklist impact:** B4 wording. On a revisit, re-measure B4.
+
 ## 2026-11-10 — field reports through GitHub issues (no new ideas)
 
 - **Why:** feedback from reviews was collected by hand, session by session. A fixed report
