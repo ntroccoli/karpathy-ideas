@@ -20,7 +20,7 @@ public repository. Nothing is changed or sent without your yes.
 
 What to expect, from his ideas (expected effects, not guarantees):
 
-- Short, relevant instruction files that load every time leave more of the context window for the task.
+- Short instruction files that load in every session leave more of the AI's working memory for the task.
 - A new session for each new topic stops old history from distracting the AI and adding cost.
 - Try a fast model first. Switch to a stronger one when the answer is weak or the problem is hard.
 - Each task states its goal and a check the agent can run, so it can loop until the check passes.
@@ -31,12 +31,7 @@ What to expect, from his ideas (expected effects, not guarantees):
 
 Open your coding agent (Claude Code, Codex, Cursor, …) in your project. Step 1 only reads your
 project and changes nothing. You get numbered proposals, each with the idea, its source, a cost
-and a recommendation, and you choose what happens next. Steps 2 and 3 are optional.
-
-> **Example proposal**, from this repository's own review:
-> **2. Dependencies (checklist B6).** Idea: [rethink dependencies](ideas/2026-03-24-rethink-dependencies-supply-chain.md).
-> Today: the check script runs a Markdown linter without a version, so it fetches the newest
-> release on every run. Change: pin exact versions. Cost: S. Recommendation: do.
+and a recommendation, and you choose what happens next. Steps 2 to 4 are optional.
 
 ### Step 1: get proposals
 
@@ -109,9 +104,8 @@ Each idea file has:
 - at most **one short quote** (15 words or fewer),
 - a **kind**: `practice` (a way of working) or `view` (his opinion or explanation),
 - **Apply** steps you can use today (every practice has them; a view only when they are concrete).
-  They are our translation of his idea into practice, not his words: the summary and the quote
-  say what he said. A step marked "Our reading" or "our addition" goes further than the
-  idea itself; when all steps do, one "Our reading" line at the top of Apply says so,
+  They are our translation of his idea, not his words. A step marked "Our reading" goes further
+  than the idea itself,
 - a **status**: `current`, or `superseded` with a link to his newer view.
 
 Example: [Give agents success criteria, not steps](ideas/2026-01-26-success-criteria-not-steps.md).
@@ -140,6 +134,7 @@ The collection is maintained by its author with [Claude Code](https://claude.com
 An update runs about once a month: it collects new public posts, writes or updates idea files,
 marks ideas he has revised as superseded, and records the run in [log.md](log.md). Commits made
 with Claude keep a `Co-Authored-By` trailer. A human reviews the result before it is published.
+Field reports (step 4) help improve the checklist's procedure; they never change an idea file.
 
 Scripts in [scripts/](scripts/) build the index, theme pages and `llms.txt` files, and validate
 every idea file. CI runs the validator, a Markdown linter, a link checker and a commit message
