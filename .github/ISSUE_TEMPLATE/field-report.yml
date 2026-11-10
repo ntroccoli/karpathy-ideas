@@ -1,0 +1,26 @@
+name: Field report
+description: Share what a checklist review found (README step 4). Usually drafted by your coding agent.
+title: "Field report: "
+labels: [field-report]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Our procedure, not Karpathy's ideas. This collection is unofficial and not affiliated with or endorsed by Andrej Karpathy.
+
+        Your coding agent usually fills this in (README step 4): it drafts the report from your review's record, scrubs it, and shows you the exact text first. The format and the levels are in [docs/field-reports.md](https://github.com/ntroccoli/karpathy-ideas/blob/main/docs/field-reports.md). Reports are public. Never include code, prompts, file paths, URLs, secrets, personal data, or session or ticket ids. An Action checks the report and labels it `valid` or `needs-fix`.
+  - type: textarea
+    id: report
+    attributes:
+      label: Report
+      description: One JSON object in the shape `karpathy-ideas/field-report@1`.
+      render: json
+    validations:
+      required: true
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: Consent
+      options:
+        - label: I read the exact text; it has no confidential details, code or secrets; I license it under CC BY 4.0.
+          required: true

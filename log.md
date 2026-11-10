@@ -3,6 +3,17 @@
 Each update of the collection: when it ran, the period of sources it covered, and what changed.
 Newest first.
 
+## 2026-11-10 — field reports through GitHub issues (no new ideas)
+
+- **Why:** feedback from reviews was collected by hand, session by session. A fixed report
+  shape lets reviews from any project be counted and compared.
+- **Changed:** a new procedure page (ours), [docs/field-reports.md](docs/field-reports.md): the
+  report schema, three sharing levels, what never to include, how reports are used, CC BY 4.0
+  and deletion. A "Field report" issue form, a checker script and an Action that labels each
+  report `valid` or `needs-fix`. README step 4 (optional) gives the prompt that drafts a
+  report and posts it only after the user's yes. Steps 1 to 3 did not change.
+- **Checklist impact:** none.
+
 ## 2026-11-09 — procedure fixes from a large multi-repository setup (no new ideas)
 
 - **Why:** a review of a large agent setup (several repositories, a manager session with

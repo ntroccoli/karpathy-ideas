@@ -7,7 +7,9 @@ Thank you for helping keep this collection accurate.
 - **Corrections:** a wrong date, a broken or wrong link, a misattribution, a summary that
   misreads the source, a quote that is not exact.
 - **Suggestions:** a public idea by Andrej Karpathy that is missing. Include the link.
-- **Field reports:** you applied an idea and want to share what happened.
+- **Field reports:** you ran the checklist and want to share what it found. Use the
+  "Field report" issue form, or let your agent post one (README step 4). The format is in
+  [docs/field-reports.md](docs/field-reports.md).
 
 Please open an [issue](https://github.com/ntroccoli/karpathy-ideas/issues/new/choose) using one of
 the templates. Pull requests from outside contributors are not accepted yet; this will change
