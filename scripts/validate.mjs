@@ -1,4 +1,4 @@
-// Validate every idea file, then check that generated files are up to date.
+// Validate every idea file and the example field report, then check that generated files are up to date.
 // Usage: node scripts/validate.mjs
 import { existsSync } from 'node:fs';
 import { join } from 'node:path';
@@ -55,6 +55,25 @@ for (const { file, meta, body, error } of ideas) {
   for (const [, target] of body.matchAll(/\]\(([^)#\s]+\.md)\)/g)) {
     if (/^https?:/.test(target)) continue;
     if (!existsSync(join(IDEAS_DIR, target))) err(file, `broken link ${target}`);
+  }
+}
+
+// The example report in docs/field-reports.md must pass the field-report check, except for its
+// own id, which the check rejects on purpose (so nobody posts the example unchanged).
+{
+  const doc = 'docs/field-reports.md';
+  const { readFileSync } = await import('node:fs');
+  const { checkBody, EXAMPLE_ID } = await import('./check-report.mjs');
+  const text = readFileSync(join(IDEAS_DIR, '..', doc), 'utf8');
+  const at = text.indexOf('## Example issue body');
+  if (at < 0) err(doc, 'has no "## Example issue body" section');
+  else {
+    const { report, errors: problems } = checkBody(text.slice(at));
+    if (report?.report_id !== EXAMPLE_ID) err(doc, `example report_id must be ${EXAMPLE_ID} (EXAMPLE_ID in scripts/check-report.mjs)`);
+    for (const p of problems) {
+      if (p.field === 'report_id' && report?.report_id === EXAMPLE_ID) continue;
+      err(doc, `example report: ${p.field}: ${p.problem}`);
+    }
   }
 }
 
