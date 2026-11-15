@@ -328,7 +328,8 @@ earlier version did: [C1](corrections.md#c1-size-limits-of-ours-2026-11-09-to-20
 Grade a gap against the project's own runs instead:
 
 - a number that grew without anyone choosing it;
-- a number that came with worse work, such as rules missed, more retries or a compaction.
+- a number that came with worse work, such as rules missed, more retries, or a compaction forced
+  in the middle of a task.
 
 Items that tell an agent to cut, move, delete or forbid fail when applied blindly. A size goal
 makes an agent drop lines that drive behaviour, and too little context hurts as much as too much
