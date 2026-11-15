@@ -33,7 +33,8 @@ one message.
 
 - Keep a short, current context file per repo: layout, commands, rules, known traps.
 - Review what loads at the start of each agent session (instruction files, skills, open files).
-  Remove what the task does not need.
+  Remove what the task does not need, and keep what it does: too little context hurts as much
+  as too much.
 - Write a spec for each task: goal, limits, how to check it. See
   [success criteria, not steps](2026-01-26-success-criteria-not-steps.md).
 - Use subagents for searches and large reads, so the main context stays small.

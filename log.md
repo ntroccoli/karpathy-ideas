@@ -17,7 +17,13 @@ Newest first.
   idea (its summary, with the link), what it looks like in a project, questions with what to
   measure, and only the trade-offs his ideas name; anything of ours is marked "Our reading".
   Proposals are options for the project's owner. Before release, a fresh agent ran step 3 on a
-  damaged and an undamaged sample project.
+  damaged and an undamaged sample project. After an outside check, more wording changed:
+  - B8 and C1 propose their trials and run them only with the owner's yes;
+  - Apply lines that cut (context engineering, shorter prompts, system prompt learning, and the
+    README) keep their counterweight, and the review and prune steps he did not name are marked
+    "Our reading";
+  - two observations of ours are labelled;
+  - A5 links the agent research org idea.
 - **Checklist impact:** every item reshaped (A1 to A6, B1 to B8, C1 to C3); the questions did
   not change. C1 in corrections.md. On a revisit, read corrections.md first and check C1.
 

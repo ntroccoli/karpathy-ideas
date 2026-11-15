@@ -70,13 +70,20 @@ read [corrections.md](corrections.md) first.
 5. **Where do lessons go?**
    - His idea: [system prompt learning](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-05-10-system-prompt-learning.md):
      a missing learning paradigm: after a task, the model reviews what happened and writes
-     explicit lessons into its own system prompt, later distilled into weights.
-   - In a project: lessons appended forever to a file every session loads, or not written at all.
+     explicit lessons into its own system prompt, later distilled into weights. Also
+     [programming an agent research org](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-02-27-programming-an-agent-research-org.md):
+     the agents' prompts, skills, tools and routines are markdown you can version and compare,
+     and a model can write a better version of the file.
+   - In a project: lessons appended forever to a file every session loads, or not written at all;
+     instruction files that only people edit, or that agents rewrite with no comparison.
    - Ask: Are lessons written down after work and grouped by topic? Measure where they live
      (always-loaded files or topic files) and their dates. Which are stale or duplicate? Measure
-     the duplicates and the lessons about tools or versions the project no longer uses.
+     the duplicates and the lessons about tools or versions the project no longer uses. Who edits
+     the instruction files, and is a new version compared with the old one? Measure who made the
+     recent edits and whether any comparison was run.
    - Trade-off / when not: it is a research proposal, not a tested recipe; he wants the lessons
-     distilled into weights to avoid bloat. Our reading: prune stale and duplicate lessons, not
+     distilled into weights to avoid bloat. The agents he ran implemented ideas well but
+     generated poor ones of their own. Our reading: prune stale and duplicate lessons, not
      lessons cut to reach a size; a size goal led agents to drop lines that drive behaviour
      ([C1](corrections.md#c1-size-limits-of-ours-2026-11-09-to-2026-11-15)).
 6. **Is project knowledge readable by agents?**
@@ -137,7 +144,8 @@ read [corrections.md](corrections.md) first.
      good LLM apps manage context, chain model calls, give a GUI for fast checking and let the
      user set how much the AI does.
    - In a project: agents stop for help because they cannot check their work, or sessions run
-     alone on work the owner wanted to choose, for example a session started from a handoff.
+     alone on work the owner wanted to choose. Our observation, in the maintainer's own setups:
+     a session started from a handoff did this.
    - Ask: Can an agent check its own work? Measure the tests, logs, metrics and health checks it
      can run. How much does each kind of session do alone, and who set it? Measure what sessions
      started from a handoff did before the owner's first answer.
@@ -195,7 +203,8 @@ read [corrections.md](corrections.md) first.
      run.
    - Ask: Which agent has all three parts? Measure each agent's tools and permissions, subagents
      included. Does untrusted text pass a step that strips or flags invisible code points? Measure
-     the step, and test it with text that holds variation selectors. Are delete commands read?
+     the step, and propose a test with text that holds variation selectors; run it only with the
+     owner's yes. Are delete commands read?
      Measure the `rm` commands in the logs, any on a bare `~`, and whether `rm -rf` is
      auto-approved.
    - Trade-off / when not: he wants to adopt agents early, but the risk holds him back. His remedy
@@ -215,7 +224,8 @@ read [corrections.md](corrections.md) first.
    - In a project: setup and actions that need a person to click through web pages.
    - Ask: Can an agent do each important action? Measure the actions with a CLI or API against
      those only in a web page, and whether the docs are markdown an agent can fetch with plain
-     curl. Ask an agent to do the setup and note where it stops.
+     curl. Propose a trial in which an agent does the setup in a throwaway copy and notes where
+     it stops; run it only with the owner's yes.
    - Trade-off / when not: he calls an agent that deploys a whole app only barely possible now.
 2. **Can users see and steer what the AI does?**
    - His idea: [agent command center](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-11-bigger-ide-agent-command-center.md):
@@ -289,7 +299,7 @@ tool calls and their inputs (B2, B5, B8). Count tool calls, not all text: a sear
 also matches the rules quoted in the loaded instructions. Other agents keep similar logs.
 
 Two counts that are easy to miss. For A2, count the messages that wake a long session, times the
-context each one re-reads: in one setup, 2,320 wake-ups in a week each re-read more than 300k
+context each one re-reads: in one setup (the maintainer's own, 2026-11), 2,320 wake-ups in a week each re-read more than 300k
 tokens. For B2, count the "must", "never" and "always" rules in the instruction files against
 the rules a hook, test or linter enforces, and count hooks that were written but never wired.
 Before you rely on a guard hook, test it against heredocs and quoted text: a hook that matches

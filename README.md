@@ -20,7 +20,7 @@ public repository. Nothing is changed or sent without your yes.
 
 What to expect, from his ideas (expected effects, not guarantees):
 
-- Short instruction files that load in every session leave more of the AI's working memory for the task.
+- Instruction files that load in every session hold what the work needs and no more, leaving the AI's working memory for the task. Too little context hurts as much as too much.
 - A new session for each new topic stops old history from distracting the AI and adding cost.
 - Try a fast model first. Switch to a stronger one when the answer is weak or the problem is hard.
 - Each task states its goal and a check the agent can run, so it can loop until the check passes.

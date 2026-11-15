@@ -33,9 +33,11 @@ that database into the weights to avoid bloat.
 - Let the agent keep a "how we solve problems here" file in the repo.
 - End each long session with a retro: ask the agent what worked, what failed and what to do next
   time. Add each lesson to that file or a skill, short and dated.
-- Review the agent's edits to that file as you review code.
-- Prune and merge lessons regularly, and delete any the model no longer needs, so the file does
-  not fill the context.
+- Our reading (he names no review step): review the agent's edits to that file as you review
+  code.
+- Our reading (he proposes distilling lessons into weights, not deleting them): merge duplicate
+  lessons and remove stale ones, so the file does not fill the context. Keep each lesson that
+  still changes what the agent does.
 
 ## Context
 

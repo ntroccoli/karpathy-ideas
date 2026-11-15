@@ -24,7 +24,8 @@ embarrassing.
 ## Apply
 
 - Start with the goal and the check, in a few lines. Add detail only where the output goes wrong.
-- Remove requirements that only restate what a good engineer would do anyway.
+- Remove requirements that only restate what a good engineer would do anyway. Keep the ones
+  specific to this project, which a good engineer could not guess.
 - When the model drifts, add one targeted line instead of a long rewrite.
 
 ## Context
