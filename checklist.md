@@ -350,7 +350,7 @@ tokens (the context at the first reply after each wake-up). For B2, count the "m
 and "always" rules in the instruction files against the rules a hook, test or linter enforces,
 and count hooks that were written but never wired. Count each distinct rule once across files,
 and match each tool call to its result (it ran, or a hook refused it) before you count a breach.
-Review a new check before you trust it: in one setup a landing check read its scope from the
+Review a new check before you trust it: in one setup (the maintainer's own, 2026-11) a landing check read its scope from the
 worker's own copy. Before you rely on a guard hook, test it against heredocs and quoted text: a hook that matches
 command text can block harmless commands.
 
