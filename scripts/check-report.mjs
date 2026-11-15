@@ -182,7 +182,8 @@ export function validate(r) {
   // Every string anywhere: no hidden characters, no paths, URLs, emails, secrets or ids.
   const walk = (v, field) => {
     if (typeof v === 'string') {
-      if (field === 'report_id') return;
+      // Both have a strict format check of their own; the leak patterns would refuse them.
+      if (field === 'report_id' || field === 'checklist_commit') return;
       const hidden = [...v].filter(c => INVISIBLE.test(c) || CONTROL.test(c));
       if (hidden.length) err(field, `has ${hidden.length} invisible or control character(s) (${[...new Set(hidden.map(c => `U+${c.codePointAt(0).toString(16).toUpperCase().padStart(4, '0')}`))].join(', ')})`, 'retype the text in plain characters; hidden characters can carry instructions to a model');
       for (const [what, re, fix, secret] of LEAKS) {
