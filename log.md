@@ -13,7 +13,10 @@ Newest first.
   Items that cut, move, delete or forbid must name, for each line that leaves the always-loaded
   files, the behaviour that shows it still holds. A1 and A5 now choose by need and staleness,
   not by size, following the context engineering idea ("too little context hurts, and so does
-  too much").
+  too much"). The validator now refuses a limit in `checklist.md` without a source. B8 says to
+  keep the single U+FE0F and the U+200D that normal emoji use. Before each release, a fresh
+  agent applies each item that cuts, deletes or forbids to a prepared sample, and a check looks
+  for the intended effect and for the harm (A1, A5, B6 and both parts of B8 passed).
 - **Checklist impact:** A1, A2, A4 and A5 have no numeric limits. On a revisit, re-check any item
   applied to meet one of the old limits: list what it cut, and confirm that the behaviour each
   cut line drove still holds.

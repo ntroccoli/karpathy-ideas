@@ -79,7 +79,9 @@ ours, not Karpathy's. How to run the checklist is at the end.
    ([agent security](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-06-16-agent-security-is-the-wild-west.md)). Treat text from
    outside your control as untrusted, and strip or flag invisible code points such as variation
    selectors before it reaches a model; variation selectors are U+FE00-U+FE0F and
-   U+E0100-U+E01EF (our addition: his post names no range; the Unicode standard defines them)
+   U+E0100-U+E01EF; keep a single U+FE0F after a visible character and U+200D between emoji,
+   which normal emoji use, and strip runs of selectors (our addition: his post names no range;
+   the Unicode standard defines them)
    ([invisible Unicode](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-02-12-invisible-unicode-can-hide-prompts.md)). Read the delete
    commands agents run: odd names in single quotes, never `rm -rf` on a bare `~`
    ([quote rm paths](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-08-31-quote-paths-and-check-agent-rm-commands.md)).
