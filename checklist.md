@@ -11,8 +11,9 @@ ours, not Karpathy's. How to run the checklist is at the end.
    handoff or state files a session is told to read at start, for example
    `wc -c AGENTS.md CLAUDE.md ~/.claude/CLAUDE.md ~/.claude/skills/*/SKILL.md` (adapt the paths
    to your agent). A skill counts with its description at start and with its body when read. Also
-   measure what the first reads add after the first call. Keep the always-loaded part short; move
-   topic lessons into files read on demand.
+   measure what the first reads add after the first call. Keep in the always-loaded part what the
+   work needs, and move topic lessons into files read on demand. Choose by need, not by a size:
+   too little context hurts as much as too much.
    Ideas: [context engineering](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-06-25-context-engineering.md),
    [shorter prompts](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-11-01-shorter-prompts-fewer-bits.md).
 2. **Do sessions run long across topics?**
@@ -27,8 +28,8 @@ ours, not Karpathy's. How to run the checklist is at the end.
    Check: briefs and prompts say "quick look, one file" or "deep, verify", so agents do not
    search everything. Idea: [models too agentic](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-08-09-models-too-agentic-state-stakes-and-scope.md).
 5. **Where do lessons go?**
-   Check: lessons are written down after work, grouped by topic, and pruned, not appended forever
-   to a file every session loads. Idea: [system prompt learning](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-05-10-system-prompt-learning.md).
+   Check: lessons are written down after work, grouped by topic, and pruned of stale or duplicate
+   ones (not cut to a size), not appended forever to a file every session loads. Idea: [system prompt learning](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-05-10-system-prompt-learning.md).
 6. **Is project knowledge readable by agents?**
    Check: decisions, specs and research live in linked markdown an agent can read and update; source
    text is given to the model, not left to its memory. A log that is only appended to and never
@@ -153,17 +154,19 @@ the rules a hook, test or linter enforces, and count hooks that were written but
 Before you rely on a guard hook, test it against heredocs and quoted text: a hook that matches
 command text can block harmless commands.
 
-Starting thresholds, from five projects reviewed with this checklist in 2026-11 (Claude Code).
-They are starting points, not his numbers; adjust them to your agent and setup. Above a
-threshold is a gap; close to it is a partial gap.
+No size or count limits. His ideas name no numbers. An earlier version of this list gave limits
+of ours (12 KB per file, 15 KB in total, 50k tokens, 500 lines) from one person's five projects.
+They were removed on 2026-11-15: no measurement showed that they help, and a model given a size
+limit cuts until the number holds. Grade a gap against the project's own runs instead:
 
-- A1: the first call of a new session uses 50k tokens or fewer; the project files loaded at
-  every start (instruction files, project skill, handoff) total 15 KB or less.
-- A2: one topic per session, and no compaction.
-- A4: a package changes about 500 lines or fewer, and a worker's peak context stays under 200k
-  tokens.
-- A5: each file loaded at every start is 12 KB or less, and a check (a test or the gate) keeps it
-  there. Cap only files loaded at every start, not files that grow by design, such as logs.
+- a number that grew without anyone choosing it;
+- a number that came with worse work, such as rules missed, more retries or a compaction.
+
+Items that tell an agent to cut, move, delete or forbid fail when applied blindly. A size goal
+makes an agent drop lines that drive behaviour, and too little context hurts as much as too much
+([context engineering](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-06-25-context-engineering.md)).
+Before such a change, list each line that leaves the files loaded at every start, where it goes,
+and the behaviour that shows it still holds. That behaviour is the change's check in step 5.
 
 On a revisit (README step 3), read only the `log.md` entries newer than the one the record names;
 if it names none, those newer than the record's date. First re-check the recorded items waiting

@@ -3,6 +3,21 @@
 Each update of the collection: when it ran, the period of sources it covered, and what changed.
 Newest first.
 
+## 2026-11-15 — size limits of ours removed (no new ideas)
+
+- **Why:** the procedure part gave "starting thresholds" (12 KB per file loaded at start, 15 KB
+  in total, 50k tokens at the first call, 500 lines a package, no compaction). They came from one
+  person's five projects, and no measurement showed that they help. His ideas name no numbers.
+  Applied as limits, they led agents to cut lines that drive behaviour.
+- **Changed:** the thresholds are removed. A gap is now graded against the project's own runs.
+  Items that cut, move, delete or forbid must name, for each line that leaves the always-loaded
+  files, the behaviour that shows it still holds. A1 and A5 now choose by need and staleness,
+  not by size, following the context engineering idea ("too little context hurts, and so does
+  too much").
+- **Checklist impact:** A1, A2, A4 and A5 have no numeric limits. On a revisit, re-check any item
+  applied to meet one of the old limits: list what it cut, and confirm that the behaviour each
+  cut line drove still holds.
+
 ## 2026-11-10 — B4 links the autonomy slider (no new ideas)
 
 - **Why:** sessions started from a handoff began work before the owner answered, in several
