@@ -42,10 +42,13 @@ read [corrections.md](corrections.md) first.
    - Ask: How long do sessions run, and how many unrelated topics does one cover, the session you
      run in included? Measure the first and last timestamp, compactions and topics per session.
      How often is a long session woken? Measure the wake-ups times the context each one re-reads.
+     What does a new session spend to learn the state? Measure the tokens its first reads take.
    - Trade-off / when not: he keeps earlier text when it still helps. He weighed cost and speed,
      attention over long text, signal to noise, and long chats being unlike training data. He
      called a new conversation probably an implementation detail; the real answer is context
-     managed by the agent, with memory. He spoke about chat apps.
+     managed by the agent, with memory. He spoke about chat apps. Our reading: for coding agents,
+     a compaction with a written handoff and a new session are both ways of managing context.
+     Report the measured cost of each; the owner chooses.
 3. **Which model does which work?**
    - His idea: [fast model first](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-02-27-fast-model-first-thinking-model-for-hard.md):
      know which model and tier you use; start fast, move to a reasoning model for hard code and
@@ -346,7 +349,7 @@ proposal. Do not reopen ideas the record already summarises. Each `log.md` entry
 impact" part maps its new ideas to the questions.
 
 Our own practices that go with A2 and A4 (not from the ideas): measure a session's context with
-`/context` (Claude Code) or the status line; carry state to a new session through a handoff file
-(decisions, state, open items) instead of the old history. How much a new session does before
-the user answers is set under B4. Make a fresh start cheap, so it gets chosen: a short handoff,
-and no manual edits before a new session can start.
+`/context` (Claude Code) or the status line. Before a compaction or a new session, write the
+decisions, the state and the open items to a handoff file, so neither depends on the old
+history. Which of the two a project uses is the owner's choice, made with the measured cost of
+each. How much a new session does before the user answers is set under B4.

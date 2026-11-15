@@ -3,6 +3,23 @@
 Each update of the collection: when it ran, the period of sources it covered, and what changed.
 Newest first.
 
+## 2026-11-15 — A2 neutral between compaction and a new session (no new ideas)
+
+- **Why:** two lines of ours leaned a review toward fresh sessions. One was in the fresh chat per
+  topic idea's "Our reading" ("keep one session per task ... do not trust automatic
+  compaction"); the other was A2's procedure note ("make a fresh start cheap, so it gets
+  chosen"). His idea is about chat apps. He keeps earlier text when it helps and calls a new
+  conversation an implementation detail.
+- **Changed:**
+  - The idea's "Our reading" and A2 now treat a compaction with a written handoff and a new
+    session as two ways of managing context.
+  - A2 asks what a new session spends to learn the state. The review reports the measured cost
+    of each way, and the owner chooses.
+  - What holds either way stays: write the decisions, the state and the open items to a file
+    first.
+- **Checklist impact:** A2. On a revisit, a project that chose one way for our old reason
+  re-checks the choice against its own numbers.
+
 ## 2026-11-15 — one review prompt (no new ideas)
 
 - **Why:** a first review and a revisit had two long prompts, and a correction such as C1 reached
