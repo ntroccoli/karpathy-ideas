@@ -17,6 +17,8 @@ First look for the project's record: `docs/karpathy-ideas.md`, or the record fil
 
 Either way, say in one line which path you took and why, and change nothing until the user chooses. The record is written when they do (the checklist's step 8). Whoever ran the review between 2026-11-09 and 2026-11-15 should run the review prompt again: because a record exists, it does the revisit ([correction C1](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/corrections.md#c1-size-limits-of-ours-2026-11-09-to-2026-11-15)).
 
+No warranty: the ideas, the checklist and its steps are provided as they are. Show the user every proposal and wait for their choice before changing anything, suggest a branch or a backup first, and remember the maintainer is not liable for what applying them changes.
+
 ## For a single task: how to read this cheaply
 
 Use the themes when you need ideas for one task (a prompt, a workflow, a tool), not a project review.

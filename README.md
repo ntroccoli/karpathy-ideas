@@ -33,6 +33,11 @@ Open your coding agent (Claude Code, Codex, Cursor, …) in your project. Step 1
 project and changes nothing. You get numbered proposals, each with the idea, its source, a cost
 and a recommendation, and you choose what happens next. Steps 2 and 3 are optional.
 
+**No warranty.** The collection, its checklist and these steps are provided as they are, with no
+warranty. Read every proposal before you apply it, and apply changes on a branch or with a
+backup; the maintainer is not liable for what applying them changes. See [LICENSE](LICENSE) and
+[LICENSE-CONTENT.md](LICENSE-CONTENT.md).
+
 **Ran the review between 2026-11-09 and 2026-11-15?** Run the [step 1](#step-1-review-first-time-or-again)
 prompt again. Your project has a record, so it does a revisit, and the revisit repairs what our
 old size limits cut ([correction C1](corrections.md#c1-size-limits-of-ours-2026-11-09-to-2026-11-15)).
