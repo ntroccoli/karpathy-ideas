@@ -3,6 +3,24 @@
 Each update of the collection: when it ran, the period of sources it covered, and what changed.
 Newest first.
 
+## 2026-11-15 — corrections part, and items that guide (no new ideas)
+
+- **Why:** a project that applied the old size limits keeps what they cut until someone repairs
+  it, and a revisit had no fixed place to find such errors. The checklist also mixed his ideas
+  with rules of ours; it should guide a model through his ideas and leave choices to the owner.
+- **Changed:** a new [corrections.md](corrections.md) (ours). Its entry C1 covers the size limits
+  published from 2026-11-09 to 2026-11-15: how to recognise them in a project, how to find what
+  left (the record, then the git history of each always-loaded file since the review), and what
+  to propose. The README step 3 prompt, the checklist's revisit paragraph and `llms.txt` read it
+  first, and the record names the corrections checked. README and `llms.txt` ask whoever ran the
+  review in those dates to run step 3 again. Every checklist item now has the same parts: his
+  idea (its summary, with the link), what it looks like in a project, questions with what to
+  measure, and only the trade-offs his ideas name; anything of ours is marked "Our reading".
+  Proposals are options for the project's owner. Before release, a fresh agent ran step 3 on a
+  damaged and an undamaged sample project.
+- **Checklist impact:** every item reshaped (A1 to A6, B1 to B8, C1 to C3); the questions did
+  not change. C1 in corrections.md. On a revisit, read corrections.md first and check C1.
+
 ## 2026-11-15 — size limits of ours removed (no new ideas)
 
 - **Why:** the procedure part gave "starting thresholds" (12 KB per file loaded at start, 15 KB

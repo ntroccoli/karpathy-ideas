@@ -100,8 +100,14 @@ Field rules:
 
 ## Keep Karpathy's ideas and our procedure apart
 
-- Idea files and the questions and "Check" steps in `checklist.md` contain only what traces to
-  Karpathy's sources (an idea's summary or its Apply steps). Every Check links its idea.
+- Guide, don't impose: the checklist leads a model through his ideas (his idea with the link,
+  what it looks like in a project, questions to ask, the trade-offs his ideas name), labels
+  anything of ours "Our reading" with its evidence, and leaves every choice to the project's owner.
+- Idea files and each checklist item's "His idea", "In a project", "Ask" and "Trade-off / when
+  not" parts contain only what traces to Karpathy's sources (an idea's summary, Apply steps or
+  Context), except parts marked "Our reading" or "our addition". Every item links its ideas.
+- `corrections.md` lists errors in what we told projects to do, with how to recognise and repair
+  them; a revisit reads it first. Add an entry whenever a published instruction proves wrong.
 - Apply steps are our translation of his idea into practice (README, llms.txt and llms-full.txt
   say so). A step marked "Our reading" or "our addition" goes further than the idea itself.
   When every Apply step does, drop the per-step labels and put one line right under
