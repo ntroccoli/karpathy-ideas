@@ -3,6 +3,50 @@
 Each update of the collection: when it ran, the period of sources it covered, and what changed.
 Newest first.
 
+## 2026-11-15 — read from disk, closed items, a repair that stays a repair (no new ideas)
+
+- **Why:** a check on a fresh machine and four field reports found procedure faults of ours. In
+  Claude Code a web fetch handed the reviewing agent a smaller model's summary of the checklist,
+  not the checklist. A proposal the owner skipped came back at the next review. A repair proposed
+  more than the repair, and C1 missed the rules the old limits added. Records had no fixed shape.
+  The step 2 prompt applied every "do" at once.
+- **Changed:**
+  - The README step 1 prompt and `llms.txt` download the files with `curl` (or a clone) into a
+    temporary folder, read them from disk and delete them when done. The README says step 1
+    reads the user-level agent files and the session logs for the project.
+  - Step 2 works on a branch or after a backup, one proposal at a time, and stops at the first
+    failing check.
+  - A skipped or declined proposal is closed: it comes back only for a new idea or a changed
+    measurement. An owner's decision that differs from an idea is recorded and graded "owner's
+    choice". Step 8 gives the record a template.
+  - A revisit re-measures only what a correction or a log entry's impact names, the waiting and
+    stopped-holding items, and the measurements that may have moved; the rest gets one line,
+    "unchanged since".
+  - C1: compare the review date with the publication window and recognise a project by the log
+    entry its record names; list the rules the old limits added (no compaction, 500 lines, 200k
+    tokens) with the neutral wording as the option; remove the size check before putting lines
+    back; list lines that moved with no pointer; look at the files each role loads where it
+    starts; record a repair made by another project. A repair proposes the repair; other gaps get
+    one line each.
+  - A2 defines tokens re-read (the context at the first reply after each wake-up, summed); A6
+    asks about stale pointers and contradictions (the knowledge-base idea's lint); B2 counts each
+    distinct rule once, matches each tool call to its result and reviews a new check before
+    trusting it; B8 tells a classifier's approval from a person's. The README tip names fresh
+    subagents for the measuring when the owner compacts.
+  - For Claude Code projects, the procedure quotes Anthropic's documentation, labelled as the
+    vendor's: path-scoped rules in `.claude/rules/` (A1, A5), what a compaction keeps of invoked
+    skills (A2, A5), and `/usage`, `/context` and the prompt cache (A2). None is a gap by itself.
+  - Step 4: every Idea line has the title and the full link, even when two proposals share an
+    idea (a fresh agent wrote "same as proposal 1").
+  - Before release, fresh agents ran the new prompts. With web tools on, the agent read
+    `checklist.md` from disk; the prompt as published before worked from a web-fetch summary.
+    "Apply none", then a revisit: the skipped items stayed closed, and the revisit re-measured
+    far fewer questions. Step 2 stopped at a seeded failing check. A damaged project got the
+    repair only.
+- **Checklist impact:** procedure, plus Ask lines in A2, A6 and B8 (no idea changed). On a
+  revisit: re-measure A2's tokens re-read, A6 and B8 with the new lines; re-check C1 only if the
+  record does not list it; skipped items stay closed.
+
 ## 2026-11-15 — A2 neutral between compaction and a new session (no new ideas)
 
 - **Why:** two lines of ours leaned a review toward fresh sessions. One was in the fresh chat per

@@ -41,7 +41,8 @@ read [corrections.md](corrections.md) first.
      many times and re-reads its whole history each time.
    - Ask: How long do sessions run, and how many unrelated topics does one cover, the session you
      run in included? Measure the first and last timestamp, compactions and topics per session.
-     How often is a long session woken? Measure the wake-ups times the context each one re-reads.
+     How often is a long session woken, and what does it re-read? Measure the tokens re-read: the
+     context at the first reply after each wake-up, summed.
      What does a new session spend to learn the state? Measure the tokens its first reads take.
    - Trade-off / when not: he keeps earlier text when it still helps. He weighed cost and speed,
      attention over long text, signal to noise, and long chats being unlike training data. He
@@ -101,7 +102,10 @@ read [corrections.md](corrections.md) first.
    - Ask: Where do decisions, specs and research live? Measure how many are in linked markdown an
      agent can read and update. Do prompts give the model the source text? Measure prompts that
      paste or link it against those that ask from memory. Is there an append-only log no one reads
-     whole? Measure its size and whether a page of what is current is compiled from it.
+     whole? Measure its size and whether a page of what is current is compiled from it. Do
+     pointers lead to files that exist, and do older files contradict newer decisions? Measure the
+     stale pointers and the contradictions, as the knowledge-base idea's lint passes look for
+     contradictions and gaps.
    - Trade-off / when not: the wiki saves writing, not reading and thinking.
 
 ## B. How it is built
@@ -209,7 +213,8 @@ read [corrections.md](corrections.md) first.
      the step, and propose a test with text that holds variation selectors; run it only with the
      owner's yes. Are delete commands read?
      Measure the `rm` commands in the logs, any on a bare `~`, and whether `rm -rf` is
-     auto-approved.
+     auto-approved. In an automatic permission mode, a classifier's approval is not a person
+     reading the command: measure both.
    - Trade-off / when not: he wants to adopt agents early, but the risk holds him back. His remedy
      is a few specific action types instead of any bash script, for example no shell for an agent
      that reads web pages. In his test, the hidden prompt worked only with explicit decoding hints.
@@ -271,11 +276,14 @@ sessions start in plus the user-level files they load.
    skills, the descriptions are often the largest part of the start. Count each file once
    (synced copies of skills are easy to count twice).
 2. Mark each question "gap", "partial gap" or "no gap", with the measurement. List the questions
-   with no gap, one line each. Do not open their ideas and do not make proposals for them.
+   with no gap, one line each. Do not open their ideas and do not make proposals for them. Where
+   the record holds an owner's decision that differs from an idea (with its date and reason),
+   grade the question "owner's choice", not a gap, and propose it again only with new evidence.
 3. Open only the linked ideas for the gaps, and only when the item's summary is not enough to
    write the proposal.
 4. Report each gap as a proposal, an option for the project's owner, in this report format.
-   Every proposal has every line:
+   Every proposal has every line, and its Idea line has the title and the full link, even when
+   another proposal names the same idea:
 
    ```text
    N. <short title> (<question>, gap or partial gap)
@@ -304,8 +312,28 @@ sessions start in plus the user-level files they load.
    skipped. Mark each applied item "proven" or "waiting for first use", with the event that will
    prove it. Name the newest `log.md` entry (date and title) the review covered and the
    corrections it checked, with the outcome; a first review uses the corrected checklist, so it
-   names the newest entry in [corrections.md](corrections.md) as covered. On a revisit, update
-   the record in its existing layout.
+   names the newest entry in [corrections.md](corrections.md) as covered. A proposal the user did
+   not choose is skipped, unless they said "later"; a skipped or declined proposal is closed. An
+   owner's decision that differs from an idea goes under "Owner's choices" with the date, the
+   reason and the owner's words. Use this template; a revisit adds a new review section above
+   the older ones, and a record in another layout keeps its layout and gains these header lines:
+
+   ```text
+   # Karpathy ideas: review record
+
+   ## Review <N>: <YYYY-MM-DD HH:MM and time zone>, <first review or revisit>
+   - Newest log.md entry covered: <date — title>
+   - Corrections checked: <each one: not affected / affected, repaired by proposals N-M / repaired by <project>, <date>>
+   - Run by: <agent and model>, <fresh session, or subagents for the measuring>
+
+   | # | Question | Proposal | Cost | Recommendation | Outcome |
+   |---|---|---|---|---|---|
+   | 1 | <question> | <title> | S, M or L | do, later or skip | <applied <date>, proven by <check> / waiting for first use: <event> / later / skipped <date>, closed / stopped: <failed check>> |
+
+   No gap: <questions, one line each>.
+   Unchanged since <date>: <questions, with the reason> (a revisit only).
+   Owner's choices: <question>: <decision>, <date>, "<owner's words>", <reason>.
+   ```
 
 Measuring from session logs. A2, A3, B2, B5 and B8 often need the agent's session logs. Claude
 Code keeps one JSONL file per session in `~/.claude/projects/<folder>/<session-id>.jsonl`; the
@@ -318,9 +346,12 @@ also matches the rules quoted in the loaded instructions. Other agents keep simi
 
 Two counts that are easy to miss. For A2, count the messages that wake a long session, times the
 context each one re-reads: in one setup (the maintainer's own, 2026-11), 2,320 wake-ups in a week each re-read more than 300k
-tokens. For B2, count the "must", "never" and "always" rules in the instruction files against
-the rules a hook, test or linter enforces, and count hooks that were written but never wired.
-Before you rely on a guard hook, test it against heredocs and quoted text: a hook that matches
+tokens (the context at the first reply after each wake-up). For B2, count the "must", "never"
+and "always" rules in the instruction files against the rules a hook, test or linter enforces,
+and count hooks that were written but never wired. Count each distinct rule once across files,
+and match each tool call to its result (it ran, or a hook refused it) before you count a breach.
+Review a new check before you trust it: in one setup a landing check read its scope from the
+worker's own copy. Before you rely on a guard hook, test it against heredocs and quoted text: a hook that matches
 command text can block harmless commands.
 
 No size or count limits. His ideas name no numbers, and this checklist gives none of ours (an
@@ -337,17 +368,45 @@ makes an agent drop lines that drive behaviour, and too little context hurts as 
 Before such a change, list each line that leaves the files loaded at every start, where it goes,
 and the behaviour that shows it still holds. That behaviour is the change's check in step 5.
 
+For Claude Code projects, Anthropic's documentation gives facts to measure with. They are the
+vendor's text, not his ideas, and none is a gap by itself:
+
+- A1 and A5, moving text without deleting it: rules in `.claude/rules/` with a `paths` field load
+  only when Claude works with matching files
+  ([memory](https://code.claude.com/docs/en/memory#path-specific-rules)).
+- A2 and A5, what a compaction keeps: Claude Code re-attaches each invoked skill after the
+  summary, "keeping the first 5,000 tokens of each", within "a combined budget of 25,000 tokens",
+  most recent first, so older skills can be dropped
+  ([skills](https://code.claude.com/docs/en/skills#skill-content-lifecycle)). Measure which
+  invoked skills exceed what survives a compaction.
+- A2, the built-in meters and the cache: `/usage` breaks usage down by skill, subagent, plugin
+  and MCP server, and `/context` shows what a session holds; the prompt cache "lasts about an
+  hour on a subscription and five minutes on an API key", and on a long session "`/compact` is
+  itself a big request"
+  ([best practices](https://code.claude.com/docs/en/best-practices#keep-cost-and-context-down)).
+  Both meters work in the first hour, before any log parsing.
+
 On a revisit (the review prompt run on a project that has a record), read
 [corrections.md](corrections.md) first: check each correction the record does not list as
 checked, as the correction says, and propose only what it says, as options; the record then
 names the ones you checked (step 8). Then read only
 the `log.md` entries newer than the one the record names; if it names none, those newer than the
 record's date. First re-check the recorded items waiting for first use and the applied items that
-may have stopped holding. Then run steps 1 to 7: report a gap in any question, but open and
-propose only ideas new since the last review, earlier "later" items, and applied items that
-stopped holding. Report a gap that a waiting item already covers under that item, not as a new
-proposal. Do not reopen ideas the record already summarises. Each `log.md` entry's "Checklist
-impact" part maps its new ideas to the questions.
+may have stopped holding. Then run steps 1 to 7, but re-measure only:
+
+- what a correction or a newer `log.md` entry's "Checklist impact" names;
+- the items waiting for first use and the applied items that may have stopped holding;
+- the questions whose measurement may have moved: the files they measure changed since the
+  record's date, or the logs hold sessions since then.
+
+Every other question gets one line, "unchanged since <date>", with the reason. Report a gap in
+any question, but open and propose only ideas new since the last review, earlier "later" items,
+and applied items that stopped holding. A skipped or declined proposal is closed: raise it again
+only for a new idea or a changed measurement, and say which. Report a gap that a waiting item
+already covers under that item, not as a new proposal. Do not reopen ideas the record already
+summarises. When a correction applies, propose its repair; other gaps get one line each, as the
+correction's "What to propose" says. Each `log.md` entry's "Checklist impact" part maps its new
+ideas to the questions.
 
 Our own practices that go with A2 and A4 (not from the ideas): measure a session's context with
 `/context` (Claude Code) or the status line. Before a compaction or a new session, write the

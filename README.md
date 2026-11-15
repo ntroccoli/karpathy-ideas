@@ -29,8 +29,10 @@ What to expect, from his ideas (expected effects, not guarantees):
 
 ## Try it
 
-Open your coding agent (Claude Code, Codex, Cursor, …) in your project. Step 1 only reads your
-project and changes nothing. You get numbered proposals, each with the idea, its source, a cost
+Open your coding agent (Claude Code, Codex, Cursor, …) in your project. Step 1 reads your
+project, your user-level agent files (instructions, settings, skills) and your agent's session
+logs for this project, and it changes nothing. Session logs hold whatever was pasted into a
+session, secrets included. You get numbered proposals, each with the idea, its source, a cost
 and a recommendation, and you choose what happens next. Steps 2 and 3 are optional.
 
 **No warranty.** The collection, its checklist and these steps are provided as they are, with no
@@ -47,7 +49,7 @@ old size limits cut ([correction C1](corrections.md#c1-size-limits-of-ours-2026-
 ### Step 1: review (first time or again)
 
 ```text
-Read https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/llms.txt and follow it to review this project. Change nothing until I choose.
+Download https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/llms.txt with curl into a temporary folder outside this project, and follow it to review this project. Download the files it names the same way and read them from disk, in full: a web fetch gives a summary, not the text. Change nothing until I choose. Delete the downloaded files when we are done.
 ```
 
 The same prompt serves the first review and every later one. The agent looks for the project's
@@ -57,19 +59,23 @@ checklist question and proposes. With one, it does a revisit: it reads the
 applied, and proposes only what is new. It tells you in one line which it did. The procedure
 lives in the collection, so a correction reaches you without a new prompt. Tip: run it in a fresh
 session, not in the one that built the project. It judges from the files instead of from memory,
-and it costs fewer tokens than a long-running session.
+and it costs fewer tokens than a long-running session. If you keep one session and compact
+instead, ask it to send the measuring to fresh subagents and merge their results.
 
 ### Step 2: apply
 
 To apply what the agent recommended, paste:
 
 ```text
-Apply what you recommended (the proposals marked "do"). First list each one with "Done when:" and the checks that prove it. Then apply them in order and run each one's checks. Before you change a file outside this project (user-level instructions, skills or settings), show me the exact text (a diff; for long changes, a summary and the path to a file with the full text) and wait for my yes. Then report each proposal with each check: pass or fail, and the result. Write the record in docs/karpathy-ideas.md (or the record file the review named), as step 8 of the checklist's "How to run this checklist" says.
+Apply what you recommended (the proposals marked "do"). Work on a new branch or after a backup, one proposal at a time. First list each one with "Done when:" and the checks that prove it. Then apply them in order: apply one, run its checks, and stop at the first check that fails; report it and leave the later proposals unapplied. Before you change a file outside this project (user-level instructions, skills or settings), show me the exact text (a diff; for long changes, a summary and the path to a file with the full text) and wait for my yes. Then report each proposal with each check: pass or fail, and the result. Write the record in docs/karpathy-ideas.md (or the record file the review named) with the template in step 8 of the checklist's "How to run this checklist". Then delete the files you downloaded for the review.
 ```
 
 To choose yourself, replace the first sentence with "Apply proposals 1, 3 and 5." To apply
 nothing, say "Apply none; write the record." The record keeps the project's history, so the next
-review reads only what is new.
+review reads only what is new. A proposal you skip or decline is closed: a later review raises it
+again only for a new idea or a changed measurement, and says which. If you decide against an
+idea, the record keeps your decision and your reason, and later reviews grade that question
+"owner's choice".
 
 ### Step 3: share what you learned (optional)
 
