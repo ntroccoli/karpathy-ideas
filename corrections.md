@@ -3,15 +3,17 @@
 Errors in what this collection told projects to do, and how to repair a project that followed
 one. This is our procedure, not an idea from Karpathy.
 
-A revisit (README step 3) reads this file first. It checks each correction that the project's
-record file does not list as checked, then names in the record the corrections it checked, with
-the date and the outcome. A project that a correction does not affect gets no proposal for it.
+A revisit (the README step 1 prompt on a project that has a record) reads this file first. It
+checks each correction that the project's record file does not list as checked; the record then
+names the corrections it checked, with the date and the outcome. A project that a correction does
+not affect gets no proposal for it.
 
 Each entry says what was wrong and when it was published, how to recognise it in a project, how
 to find what it changed, and what to propose. Proposals are options for the project's owner:
 apply none without their yes.
 
-Ran the review between 2026-11-09 and 2026-11-15? Run the revisit prompt (README step 3) again.
+Ran the review between 2026-11-09 and 2026-11-15? Run the review prompt (README step 1) again.
+Because the project has a record, it does the revisit.
 
 ## C1: size limits of ours, 2026-11-09 to 2026-11-15
 

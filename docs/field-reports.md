@@ -11,7 +11,7 @@ README prompts. Reports never change an idea file.
 
 ## For the agent that drafts a report
 
-The user asked you to share a review (README step 4). Do this:
+The user asked you to share a review (README step 3). Do this:
 
 1. Read the project's record file (usually `docs/karpathy-ideas.md`) and this page. Use only
    what the record and this review show. Do not invent numbers.
@@ -67,7 +67,7 @@ All fields are required unless marked optional. Text fields have the length caps
 | `date` | The review date, `YYYY-MM-DD`. |
 | `log_entry` | The date of the newest [log.md](../log.md) entry the review covered, or `"none"`. |
 | `checklist_commit` | Short hash of the `checklist.md` you read, if known, else `"unknown"`. |
-| `run` | `step1` (proposals only), `step2` (applied), `step3` (revisit). |
+| `run` | `step1` (a first review, proposals only), `step2` (applied), `step3` (a revisit: a review of a project that already has a record). The names predate the README's current step numbers and are kept so all reports count alike. |
 | `reviewer` | `fresh_session`, `builder_session` (the session that built the project), `subagents` (a long session that sent fresh subagents to measure). |
 | `level` | `0`, `1` or `2` (a number). |
 | `project.kind` | `web_app`, `service_fleet`, `multi_repo_setup`, `game`, `desktop_app`, `cli_tool`, `library`, `content_pipeline`, `research`, `docs_or_collection`, `other`. |

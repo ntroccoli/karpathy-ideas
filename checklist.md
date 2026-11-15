@@ -271,9 +271,19 @@ sessions start in plus the user-level files they load.
    with no gap, one line each. Do not open their ideas and do not make proposals for them.
 3. Open only the linked ideas for the gaps, and only when the item's summary is not enough to
    write the proposal.
-4. Report each gap as a proposal, an option for the project's owner: a number, the idea and its
-   link, what the project does today, the change, its trade-off from the item, its cost (S, M or
-   L), and a recommendation of one word: do, later or skip.
+4. Report each gap as a proposal, an option for the project's owner, in this report format.
+   Every proposal has every line:
+
+   ```text
+   N. <short title> (<question>, gap or partial gap)
+      - Idea: [<idea title>](<link to the idea file>)
+      - Today: <what the project does, with the measurement>
+      - Change: <the change>
+      - Trade-off: <from the item's "Trade-off / when not">
+      - Cost: S, M or L
+      - Recommendation: do, later or skip (one word)
+   ```
+
 5. Give each applied change a check that will prove it. For a check on context size, measure
    what the reads add after the first call, not the total: the fixed start (system prompt, tools,
    user-level files) can be large on its own. A check that cannot be run yet is "not shown",
@@ -285,9 +295,14 @@ sessions start in plus the user-level files they load.
    several projects share user-level files, apply their changes one project at a time, each from
    the latest version of the files.
 7. Change nothing until the user chooses.
-8. Record each proposal and its outcome with the date in the project's record file,
-   `docs/karpathy-ideas.md` (or, without a repository, the record file the review named), and
-   name the newest `log.md` entry the review covered.
+8. When the user has chosen (README step 2), record each proposal and its outcome with the date
+   in the project's record file, `docs/karpathy-ideas.md` (or, without a repository, the record
+   file the review named): every proposal, later and skipped ones included, as applied, later or
+   skipped. Mark each applied item "proven" or "waiting for first use", with the event that will
+   prove it. Name the newest `log.md` entry (date and title) the review covered and the
+   corrections it checked, with the outcome; a first review uses the corrected checklist, so it
+   names the newest entry in [corrections.md](corrections.md) as covered. On a revisit, update
+   the record in its existing layout.
 
 Measuring from session logs. A2, A3, B2, B5 and B8 often need the agent's session logs. Claude
 Code keeps one JSONL file per session in `~/.claude/projects/<folder>/<session-id>.jsonl`; the
@@ -318,8 +333,10 @@ makes an agent drop lines that drive behaviour, and too little context hurts as 
 Before such a change, list each line that leaves the files loaded at every start, where it goes,
 and the behaviour that shows it still holds. That behaviour is the change's check in step 5.
 
-On a revisit (README step 3), read [corrections.md](corrections.md) first: check each correction
-the record does not list as checked, and name the ones you checked in the record. Then read only
+On a revisit (the review prompt run on a project that has a record), read
+[corrections.md](corrections.md) first: check each correction the record does not list as
+checked, as the correction says, and propose only what it says, as options; the record then
+names the ones you checked (step 8). Then read only
 the `log.md` entries newer than the one the record names; if it names none, those newer than the
 record's date. First re-check the recorded items waiting for first use and the applied items that
 may have stopped holding. Then run steps 1 to 7: report a gap in any question, but open and

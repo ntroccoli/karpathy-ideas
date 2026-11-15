@@ -31,41 +31,42 @@ What to expect, from his ideas (expected effects, not guarantees):
 
 Open your coding agent (Claude Code, Codex, Cursor, …) in your project. Step 1 only reads your
 project and changes nothing. You get numbered proposals, each with the idea, its source, a cost
-and a recommendation, and you choose what happens next. Steps 2 to 4 are optional.
+and a recommendation, and you choose what happens next. Steps 2 and 3 are optional.
 
-**Ran the review between 2026-11-09 and 2026-11-15?** Run the [step 3](#step-3-revisit-later)
-prompt again: it repairs what our old size limits cut ([correction C1](corrections.md#c1-size-limits-of-ours-2026-11-09-to-2026-11-15)).
+**Ran the review between 2026-11-09 and 2026-11-15?** Run the [step 1](#step-1-review-first-time-or-again)
+prompt again. Your project has a record, so it does a revisit, and the revisit repairs what our
+old size limits cut ([correction C1](corrections.md#c1-size-limits-of-ours-2026-11-09-to-2026-11-15)).
 
-### Step 1: get proposals
+<a id="step-3-revisit-later"></a>
 
-```text
-Read https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/llms.txt and follow it. Study this project and measure every checklist question; do not judge from memory. Then propose which ideas to apply here: to the product, to how it is built, and to how agents work in it (instruction files, skills, session length, token use). Number each proposal, and for each give: the idea and its link, what the project already does, the change, the cost (S, M or L), and a recommendation of exactly one word: do, later or skip. Change nothing until I choose.
-```
-
-### Step 2: apply them
-
-Read the proposals. To accept the agent's recommendations, paste:
+### Step 1: review (first time or again)
 
 ```text
-Apply the proposals you marked "do". First list each one with "Done when:" and the checks that prove it. Then apply them in order and run each one's checks. Before you change a file outside this project (user-level instructions, skills or settings), show me the exact text (a diff; for long changes, a summary and the path to a file with the full text) and wait for my yes. Then report each proposal with each check: pass or fail, and the result. Write the record in docs/karpathy-ideas.md (without a repository, in the record file you proposed): for every proposal, including later and skipped ones, give the date and the outcome (applied, later or skipped). Mark each applied item "proven" or "waiting for first use", with the event that will prove it. Name the newest entry (date and title) in https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/log.md that this review covered.
+Read https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/llms.txt and follow it to review this project. Change nothing until I choose.
 ```
 
-To choose yourself, replace the first sentence with "Apply proposals 1, 3 and 5."
+The same prompt serves the first review and every later one. The agent looks for the project's
+record, `docs/karpathy-ideas.md`. Without one, it does a first review: it measures every
+checklist question and proposes. With one, it does a revisit: it reads the
+[corrections](corrections.md) and the new [log](log.md) entries first, re-checks what was
+applied, and proposes only what is new. It tells you in one line which it did. The procedure
+lives in the collection, so a correction reaches you without a new prompt. Tip: run it in a fresh
+session, not in the one that built the project. It judges from the files instead of from memory,
+and it costs fewer tokens than a long-running session.
 
-### Step 3: revisit later
+### Step 2: apply
 
-When the collection has grown or some time has passed, paste:
+To apply what the agent recommended, paste:
 
 ```text
-Read https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/llms.txt and follow it. Read the record file, docs/karpathy-ideas.md (or the one the last review named). Read https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/corrections.md first: check each correction the record does not list as checked, as the correction says, and propose only what it says, as options. Then read the entries in https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/log.md that are newer than the last entry the record names (if it names none, newer than its date); each entry's "Checklist impact" part says which questions its new ideas touch. Re-check the items marked "waiting for first use" and the applied items that may have stopped holding. Mark each "proven", "still waiting", "stopped holding" or "not shown" (the proof cannot be run yet), and give the numbers. Then measure every checklist question; do not judge from memory. Report every gap. Propose only ideas new since the last revisit, earlier "later" items, and applied items that stopped holding; give other gaps one line each. Use the checklist's report format. Update the record file in its existing layout; name in it the newest log.md entry you read and the corrections you checked. Change nothing else until I choose.
+Apply what you recommended (the proposals marked "do"). First list each one with "Done when:" and the checks that prove it. Then apply them in order and run each one's checks. Before you change a file outside this project (user-level instructions, skills or settings), show me the exact text (a diff; for long changes, a summary and the path to a file with the full text) and wait for my yes. Then report each proposal with each check: pass or fail, and the result. Write the record in docs/karpathy-ideas.md (or the record file the review named), as step 8 of the checklist's "How to run this checklist" says.
 ```
 
-The record file, `docs/karpathy-ideas.md`, keeps each project's history, so a revisit reads only
-what is new. Tip: run step 1 and each revisit in a fresh session, not in the one that built the
-project. It judges from the files instead of from memory, and it costs fewer tokens than a
-long-running session.
+To choose yourself, replace the first sentence with "Apply proposals 1, 3 and 5." To apply
+nothing, say "Apply none; write the record." The record keeps the project's history, so the next
+review reads only what is new.
 
-### Step 4: share what you learned (optional)
+### Step 3: share what you learned (optional)
 
 Your review can help improve the checklist for everyone. The agent drafts a short report in a
 fixed format, removes paths, names and secrets, and shows you the exact text. Nothing is sent
@@ -139,7 +140,7 @@ The collection is maintained by its author with [Claude Code](https://claude.com
 An update runs about once a month: it collects new public posts, writes or updates idea files,
 marks ideas he has revised as superseded, and records the run in [log.md](log.md). Commits made
 with Claude keep a `Co-Authored-By` trailer. A human reviews the result before it is published.
-Field reports (step 4) help improve the checklist's procedure; they never change an idea file.
+Field reports (step 3) help improve the checklist's procedure; they never change an idea file.
 
 Scripts in [scripts/](scripts/) build the index, theme pages and `llms.txt` files, and validate
 every idea file. CI runs the validator, a Markdown linter, a link checker and a commit message

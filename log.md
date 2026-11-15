@@ -3,6 +3,30 @@
 Each update of the collection: when it ran, the period of sources it covered, and what changed.
 Newest first.
 
+## 2026-11-15 — one review prompt (no new ideas)
+
+- **Why:** a first review and a revisit had two long prompts, and a correction such as C1 reached
+  only people who copied a new one. The prompt to paste should be short; the procedure should
+  live in the collection.
+- **Changed:** README "Try it" has three steps. Step 1, review, is one short prompt for the first
+  time and every later time. `llms.txt` routes it: with no record (`docs/karpathy-ideas.md`) the
+  agent does a first review and changes nothing; with a record it does a revisit, reading
+  `corrections.md` and the newer log entries first. Either way it says which path it took and
+  why. Step 2, apply, applies what the agent recommended (or the proposals you name); it keeps
+  each proposal's "Done when" and checks, and the yes before any file outside the project, and
+  writes the record as the checklist's step 8 says. Step 3 shares a field report, as step 4 did.
+  The record is now written in step 2; step 8 gained what the step 2 prompt used to list, and a
+  first review names the newest correction as covered. The re-run notice now says to run the
+  review prompt again. Field report `run` values keep their names (`step3` is a revisit). The
+  older prompts still work: their files and links are unchanged. The old step 1 prompt listed the
+  parts of a proposal; without it, fresh agents dropped some parts, so step 4 of the procedure now
+  gives the report format as a template. Before release, a fresh agent ran the new prompt on a
+  project with no record (first review) and on a damaged and an undamaged project with a record
+  (revisit), and the old step 3 prompt once on the damaged one.
+- **Checklist impact:** procedure only. Step 4 gives the report format as a template; step 8
+  lists what the record holds; "On a revisit" and `corrections.md` no longer name README step 3.
+  No question changed.
+
 ## 2026-11-15 — corrections part, and items that guide (no new ideas)
 
 - **Why:** a project that applied the old size limits keeps what they cut until someone repairs

@@ -8,7 +8,7 @@ Thank you for helping keep this collection accurate.
   misreads the source, a quote that is not exact.
 - **Suggestions:** a public idea by Andrej Karpathy that is missing. Include the link.
 - **Field reports:** you ran the checklist and want to share what it found. Use the
-  "Field report" issue form, or let your agent post one (README step 4). The format is in
+  "Field report" issue form, or let your agent post one (README step 3). The format is in
   [docs/field-reports.md](docs/field-reports.md). The maintainer checks reports in batches from
   time to time: a valid one is collected and closed (`collected`), an invalid one gets
   `needs-fix` and one comment.
