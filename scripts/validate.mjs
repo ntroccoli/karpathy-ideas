@@ -77,6 +77,13 @@ for (const { file, meta, body, error } of ideas) {
   }
 }
 
+// Every size or count limit in the checklist needs a source (scripts/check-provenance.mjs).
+{
+  const { readFileSync } = await import('node:fs');
+  const { checkProvenance } = await import('./check-provenance.mjs');
+  for (const p of checkProvenance(readFileSync(join(IDEAS_DIR, '..', 'checklist.md'), 'utf8'))) err('checklist.md', p);
+}
+
 if (errors.length) {
   console.error(`${errors.length} problem(s):\n` + errors.map(e => '  ' + e).join('\n'));
   process.exit(1);
