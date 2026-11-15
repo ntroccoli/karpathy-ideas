@@ -33,6 +33,9 @@ Open your coding agent (Claude Code, Codex, Cursor, …) in your project. Step 1
 project and changes nothing. You get numbered proposals, each with the idea, its source, a cost
 and a recommendation, and you choose what happens next. Steps 2 to 4 are optional.
 
+**Ran the review between 2026-11-09 and 2026-11-15?** Run the [step 3](#step-3-revisit-later)
+prompt again: it repairs what our old size limits cut ([correction C1](corrections.md#c1-size-limits-of-ours-2026-11-09-to-2026-11-15)).
+
 ### Step 1: get proposals
 
 ```text
@@ -54,7 +57,7 @@ To choose yourself, replace the first sentence with "Apply proposals 1, 3 and 5.
 When the collection has grown or some time has passed, paste:
 
 ```text
-Read https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/llms.txt and follow it. Read the record file, docs/karpathy-ideas.md (or the one the last review named). Then read the entries in https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/log.md that are newer than the last entry the record names (if it names none, newer than its date); each entry's "Checklist impact" part says which questions its new ideas touch. Re-check the items marked "waiting for first use" and the applied items that may have stopped holding. Mark each "proven", "still waiting", "stopped holding" or "not shown" (the proof cannot be run yet), and give the numbers. Then measure every checklist question; do not judge from memory. Report every gap. Propose only ideas new since the last revisit, earlier "later" items, and applied items that stopped holding; give other gaps one line each. Use the checklist's report format. Update the record file in its existing layout and name in it the newest log.md entry you read. Change nothing else until I choose.
+Read https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/llms.txt and follow it. Read the record file, docs/karpathy-ideas.md (or the one the last review named). Read https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/corrections.md first: check each correction the record does not list as checked, as the correction says, and propose only what it says, as options. Then read the entries in https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/log.md that are newer than the last entry the record names (if it names none, newer than its date); each entry's "Checklist impact" part says which questions its new ideas touch. Re-check the items marked "waiting for first use" and the applied items that may have stopped holding. Mark each "proven", "still waiting", "stopped holding" or "not shown" (the proof cannot be run yet), and give the numbers. Then measure every checklist question; do not judge from memory. Report every gap. Propose only ideas new since the last revisit, earlier "later" items, and applied items that stopped holding; give other gaps one line each. Use the checklist's report format. Update the record file in its existing layout; name in it the newest log.md entry you read and the corrections you checked. Change nothing else until I choose.
 ```
 
 The record file, `docs/karpathy-ideas.md`, keeps each project's history, so a revisit reads only
@@ -94,6 +97,8 @@ it. This repository collects it in one place, one idea per file, for people and 
 - **Views kept current:** when he changes his mind, the older idea links to the newer one.
 - **Cheap for agents:** `llms.txt` and the theme pages let an agent read only what it needs.
 - **[log.md](log.md):** what each update collected, and when.
+- **[corrections.md](corrections.md):** errors in what we told projects to do, and how a revisit
+  repairs them.
 
 ### How an idea file looks
 
