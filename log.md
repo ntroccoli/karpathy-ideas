@@ -16,8 +16,9 @@ Newest first.
     already seen in the project's own runs) and what it costs the owner each week. With no cost
     seen, recommend later or skip (our reading of verification, not generation, is the
     bottleneck).
-  - The step 2 prompt first drops each "do" the agent would not defend if the owner pushed back,
-    and says which (our reading of subtle conceptual mistakes: agents are too agreeable).
+  - The step 2 prompt first drops each "do" whose reason the agent would not defend if the owner
+    pushed back, never because it expects a check to fail, and says which (our reading of subtle
+    conceptual mistakes: agents are too agreeable).
   - A revisit offers an applied rule that nobody followed two ways, retire it or apply it again,
     each with its trade-off (our reading of system prompt learning and code like bacteria). The
     record and the field-report format gain the outcome `retired`; `proof` may describe a change
