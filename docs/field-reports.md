@@ -85,8 +85,8 @@ Each entry in `items`:
 | --- | --- |
 | `q` | `A1`-`A6`, `B1`-`B8`, `C1`-`C3`. |
 | `grade` | `no_gap`, `partial_gap`, `gap`, `not_applicable`. |
-| `outcome` | `applied`, `later`, `skipped`, `none` (nothing proposed). |
-| `proof` | For an applied change: `proven`, `waiting` (for first use), `stopped_holding`, `failed` (the check ran and did not pass), `not_shown` (the check cannot run yet). Otherwise `none`. |
+| `outcome` | `applied`, `later`, `skipped`, `retired` (a change applied at an earlier review, removed in this one because it did not fit or nobody followed it), `none` (nothing proposed). |
+| `proof` | For an applied change: `proven`, `waiting` (for first use), `stopped_holding`, `failed` (the check ran and did not pass), `not_shown` (the check cannot run yet). For a change applied at an earlier review (on a revisit, or a retired one), the same values tell how that change held. Otherwise `none`. |
 | `basis` | `measured` (a number you counted), `inferred` (from indirect numbers), `judged` (no number). |
 | `measure` | `{"metric": "snake_case", "value": 123, "unit": "tokens"}`. Required when `basis` is `measured`, optional otherwise. Give the number before any change. |
 | `method` | How you measured or judged it, at most 400 characters. This is the most useful field. |

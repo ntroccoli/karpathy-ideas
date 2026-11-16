@@ -67,10 +67,13 @@ instead, ask it to send the measuring to fresh subagents and merge their results
 To apply what the agent recommended, paste:
 
 ```text
-Apply what you recommended (the proposals marked "do"). Work on a new branch or after a backup, one proposal at a time. First list each one with "Done when:" and the checks that prove it. Then apply them in order: apply one, run its checks, and stop at the first check that fails; report it and leave the later proposals unapplied. Before you change a file outside this project (user-level instructions, skills or settings), show me the exact text (a diff; for long changes, a summary and the path to a file with the full text) and wait for my yes. Then report each proposal with each check: pass or fail, and the result. Write the record in docs/karpathy-ideas.md (or the record file the review named) with the template in step 8 of the checklist's "How to run this checklist". Then delete the files you downloaded for the review.
+Apply what you recommended (the proposals marked "do"), except any you would not defend if I pushed back: name those first, with why, and record them as later. Work on a new branch or after a backup, one proposal at a time. First list each one with "Done when:" and the checks that prove it. Then apply them in order: apply one, run its checks, and stop at the first check that fails; report it and leave the later proposals unapplied. Before you change a file outside this project (user-level instructions, skills or settings), show me the exact text (a diff; for long changes, a summary and the path to a file with the full text) and wait for my yes. Then report each proposal with each check: pass or fail, and the result. Write the record in docs/karpathy-ideas.md (or the record file the review named) with the template in step 8 of the checklist's "How to run this checklist". Then delete the files you downloaded for the review.
 ```
 
-To choose yourself, replace the first sentence with "Apply proposals 1, 3 and 5." To apply
+The agent first drops each "do" it would not defend, our reading of
+[subtle conceptual mistakes](ideas/2026-01-26-coding-agents-make-subtle-conceptual-mistakes.md):
+an agent is often too agreeable and seldom pushes back. To choose yourself, replace the first
+sentence with "Apply proposals 1, 3 and 5." To apply
 nothing, say "Apply none; write the record." The record keeps the project's history, so the next
 review reads only what is new. A proposal you skip or decline is closed: a later review raises it
 again only for a new idea or a changed measurement, and says which. If you decide against an

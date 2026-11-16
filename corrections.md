@@ -54,11 +54,14 @@ If none holds, record C1 as checked, not affected, and propose nothing for it.
    handoff or state files read at start, user-level files), read its history since the review
    date, for example `git log -p --since=<review date> -- AGENTS.md`. Without history, compare
    with any copy or backup the record names, and say what could not be checked.
-3. List each line that left, quoted, with: where it is now (another file, a skill, nowhere);
-   whether a session that reads only the files loaded at every start would still follow it; and
-   the behaviour it drove, with whether that behaviour still holds (session logs, tests, CI,
-   recent commits). A line that is nowhere else and that no tool enforces is the likeliest loss.
-4. List each line that moved into a file read only on demand with no pointer to it from a file
+3. List each sentence or clause that left, quoted. Count by sentence, not by line: a trim often
+   rewrote long paragraphs, and a line count misses what left inside them. For each, give where it
+   is now (another file, a skill, nowhere); whether a session that reads only the files loaded at
+   every start would still follow it; the behaviour it drove, with whether that behaviour still
+   holds (session logs, tests, CI, recent commits); and one judgement: still drives behaviour, a
+   duplicate of a live line, or stale. A sentence that is nowhere else and that no tool enforces
+   is the likeliest loss.
+4. List each sentence that moved into a file read only on demand with no pointer to it from a file
    loaded at every start: a session will not find it.
 5. List each rule the old limits added (the third condition above), quoted, with its file.
 6. List each size check the review added: the file, what it measures, and what it fails on.
@@ -69,11 +72,11 @@ If none holds, record C1 as checked, not affected, and propose nothing for it.
 
 - remove each size check the old A5 asked for, or change it to check the behaviour instead. Do
   this first: a file held at its limit cannot take back the lines;
-- put back each line that left and still drives behaviour, named and quoted, in the
+- put back each sentence that left and still drives behaviour, named and quoted, in the
   always-loaded file or where sessions will read it when they need it; choose by need, not by
   size
   ([context engineering](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-06-25-context-engineering.md));
-- add a pointer for each line that moved with none;
+- add a pointer for each sentence that moved with none;
 - for each rule the old limits added, offer the checklist's neutral wording as the option, for
   example A2's "a compaction with a written handoff and a new session are both ways of managing
   context; the owner chooses", or keep the rule as the owner's own choice, in their words;

@@ -3,6 +3,39 @@
 Each update of the collection: when it ran, the period of sources it covered, and what changed.
 Newest first.
 
+## 2026-11-16 — recommend by the cost seen, a "retired" outcome (no new ideas)
+
+- **Why:** two field reports from one real revisit (issues 10 and 11). The review graded each gap
+  against the idea, not against a cost in the project, and wrote "do" on every gap; four applied
+  rules did not fit, and one was removed the same day. Rules applied at the first review that
+  nobody followed could only read as "apply it again". The report format refused proof for items
+  applied at an earlier review. C1 counted lines that left; by sentence there were nearly twice as
+  many.
+- **Changed:**
+  - Step 4: the Recommendation line gives its reason, what the change prevents here (the cost
+    already seen in the project's own runs) and what it costs the owner each week. With no cost
+    seen, recommend later or skip (our reading of verification, not generation, is the
+    bottleneck).
+  - The step 2 prompt first drops each "do" the agent would not defend if the owner pushed back,
+    and says which (our reading of subtle conceptual mistakes: agents are too agreeable).
+  - A revisit offers an applied rule that nobody followed two ways, retire it or apply it again,
+    each with its trade-off (our reading of system prompt learning and code like bacteria). The
+    record and the field-report format gain the outcome `retired`; `proof` may describe a change
+    applied at an earlier review.
+  - B2 and B8: prefer a deny that names the alternative over an ask the owner must answer.
+  - A1 asks which files each kind of session loads where it starts.
+  - C1 lists and judges each sentence or clause that left, not each line.
+  - Subagents that measure: the parent saves their findings to a file before any choice or
+    compaction. Measuring logs: count one API call per message id.
+  - Before release, fresh agents ran the new wording on samples. A gap with a cost seen got "do"
+    with both reasons, and a gap with none got "later", in 3 of 3 runs; before the sentence on
+    risks that look large, one run in 3 wrote "do" on a risk with no cost seen. Step 2 in a new
+    session that held only the step 1 report handled the "do" items, applied nothing else and
+    wrote the record (4 of 4).
+- **Checklist impact:** procedure (steps 2, 4 and 8, the revisit, measuring logs), plus lines in
+  A1, B2 and B8, and C1 in `corrections.md` (no idea changed). On a revisit: re-check applied rules
+  nobody followed (retire or apply again), and re-measure A1 per kind of session.
+
 ## 2026-11-15 — read from disk, closed items, a repair that stays a repair (no new ideas)
 
 - **Why:** a check on a fresh machine and four field reports found procedure faults of ours. In

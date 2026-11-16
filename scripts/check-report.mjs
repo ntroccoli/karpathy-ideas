@@ -19,7 +19,7 @@ export const ENUMS = {
     'content_pipeline', 'research', 'docs_or_collection', 'other'],
   scale: ['S', 'M', 'L', 'multi_session'],
   grade: ['no_gap', 'partial_gap', 'gap', 'not_applicable'],
-  outcome: ['applied', 'later', 'skipped', 'none'],
+  outcome: ['applied', 'later', 'skipped', 'retired', 'none'],
   proof: ['proven', 'waiting', 'stopped_holding', 'failed', 'not_shown', 'none'],
   basis: ['measured', 'inferred', 'judged'],
 };
@@ -137,9 +137,6 @@ export function validate(r) {
       oneOf(`${f}.proof`, it.proof, ENUMS.proof);
       oneOf(`${f}.basis`, it.basis, ENUMS.basis);
       if (it.outcome === 'applied' && it.proof === 'none') err(`${f}.proof`, 'is "none" for an applied change', 'use proven, waiting, stopped_holding, failed or not_shown');
-      if (ENUMS.outcome.includes(it.outcome) && it.outcome !== 'applied' && ENUMS.proof.includes(it.proof) && it.proof !== 'none') {
-        err(`${f}.proof`, `is "${it.proof}" but nothing was applied`, 'use "none" when the outcome is later, skipped or none');
-      }
       if (it.measure !== undefined) {
         const m = it.measure;
         if (!isObj(m)) err(`${f}.measure`, 'is not an object', 'give {"metric": "...", "value": 123, "unit": "..."}');

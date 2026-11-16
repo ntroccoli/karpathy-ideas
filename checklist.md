@@ -30,7 +30,10 @@ read [corrections.md](corrections.md) first.
      `wc -c AGENTS.md CLAUDE.md ~/.claude/CLAUDE.md ~/.claude/skills/*/SKILL.md` (adapt the paths
      to your agent), and the context at the first call. What do the first reads add after the
      first call? Measure it from the session logs. Which parts serve only some topics? Measure the
-     sections that name one topic, and how often sessions need them.
+     sections that name one topic, and how often sessions need them. Which files does each kind of
+     session load where it starts? A session started in another folder may load other instruction
+     files and another memory store. Measure the files per kind of session, for example a
+     coordinator and its workers.
    - Trade-off / when not: too little context hurts, and so does too much (context engineering).
      The shorter prompts idea links the case where more context helps: rambling into voice mode.
 2. **Do sessions run long across topics?**
@@ -131,7 +134,10 @@ read [corrections.md](corrections.md) first.
      hook, test or linter enforces, the breaches in logs or diffs, and hooks written but never
      wired.
    - Trade-off / when not: he mostly stopped fighting it and moved on. He sees long-term risk of
-     reward hacking when an LLM judges soft rules.
+     reward hacking when an LLM judges soft rules. Our reading of
+     [verification, not generation, is the bottleneck](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-06-04-verification-not-generation-is-the-bottleneck.md):
+     prefer a hook that denies with a message naming the alternative over one that asks the owner;
+     an ask moves the cost of checking to the person.
 3. **Is performance work driven by one number?**
    - His idea: [autoresearch loop](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2026-03-07-autoresearch-loop.md):
      an agent loops on a training script against a fixed 5-minute run and a loss number, while
@@ -218,6 +224,8 @@ read [corrections.md](corrections.md) first.
    - Trade-off / when not: he wants to adopt agents early, but the risk holds him back. His remedy
      is a few specific action types instead of any bash script, for example no shell for an agent
      that reads web pages. In his test, the hidden prompt worked only with explicit decoding hints.
+     Our reading, as in B2: a deny that names the alternative costs the owner less than an ask on
+     routine work.
      Our addition (the Unicode standard; his post names no range): variation selectors are
      U+FE00-U+FE0F and U+E0100-U+E01EF; normal emoji use a single U+FE0F after a visible
      character and U+200D between emoji, so keep those and strip runs of selectors.
@@ -263,7 +271,10 @@ applied without their yes.
 
 Run the review in a fresh session, not in the one that built the project: a builder's session
 fills gaps from memory and tends to find none. A long-lived session can instead send the
-research to fresh subagents and only merge their results.
+research to fresh subagents and only merge their results. It saves each subagent's findings to a
+file as they arrive, before any choice or compaction: findings held only in context are lost at
+the next compaction (our reading of
+[context engineering](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-06-25-context-engineering.md)).
 
 The project is the code repository the agent works in. For an agent setup without a single
 repository (several repositories, a manager session and its workers), the project is the folder
@@ -292,8 +303,16 @@ sessions start in plus the user-level files they load.
       - Change: <the change>
       - Trade-off: <from the item's "Trade-off / when not">
       - Cost: S, M or L
-      - Recommendation: do, later or skip (one word)
+      - Recommendation: do, later or skip, because:
+        - Prevents: <the cost this gap already caused in this project's own runs (harm, rework, tokens, the owner's time), with the measurement, or "no cost seen">
+        - Costs the owner: <what the change adds each week: prompts, clicks, waiting, tokens>
    ```
+
+   With no cost seen, recommend later or skip, even for a risk that looks large; name the event
+   that would make it "do". Our reading of
+   [verification, not generation, is the bottleneck](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-06-04-verification-not-generation-is-the-bottleneck.md):
+   the owner's time to check is the scarce resource, so grade the change by the cost it prevents
+   here, not by the distance from the idea.
 
 5. Give each applied change a check that will prove it. For a check on context size, measure
    what the reads add after the first call, not the total: the fixed start (system prompt, tools,
@@ -308,8 +327,8 @@ sessions start in plus the user-level files they load.
 7. Change nothing until the user chooses.
 8. When the user has chosen (README step 2), record each proposal and its outcome with the date
    in the project's record file, `docs/karpathy-ideas.md` (or, without a repository, the record
-   file the review named): every proposal, later and skipped ones included, as applied, later or
-   skipped. Mark each applied item "proven" or "waiting for first use", with the event that will
+   file the review named): every proposal, later and skipped ones included, as applied, later,
+   skipped or retired. Mark each applied item "proven" or "waiting for first use", with the event that will
    prove it. Name the newest `log.md` entry (date and title) the review covered and the
    corrections it checked, with the outcome; a first review uses the corrected checklist, so it
    names the newest entry in [corrections.md](corrections.md) as covered. A proposal the user did
@@ -328,7 +347,7 @@ sessions start in plus the user-level files they load.
 
    | # | Question | Proposal | Cost | Recommendation | Outcome |
    |---|---|---|---|---|---|
-   | 1 | <question> | <title> | S, M or L | do, later or skip | <applied <date>, proven by <check> / waiting for first use: <event> / later / skipped <date>, closed / stopped: <failed check>> |
+   | 1 | <question> | <title> | S, M or L | do, later or skip | <applied <date>, proven by <check> / waiting for first use: <event> / later / skipped <date>, closed / retired <date>: <why> / stopped: <failed check>> |
 
    No gap: <questions, one line each>.
    Unchanged since <date>: <questions, with the reason> (a revisit only).
@@ -341,7 +360,9 @@ folder is named after the directory the session started in (a session started in
 is under the home folder's name), and subagents have their own files. Useful fields: the first
 and last `timestamp` and `isCompactSummary` (session length and compactions, A2); `message.usage`
 per reply (context at the first call and at the peak, A1 and step 5); `message.model` (A3); the
-tool calls and their inputs (B2, B5, B8). Count tool calls, not all text: a search over all text
+tool calls and their inputs (B2, B5, B8). A reply with several content blocks is written as
+several lines with the same `message.id` and usage: count one API call per message id, or calls
+and tokens double. Count tool calls, not all text: a search over all text
 also matches the rules quoted in the loaded instructions. Other agents keep similar logs.
 
 Two counts that are easy to miss. For A2, count the messages that wake a long session, times the
@@ -365,7 +386,7 @@ Grade a gap against the project's own runs instead:
 Items that tell an agent to cut, move, delete or forbid fail when applied blindly. A size goal
 makes an agent drop lines that drive behaviour, and too little context hurts as much as too much
 ([context engineering](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-06-25-context-engineering.md)).
-Before such a change, list each line that leaves the files loaded at every start, where it goes,
+Before such a change, list each sentence that leaves the files loaded at every start, where it goes,
 and the behaviour that shows it still holds. That behaviour is the change's check in step 5.
 
 For Claude Code projects, Anthropic's documentation gives facts to measure with. They are the
@@ -392,7 +413,13 @@ checked, as the correction says, and propose only what it says, as options; the 
 names the ones you checked (step 8). Then read only
 the `log.md` entries newer than the one the record names; if it names none, those newer than the
 record's date. First re-check the recorded items waiting for first use and the applied items that
-may have stopped holding. Then run steps 1 to 7, but re-measure only:
+may have stopped holding. An applied rule that nobody followed is offered two ways, each with its
+trade-off: retire it, or apply it again. Our reading of
+[system prompt learning](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-05-10-system-prompt-learning.md)
+(lessons distilled to avoid bloat) and
+[code like bacteria](https://raw.githubusercontent.com/ntroccoli/karpathy-ideas/main/ideas/2025-07-05-write-code-like-bacteria.md)
+(software bloats because a line costs nothing to add): a rule nobody follows may not fit the
+project, and it still costs every session that loads it. Then run steps 1 to 7, but re-measure only:
 
 - what a correction or a newer `log.md` entry's "Checklist impact" names;
 - the items waiting for first use and the applied items that may have stopped holding;
